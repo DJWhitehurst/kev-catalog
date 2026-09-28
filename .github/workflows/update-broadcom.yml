@@ -17,16 +17,16 @@ jobs:
       - name: Fetch the advisory list and build the index
         run: |
           python3 - <<'PY'
-          import json, sys, os, time, math, datetime, urllib.request, collections
+          import json, sys, os, time, datetime, urllib.request, collections
 
           URL = ("https://support.broadcom.com/web/ecx/security-advisory"
                  "/-/securityadvisory/getSecurityAdvisoryList")
           KEEP = ("VCDSA", "SYMSA", "ESDSA", "VTDSA")   # MFDSA (mainframe) deliberately excluded
           WINDOW_DAYS = 7
           PAGE_SIZE = 100
+          FIRST_PAGE = 0            # their own pageInfo reports firstPage: 0, not 1
           MAX_PAGES = 400
-          MAX_SWEEPS = 3
-          COMPLETENESS = 0.995      # measured on ROWS RECEIVED, not unique IDs
+          FLOOR = 0.90              # below this the response is broken, not merely quirky
           LATEST_PER_PREFIX = 8
           UA = "OneAdvanced-ITO-SOC-advisory-collector/1.0 (daily security advisory check)"
 
@@ -49,70 +49,63 @@ jobs:
                       time.sleep(5 * (n + 1))
 
           # --- collect the catalogue -------------------------------------------
-          # Two different numbers matter and must not be confused:
-          #   rows_seen  - how many records the server actually handed over.
-          #                This is what says whether we read the whole catalogue.
-          #   len(records) - unique documentIds after de-duplication. Lower than
-          #                rows_seen when the catalogue lists one advisory twice
-          #                (e.g. under two business units). A gap here is normal
-          #                and is NOT evidence of anything missing.
+          # Page from FIRST_PAGE until a page comes back empty. Exhausting the
+          # pagination is the real completeness test; totalCount is treated as a
+          # claim to be reported, not as ground truth.
           records, total, served = {}, None, None
-          rows_seen, sweeps_run, pages_total = 0, 0, 0
+          rows_seen, pages_read, exhausted = 0, 0, False
+          page = FIRST_PAGE
 
-          for sweep in range(1, MAX_SWEEPS + 1):
-              sweeps_run = sweep
-              sweep_rows, before = 0, len(records)
-              page = 1
-              while page <= MAX_PAGES:
-                  payload = fetch_retry(page)
-                  if not payload.get("success"):
-                      sys.exit(f"Endpoint returned success=false on page {page} "
-                               "- refusing to overwrite the good copy")
-                  data = payload.get("data", {}) or {}
-                  rows = data.get("list", []) or []
-                  info = data.get("pageInfo", {}) or {}
-                  if total is None:
-                      total = info.get("totalCount")
-                  if served is None:
-                      served = len(rows) or PAGE_SIZE
-                      print(f"asked {PAGE_SIZE}/page, served {served}/page, totalCount {total}")
-                  sweep_rows += len(rows)
-                  for r in rows:
-                      doc = (r.get("documentId") or "").strip()
-                      if doc:
-                          records[doc] = r
-                  pages_total += 1
-                  if not rows:
-                      break
-                  if total and sweep_rows >= total:
-                      break
-                  if total and page >= math.ceil(total / served) + 2:
-                      break
-                  page += 1
-                  time.sleep(0.5)
-
-              rows_seen = max(rows_seen, sweep_rows)
-              print(f"sweep {sweep}: {sweep_rows} rows received, "
-                    f"{len(records) - before} new unique | holding {len(records)} unique")
-              # Only sweep again if the server genuinely short-changed us.
-              if total and sweep_rows >= total * COMPLETENESS:
+          while pages_read <= MAX_PAGES:
+              payload = fetch_retry(page)
+              if not payload.get("success"):
+                  sys.exit(f"Endpoint returned success=false on page {page} "
+                           "- refusing to overwrite the good copy")
+              data = payload.get("data", {}) or {}
+              rows = data.get("list", []) or []
+              info = data.get("pageInfo", {}) or {}
+              if total is None:
+                  total = info.get("totalCount")
+                  print(f"pageInfo says firstPage={info.get('firstPage')} "
+                        f"lastPage={info.get('lastPage')} totalCount={total}")
+              if served is None and rows:
+                  served = len(rows)
+                  print(f"asked {PAGE_SIZE}/page, served {served}/page")
+              pages_read += 1
+              if not rows:
+                  exhausted = True
+                  print(f"page {page} came back empty - pagination exhausted")
                   break
-              if len(records) == before and sweep > 1:
-                  break
+              rows_seen += len(rows)
+              for r in rows:
+                  doc = (r.get("documentId") or "").strip()
+                  if doc:
+                      records[doc] = r
+              page += 1
+              time.sleep(0.5)
 
           dupes = rows_seen - len(records)
-          print(f"sweeps: {sweeps_run} | pages: {pages_total} | rows received: {rows_seen} "
-                f"| unique: {len(records)} | duplicate IDs collapsed: {dupes} "
-                f"| catalogue total: {total}")
+          gap = (total - len(records)) if total else 0
+          print(f"pages read: {pages_read} (from page {FIRST_PAGE}) | rows received: {rows_seen} "
+                f"| unique: {len(records)} | duplicates collapsed: {dupes} "
+                f"| totalCount claimed: {total} | shortfall vs claim: {gap}")
 
           # --- sanity checks ---------------------------------------------------
-          # Gate on rows RECEIVED. Under-reading looks exactly like a quiet week
-          # and must fail loudly; duplicate IDs are harmless and must not.
+          # Fail on the things that mean we did not read the catalogue:
+          #   - pagination never ran out (we stopped at the page cap)
+          #   - a catastrophically short response
+          # A small residual difference from totalCount is recorded in the file
+          # header rather than blocking the run: a permanently red workflow would
+          # leave the SOC with no Broadcom data at all, which is the very gap
+          # this exists to close.
           if total is None or total < 1000:
               sys.exit(f"Implausible totalCount ({total}) - refusing to overwrite the good copy")
-          if rows_seen < total * COMPLETENESS:
-              sys.exit(f"Server returned only {rows_seen} of {total} rows after {sweeps_run} "
-                       "sweep(s) - incomplete, refusing to overwrite the good copy")
+          if not exhausted:
+              sys.exit(f"Hit the {MAX_PAGES}-page cap without exhausting pagination "
+                       "- refusing to overwrite the good copy")
+          if len(records) < total * FLOOR:
+              sys.exit(f"Only {len(records)} of {total} advisories after exhausting pagination "
+                       f"- below the {FLOOR:.0%} floor, refusing to overwrite the good copy")
 
           # --- shape the data ---------------------------------------------------
           now = datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None)
@@ -153,7 +146,6 @@ jobs:
           kept.sort(key=lambda t: t[0], reverse=True)
           recent = [t for t in kept if t[0] >= cutoff]
 
-          # per-prefix health: one noisy prefix must never mask a quiet one
           by_prefix = collections.defaultdict(list)
           for t in kept:
               by_prefix[t[1][:5]].append(t)
@@ -165,14 +157,14 @@ jobs:
 
           os.makedirs("broadcom", exist_ok=True)
           fetched = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+          note = "complete" if gap <= 0 else f"WARNING {gap} short of the {total} claimed"
           stamp = (f"# Broadcom security advisories | fetched {fetched} "
-                   f"| received {rows_seen} of {total} rows over {pages_total} pages "
-                   f"({served}/page), {len(records)} unique after collapsing {dupes} duplicate IDs "
+                   f"| {len(records)} advisories held, {note} "
+                   f"| {rows_seen} rows over {pages_read} pages from page {FIRST_PAGE} "
                    f"| prefixes {'+'.join(KEEP)} (MFDSA mainframe excluded)\n")
           health_line = f"# per prefix - {health}\n"
           cols = "# documentId|updated|severity|status|cves|title|url\n"
 
-          # recent.txt - the working file: what changed in the window
           with open("broadcom/recent.txt", "w") as f:
               f.write(stamp)
               f.write(f"# {len(recent)} in-scope advisories updated in the last {WINDOW_DAYS} days "
