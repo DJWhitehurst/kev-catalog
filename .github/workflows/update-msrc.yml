@@ -1,0 +1,200 @@
+name: Update Microsoft MSRC severity index
+
+on:
+  schedule:
+    - cron: '55 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Fetch the CVRF documents and extract the severity index
+        run: |
+          python3 - <<'PY'
+          import json, sys, os, re, urllib.request, datetime, collections
+          import xml.etree.ElementTree as ET
+
+          # The MSRC RSS feed carries no severity, no CVSS and no exploitation
+          # field, so a Microsoft batch can never be triaged on its own merits.
+          # The CVRF API carries all three, including Microsoft's own
+          # "Exploited:Yes" assessment. The document is ~1000 CVEs, far too large
+          # to be delivered whole, so it is reduced to a flagged set plus split
+          # part files.
+          BASE = 'https://api.msrc.microsoft.com/cvrf/v3.0/cvrf/'
+          UA = 'OneAdvanced-ITO-SOC-advisory-collector/1.0 (daily security advisory check)'
+          ROWS_PER_PART = 350
+          MIN_CVES = 50
+
+          def months():
+              """Current month, plus the previous one for the first 8 days."""
+              now = datetime.datetime.now(datetime.timezone.utc)
+              out = [now.strftime('%Y-%b')]
+              if now.day <= 8:
+                  prev = (now.replace(day=1) - datetime.timedelta(days=1))
+                  out.append(prev.strftime('%Y-%b'))
+              return out
+
+          def fetch(mid):
+              req = urllib.request.Request(BASE + mid)
+              req.add_header('User-Agent', UA)
+              req.add_header('Accept', 'application/xml')
+              with urllib.request.urlopen(req, timeout=120) as r:
+                  return r.read()
+
+          def tag(el):
+              return el.tag.split('}')[-1]
+
+          def find_all(root, name):
+              return [e for e in root.iter() if tag(e) == name]
+
+          def child_text(el, name):
+              for c in el.iter():
+                  if tag(c) == name and c.text:
+                      return c.text.strip()
+              return ''
+
+          def clean(s):
+              return (s or '').replace('|', '/').replace('\n', ' ').replace('\r', ' ').strip()
+
+          def parse(xml_bytes):
+              root = ET.fromstring(xml_bytes)
+              out = []
+              for v in find_all(root, 'Vulnerability'):
+                  cve = ''
+                  title = ''
+                  for c in v:
+                      if tag(c) == 'CVE' and c.text:
+                          cve = c.text.strip()
+                      elif tag(c) == 'Title' and c.text and not title:
+                          title = c.text.strip()
+                  if not cve:
+                      continue
+
+                  severity = impact = ''
+                  exploited = disclosed = 'Unknown'
+                  for th in find_all(v, 'Threat'):
+                      ttype = (th.get('Type') or '').strip()
+                      desc = child_text(th, 'Description')
+                      if ttype == 'Severity' and not severity:
+                          severity = desc
+                      elif ttype == 'Impact' and not impact:
+                          impact = desc
+                      elif ttype == 'Exploit Status':
+                          m = re.search(r'Exploited:\s*(\w+)', desc)
+                          if m: exploited = m.group(1)
+                          m = re.search(r'Publicly Disclosed:\s*(\w+)', desc)
+                          if m: disclosed = m.group(1)
+
+                  score = vector = ''
+                  for ss in find_all(v, 'ScoreSet'):
+                      b = child_text(ss, 'BaseScore')
+                      if b:
+                          try:
+                              if not score or float(b) > float(score):
+                                  score = b
+                                  vector = child_text(ss, 'Vector')
+                          except ValueError:
+                              pass
+
+                  out.append({
+                      'cve': cve, 'severity': severity or 'not stated',
+                      'cvss': score or 'not stated', 'vector': vector or 'none published',
+                      'impact': impact or 'not stated',
+                      'exploited': exploited, 'disclosed': disclosed,
+                      'title': clean(title),
+                  })
+              return out
+
+          def row(r):
+              return '|'.join([r['cve'], r['severity'], r['cvss'], r['vector'],
+                               r['impact'], r['exploited'], r['disclosed'], r['title']])
+
+          COLS = '# cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title\n'
+
+          os.makedirs('msrc', exist_ok=True)
+          fetched = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+          manifest, flagged_all, total_all = [], [], 0
+
+          for mid in months():
+              try:
+                  raw = fetch(mid)
+              except Exception as e:
+                  print(f'{mid}: fetch failed ({e})')
+                  continue
+              try:
+                  rows = parse(raw)
+              except Exception as e:
+                  sys.exit(f'{mid}: CVRF did not parse ({e}) - refusing to overwrite the good copy')
+
+              if len(rows) < MIN_CVES:
+                  print(f'{mid}: only {len(rows)} CVEs, skipping this month')
+                  continue
+
+              rows.sort(key=lambda r: r['cve'])
+              total_all += len(rows)
+
+              # the decision-relevant subset: Critical, or exploited, or publicly disclosed
+              flagged = [r for r in rows
+                         if r['severity'].lower() == 'critical'
+                         or r['exploited'].lower() == 'yes'
+                         or r['disclosed'].lower() == 'yes']
+              for r in flagged:
+                  r['_month'] = mid
+              flagged_all.extend(flagged)
+
+              parts = [rows[i:i + ROWS_PER_PART] for i in range(0, len(rows), ROWS_PER_PART)] or [[]]
+              for n, part in enumerate(parts, 1):
+                  path = f'msrc/{mid}-part{n}.txt'
+                  with open(path, 'w') as f:
+                      f.write(f'# Microsoft MSRC {mid} | fetched {fetched} | part {n} of {len(parts)} '
+                              f'| {len(part)} of {len(rows)} CVEs | {part[0]["cve"]} to {part[-1]["cve"]}\n')
+                      f.write(COLS)
+                      f.write('\n'.join(row(r) for r in part) + '\n')
+                  manifest.append(f'{path} | {len(part)} CVEs | {part[0]["cve"]} to {part[-1]["cve"]}')
+
+              sev = collections.Counter(r['severity'] for r in rows)
+              exp = sum(1 for r in rows if r['exploited'].lower() == 'yes')
+              dis = sum(1 for r in rows if r['disclosed'].lower() == 'yes')
+              print(f'{mid}: {len(rows)} CVEs | {dict(sev)} | exploited {exp} | disclosed {dis} '
+                    f'| flagged {len(flagged)} | {len(parts)} parts')
+
+          if total_all < MIN_CVES:
+              sys.exit('No month yielded a usable CVRF - refusing to overwrite the good copy')
+
+          flagged_all.sort(key=lambda r: (r['_month'], r['cve']))
+          exploited_n = sum(1 for r in flagged_all if r['exploited'].lower() == 'yes')
+          disclosed_n = sum(1 for r in flagged_all if r['disclosed'].lower() == 'yes')
+
+          with open('msrc/recent.txt', 'w') as f:
+              f.write(f'# Microsoft MSRC flagged CVEs | fetched {fetched} '
+                      f'| months {", ".join(months())} | {total_all} CVEs read, {len(flagged_all)} flagged\n')
+              f.write(f'# flagged = Critical severity, OR Exploited:Yes, OR Publicly Disclosed:Yes '
+                      f'| {exploited_n} exploited | {disclosed_n} publicly disclosed\n')
+              f.write(COLS)
+              f.write('\n'.join(row(r) for r in flagged_all) + '\n')
+
+          with open('msrc/INDEX.txt', 'w') as f:
+              f.write(f'# Microsoft MSRC index | fetched {fetched} | {total_all} CVEs across {len(manifest)} part files\n')
+              f.write('# msrc/recent.txt holds the flagged subset. Part files below hold every CVE, sorted, for lookup.\n')
+              f.write('\n'.join(manifest) + '\n')
+
+          print(f'wrote msrc/recent.txt ({len(flagged_all)} flagged of {total_all}) and {len(manifest)} part files')
+          for r in flagged_all[:12]:
+              print(f'  {r["cve"]} {r["severity"]} {r["cvss"]} exploited={r["exploited"]} {r["title"][:60]}')
+          PY
+
+      - name: Commit only if something changed
+        run: |
+          git config user.name  'advisory-bot'
+          git config user.email 'advisory-bot@users.noreply.github.com'
+          git add -A msrc
+          git diff --staged --quiet && echo 'No change today' && exit 0
+          git commit -m "MSRC severity index $(date -u +%Y-%m-%d)"
+          git pull --rebase
+          git push
