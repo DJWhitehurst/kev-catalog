@@ -17,15 +17,17 @@ jobs:
       - name: Fetch the advisory list and build the index
         run: |
           python3 - <<'PY'
-          import json, sys, os, time, datetime, urllib.request
+          import json, sys, os, time, math, datetime, urllib.request, collections
 
           URL = ("https://support.broadcom.com/web/ecx/security-advisory"
                  "/-/securityadvisory/getSecurityAdvisoryList")
           KEEP = ("VCDSA", "SYMSA", "ESDSA", "VTDSA")   # MFDSA (mainframe) deliberately excluded
           WINDOW_DAYS = 7
           PAGE_SIZE = 100
-          MAX_PAGES = 400          # enough even if the server ignores PAGE_SIZE and serves 20
-          LATEST_N = 25
+          MAX_PAGES = 400
+          MAX_SWEEPS = 4
+          COMPLETENESS = 0.995      # abort below this rather than publish a partial index
+          LATEST_PER_PREFIX = 8
           UA = "OneAdvanced-ITO-SOC-advisory-collector/1.0 (daily security advisory check)"
 
           def fetch(page):
@@ -46,51 +48,63 @@ jobs:
                       print(f"page {page} attempt {n+1} failed ({e}) - retrying")
                       time.sleep(5 * (n + 1))
 
-          # --- page through the whole catalogue -------------------------------
-          # Ordering is UNSORTED and shifts with pageSize, so page 1 is NOT the
-          # newest. Read everything, then filter on `updated` locally. Stop when
-          # we hold totalCount records rather than trusting lastPage, because the
-          # server may not honour the pageSize we asked for.
-          records, total, page, served = {}, None, 1, None
-          while page <= MAX_PAGES:
-              payload = fetch_retry(page)
-              if not payload.get("success"):
-                  sys.exit(f"Endpoint returned success=false on page {page} - refusing to overwrite")
-              data = payload.get("data", {}) or {}
-              rows = data.get("list", []) or []
-              info = data.get("pageInfo", {}) or {}
-              if total is None:
-                  total = info.get("totalCount")
-              if served is None:
-                  served = len(rows)
-                  print(f"asked for {PAGE_SIZE} per page, server served {served}; totalCount {total}")
+          # --- collect the catalogue -------------------------------------------
+          # The result set is UNSORTED and its ordering is unstable between
+          # requests, so a single sweep both repeats some records and never shows
+          # others. Sweep repeatedly and union until we hold the whole catalogue
+          # or a sweep stops adding anything.
+          records, total, served = {}, None, None
+          sweeps_run, pages_total = 0, 0
+
+          for sweep in range(1, MAX_SWEEPS + 1):
+              sweeps_run = sweep
               before = len(records)
-              for r in rows:
-                  doc = (r.get("documentId") or "").strip()
-                  if doc:
-                      records[doc] = r          # de-duplicate across pages
-              if not rows:
-                  break
+              page = 1
+              while page <= MAX_PAGES:
+                  payload = fetch_retry(page)
+                  if not payload.get("success"):
+                      sys.exit(f"Endpoint returned success=false on page {page} "
+                               "- refusing to overwrite the good copy")
+                  data = payload.get("data", {}) or {}
+                  rows = data.get("list", []) or []
+                  info = data.get("pageInfo", {}) or {}
+                  if total is None:
+                      total = info.get("totalCount")
+                  if served is None:
+                      served = len(rows) or PAGE_SIZE
+                      print(f"asked {PAGE_SIZE}/page, served {served}/page, totalCount {total}")
+                  for r in rows:
+                      doc = (r.get("documentId") or "").strip()
+                      if doc:
+                          records[doc] = r
+                  pages_total += 1
+                  if not rows:
+                      break
+                  if total and len(records) >= total:
+                      break
+                  if total and page >= math.ceil(total / served) + 2:
+                      break
+                  page += 1
+                  time.sleep(0.5)
+
+              added = len(records) - before
+              print(f"sweep {sweep}: +{added} new | holding {len(records)} of {total}")
               if total and len(records) >= total:
                   break
-              if len(records) == before:
-                  print(f"page {page} added nothing new - stopping")
+              if added == 0:
                   break
-              page += 1
-              time.sleep(1)                      # be a polite client
 
-          pages_read = page
-          print(f"pages read: {pages_read} | unique records: {len(records)} | catalogue total: {total}")
+          print(f"sweeps: {sweeps_run} | pages: {pages_total} | "
+                f"unique records: {len(records)} | catalogue total: {total}")
 
           # --- sanity checks ---------------------------------------------------
-          # A broken, reshaped or partially-read catalogue must NOT silently
-          # replace a good index. Under-reading is the dangerous case: it looks
-          # like a quiet week.
+          # Under-reading is the dangerous failure: it looks exactly like a quiet
+          # week. Refuse to publish an index we know to be incomplete.
           if total is None or total < 1000:
               sys.exit(f"Implausible totalCount ({total}) - refusing to overwrite the good copy")
-          if len(records) < total * 0.95:
-              sys.exit(f"Only read {len(records)} of {total} advisories - incomplete, "
-                       "refusing to overwrite the good copy")
+          if len(records) < total * COMPLETENESS:
+              sys.exit(f"Read only {len(records)} of {total} advisories after {sweeps_run} sweeps "
+                       f"- incomplete, refusing to overwrite the good copy")
 
           # --- shape the data ---------------------------------------------------
           now = datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None)
@@ -113,13 +127,9 @@ jobs:
 
           def row(when, doc, r):
               return "|".join([
-                  doc,
-                  when.strftime("%Y-%m-%d"),
-                  clean(r.get("severity")),
-                  clean(r.get("status")),
-                  clean(r.get("affectedCve")) or "none listed",
-                  clean(r.get("title")),
-                  clean(r.get("notificationUrl")),
+                  doc, when.strftime("%Y-%m-%d"), clean(r.get("severity")),
+                  clean(r.get("status")), clean(r.get("affectedCve")) or "none listed",
+                  clean(r.get("title")), clean(r.get("notificationUrl")),
               ])
 
           undated, kept = 0, []
@@ -134,43 +144,49 @@ jobs:
 
           kept.sort(key=lambda t: t[0], reverse=True)
           recent = [t for t in kept if t[0] >= cutoff]
-          newest = kept[0][0].strftime("%Y-%m-%d") if kept else "none"
 
-          print(f"in-scope advisories: {len(kept)} | newest {newest} | "
-                f"in {WINDOW_DAYS}-day window: {len(recent)} | undated: {undated}")
+          # per-prefix health line: one noisy prefix must never mask a quiet one
+          by_prefix = collections.defaultdict(list)
+          for t in kept:
+              by_prefix[t[1][:5]].append(t)
+          health = " | ".join(
+              f"{p}: {len(by_prefix[p])} total, newest {by_prefix[p][0][0]:%Y-%m-%d}"
+              for p in KEEP if by_prefix.get(p)
+          ) or "no in-scope advisories found"
+          print(health)
 
           os.makedirs("broadcom", exist_ok=True)
           fetched = now.strftime("%Y-%m-%dT%H:%M:%SZ")
           stamp = (f"# Broadcom security advisories | fetched {fetched} "
-                   f"| read {len(records)} of {total} in catalogue over {pages_read} pages "
-                   f"({served} served per page) "
+                   f"| read {len(records)} of {total} over {pages_total} pages "
+                   f"in {sweeps_run} sweep(s), {served}/page "
                    f"| prefixes {'+'.join(KEEP)} (MFDSA mainframe excluded)\n")
+          health_line = f"# per prefix - {health}\n"
           cols = "# documentId|updated|severity|status|cves|title|url\n"
 
-          # recent.txt — the working file: what changed in the window
+          # recent.txt - the working file: what changed in the window
           with open("broadcom/recent.txt", "w") as f:
               f.write(stamp)
               f.write(f"# {len(recent)} in-scope advisories updated in the last {WINDOW_DAYS} days "
-                      f"| newest in-scope advisory overall is {newest} "
                       f"| {undated} skipped with an unparseable date\n")
+              f.write(health_line)
               f.write(cols)
               for when, doc, r in recent:
                   f.write(row(when, doc, r) + "\n")
 
-          # latest.txt — the canary: the N most recent regardless of window, so an
-          # empty recent.txt can always be told apart from a broken collector.
+          # latest.txt - the canary: newest few PER PREFIX, ignoring the window, so
+          # an empty recent.txt can always be told apart from a broken collector.
           with open("broadcom/latest.txt", "w") as f:
               f.write(stamp)
-              f.write(f"# the {LATEST_N} most recently updated in-scope advisories, "
-                      "ignoring the window - diagnostic only, NOT a to-do list\n")
+              f.write(f"# the {LATEST_PER_PREFIX} most recent advisories per prefix, ignoring "
+                      "the window - diagnostic only, NOT a to-do list\n")
+              f.write(health_line)
               f.write(cols)
-              for when, doc, r in kept[:LATEST_N]:
-                  f.write(row(when, doc, r) + "\n")
+              for p in KEEP:
+                  for when, doc, r in by_prefix.get(p, [])[:LATEST_PER_PREFIX]:
+                      f.write(row(when, doc, r) + "\n")
 
-          print(f"wrote broadcom/recent.txt ({len(recent)} rows) and "
-                f"broadcom/latest.txt ({min(LATEST_N, len(kept))} rows)")
-          for when, doc, r in kept[:10]:
-              print(f"  {doc} {when:%Y-%m-%d} {r.get('severity')} {clean(r.get('title'))[:70]}")
+          print(f"wrote recent.txt ({len(recent)} rows) and latest.txt")
           PY
 
       - name: Commit only if something changed
