@@ -25,8 +25,8 @@ jobs:
           WINDOW_DAYS = 7
           PAGE_SIZE = 100
           MAX_PAGES = 400
-          MAX_SWEEPS = 4
-          COMPLETENESS = 0.995      # abort below this rather than publish a partial index
+          MAX_SWEEPS = 3
+          COMPLETENESS = 0.995      # measured on ROWS RECEIVED, not unique IDs
           LATEST_PER_PREFIX = 8
           UA = "OneAdvanced-ITO-SOC-advisory-collector/1.0 (daily security advisory check)"
 
@@ -49,16 +49,19 @@ jobs:
                       time.sleep(5 * (n + 1))
 
           # --- collect the catalogue -------------------------------------------
-          # The result set is UNSORTED and its ordering is unstable between
-          # requests, so a single sweep both repeats some records and never shows
-          # others. Sweep repeatedly and union until we hold the whole catalogue
-          # or a sweep stops adding anything.
+          # Two different numbers matter and must not be confused:
+          #   rows_seen  - how many records the server actually handed over.
+          #                This is what says whether we read the whole catalogue.
+          #   len(records) - unique documentIds after de-duplication. Lower than
+          #                rows_seen when the catalogue lists one advisory twice
+          #                (e.g. under two business units). A gap here is normal
+          #                and is NOT evidence of anything missing.
           records, total, served = {}, None, None
-          sweeps_run, pages_total = 0, 0
+          rows_seen, sweeps_run, pages_total = 0, 0, 0
 
           for sweep in range(1, MAX_SWEEPS + 1):
               sweeps_run = sweep
-              before = len(records)
+              sweep_rows, before = 0, len(records)
               page = 1
               while page <= MAX_PAGES:
                   payload = fetch_retry(page)
@@ -73,6 +76,7 @@ jobs:
                   if served is None:
                       served = len(rows) or PAGE_SIZE
                       print(f"asked {PAGE_SIZE}/page, served {served}/page, totalCount {total}")
+                  sweep_rows += len(rows)
                   for r in rows:
                       doc = (r.get("documentId") or "").strip()
                       if doc:
@@ -80,31 +84,35 @@ jobs:
                   pages_total += 1
                   if not rows:
                       break
-                  if total and len(records) >= total:
+                  if total and sweep_rows >= total:
                       break
                   if total and page >= math.ceil(total / served) + 2:
                       break
                   page += 1
                   time.sleep(0.5)
 
-              added = len(records) - before
-              print(f"sweep {sweep}: +{added} new | holding {len(records)} of {total}")
-              if total and len(records) >= total:
+              rows_seen = max(rows_seen, sweep_rows)
+              print(f"sweep {sweep}: {sweep_rows} rows received, "
+                    f"{len(records) - before} new unique | holding {len(records)} unique")
+              # Only sweep again if the server genuinely short-changed us.
+              if total and sweep_rows >= total * COMPLETENESS:
                   break
-              if added == 0:
+              if len(records) == before and sweep > 1:
                   break
 
-          print(f"sweeps: {sweeps_run} | pages: {pages_total} | "
-                f"unique records: {len(records)} | catalogue total: {total}")
+          dupes = rows_seen - len(records)
+          print(f"sweeps: {sweeps_run} | pages: {pages_total} | rows received: {rows_seen} "
+                f"| unique: {len(records)} | duplicate IDs collapsed: {dupes} "
+                f"| catalogue total: {total}")
 
           # --- sanity checks ---------------------------------------------------
-          # Under-reading is the dangerous failure: it looks exactly like a quiet
-          # week. Refuse to publish an index we know to be incomplete.
+          # Gate on rows RECEIVED. Under-reading looks exactly like a quiet week
+          # and must fail loudly; duplicate IDs are harmless and must not.
           if total is None or total < 1000:
               sys.exit(f"Implausible totalCount ({total}) - refusing to overwrite the good copy")
-          if len(records) < total * COMPLETENESS:
-              sys.exit(f"Read only {len(records)} of {total} advisories after {sweeps_run} sweeps "
-                       f"- incomplete, refusing to overwrite the good copy")
+          if rows_seen < total * COMPLETENESS:
+              sys.exit(f"Server returned only {rows_seen} of {total} rows after {sweeps_run} "
+                       "sweep(s) - incomplete, refusing to overwrite the good copy")
 
           # --- shape the data ---------------------------------------------------
           now = datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None)
@@ -145,7 +153,7 @@ jobs:
           kept.sort(key=lambda t: t[0], reverse=True)
           recent = [t for t in kept if t[0] >= cutoff]
 
-          # per-prefix health line: one noisy prefix must never mask a quiet one
+          # per-prefix health: one noisy prefix must never mask a quiet one
           by_prefix = collections.defaultdict(list)
           for t in kept:
               by_prefix[t[1][:5]].append(t)
@@ -158,8 +166,8 @@ jobs:
           os.makedirs("broadcom", exist_ok=True)
           fetched = now.strftime("%Y-%m-%dT%H:%M:%SZ")
           stamp = (f"# Broadcom security advisories | fetched {fetched} "
-                   f"| read {len(records)} of {total} over {pages_total} pages "
-                   f"in {sweeps_run} sweep(s), {served}/page "
+                   f"| received {rows_seen} of {total} rows over {pages_total} pages "
+                   f"({served}/page), {len(records)} unique after collapsing {dupes} duplicate IDs "
                    f"| prefixes {'+'.join(KEEP)} (MFDSA mainframe excluded)\n")
           health_line = f"# per prefix - {health}\n"
           cols = "# documentId|updated|severity|status|cves|title|url\n"
