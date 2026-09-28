@@ -1,0 +1,139 @@
+name: Update Broadcom advisory index
+
+on:
+  schedule:
+    - cron: '25 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Fetch the advisory list and build the recent index
+        run: |
+          python3 - <<'PY'
+          import json, sys, os, time, datetime, urllib.request, urllib.error
+
+          URL = ("https://support.broadcom.com/web/ecx/security-advisory"
+                 "/-/securityadvisory/getSecurityAdvisoryList")
+          KEEP = ("VCDSA", "SYMSA", "ESDSA", "VTDSA")   # MFDSA (mainframe) deliberately excluded
+          WINDOW_DAYS = 7
+          PAGE_SIZE = 100
+          MAX_PAGES = 80
+          UA = "OneAdvanced-ITO-SOC-advisory-collector/1.0 (daily security advisory check)"
+
+          def fetch(page):
+              body = json.dumps({"bu": "", "pageNumber": page, "pageSize": PAGE_SIZE}).encode()
+              req = urllib.request.Request(URL, data=body, method="POST")
+              req.add_header("Content-Type", "application/json")
+              req.add_header("User-Agent", UA)
+              with urllib.request.urlopen(req, timeout=60) as r:
+                  return json.loads(r.read().decode())
+
+          def fetch_retry(page, attempts=3):
+              for n in range(attempts):
+                  try:
+                      return fetch(page)
+                  except Exception as e:
+                      if n == attempts - 1:
+                          raise
+                      print(f"page {page} attempt {n+1} failed ({e}) - retrying")
+                      time.sleep(5 * (n + 1))
+
+          # --- page through the whole catalogue -------------------------------
+          # Ordering is UNSORTED and changes with pageSize, so page 1 is NOT the
+          # newest. The only safe approach is to read everything and filter on
+          # `updated` ourselves.
+          records, total, page = {}, None, 1
+          while page <= MAX_PAGES:
+              payload = fetch_retry(page)
+              if not payload.get("success"):
+                  sys.exit(f"Endpoint returned success=false on page {page} - refusing to overwrite")
+              data = payload.get("data", {})
+              rows = data.get("list", []) or []
+              info = data.get("pageInfo", {}) or {}
+              if total is None:
+                  total = info.get("totalCount")
+              for r in rows:
+                  doc = (r.get("documentId") or "").strip()
+                  if doc:
+                      records[doc] = r          # de-duplicate across pages
+              last = info.get("lastPage") or 0
+              if not rows or page >= last:
+                  break
+              page += 1
+              time.sleep(1)                      # be a polite client
+
+          print(f"pages read: {page} | unique records: {len(records)} | catalogue total: {total}")
+
+          # --- sanity check ----------------------------------------------------
+          # A broken or reshaped endpoint must NOT silently replace a good index.
+          if total is None or total < 1000 or len(records) < 1000:
+              sys.exit("Implausibly small result - refusing to overwrite the good copy")
+
+          # --- filter to the recent window ------------------------------------
+          cutoff = datetime.datetime.utcnow() - datetime.timedelta(days=WINDOW_DAYS)
+
+          def parsed(r):
+              raw = (r.get("updated") or "").strip().replace("Z", "")
+              try:
+                  return datetime.datetime.fromisoformat(raw)
+              except ValueError:
+                  return None
+
+          def clean(s):
+              return (s or "").replace("|", "/").replace("\n", " ").replace("\r", " ").strip()
+
+          undated, recent = 0, []
+          for doc, r in records.items():
+              if not doc.startswith(KEEP):
+                  continue
+              when = parsed(r)
+              if when is None:
+                  undated += 1
+                  continue
+              if when >= cutoff:
+                  recent.append((when, doc, r))
+
+          recent.sort(key=lambda t: t[0], reverse=True)
+
+          # --- write ------------------------------------------------------------
+          os.makedirs("broadcom", exist_ok=True)
+          fetched = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+          with open("broadcom/recent.txt", "w") as f:
+              f.write(f"# Broadcom security advisories | fetched {fetched} "
+                      f"| window {WINDOW_DAYS} days | {total} in full catalogue "
+                      f"| prefixes {'+'.join(KEEP)} (MFDSA mainframe excluded)\n")
+              f.write(f"# {len(recent)} advisories updated in the window"
+                      f" | {undated} skipped with an unparseable date\n")
+              f.write("# documentId|updated|severity|status|cves|title|url\n")
+              for when, doc, r in recent:
+                  f.write("|".join([
+                      doc,
+                      when.strftime("%Y-%m-%d"),
+                      clean(r.get("severity")),
+                      clean(r.get("status")),
+                      clean(r.get("affectedCve")) or "none listed",
+                      clean(r.get("title")),
+                      clean(r.get("notificationUrl")),
+                  ]) + "\n")
+
+          print(f"wrote broadcom/recent.txt with {len(recent)} rows")
+          for when, doc, r in recent[:10]:
+              print(f"  {doc} {when:%Y-%m-%d} {r.get('severity')} {clean(r.get('title'))[:70]}")
+          PY
+
+      - name: Commit only if something changed
+        run: |
+          git config user.name  'advisory-bot'
+          git config user.email 'advisory-bot@users.noreply.github.com'
+          git add -A broadcom
+          git diff --staged --quiet && echo 'No change today' && exit 0
+          git commit -m "Broadcom advisory index $(date -u +%Y-%m-%d)"
+          git pull --rebase
+          git push
