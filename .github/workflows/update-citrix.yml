@@ -1,0 +1,153 @@
+name: Update Citrix security bulletin index
+
+on:
+  schedule:
+    - cron: '45 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Chromium
+        run: |
+          npm init -y >/dev/null 2>&1
+          npm install --no-audit --no-fund playwright@1.49.1
+          npx playwright install --with-deps chromium
+
+      - name: Render the bulletin list, then each recent bulletin
+        run: |
+          cat > scrape.js <<'JS'
+          const { chromium } = require('playwright');
+          const fs = require('fs');
+
+          // support.citrix.com is an Angular app on the Wolken platform: fetching any
+          // URL returns an 8KB "Loading..." shell. The only reliable way in is to
+          // render it. CTX numbers are pulled by regex from the rendered HTML rather
+          // than by CSS selector, so a layout change does not break the collector.
+          const LIST_URLS = [
+            'https://support.citrix.com/support-home/topic-article-list?trendingCategory=20&trendingTopicName=Latest%20Security%20Bulletin',
+            'https://support.citrix.com/support-home/kbsearch?searchQuery=security%20bulletin',
+          ];
+          const ARTICLE = n => `https://support.citrix.com/support-home/article/${n}`;
+          const LOOKBACK_DAYS = 60;
+          const MAX_ARTICLES = 25;
+          const CTX = /\bCTX\d{6,7}\b/g;
+
+          const uniq = a => [...new Set(a)];
+          const clean = s => (s || '').replace(/\|/g, '/').replace(/\s+/g, ' ').trim();
+
+          (async () => {
+            const browser = await chromium.launch();
+            const ctx = await browser.newContext({
+              userAgent: 'OneAdvanced-ITO-SOC-advisory-collector/1.0 (daily security advisory check)',
+            });
+            const page = await ctx.newPage();
+
+            // ---- 1. find bulletin numbers -------------------------------------
+            let numbers = [];
+            for (const url of LIST_URLS) {
+              try {
+                await page.goto(url, { waitUntil: 'networkidle', timeout: 90000 });
+                await page.waitForTimeout(6000);
+                const html = await page.content();
+                const found = uniq(html.match(CTX) || []);
+                console.log(`${url} -> ${found.length} CTX numbers`);
+                numbers = uniq([...numbers, ...found]);
+                if (numbers.length >= 5) break;
+              } catch (e) {
+                console.log(`list fetch failed: ${url} (${e.message})`);
+              }
+            }
+
+            if (numbers.length === 0) {
+              console.error('No CTX numbers found on any list page - refusing to overwrite the good copy');
+              process.exit(1);
+            }
+
+            // newest first: CTX numbers increase over time
+            numbers.sort((a, b) => Number(b.slice(3)) - Number(a.slice(3)));
+            numbers = numbers.slice(0, MAX_ARTICLES);
+
+            // ---- 2. open each bulletin and pull the facts ----------------------
+            const cutoff = new Date(Date.now() - LOOKBACK_DAYS * 86400000);
+            const rows = [];
+            let unread = 0;
+
+            for (const n of numbers) {
+              try {
+                await page.goto(ARTICLE(n), { waitUntil: 'networkidle', timeout: 90000 });
+                await page.waitForTimeout(4000);
+                const text = clean(await page.evaluate(() => document.body.innerText || ''));
+                if (text.length < 400) { unread++; console.log(`${n}: too little text, skipped`); continue; }
+
+                const title = clean(await page.title()).replace(/\s*\|\s*Citrix.*$/i, '');
+                const cves = uniq(text.match(/\bCVE-\d{4}-\d{4,7}\b/g) || []);
+
+                // CVSS: take the highest score quoted anywhere on the page
+                const scores = (text.match(/CVSS[^.]{0,40}?(\d{1,2}\.\d)/gi) || [])
+                  .map(s => parseFloat(s.match(/(\d{1,2}\.\d)/)[1]))
+                  .filter(v => v >= 0 && v <= 10);
+                const cvss = scores.length ? Math.max(...scores).toFixed(1) : '';
+                const vector = (text.match(/CVSS:[34]\.\d\/[A-Z:\/]+/) || [''])[0];
+
+                const sev = (text.match(/\b(Critical|High|Medium|Low)\b/) || [''])[0];
+
+                // dates: "Last Updated: 27 Sep 2026" or ISO
+                const dm = text.match(/(?:Last Updated|Modified|Updated)\s*:?\s*([0-9]{1,2}\s+\w+\s+[0-9]{4}|\d{4}-\d{2}-\d{2})/i);
+                let updated = '';
+                if (dm) { const d = new Date(dm[1]); if (!isNaN(d)) updated = d.toISOString().slice(0, 10); }
+
+                const exploited = /exploit(s|ed|ation)?\s+(of|have been|observed|in the wild)/i.test(text)
+                  ? 'exploitation-stated' : '';
+
+                if (updated && new Date(updated) < cutoff) { console.log(`${n}: ${updated}, outside lookback`); continue; }
+
+                rows.push([n, updated || 'not stated', sev || 'not stated', cvss || 'not stated',
+                           vector || 'none published', cves.join(' ') || 'none listed',
+                           exploited || 'not stated', title, ARTICLE(n)].join('|'));
+                console.log(`${n}: ${updated || '?'} ${sev || '?'} ${cvss || '?'} ${cves.length} CVEs`);
+              } catch (e) {
+                unread++;
+                console.log(`${n}: could not be read (${e.message})`);
+              }
+            }
+
+            await browser.close();
+
+            if (rows.length === 0) {
+              console.error('Found CTX numbers but read no bulletins - refusing to overwrite the good copy');
+              process.exit(1);
+            }
+
+            fs.mkdirSync('citrix', { recursive: true });
+            const stamp = `# Citrix security bulletins | fetched ${new Date().toISOString().replace(/\.\d+Z$/, 'Z')} `
+              + `| ${rows.length} bulletins in the last ${LOOKBACK_DAYS} days `
+              + `| ${numbers.length} CTX numbers seen, ${unread} could not be read\n`;
+            const cols = '# ctxId|updated|severity|cvss|vector|cves|exploitation|title|url\n';
+            fs.writeFileSync('citrix/recent.txt', stamp + cols + rows.join('\n') + '\n');
+            console.log(`wrote citrix/recent.txt with ${rows.length} rows`);
+          })();
+          JS
+          node scrape.js
+
+      - name: Commit only if something changed
+        run: |
+          rm -f scrape.js package.json package-lock.json
+          rm -rf node_modules
+          git config user.name  'advisory-bot'
+          git config user.email 'advisory-bot@users.noreply.github.com'
+          git add -A citrix
+          git diff --staged --quiet && echo 'No change today' && exit 0
+          git commit -m "Citrix bulletin index $(date -u +%Y-%m-%d)"
+          git pull --rebase
+          git push
