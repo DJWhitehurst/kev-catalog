@@ -24,27 +24,54 @@ jobs:
           npm install --no-audit --no-fund playwright@1.49.1
           npx playwright install --with-deps chromium
 
-      - name: Render the bulletin list, then each recent bulletin
+      - name: Render the bulletin list, then read each recent bulletin
         run: |
           cat > scrape.js <<'JS'
           const { chromium } = require('playwright');
           const fs = require('fs');
 
-          // support.citrix.com is an Angular app on the Wolken platform: fetching any
-          // URL returns an 8KB "Loading..." shell. The only reliable way in is to
-          // render it. CTX numbers are pulled by regex from the rendered HTML rather
-          // than by CSS selector, so a layout change does not break the collector.
+          // support.citrix.com is an Angular app on the Wolken platform; any plain
+          // fetch returns a "Loading..." shell. The list must be rendered. For the
+          // bulletin CONTENT there are two routes, tried in order:
+          //   1. the backend article API, called server-side with the Origin and
+          //      Referer headers the app itself sends (a plain unheadered GET to it
+          //      returns HTTP 500);
+          //   2. rendering the article page, using the href the list gave us rather
+          //      than a guessed URL pattern.
           const LIST_URLS = [
             'https://support.citrix.com/support-home/topic-article-list?trendingCategory=20&trendingTopicName=Latest%20Security%20Bulletin',
             'https://support.citrix.com/support-home/kbsearch?searchQuery=security%20bulletin',
           ];
-          const ARTICLE = n => `https://support.citrix.com/support-home/article/${n}`;
+          const API = n => `https://api-csm.citrix.com/es/cau/articles/get_article_details/enduser?articleNumber=${n}`;
+          const FALLBACK_URLS = n => [
+            `https://support.citrix.com/support-home/article/${n}`,
+            `https://support.citrix.com/article/${n}`,
+            `https://support.citrix.com/s/article/${n}`,
+            `https://support.citrix.com/support-home/kbsearch/article?articleNumber=${n}`,
+          ];
+          const ORIGIN = 'https://support.citrix.com';
           const LOOKBACK_DAYS = 60;
           const MAX_ARTICLES = 25;
+          const DIAG = 3;                 // verbose diagnostics for the first N
           const CTX = /\bCTX\d{6,7}\b/g;
 
           const uniq = a => [...new Set(a)];
           const clean = s => (s || '').replace(/\|/g, '/').replace(/\s+/g, ' ').trim();
+
+          function facts(text) {
+            const cves = uniq(text.match(/\bCVE-\d{4}-\d{4,7}\b/g) || []);
+            const scores = (text.match(/CVSS[^.]{0,40}?(\d{1,2}\.\d)/gi) || [])
+              .map(s => parseFloat(s.match(/(\d{1,2}\.\d)/)[1])).filter(v => v >= 0 && v <= 10);
+            const cvss = scores.length ? Math.max(...scores).toFixed(1) : '';
+            const vector = (text.match(/CVSS:[34]\.\d\/[A-Z:\/]+/) || [''])[0];
+            const sev = (text.match(/\b(Critical|High|Medium|Low)\b/) || [''])[0];
+            const dm = text.match(/(?:Last Updated|lastModified|Modified|Updated)"?\s*:?\s*"?\s*([0-9]{1,2}\s+\w+\s+[0-9]{4}|\d{4}-\d{2}-\d{2})/i);
+            let updated = '';
+            if (dm) { const d = new Date(dm[1]); if (!isNaN(d)) updated = d.toISOString().slice(0, 10); }
+            const exploited = /exploit(s|ed|ation)?\s+(of|have been|observed|in the wild)/i.test(text)
+              ? 'exploitation-stated' : '';
+            return { cves, cvss, vector, sev, updated, exploited };
+          }
 
           (async () => {
             const browser = await chromium.launch();
@@ -53,15 +80,21 @@ jobs:
             });
             const page = await ctx.newPage();
 
-            // ---- 1. find bulletin numbers -------------------------------------
-            let numbers = [];
+            // ---- 1. list: CTX numbers AND the hrefs the page itself uses --------
+            let numbers = [], hrefs = {};
             for (const url of LIST_URLS) {
               try {
                 await page.goto(url, { waitUntil: 'networkidle', timeout: 90000 });
-                await page.waitForTimeout(6000);
+                await page.waitForTimeout(8000);
                 const html = await page.content();
                 const found = uniq(html.match(CTX) || []);
-                console.log(`${url} -> ${found.length} CTX numbers`);
+                const links = await page.evaluate(() =>
+                  [...document.querySelectorAll('a[href]')].map(a => a.href));
+                for (const h of links) {
+                  const m = h.match(/CTX\d{6,7}/);
+                  if (m && !hrefs[m[0]]) hrefs[m[0]] = h;
+                }
+                console.log(`${url} -> ${found.length} CTX numbers, ${Object.keys(hrefs).length} hrefs`);
                 numbers = uniq([...numbers, ...found]);
                 if (numbers.length >= 5) break;
               } catch (e) {
@@ -70,69 +103,86 @@ jobs:
             }
 
             if (numbers.length === 0) {
-              console.error('No CTX numbers found on any list page - refusing to overwrite the good copy');
+              console.error('No CTX numbers found - refusing to overwrite the good copy');
               process.exit(1);
             }
-
-            // newest first: CTX numbers increase over time
             numbers.sort((a, b) => Number(b.slice(3)) - Number(a.slice(3)));
             numbers = numbers.slice(0, MAX_ARTICLES);
+            console.log(`sample href: ${hrefs[numbers[0]] || '(none captured)'}`);
 
-            // ---- 2. open each bulletin and pull the facts ----------------------
+            // ---- 2. content: API first, rendered page second --------------------
             const cutoff = new Date(Date.now() - LOOKBACK_DAYS * 86400000);
-            const rows = [];
-            let unread = 0;
+            const rows = []; let unread = 0, viaApi = 0, viaRender = 0; let i = 0;
 
             for (const n of numbers) {
+              i++;
+              const diag = i <= DIAG;
+              let text = '', how = '', title = '';
+
+              // 2a. backend API, with the headers the app sends
               try {
-                await page.goto(ARTICLE(n), { waitUntil: 'networkidle', timeout: 90000 });
-                await page.waitForTimeout(4000);
-                const text = clean(await page.evaluate(() => document.body.innerText || ''));
-                if (text.length < 400) { unread++; console.log(`${n}: too little text, skipped`); continue; }
+                const r = await ctx.request.get(API(n), {
+                  headers: { Origin: ORIGIN, Referer: ORIGIN + '/', Accept: 'application/json' },
+                  timeout: 45000,
+                });
+                const body = await r.text();
+                if (diag) console.log(`  [diag] ${n} API status ${r.status()}, ${body.length} bytes`);
+                if (r.ok() && body.length > 400) {
+                  text = clean(body); how = 'api'; viaApi++;
+                  try { const j = JSON.parse(body);
+                        title = clean(JSON.stringify(j).match(/"(?:title|articleTitle|subject)"\s*:\s*"([^"]{5,200})"/)?.[1] || '');
+                  } catch (_) {}
+                }
+              } catch (e) { if (diag) console.log(`  [diag] ${n} API threw: ${e.message}`); }
 
-                const title = clean(await page.title()).replace(/\s*\|\s*Citrix.*$/i, '');
-                const cves = uniq(text.match(/\bCVE-\d{4}-\d{4,7}\b/g) || []);
-
-                // CVSS: take the highest score quoted anywhere on the page
-                const scores = (text.match(/CVSS[^.]{0,40}?(\d{1,2}\.\d)/gi) || [])
-                  .map(s => parseFloat(s.match(/(\d{1,2}\.\d)/)[1]))
-                  .filter(v => v >= 0 && v <= 10);
-                const cvss = scores.length ? Math.max(...scores).toFixed(1) : '';
-                const vector = (text.match(/CVSS:[34]\.\d\/[A-Z:\/]+/) || [''])[0];
-
-                const sev = (text.match(/\b(Critical|High|Medium|Low)\b/) || [''])[0];
-
-                // dates: "Last Updated: 27 Sep 2026" or ISO
-                const dm = text.match(/(?:Last Updated|Modified|Updated)\s*:?\s*([0-9]{1,2}\s+\w+\s+[0-9]{4}|\d{4}-\d{2}-\d{2})/i);
-                let updated = '';
-                if (dm) { const d = new Date(dm[1]); if (!isNaN(d)) updated = d.toISOString().slice(0, 10); }
-
-                const exploited = /exploit(s|ed|ation)?\s+(of|have been|observed|in the wild)/i.test(text)
-                  ? 'exploitation-stated' : '';
-
-                if (updated && new Date(updated) < cutoff) { console.log(`${n}: ${updated}, outside lookback`); continue; }
-
-                rows.push([n, updated || 'not stated', sev || 'not stated', cvss || 'not stated',
-                           vector || 'none published', cves.join(' ') || 'none listed',
-                           exploited || 'not stated', title, ARTICLE(n)].join('|'));
-                console.log(`${n}: ${updated || '?'} ${sev || '?'} ${cvss || '?'} ${cves.length} CVEs`);
-              } catch (e) {
-                unread++;
-                console.log(`${n}: could not be read (${e.message})`);
+              // 2b. render the article page, preferring the href the list gave us
+              if (!text) {
+                const candidates = uniq([hrefs[n], ...FALLBACK_URLS(n)].filter(Boolean));
+                for (const url of candidates) {
+                  try {
+                    await page.goto(url, { waitUntil: 'networkidle', timeout: 90000 });
+                    await page.waitForTimeout(7000);
+                    let t = await page.evaluate(() => document.body ? document.body.innerText : '');
+                    for (const f of page.frames()) {           // content may sit in an iframe
+                      if (f === page.mainFrame()) continue;
+                      try { const ft = await f.evaluate(() => document.body ? document.body.innerText : '');
+                            if (ft && ft.length > t.length) t = ft; } catch (_) {}
+                    }
+                    if (diag) console.log(`  [diag] ${n} render ${url} -> ${(t||'').length} chars :: ${clean(t).slice(0,160)}`);
+                    if (t && t.length > 400) {
+                      text = clean(t); how = 'render'; viaRender++;
+                      title = clean(await page.title()).replace(/\s*[|-]\s*Citrix.*$/i, '');
+                      break;
+                    }
+                  } catch (e) { if (diag) console.log(`  [diag] ${n} render failed ${url}: ${e.message}`); }
+                }
               }
+
+              if (!text) { unread++; console.log(`${n}: could not be read by either route`); continue; }
+
+              const f = facts(text);
+              if (f.updated && new Date(f.updated) < cutoff) { console.log(`${n}: ${f.updated}, outside lookback`); continue; }
+
+              rows.push([n, f.updated || 'not stated', f.sev || 'not stated', f.cvss || 'not stated',
+                         f.vector || 'none published', f.cves.join(' ') || 'none listed',
+                         f.exploited || 'not stated', title || n,
+                         hrefs[n] || `https://support.citrix.com/support-home/article/${n}`].join('|'));
+              console.log(`${n} [${how}]: ${f.updated || '?'} ${f.sev || '?'} ${f.cvss || '?'} ${f.cves.length} CVEs`);
             }
 
             await browser.close();
 
             if (rows.length === 0) {
-              console.error('Found CTX numbers but read no bulletins - refusing to overwrite the good copy');
+              console.error(`Found ${numbers.length} CTX numbers but read no bulletins `
+                + `(api ${viaApi}, render ${viaRender}, unread ${unread}) - refusing to overwrite the good copy`);
               process.exit(1);
             }
 
             fs.mkdirSync('citrix', { recursive: true });
             const stamp = `# Citrix security bulletins | fetched ${new Date().toISOString().replace(/\.\d+Z$/, 'Z')} `
               + `| ${rows.length} bulletins in the last ${LOOKBACK_DAYS} days `
-              + `| ${numbers.length} CTX numbers seen, ${unread} could not be read\n`;
+              + `| ${numbers.length} CTX numbers seen, read ${viaApi} via API and ${viaRender} by rendering, `
+              + `${unread} unreadable\n`;
             const cols = '# ctxId|updated|severity|cvss|vector|cves|exploitation|title|url\n';
             fs.writeFileSync('citrix/recent.txt', stamp + cols + rows.join('\n') + '\n');
             console.log(`wrote citrix/recent.txt with ${rows.length} rows`);
