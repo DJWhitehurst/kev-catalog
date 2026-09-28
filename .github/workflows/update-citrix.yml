@@ -60,14 +60,32 @@ jobs:
 
           function facts(text) {
             const cves = uniq(text.match(/\bCVE-\d{4}-\d{4,7}\b/g) || []);
-            const scores = (text.match(/CVSS[^.]{0,40}?(\d{1,2}\.\d)/gi) || [])
-              .map(s => parseFloat(s.match(/(\d{1,2}\.\d)/)[1])).filter(v => v >= 0 && v <= 10);
-            const cvss = scores.length ? Math.max(...scores).toFixed(1) : '';
             const vector = (text.match(/CVSS:[34]\.\d\/[A-Z:\/]+/) || [''])[0];
+
+            // The CVSS SCORE must not be confused with the CVSS VERSION. Strip the
+            // vector strings and any bare "CVSS v4.0" first, or every bulletin comes
+            // back scored 4.0 - which would read as Medium on a 9.5 Critical.
+            const stripped = text
+              .replace(/CVSS:[34]\.\d\/[A-Z:\/]+/g, ' ')
+              .replace(/CVSS\s*(?:v|version)?\s*[34]\.\d(?!\d)/gi, ' CVSS ');
+            const scores = (stripped.match(/(?:CVSS|base\s*score|score)[^.\d]{0,30}(\d{1,2}(?:\.\d)?)/gi) || [])
+              .map(s => { const m = s.match(/(\d{1,2}(?:\.\d)?)\s*$/); return m ? parseFloat(m[1]) : NaN; })
+              .filter(v => !isNaN(v) && v >= 0 && v <= 10);
+            const cvss = scores.length ? Math.max(...scores).toFixed(1) : '';
+
             const sev = (text.match(/\b(Critical|High|Medium|Low)\b/) || [''])[0];
-            const dm = text.match(/(?:Last Updated|lastModified|Modified|Updated)"?\s*:?\s*"?\s*([0-9]{1,2}\s+\w+\s+[0-9]{4}|\d{4}-\d{2}-\d{2})/i);
+
+            // Dates: prose, ISO in a JSON field, or epoch milliseconds (Wolken uses epoch).
             let updated = '';
-            if (dm) { const d = new Date(dm[1]); if (!isNaN(d)) updated = d.toISOString().slice(0, 10); }
+            const prose = text.match(/(?:Last Updated|lastModified|Modified|Updated)"?\s*:?\s*"?\s*([0-9]{1,2}\s+\w+\s+[0-9]{4}|\d{4}-\d{2}-\d{2})/i);
+            const isoKey = text.match(/"[A-Za-z]*(?:modified|updated|published|created)[A-Za-z]*"\s*:\s*"(\d{4}-\d{2}-\d{2}[^"]*)"/i);
+            const epoch = text.match(/"[A-Za-z]*(?:modified|updated|published|created)[A-Za-z]*"\s*:\s*"?(\d{13})"?/i);
+            for (const cand of [prose && prose[1], isoKey && isoKey[1], epoch && Number(epoch[1])]) {
+              if (!cand) continue;
+              const d = new Date(cand);
+              if (!isNaN(d) && d.getFullYear() > 2015 && d <= new Date()) { updated = d.toISOString().slice(0, 10); break; }
+            }
+
             const exploited = /exploit(s|ed|ation)?\s+(of|have been|observed|in the wild)/i.test(text)
               ? 'exploitation-stated' : '';
             return { cves, cvss, vector, sev, updated, exploited };
@@ -131,6 +149,13 @@ jobs:
                   text = clean(body); how = 'api'; viaApi++;
                   try { const j = JSON.parse(body);
                         title = clean(JSON.stringify(j).match(/"(?:title|articleTitle|subject)"\s*:\s*"([^"]{5,200})"/)?.[1] || '');
+                        if (diag) {
+                          const keys = new Set();
+                          (function walk(o, d) { if (!o || typeof o !== 'object' || d > 2) return;
+                            for (const k of Object.keys(o)) { keys.add(k); walk(o[k], d + 1); } })(j, 0);
+                          const dateish = [...keys].filter(k => /date|modif|updat|publish|creat/i.test(k));
+                          console.log(`  [diag] ${n} date-like JSON keys: ${dateish.join(', ') || '(none)'}`);
+                        }
                   } catch (_) {}
                 }
               } catch (e) { if (diag) console.log(`  [diag] ${n} API threw: ${e.message}`); }
@@ -179,8 +204,10 @@ jobs:
             }
 
             fs.mkdirSync('citrix', { recursive: true });
+            const dated = rows.filter(r => !r.split('|')[1].startsWith('not stated')).length;
             const stamp = `# Citrix security bulletins | fetched ${new Date().toISOString().replace(/\.\d+Z$/, 'Z')} `
-              + `| ${rows.length} bulletins in the last ${LOOKBACK_DAYS} days `
+              + `| ${rows.length} bulletins held, ${dated} carrying a date `
+              + (dated < rows.length ? `| WARNING ${rows.length - dated} have no date, so the ${LOOKBACK_DAYS}-day window could not be applied to them ` : '')
               + `| ${numbers.length} CTX numbers seen, read ${viaApi} via API and ${viaRender} by rendering, `
               + `${unread} unreadable\n`;
             const cols = '# ctxId|updated|severity|cvss|vector|cves|exploitation|title|url\n';
