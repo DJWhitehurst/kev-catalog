@@ -20,40 +20,54 @@ jobs:
             -o known_exploited_vulnerabilities.json \
             https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
 
-      - name: Sanity-check, then build a slim index
+      - name: Sanity-check, then split into per-year index files
         run: |
           python3 - <<'PY'
-          import json, sys
+          import json, sys, os, collections
           d = json.load(open('known_exploited_vulnerabilities.json'))
           vulns = d.get('vulnerabilities', [])
           if len(vulns) < 1000:
               sys.exit('Too few entries - refusing to overwrite the good copy')
 
-          rows = sorted(
-              '|'.join([
-                  v.get('cveID', ''),
-                  v.get('dateAdded', ''),
-                  v.get('dueDate', ''),
-                  v.get('vendorProject', ''),
-                  v.get('product', ''),
-              ])
-              for v in vulns
-          )
+          hdr = (f"# CISA KEV | catalogVersion {d.get('catalogVersion')} "
+                 f"| dateReleased {d.get('dateReleased')} | {len(vulns)} entries in full catalog\n"
+                 "# cveID|dateAdded|dueDate|vendorProject|product\n")
 
-          with open('kev-index.txt', 'w') as f:
-              f.write(f"# CISA KEV index | catalogVersion {d.get('catalogVersion')} "
-                      f"| dateReleased {d.get('dateReleased')} | {len(rows)} entries\n")
-              f.write("# cveID|dateAdded|dueDate|vendorProject|product\n")
-              f.write('\n'.join(rows) + '\n')
+          buckets = collections.defaultdict(list)
+          for v in vulns:
+              cve = v.get('cveID', '')
+              bits = cve.split('-')
+              year = bits[1] if len(bits) > 2 and bits[1].isdigit() else 'unknown'
+              if year.isdigit() and int(year) < 2021:
+                  year = 'pre-2021'
+              buckets[year].append('|'.join([
+                  cve, v.get('dateAdded', ''), v.get('dueDate', ''),
+                  v.get('vendorProject', ''), v.get('product', ''),
+              ]))
 
-          print(f"catalogVersion {d.get('catalogVersion')} - {len(rows)} entries indexed")
+          os.makedirs('kev', exist_ok=True)
+          manifest = []
+          for year, rows in sorted(buckets.items()):
+              rows.sort()
+              path = f'kev/{year}.txt'
+              with open(path, 'w') as f:
+                  f.write(hdr)
+                  f.write(f"# this file: CVE-{year} | {len(rows)} entries\n")
+                  f.write('\n'.join(rows) + '\n')
+              manifest.append(f"{path} | {len(rows)} entries | {os.path.getsize(path)} bytes")
+
+          with open('kev/INDEX.txt', 'w') as f:
+              f.write(hdr)
+              f.write('\n'.join(manifest) + '\n')
+          print('\n'.join(manifest))
           PY
 
       - name: Commit only if something changed
         run: |
+          rm -f kev-index.txt
           git config user.name  'kev-bot'
           git config user.email 'kev-bot@users.noreply.github.com'
-          git add known_exploited_vulnerabilities.json kev-index.txt
+          git add -A known_exploited_vulnerabilities.json kev kev-index.txt
           git diff --staged --quiet && echo 'No change today' && exit 0
           git commit -m "KEV catalog $(date -u +%Y-%m-%d)"
           git push
