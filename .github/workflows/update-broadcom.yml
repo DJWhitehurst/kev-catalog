@@ -14,17 +14,18 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Fetch the advisory list and build the recent index
+      - name: Fetch the advisory list and build the index
         run: |
           python3 - <<'PY'
-          import json, sys, os, time, datetime, urllib.request, urllib.error
+          import json, sys, os, time, datetime, urllib.request
 
           URL = ("https://support.broadcom.com/web/ecx/security-advisory"
                  "/-/securityadvisory/getSecurityAdvisoryList")
           KEEP = ("VCDSA", "SYMSA", "ESDSA", "VTDSA")   # MFDSA (mainframe) deliberately excluded
           WINDOW_DAYS = 7
           PAGE_SIZE = 100
-          MAX_PAGES = 80
+          MAX_PAGES = 400          # enough even if the server ignores PAGE_SIZE and serves 20
+          LATEST_N = 25
           UA = "OneAdvanced-ITO-SOC-advisory-collector/1.0 (daily security advisory check)"
 
           def fetch(page):
@@ -46,50 +47,82 @@ jobs:
                       time.sleep(5 * (n + 1))
 
           # --- page through the whole catalogue -------------------------------
-          # Ordering is UNSORTED and changes with pageSize, so page 1 is NOT the
-          # newest. The only safe approach is to read everything and filter on
-          # `updated` ourselves.
-          records, total, page = {}, None, 1
+          # Ordering is UNSORTED and shifts with pageSize, so page 1 is NOT the
+          # newest. Read everything, then filter on `updated` locally. Stop when
+          # we hold totalCount records rather than trusting lastPage, because the
+          # server may not honour the pageSize we asked for.
+          records, total, page, served = {}, None, 1, None
           while page <= MAX_PAGES:
               payload = fetch_retry(page)
               if not payload.get("success"):
                   sys.exit(f"Endpoint returned success=false on page {page} - refusing to overwrite")
-              data = payload.get("data", {})
+              data = payload.get("data", {}) or {}
               rows = data.get("list", []) or []
               info = data.get("pageInfo", {}) or {}
               if total is None:
                   total = info.get("totalCount")
+              if served is None:
+                  served = len(rows)
+                  print(f"asked for {PAGE_SIZE} per page, server served {served}; totalCount {total}")
+              before = len(records)
               for r in rows:
                   doc = (r.get("documentId") or "").strip()
                   if doc:
                       records[doc] = r          # de-duplicate across pages
-              last = info.get("lastPage") or 0
-              if not rows or page >= last:
+              if not rows:
+                  break
+              if total and len(records) >= total:
+                  break
+              if len(records) == before:
+                  print(f"page {page} added nothing new - stopping")
                   break
               page += 1
               time.sleep(1)                      # be a polite client
 
-          print(f"pages read: {page} | unique records: {len(records)} | catalogue total: {total}")
+          pages_read = page
+          print(f"pages read: {pages_read} | unique records: {len(records)} | catalogue total: {total}")
 
-          # --- sanity check ----------------------------------------------------
-          # A broken or reshaped endpoint must NOT silently replace a good index.
-          if total is None or total < 1000 or len(records) < 1000:
-              sys.exit("Implausibly small result - refusing to overwrite the good copy")
+          # --- sanity checks ---------------------------------------------------
+          # A broken, reshaped or partially-read catalogue must NOT silently
+          # replace a good index. Under-reading is the dangerous case: it looks
+          # like a quiet week.
+          if total is None or total < 1000:
+              sys.exit(f"Implausible totalCount ({total}) - refusing to overwrite the good copy")
+          if len(records) < total * 0.95:
+              sys.exit(f"Only read {len(records)} of {total} advisories - incomplete, "
+                       "refusing to overwrite the good copy")
 
-          # --- filter to the recent window ------------------------------------
-          cutoff = datetime.datetime.utcnow() - datetime.timedelta(days=WINDOW_DAYS)
+          # --- shape the data ---------------------------------------------------
+          now = datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None)
+          cutoff = now - datetime.timedelta(days=WINDOW_DAYS)
 
           def parsed(r):
-              raw = (r.get("updated") or "").strip().replace("Z", "")
+              raw = (r.get("updated") or "").strip()
+              if not raw:
+                  return None
               try:
-                  return datetime.datetime.fromisoformat(raw)
+                  dt = datetime.datetime.fromisoformat(raw.replace("Z", "+00:00"))
               except ValueError:
                   return None
+              if dt.tzinfo is not None:
+                  dt = dt.astimezone(datetime.timezone.utc).replace(tzinfo=None)
+              return dt
 
           def clean(s):
               return (s or "").replace("|", "/").replace("\n", " ").replace("\r", " ").strip()
 
-          undated, recent = 0, []
+          def row(when, doc, r):
+              return "|".join([
+                  doc,
+                  when.strftime("%Y-%m-%d"),
+                  clean(r.get("severity")),
+                  clean(r.get("status")),
+                  clean(r.get("affectedCve")) or "none listed",
+                  clean(r.get("title")),
+                  clean(r.get("notificationUrl")),
+              ])
+
+          undated, kept = 0, []
           for doc, r in records.items():
               if not doc.startswith(KEEP):
                   continue
@@ -97,34 +130,46 @@ jobs:
               if when is None:
                   undated += 1
                   continue
-              if when >= cutoff:
-                  recent.append((when, doc, r))
+              kept.append((when, doc, r))
 
-          recent.sort(key=lambda t: t[0], reverse=True)
+          kept.sort(key=lambda t: t[0], reverse=True)
+          recent = [t for t in kept if t[0] >= cutoff]
+          newest = kept[0][0].strftime("%Y-%m-%d") if kept else "none"
 
-          # --- write ------------------------------------------------------------
+          print(f"in-scope advisories: {len(kept)} | newest {newest} | "
+                f"in {WINDOW_DAYS}-day window: {len(recent)} | undated: {undated}")
+
           os.makedirs("broadcom", exist_ok=True)
-          fetched = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
-          with open("broadcom/recent.txt", "w") as f:
-              f.write(f"# Broadcom security advisories | fetched {fetched} "
-                      f"| window {WINDOW_DAYS} days | {total} in full catalogue "
-                      f"| prefixes {'+'.join(KEEP)} (MFDSA mainframe excluded)\n")
-              f.write(f"# {len(recent)} advisories updated in the window"
-                      f" | {undated} skipped with an unparseable date\n")
-              f.write("# documentId|updated|severity|status|cves|title|url\n")
-              for when, doc, r in recent:
-                  f.write("|".join([
-                      doc,
-                      when.strftime("%Y-%m-%d"),
-                      clean(r.get("severity")),
-                      clean(r.get("status")),
-                      clean(r.get("affectedCve")) or "none listed",
-                      clean(r.get("title")),
-                      clean(r.get("notificationUrl")),
-                  ]) + "\n")
+          fetched = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+          stamp = (f"# Broadcom security advisories | fetched {fetched} "
+                   f"| read {len(records)} of {total} in catalogue over {pages_read} pages "
+                   f"({served} served per page) "
+                   f"| prefixes {'+'.join(KEEP)} (MFDSA mainframe excluded)\n")
+          cols = "# documentId|updated|severity|status|cves|title|url\n"
 
-          print(f"wrote broadcom/recent.txt with {len(recent)} rows")
-          for when, doc, r in recent[:10]:
+          # recent.txt — the working file: what changed in the window
+          with open("broadcom/recent.txt", "w") as f:
+              f.write(stamp)
+              f.write(f"# {len(recent)} in-scope advisories updated in the last {WINDOW_DAYS} days "
+                      f"| newest in-scope advisory overall is {newest} "
+                      f"| {undated} skipped with an unparseable date\n")
+              f.write(cols)
+              for when, doc, r in recent:
+                  f.write(row(when, doc, r) + "\n")
+
+          # latest.txt — the canary: the N most recent regardless of window, so an
+          # empty recent.txt can always be told apart from a broken collector.
+          with open("broadcom/latest.txt", "w") as f:
+              f.write(stamp)
+              f.write(f"# the {LATEST_N} most recently updated in-scope advisories, "
+                      "ignoring the window - diagnostic only, NOT a to-do list\n")
+              f.write(cols)
+              for when, doc, r in kept[:LATEST_N]:
+                  f.write(row(when, doc, r) + "\n")
+
+          print(f"wrote broadcom/recent.txt ({len(recent)} rows) and "
+                f"broadcom/latest.txt ({min(LATEST_N, len(kept))} rows)")
+          for when, doc, r in kept[:10]:
               print(f"  {doc} {when:%Y-%m-%d} {r.get('severity')} {clean(r.get('title'))[:70]}")
           PY
 
