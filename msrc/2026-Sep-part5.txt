@@ -1,0 +1,352 @@
+# Microsoft MSRC 2026-Sep | fetched 2026-09-28T13:17:26Z | part 5 of 8 | 350 of 2574 CVEs | CVE-2026-87496 to CVE-2026-89968
+# cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-87496|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87496: UI misrepresentation in Browser
+CVE-2026-87497|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87497: Uninitialized resource in Codecs
+CVE-2026-87498|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87498: Missing authorization in WebUI
+CVE-2026-87499|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87499: Incorrect authorization in Network
+CVE-2026-87500|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87500: Improper validation of array index in ANGLE
+CVE-2026-87501|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87501: UI misrepresentation in Passwords
+CVE-2026-87502|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87502: Confused deputy in Fullscreen
+CVE-2026-87504|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87504: Use after free in Core
+CVE-2026-87505|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87505: Incorrect authorization in FileSystem
+CVE-2026-87506|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87506: Privilege elevation in WebUI
+CVE-2026-87507|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87507: UI misrepresentation in Downloads
+CVE-2026-87508|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87508: Incorrect authorization in Loader
+CVE-2026-87509|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87509: Incorrect authorization in Updater
+CVE-2026-87510|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87510: Improper input validation in FileAPI
+CVE-2026-87511|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87511: Missing authorization in DevTools
+CVE-2026-87512|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87512: Use after free in ANGLE
+CVE-2026-87513|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87513: Missing authorization in ControlledFrame
+CVE-2026-87514|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87514: Use after free in Views
+CVE-2026-87515|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87515: Incorrect authorization in FileAPI
+CVE-2026-87516|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87516: Observable discrepancy in Navigation
+CVE-2026-87519|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87519: Incorrect authorization in Safebrowsing
+CVE-2026-87521|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87521: Information leak in WebMCP
+CVE-2026-87523|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87523: Race condition in DataTransfer
+CVE-2026-87524|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87524: Use after free in Core
+CVE-2026-87525|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87525: Out of bounds read in Chromoting
+CVE-2026-87526|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87526: Use after free in Passwords
+CVE-2026-87527|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87527: Buffer overflow in WebGL
+CVE-2026-87528|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87528: Type confusion in Rust
+CVE-2026-87529|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87529: Numeric truncation error in Media
+CVE-2026-87530|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87530: Uncontrolled search path element in CredentialProvider
+CVE-2026-87531|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87531: Information leak in CORS
+CVE-2026-87532|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87532: Improper state validation in Safebrowsing
+CVE-2026-87533|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87533: Use after free in DevTools
+CVE-2026-87535|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87535: Information loss or omission in Safebrowsing
+CVE-2026-87536|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Chromium CVE-2026-87536: Use after free in V8
+CVE-2026-87537|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87537: Missing authorization in Extensions
+CVE-2026-87538|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87538: Clickjacking in Input
+CVE-2026-87539|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87539: Observable discrepancy in Network
+CVE-2026-87540|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87540: Incorrect authorization in Isolated
+CVE-2026-87541|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87541: Information leak in Navigation
+CVE-2026-87542|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87542: Use after free in Input
+CVE-2026-87543|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87543: Missing authorization in Core
+CVE-2026-87544|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87544: Incorrect authorization in Extensions
+CVE-2026-87546|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87546: Incorrect type conversion or cast in Safebrowsing
+CVE-2026-87547|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87547: Incorrect reference resolution in FileSystem
+CVE-2026-87548|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87548: Improper state validation in Installer
+CVE-2026-87549|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87549: Incomplete cleanup in Downloads
+CVE-2026-87550|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87550: Improper encoding or escaping of output in CSS
+CVE-2026-87551|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87551: Improper certificate validation in CORS
+CVE-2026-87553|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87553: Improper input validation in SiteIsolation
+CVE-2026-87554|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87554: Race condition in Chromoting
+CVE-2026-87556|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87556: Missing authorization in Browser
+CVE-2026-87557|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87557: Missing authorization in LocalNetworkAccess
+CVE-2026-87558|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87558: Use after free in Payments
+CVE-2026-87559|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87559: UI misrepresentation in UI
+CVE-2026-87560|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87560: Missing authorization in Browser
+CVE-2026-87561|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87561: Incorrect authorization in Web Authentication
+CVE-2026-87562|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87562: Incorrect reference resolution in Accessibility
+CVE-2026-87563|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87563: Origin validation error in Paint
+CVE-2026-87564|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N/E:U|not stated|Unknown|Unknown|Type confusion in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to read memory inside the sandbox via a crafted HTML page. (Chromium security severity: High)
+CVE-2026-87565|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87565: Information leak in Passwords
+CVE-2026-87566|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87566: Observable discrepancy in Layout
+CVE-2026-87567|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87567: UI misrepresentation in UrlFormatting
+CVE-2026-87568|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87568: Improper input validation in Chromium
+CVE-2026-87569|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87569: Missing authorization in Views
+CVE-2026-87570|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87570: Incorrect authorization in SiteIsolation
+CVE-2026-87571|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87571: Improper certificate validation in Loader
+CVE-2026-87572|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87572: Injection in DevTools
+CVE-2026-87573|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87573: Improper input validation in Network
+CVE-2026-87574|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87574: Information leak in ServiceWorker
+CVE-2026-87575|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87575: Incorrect authorization in Loader
+CVE-2026-87577|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87577: Incorrect authorization in Isolated
+CVE-2026-87578|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87578: Use after free in Receiver
+CVE-2026-87579|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87579: Buffer overflow in WebRTC
+CVE-2026-87580|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87580: Incorrect authorization in WebAppInstalls
+CVE-2026-87581|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87581: Use after free in Payments
+CVE-2026-87582|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87582: Confused deputy in DataTransfer
+CVE-2026-87583|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87583: UI misrepresentation in Passwords
+CVE-2026-87584|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87584: Incorrect authorization in WebUI
+CVE-2026-87585|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87585: Double free in PDFium
+CVE-2026-87586|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87586: Out of bounds read in ANGLE
+CVE-2026-87587|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Use after free in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)
+CVE-2026-87588|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87588: Use after free in Chromecast
+CVE-2026-87589|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87589: Incorrect authorization in SiteIsolation
+CVE-2026-87590|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87590: Improper input validation in Passwords
+CVE-2026-87591|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87591: Incorrect authorization in Extensions
+CVE-2026-87592|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87592: Out of bounds read in Tint
+CVE-2026-87593|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87593: Information leak in Editing
+CVE-2026-87594|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87594: Incorrect authorization in DataTransfer
+CVE-2026-87596|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87596: Out of bounds read in ANGLE
+CVE-2026-87598|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87598: Incorrect authorization in ServiceWorker
+CVE-2026-87599|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87599: Improper input validation in Interstitials
+CVE-2026-87600|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87600: Improper input validation in Safebrowsing
+CVE-2026-87601|Moderate|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Race condition in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Low)
+CVE-2026-87602|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87602: Out of bounds read in ANGLE
+CVE-2026-87603|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87603: Missing authorization in FileSystem
+CVE-2026-87604|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87604: Out of bounds read in ANGLE
+CVE-2026-87605|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87605: Missing authorization in Contacts
+CVE-2026-87606|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87606: Missing authorization in SiteIsolation
+CVE-2026-87608|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87608: Improper certificate validation in FedCM
+CVE-2026-87609|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87609: Use after free in Sharing
+CVE-2026-87610|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87610: Incorrect authorization in Omnibox
+CVE-2026-87611|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87611: Missing authorization in FileSystem
+CVE-2026-87612|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Type confusion in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)
+CVE-2026-87613|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87613: Incorrect reference resolution in Extensions
+CVE-2026-87614|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87614: Incorrect authorization in ServiceWorker
+CVE-2026-87615|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87615: Race condition in Payments
+CVE-2026-87616|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87616: Improper initialization in Views
+CVE-2026-87617|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87617: Use after free in DevTools
+CVE-2026-87618|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87618: Incorrect reference resolution in Storage
+CVE-2026-87619|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87619: Observable discrepancy in Prefetch
+CVE-2026-87620|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87620: Observable discrepancy in SVG
+CVE-2026-87621|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87621: Out of bounds write in ANGLE
+CVE-2026-87622|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87622: Missing authorization in FedCM
+CVE-2026-87623|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87623: Observable discrepancy in DOM
+CVE-2026-87624|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87624: UI misrepresentation in Passwords
+CVE-2026-87625|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Use after free in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker leveraging social engineering to execute arbitrary code inside the sandbox via a crafted Chrome extension. (Chromium security severity: Medium)
+CVE-2026-87626|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87626: Incorrect authorization in DeviceBoundSessionCredentials
+CVE-2026-87627|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87627: Interpretation conflict in Safebrowsing
+CVE-2026-87628|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87628: Use after free in Cast
+CVE-2026-87629|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87629: Incorrect authorization in Sources
+CVE-2026-87630|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87630: Integer overflow in WebRTC
+CVE-2026-87631|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87631: Missing authorization in DOM
+CVE-2026-87632|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87632: Cross-site scripting in SanitizerAPI
+CVE-2026-87633|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87633: Use after free in Views
+CVE-2026-87634|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87634: Use after free in WebPackaging
+CVE-2026-87635|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87635: UI misrepresentation in Payments
+CVE-2026-87636|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87636: Type confusion in XML
+CVE-2026-87637|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87637: Use after free in Extensions
+CVE-2026-87638|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87638: Out of bounds write in Media
+CVE-2026-87639|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87639: Use after free in WebPackaging
+CVE-2026-87641|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87641: Race condition in Browser
+CVE-2026-87642|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87642: Uninitialized resource in WebGL
+CVE-2026-87644|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87644: Incorrect authorization in Views
+CVE-2026-87645|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87645: Improper state validation in Safebrowsing
+CVE-2026-87646|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87646: Use after free in Web Authentication
+CVE-2026-87647|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87647: Uninitialized resource in GPU
+CVE-2026-87648|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87648: Use after free in ANGLE
+CVE-2026-87649|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87649: UI misrepresentation in Downloads
+CVE-2026-87650|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87650: Out of bounds read in WebGL
+CVE-2026-87651|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87651: Incorrect authorization in Paint
+CVE-2026-87652|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87652: Incorrect authorization in PushAPI
+CVE-2026-87653|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87653: UI misrepresentation in FullScreen
+CVE-2026-87654|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87654: Buffer overflow in ANGLE
+CVE-2026-87655|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87655: Clickjacking in Downloads
+CVE-2026-87656|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87656: Improper state validation in Safebrowsing
+CVE-2026-87657|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87657: Use after free in V8
+CVE-2026-87658|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87658: Information leak in Extensions
+CVE-2026-87701|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Azure Cosmos DB Elevation of Privilege Vulnerability
+CVE-2026-87766|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Bubblewrap: bubblewrap: symlink traversal via /oldroot allows writing files outside sandbox during setup
+CVE-2026-87776|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|compression vulnerable to Denial of Service via memory leak on premature response close
+CVE-2026-87875|Moderate|4.3|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Cups: openprinting cups: heap out-of-bounds read in cupsutf32toutf8() via missing source-length bound
+CVE-2026-87876|Low|3.0|CVSS:3.1/AV:A/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:N/E:U|not stated|Unknown|Unknown|Cups: openprinting cups: remaining case-insensitive username matching in scheduler side paths (cve-2026-27447 follow-up)
+CVE-2026-87910|Moderate|not stated|none published|not stated|Unknown|Unknown|tarfile hardlink fallback ignores custom extraction filter rejection via None
+CVE-2026-88097|Important|8.1|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability
+CVE-2026-88806|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|libX11 XkbGetMap Reply Heap-based Buffer Overflow
+CVE-2026-88807|Moderate|not stated|none published|not stated|Unknown|Unknown|libXrender RenderQueryPictFormats Reply Heap-based Buffer Overflow
+CVE-2026-89092|Moderate|4.2|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|Stack overflow in nscd due to unbounded alloca use
+CVE-2026-89156|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|PCRE2 before 10.48 has a pcre2_match out-of-bounds read after a JIT fallback when an attacker can provide invalid UTF data.
+CVE-2026-89157|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L/E:U|not stated|Unknown|Unknown|PCRE2 before 10.48, on 32-bit platforms, has a pcre2_pattern_convert out-of-bounds write when an attacker can provide a large pattern.
+CVE-2026-89158|Moderate|6.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L/E:U|not stated|Unknown|Unknown|PCRE2 before 10.48, on 32-bit platforms, has a pcre2_compile_32 integer overflow and resultant out-of-bounds write.
+CVE-2026-89160|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L/E:U|not stated|Unknown|Unknown|PCRE2 before 10.48 has a pcre2_match out-of-bounds read during the PCRE2_MATCH_INVALID_UTF matching of an invalid UTF subject.
+CVE-2026-89161|Important|7.4|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|In PCRE2 before 10.48, pcre2_jit_match mishandles a previously copied subject being passed in as a context. An incorrect free operation can occur.
+CVE-2026-89329|Moderate|6.2|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Device-mapper-multipath: local denial of service via blocking ipc send operations
+CVE-2026-89418|Important|not stated|none published|not stated|Unknown|Unknown|Uncontrolled Recursion leading to Denial of Service in protobuf-javascript (google-protobuf)
+CVE-2026-89422|Critical|not stated|none published|not stated|Unknown|Unknown|TLS 1.3 client skips server authentication when ServerHello carries an unsolicited pre_shared_key extension
+CVE-2026-89448|Moderate|6.4|CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|iommu/vt-d: Force requesting ACS when tboot is enabled
+CVE-2026-89461|Low|3.6|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|power: supply: max17040: synchronize work cancellation on suspend
+CVE-2026-89462|Low|2.9|CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|power: supply: max17040: propagate register read errors
+CVE-2026-89469|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|power: supply: lp8727: fix use-after-free in lp8727_release_irq()
+CVE-2026-89473|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|power: supply: bq25890: Fix power_supply reference leak
+CVE-2026-89476|Moderate|6.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|sctp: fix stream->outcnt underflow on duplicate RECONF responses
+CVE-2026-89477|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|sctp: fix NULL deref on untransmitted RECONF completion
+CVE-2026-89479|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|sctp: stop processing a packet once its association is deleted
+CVE-2026-89481|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|nvme-tcp: fix host memory disclosure on R2T for a read command
+CVE-2026-89482|Important|7.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|nvme-tcp: do not accept C2HData based on blk_rq_payload_bytes() alone
+CVE-2026-89487|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|openvswitch: only skb_tx_error() a packet we are about to drop
+CVE-2026-89510|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|RDMA/cxgb4: Cancel reg_work before freeing device on remove
+CVE-2026-89526|Critical|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|svcrdma: Validate Read chunk positions before reconstruction
+CVE-2026-89528|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|svcrdma: Reject Read lists that exceed the page budget
+CVE-2026-89531|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|svcrdma: Reject connection when transport allocation fails
+CVE-2026-89532|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|svcrdma: Fix pcl_for_each_segment for empty chunks
+CVE-2026-89537|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|SUNRPC: Reject short RFC 4121 MIC tokens in gss_krb5_verify_mic_v2
+CVE-2026-89538|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|SUNRPC: Reject krb5 v2 wrap tokens with oversized ec field
+CVE-2026-89539|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|SUNRPC: reject duplicate CREDS_VALUE options
+CVE-2026-89540|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|sunrpc: init gssp_lock before publishing proc entry
+CVE-2026-89542|Critical|9.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|SUNRPC: harden gss_krb5_unwrap_v2 against short tokens
+CVE-2026-89544|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|SUNRPC: fix gssx_dec_option_array error path bugs
+CVE-2026-89545|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|sunrpc: defer rq_argp and rq_resp free until after RCU grace period
+CVE-2026-89547|Moderate|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|SUNRPC: Check svc pool percpu counter allocation
+CVE-2026-89548|Moderate|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|SUNRPC: always drain cache_cleaner before destroying a cache_detail
+CVE-2026-89550|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|SUNRPC: svcauth_gss: enforce krb5 token minimum length
+CVE-2026-89551|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|SUNRPC: xdr_buf_trim: clamp buf->len to avoid underflow
+CVE-2026-89562|Low|3.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|ip6_gre: fix hardware header length for NBMA tunnels
+CVE-2026-89564|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ip: orphan prefetched skbs before multicast forwarding
+CVE-2026-89565|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|ipip: fix skb leak in collect_md mode when metadata_dst allocation fails
+CVE-2026-89567|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|jbd2: bound shrinker scans by examined checkpoint buffers
+CVE-2026-89569|Moderate|5.3|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Bluetooth: RFCOMM: serialize security confirmation handling
+CVE-2026-89573|Moderate|6.7|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|dm array: reject an array block whose value size is not the caller's
+CVE-2026-89582|Low|3.8|CVSS:3.1/AV:P/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|bnx2x: fix double free in bnx2x_init_firmware() error path
+CVE-2026-89596|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|forcedeth: fix off-by-one when saving/restoring non-PCI config space
+CVE-2026-89597|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|fbdev: uvesafb: unregister connector callback on init failure
+CVE-2026-89598|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|fbdev: ssd1307fb: defer I2C transfers from damage callbacks
+CVE-2026-89604|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|efivarfs: Rate limit statfs() handler
+CVE-2026-89610|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ntfs: verify run length exceeding volume boundary
+CVE-2026-89611|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|ntfs: validate non-resident attribute offsets
+CVE-2026-89625|Moderate|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|HID: sony: fix UAF of ghl_poke_timer / ghl_urb at driver unbind
+CVE-2026-89627|Low|2.1|CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|HID: roccat: free buffered reports when destroying device
+CVE-2026-89628|Low|3.9|CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|HID: picolcd: clamp eeprom debugfs read to bytes actually received
+CVE-2026-89631|Critical|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|smb: client: reject a tree connect response whose byte count is too small
+CVE-2026-89632|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|smb: client: fix use-before-check of ReparseDataLength in reparse_buf_ptr()
+CVE-2026-89638|Important|8.4|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N|not stated|Unknown|Unknown|smb: client: clear setuid/setgid bit on write with cifsacl/modefromsid/posix extensions
+CVE-2026-89642|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|cifs: call pagecache_isize_extended() in cifs_setsize() when extending
+CVE-2026-89643|Moderate|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|audit: avoid dropping live tree ref on fsnotify rule autoremove
+CVE-2026-89645|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|btrfs: drop recovered reloc root refs on recovery failure
+CVE-2026-89647|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ceph: do not repeat ceph_trim_dentries() if no progress possible
+CVE-2026-89648|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ceph: cap delegated inode count in ceph_parse_deleg_inos()
+CVE-2026-89649|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|ceph: bound xattr value length in __build_xattrs()
+CVE-2026-89650|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ceph: bound num_export_targets array for mds info v2/v3
+CVE-2026-89653|Critical|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|ceph: reject export_targets ranks >= CEPH_MAX_MDS in mdsmap decode
+CVE-2026-89656|Important|7.2|CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|libceph: reject buckets with mismatched CRUSH ids
+CVE-2026-89657|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|libceph: validate OSD extent maps before cursor advance
+CVE-2026-89659|Moderate|6.4|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|NFSD: Prevent client use-after-free during delegation revoke
+CVE-2026-89662|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|NFSD: Prevent lock owner use-after-free during client teardown
+CVE-2026-89669|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|nfsd: initialize copy-notify stateid before publishing it
+CVE-2026-89671|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|nfsd: gate nfs3 setacl by argp->mask
+CVE-2026-89685|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|nfsd: fix clock domain mismatch in clients_still_reclaiming()
+CVE-2026-89686|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|nfsd: fix BUG_ON in nfsd4_alloc_layout_stateid on racing delegation revoke
+CVE-2026-89694|Important|7.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:L|not stated|Unknown|Unknown|nfsd: check client ownership when cancelling a copy-notify stateid
+CVE-2026-89699|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|nfsd: validate symlink target length in NFSv4 CREATE
+CVE-2026-89708|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|nfsd: RCU-protect cl_cb_session to fix use-after-free on session teardown
+CVE-2026-89709|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|lockd, nfsd: RCU-protect nlmsvc_ops dispatch
+CVE-2026-89726|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|lib/ucs2_string.c: fix out-of-bounds read in ucs2_strnlen()
+CVE-2026-89729|Moderate|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|HID: sensor-hub: Fix out-of-bounds write in sensor_hub_get_feature
+CVE-2026-89740|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|serial: imx: serialize imx_uart_ports[] lifetime
+CVE-2026-89741|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|Revert "media: v4l2-dev: fix error handling in __video_register_device()"
+CVE-2026-89742|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|rapidio: mport_cdev: fix use-after-free in dma_req_free()
+CVE-2026-89746|Moderate|6.7|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|tracing: Fix use-after-free with same-name named triggers
+CVE-2026-89750|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|tracing/user_events: Clear copied tracing state before fork duplication
+CVE-2026-89753|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|mm/vmscan: report RCU-tasks quiescent states in shrink_lruvec()
+CVE-2026-89755|Moderate|5.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|mm/migrate_device: clear stale mapping after freeing swapcache
+CVE-2026-89756|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|mm/migrate: report RCU-tasks quiescent states in migrate_pages_batch()
+CVE-2026-89757|Low|3.6|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|mm/mglru: fix and remove redundant unevictable folio handling
+CVE-2026-89762|Moderate|5.2|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|apparmor: fix cred UAF caused by begin_current_label_crit_section()
+CVE-2026-89768|Low|3.0|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|fs: fix user path of nested backing files
+CVE-2026-89777|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|vfio/pci: clear vdev->msi_perm after freeing it on init failure
+CVE-2026-89778|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|isofs: fix out-of-bounds page array access on empty zisofs block
+CVE-2026-89779|Important|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|fs/ntfs3: validate ef->size covers the record's name and value
+CVE-2026-89781|Important|8.4|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|fs/ntfs3: fix out-of-bounds read in read_log_rec_buf()
+CVE-2026-89783|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|xfrm6: fix out-of-bounds write in xfrm6_input_addr() when secpath is full
+CVE-2026-89784|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|SUNRPC: check rpc_sockaddr2uaddr() return value in rpcb_register_inet4/6
+CVE-2026-89785|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|fs/ntfs3: fix out-of-bounds read of INDEX_ROOT in reparse/objid init
+CVE-2026-89786|Important|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|ext4: fix out-of-bounds read in ext4_read_inline_dir()
+CVE-2026-89787|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|ext4: check dir entry fits before reading the hash trailer in ext4_search_dir()
+CVE-2026-89788|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ksmbd: fix tree connection use-after-free in smb2_tree_connect()
+CVE-2026-89789|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|gtp: add synchronize_net() in gtp_newlink() error path to prevent use-after-free
+CVE-2026-89793|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ublk: clear VM_MAYWRITE on read-only ublk char device mmap
+CVE-2026-89795|Important|8.4|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|PCI: Allow per function PCI slots to fix slot reset on s390
+CVE-2026-89796|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|mm/damon/core: avoid infinite kdamond_merge_regions() internal loop
+CVE-2026-89797|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|power: supply: ab8500_fg: fix use-after-free on remove
+CVE-2026-89799|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|bpf: Disable preemption in bpf_get_stackid
+CVE-2026-89800|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/nouveau/uvmm: clear the dirty flag when unwinding an OP_UNMAP_SPARSE
+CVE-2026-89801|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|drm/nouveau/uvmm: fix premature region free on failed OP_UNMAP_SPARSE
+CVE-2026-89802|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/nouveau/uvmm: fix NULL deref unwinding an OP_MAP_SPARSE op
+CVE-2026-89806|Important|8.4|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|drm/sysfb: ofdrm: Fix integer overflow in fb_size calculation
+CVE-2026-89809|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/amdkfd: fix scope of mqd_mgr dereference in pqm_debugfs_mqds
+CVE-2026-89810|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|drm/amdkfd: Fix error path at svm_migrate_copy_to_ram
+CVE-2026-89811|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|drm/amdkfd: Add TLB flush after MES queue eviction/suspension
+CVE-2026-89812|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/amdgpu: force complete the MES ring fences on reset
+CVE-2026-89813|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/amdgpu: force complete the KIQ ring fences on reset
+CVE-2026-89816|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm: Fix drm_crtc_commit leak if signaled when PAGE_FLIP_EVENT is used
+CVE-2026-89817|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/gud: NUL-terminate TV mode names read from the device
+CVE-2026-89818|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/amdgpu/vcn: fix integer overflow in dec_msg buffer count check
+CVE-2026-89821|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/amd/display: avoid divide-by-zero in __is_lut_linear()
+CVE-2026-89822|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/i915: Guard against NULL driver_data in i915_pci_probe()
+CVE-2026-89823|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|drm: fix race between partial drm_dev_register() failure and ioctl
+CVE-2026-89833|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|f2fs: fix to avoid potential deadloop in f2fs_fsync_node_pages()
+CVE-2026-89837|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|f2fs: fix dentry folio leak in find_in_level
+CVE-2026-89839|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|f2fs: use the mount idmap for the owner check in f2fs_xattr_advise_set()
+CVE-2026-89840|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|f2fs: validate MOVE_RANGE destination size
+CVE-2026-89842|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Skip NVMe LS reject IOCB when FW not started
+CVE-2026-89843|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Zero-init bsg stack buffers to avoid info leak
+CVE-2026-89844|Important|8.8|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Hold vport_slock for host map update in report ID acquisition
+CVE-2026-89845|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Avoid req_q_map double-read in qla2x00_error_entry()
+CVE-2026-89847|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Avoid double completion in async IOCB timeout
+CVE-2026-89849|Important|8.8|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Reject non-SCSI SRB on status IOCB fast path
+CVE-2026-89850|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Don't query firmware state while chip is down
+CVE-2026-89852|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Zero mailbox struct in qla2x00_get_firmware_state()
+CVE-2026-89853|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Fix FCE trace use-after-free during firmware dump
+CVE-2026-89854|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Fix cs84xx use-after-free on host teardown
+CVE-2026-89856|Important|8.4|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Clamp MSI-X derived queue counts to avoid truncation
+CVE-2026-89858|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Bound image count in qla2x00_update_fru_versions()
+CVE-2026-89859|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Zero dport diagnostics buffer to avoid info leak
+CVE-2026-89860|Important|8.8|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Initialize NVMe abort_work once at submission
+CVE-2026-89861|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Hold vport reference in qla24xx_report_id_acquisition()
+CVE-2026-89862|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Fix BSG job leak on validate flash image error path
+CVE-2026-89863|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: edif: Fix NULL pointer deref in RX SA delete check
+CVE-2026-89864|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Bound i2c->length in I2C bsg handlers
+CVE-2026-89865|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Zero SFP DMA buffer in FRU/I2C bsg handlers
+CVE-2026-89870|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|media: zoran: Avoid freeing a registered video_device twice
+CVE-2026-89871|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|media: video-i2c: fix kthread error pointer left in kthread_vid_cap on failure
+CVE-2026-89872|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|media: v4l2-fwnode: Fix fwnode leak in v4l2_fwnode_parse_link
+CVE-2026-89874|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|media: v4l2-async: avoid deleting unlinked ASC entry on link error
+CVE-2026-89878|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|media: s2255: check firmware size before reading trailing marker
+CVE-2026-89879|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|media: s2255: bound JPEG frame size before copying into the buffer
+CVE-2026-89881|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|media: rtl2832_sdr: use vb2_video_unregister_device() on remove to fix DMA leak
+CVE-2026-89883|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|media: rc: sunxi-cir: Unregister rc device on probe failure
+CVE-2026-89884|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|media: platform: mtk-mdp3: fix NULL deref on failed SCP lookup
+CVE-2026-89887|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|media: i2c: ov7740: fix use-after-destroy in remove
+CVE-2026-89888|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|media: i2c: ov02a10: fix endpoint parsing use-after-free
+CVE-2026-89890|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|media: go7007: defer the ALSA v4l2 put until card release
+CVE-2026-89891|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|media: em28xx: fix use-after-free of dev_next->devlist on disconnect
+CVE-2026-89892|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|media: em28xx: defer audio-only extension registration
+CVE-2026-89893|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|media: cx23885: cancel NetUP CI work before teardown
+CVE-2026-89894|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|media: cx231xx: reject geometry changes while the VBI queue is busy
+CVE-2026-89896|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|media: cedrus: fix memory leak in cedrus_init_ctrls()
+CVE-2026-89897|Moderate|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|media: cec: Serialize exclusive follower delivery
+CVE-2026-89899|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|media: cec: disable delayed work before freeing an interrupted transmit
+CVE-2026-89900|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|media: cec: core: Fix kmemleak due to missed rc_free_device() call
+CVE-2026-89901|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|media: airspy: use vb2_video_unregister_device() on disconnect to fix NULL deref
+CVE-2026-89902|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|LoongArch: Avoid preempt count underflow without probe
+CVE-2026-89906|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|LoongArch: BPF: Refactor jump offset calculation in tail call
+CVE-2026-89913|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|KVM: arm64: vgic-v3: take an LPI reference in vgic_v3_save_pending_tables
+CVE-2026-89920|Important|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|KVM: s390: Fix memory corruption by not reinjecting CK machine checks
+CVE-2026-89922|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|KVM: s390: Take srcu when importing watchpoint data
+CVE-2026-89923|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: s390: Free guest debug data on vcpu destroy
+CVE-2026-89924|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: s390: Fix old_data leak in guest debug error path
+CVE-2026-89927|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: x86: hyper-v: Clamp stimer deadline to avoid livelock
+CVE-2026-89929|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|KVM: nVM: Ensure INVVPID is emulated on the correct physical CPU
+CVE-2026-89930|Important|9.3|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|KVM: nVMX: Service local TLB flushes on failed nested VM-Enter
+CVE-2026-89932|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|KVM: nVMX: Always flush vpid02 on first use
+CVE-2026-89933|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|iio: pressure: dps310: fix NULL pointer dereference on ACPI probe
+CVE-2026-89934|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|iio: light: ltrf216a: fix runtime PM reference leak in error path
+CVE-2026-89937|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|iio: chemical: sgp30: Handle IAQ thread creation failure
+CVE-2026-89938|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|iio: chemical: atlas-sensor: use iio_trigger_poll_nested() to fix remove UAF
+CVE-2026-89939|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|iio: chemical: atlas-sensor: fix PM reference leak in buffer postenable
+CVE-2026-89945|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ASoC: cs35l34: drain threaded IRQ before runtime suspend
+CVE-2026-89946|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ASoC: cs35l33: drain threaded IRQ before runtime suspend
+CVE-2026-89947|Important|8.0|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:H/E:U|not stated|Unknown|Unknown|clk: meson: align gxbb_32k_clk_sel number of parents with actual count
+CVE-2026-89948|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|batman-adv: bla: fix freeing of claims on meshif deletion
+CVE-2026-89952|Important|8.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|mtd: rawnand: validate ONFI extended parameter page sections
+CVE-2026-89953|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|mtd: mtdoops: free page bitmap when the backing MTD is removed
+CVE-2026-89955|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|s390/vfio-ap: Fix NULL deref in status_show() during queue probe
+CVE-2026-89956|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|s390/vfio-ap: Fix missing lock required to access list of ap_matrix_mdev objects
+CVE-2026-89959|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|s390/vfio-ap: Fix control domain removal in vfio_ap_mdev_cfg_remove
+CVE-2026-89960|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|s390/vfio-ap: fix stale pqap_hook pointer on error in vfio_ap_mdev_set_kvm()
+CVE-2026-89961|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|powerpc/mm: fix wrong addr_pfn tracking in compound vmemmap population
+CVE-2026-89962|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|powerpc/kexec_file: Prevent kexec range truncation
+CVE-2026-89965|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|nvdimm/btt: reject an arena whose nfree is below the lane count
+CVE-2026-89968|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|nvmet-tcp: reject unsolicited H2CData PDUs
