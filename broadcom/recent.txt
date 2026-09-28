@@ -1,0 +1,3 @@
+# Broadcom security advisories | fetched 2026-09-28T11:13:32Z | window 7 days | 4854 in full catalogue | prefixes VCDSA+SYMSA+ESDSA+VTDSA (MFDSA mainframe excluded)
+# 0 advisories updated in the window | 0 skipped with an unparseable date
+# documentId|updated|severity|status|cves|title|url
