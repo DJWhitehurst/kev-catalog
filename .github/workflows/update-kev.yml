@@ -1,0 +1,41 @@
+name: Update CISA KEV catalog
+
+on:
+  schedule:
+    - cron: '0 3 * * *'      # 03:00 UTC daily
+  workflow_dispatch:          # lets you run it by hand
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download the KEV catalog
+        run: |
+          curl -fsSL --retry 3 --retry-delay 5 \
+            -o known_exploited_vulnerabilities.json \
+            https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+
+      - name: Sanity-check before saving
+        run: |
+          python3 - <<'PY'
+          import json, sys
+          d = json.load(open('known_exploited_vulnerabilities.json'))
+          n = len(d.get('vulnerabilities', []))
+          print('catalogVersion', d.get('catalogVersion'), '-', n, 'vulnerabilities')
+          if n < 1000:
+              sys.exit('Too few entries - refusing to overwrite the good copy')
+          PY
+
+      - name: Commit only if it changed
+        run: |
+          git config user.name  'kev-bot'
+          git config user.email 'kev-bot@users.noreply.github.com'
+          git add known_exploited_vulnerabilities.json
+          git diff --staged --quiet && echo 'No change today' && exit 0
+          git commit -m "KEV catalog $(date -u +%Y-%m-%d)"
+          git push
