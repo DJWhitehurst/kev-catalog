@@ -2,7 +2,8 @@ name: Update Microsoft MSRC severity index
 
 on:
   schedule:
-    - cron: '55 3 * * *'
+    - cron: '52 22 * * *'
+    - cron: '52 4 * * *'
   workflow_dispatch:
 
 permissions:
