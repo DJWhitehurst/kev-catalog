@@ -1,5 +1,7 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-09-28T13:17:26Z | part 1 of 8 | 350 of 2574 CVEs | CVE-2025-24890 to CVE-2026-69439
+# Microsoft MSRC 2026-Sep | fetched 2026-09-29T10:09:45Z | part 1 of 8 | 350 of 2592 CVEs | CVE-2025-1218 to CVE-2026-69433
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2025-1218|Low|3.4|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Various packet overreads in mysqlnd_writeprotocol.c
+CVE-2025-14181|Moderate|6.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H/E:P|not stated|Unknown|Unknown|Integer overflow to buffer overflow in soap HTTP parsing
 CVE-2025-24890|Moderate|6.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:L|not stated|Unknown|Unknown|gix-sec safe.directory protections absent for elevated administrators
 CVE-2025-70873|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|No|No|An information disclosure issue in the zipfileInflate function in the zipfile extension in SQLite v3.51.1 and earlier allows attackers to obtain heap memory via supplying a crafted ZIP file.
 CVE-2026-0799|Important|8.7|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:H/A:H|not stated|Unknown|Unknown|OOBR and OOBW in libpcap before 1.10.7
@@ -58,6 +60,7 @@ CVE-2026-58611|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-58649|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|.NET Information Disclosure Vulnerability
 CVE-2026-59679|Important|9.0|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|fs_read_glyphs() heap OOB read/write via encoding array index mismatch in libXfont2
 CVE-2026-59696|Moderate|not stated|none published|not stated|Unknown|Unknown|uri_string does not bound the port component of a URI before integer conversion
+CVE-2026-6103|Low|4.0|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:P|not stated|Unknown|Unknown|Phar TAR phar_tar_number() Integer Overflow - Archive Entry Injection
 CVE-2026-61548|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Rsyslog: mmpstrucdata stack buffer overflow with oversized RFC5424 structured data
 CVE-2026-6244|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|division by zero in libpcap before 1.10.7
 CVE-2026-62694|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
@@ -115,6 +118,7 @@ CVE-2026-67388|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-67389|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft SQL Server Information Disclosure Vulnerability
 CVE-2026-67390|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft SQL Server Information Disclosure Vulnerability
 CVE-2026-67393|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft SQL Server Information Disclosure Vulnerability
+CVE-2026-67419|Important|not stated|none published|not stated|Unknown|Unknown|RabbitMQ: Consecutive topic wildcards cause combinatorial routing work
 CVE-2026-67624|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft SQL Server Information Disclosure Vulnerability
 CVE-2026-67629|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft SQL Server Information Disclosure Vulnerability
 CVE-2026-67630|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft SQL Server Information Disclosure Vulnerability
@@ -346,7 +350,3 @@ CVE-2026-69430|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-69431|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Telnet Client Remote Code Execution Vulnerability
 CVE-2026-69432|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Volume Manager Driver Elevation of Privilege Vulnerability
 CVE-2026-69433|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Error Reporting Elevation of Privilege Vulnerability
-CVE-2026-69434|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows URL Moniker Remote Code Execution Vulnerability
-CVE-2026-69436|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Error Reporting Elevation of Privilege Vulnerability
-CVE-2026-69438|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft JScript Remote Code Execution Vulnerability
-CVE-2026-69439|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|.NET and Visual Studio Elevation of Privilege Vulnerability

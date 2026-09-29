@@ -1,5 +1,9 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-09-28T13:17:26Z | part 5 of 8 | 350 of 2574 CVEs | CVE-2026-87496 to CVE-2026-89968
+# Microsoft MSRC 2026-Sep | fetched 2026-09-29T10:09:45Z | part 5 of 8 | 350 of 2592 CVEs | CVE-2026-87492 to CVE-2026-89960
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-87492|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87492: Incorrect authorization in DevTools
+CVE-2026-87493|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87493: Missing authorization in FileSystem
+CVE-2026-87494|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87494: Use after free in Browser
+CVE-2026-87495|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87495: Information leak in Scroll
 CVE-2026-87496|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87496: UI misrepresentation in Browser
 CVE-2026-87497|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87497: Uninitialized resource in Codecs
 CVE-2026-87498|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87498: Missing authorization in WebUI
@@ -158,7 +162,7 @@ CVE-2026-88097|Important|8.1|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H/E:U/RL
 CVE-2026-88806|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|libX11 XkbGetMap Reply Heap-based Buffer Overflow
 CVE-2026-88807|Moderate|not stated|none published|not stated|Unknown|Unknown|libXrender RenderQueryPictFormats Reply Heap-based Buffer Overflow
 CVE-2026-89092|Moderate|4.2|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|Stack overflow in nscd due to unbounded alloca use
-CVE-2026-89156|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|PCRE2 before 10.48 has a pcre2_match out-of-bounds read after a JIT fallback when an attacker can provide invalid UTF data.
+CVE-2026-89156|Low|2.9|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L/E:U|not stated|Unknown|Unknown|PCRE2 before 10.48 has a pcre2_match out-of-bounds read after a JIT fallback when an attacker can provide invalid UTF data.
 CVE-2026-89157|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L/E:U|not stated|Unknown|Unknown|PCRE2 before 10.48, on 32-bit platforms, has a pcre2_pattern_convert out-of-bounds write when an attacker can provide a large pattern.
 CVE-2026-89158|Moderate|6.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L/E:U|not stated|Unknown|Unknown|PCRE2 before 10.48, on 32-bit platforms, has a pcre2_compile_32 integer overflow and resultant out-of-bounds write.
 CVE-2026-89160|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L/E:U|not stated|Unknown|Unknown|PCRE2 before 10.48 has a pcre2_match out-of-bounds read during the PCRE2_MATCH_INVALID_UTF matching of an invalid UTF subject.
@@ -346,7 +350,3 @@ CVE-2026-89955|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not
 CVE-2026-89956|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|s390/vfio-ap: Fix missing lock required to access list of ap_matrix_mdev objects
 CVE-2026-89959|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|s390/vfio-ap: Fix control domain removal in vfio_ap_mdev_cfg_remove
 CVE-2026-89960|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|s390/vfio-ap: fix stale pqap_hook pointer on error in vfio_ap_mdev_set_kvm()
-CVE-2026-89961|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|powerpc/mm: fix wrong addr_pfn tracking in compound vmemmap population
-CVE-2026-89962|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|powerpc/kexec_file: Prevent kexec range truncation
-CVE-2026-89965|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|nvdimm/btt: reject an arena whose nfree is below the lane count
-CVE-2026-89968|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|nvmet-tcp: reject unsolicited H2CData PDUs

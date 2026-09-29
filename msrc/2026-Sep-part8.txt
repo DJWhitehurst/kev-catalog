@@ -1,5 +1,23 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-09-28T13:17:26Z | part 8 of 8 | 124 of 2574 CVEs | CVE-2026-97966 to CVE-2026-98162
+# Microsoft MSRC 2026-Sep | fetched 2026-09-29T10:09:45Z | part 8 of 8 | 142 of 2592 CVEs | CVE-2026-97939 to CVE-2026-98162
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-97939|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ipmr: account multicast table and route memory
+CVE-2026-97940|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ipv6: fix fib6 walker UAF on seq stop
+CVE-2026-97945|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:L|not stated|Unknown|Unknown|x86/mm: Fix user-space data loss with MADV_FREE and THP
+CVE-2026-97948|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|powerpc/eeh: Fix recursive locking on devices without EEH sensitive driver
+CVE-2026-97949|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|configfs: unhash the dentry before dropping the item in rmdir
+CVE-2026-97950|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|configfs: pin the symlink target's dirent instead of chasing ->ci_dentry
+CVE-2026-97952|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|sunvdc: unmap LDC cookies when the descriptor send fails
+CVE-2026-97953|Moderate|7.0|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H/E:U|not stated|Unknown|Unknown|net: stmmac: fix TX descriptor availability check for TSO traffic
+CVE-2026-97954|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|net/rds: fix tcp stream corruption with large pages
+CVE-2026-97957|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|net: hinic: fix mailbox segment buffer overflow
+CVE-2026-97958|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|net/sched: cls_api: Don't replay RTM_GETCHAIN in tc_ctl_chain().
+CVE-2026-97959|Important|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|net/sched: cls_route: free emptied bucket on filter move
+CVE-2026-97960|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|perf/x86/intel: Prevent drain_pebs() reentry
+CVE-2026-97961|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|perf/core: Allow list_del during perf_event_overflow()
+CVE-2026-97962|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|net/mlx5e: Move representor vnic reporter to eswitch devlink port
+CVE-2026-97963|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|net: stmmac: initialize ptp_lock at probe time
+CVE-2026-97964|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|ppp_synctty: ensure a writeable skb header
+CVE-2026-97965|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|vxlan: initialize _md in vxlan_xmit_one()
 CVE-2026-97966|Low|3.0|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|octeontx2-pf: reset HTB scheduler topology before freeing queues
 CVE-2026-97969|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|watchdog: msc313e: Fix clock leak and spurious timer in settimeout()
 CVE-2026-97970|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|watchdog: msc313e: Avoid division by zero

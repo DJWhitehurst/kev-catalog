@@ -1,5 +1,9 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-09-28T13:17:26Z | part 4 of 8 | 350 of 2574 CVEs | CVE-2026-80798 to CVE-2026-87495
+# Microsoft MSRC 2026-Sep | fetched 2026-09-29T10:09:45Z | part 4 of 8 | 350 of 2592 CVEs | CVE-2026-80794 to CVE-2026-87491
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-80794|Moderate|4.3|CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|nfc: nci: fix uninit-value in the RF discover/activated NTF handlers
+CVE-2026-80795|not stated|not stated|none published|not stated|Unknown|Unknown|nfc: nci: fix out-of-bounds write in nci_target_auto_activated()
+CVE-2026-80796|Moderate|4.3|CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|nfc: nci: add data_len bound checks to activation parameter extractors
+CVE-2026-80797|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|nfc: pn533: purge fragmented skbs during cleanup
 CVE-2026-80798|Important|8.1|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|nfc: llcp: reject PDUs shorter than the LLCP header
 CVE-2026-80799|Important|8.1|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|nfc: llcp: fix OOB read and u8 offset wrap in TLV parsers
 CVE-2026-80800|Important|8.1|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|nfc: llcp: bound the connect_sn TLV walk to the skb
@@ -346,7 +350,3 @@ CVE-2026-87487|not stated|not stated|none published|not stated|Unknown|Unknown|C
 CVE-2026-87489|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Chromium CVE-2026-87489: Memory corruption in V8
 CVE-2026-87490|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87490: Information leak in Transactions Platform
 CVE-2026-87491|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87491:  Out of bounds write in V8
-CVE-2026-87492|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87492: Incorrect authorization in DevTools
-CVE-2026-87493|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87493: Missing authorization in FileSystem
-CVE-2026-87494|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87494: Use after free in Browser
-CVE-2026-87495|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87495: Information leak in Scroll

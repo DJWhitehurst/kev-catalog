@@ -1,5 +1,9 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-09-28T13:17:26Z | part 6 of 8 | 350 of 2574 CVEs | CVE-2026-89969 to CVE-2026-93791
+# Microsoft MSRC 2026-Sep | fetched 2026-09-29T10:09:45Z | part 6 of 8 | 350 of 2592 CVEs | CVE-2026-89961 to CVE-2026-93749
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-89961|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|powerpc/mm: fix wrong addr_pfn tracking in compound vmemmap population
+CVE-2026-89962|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|powerpc/kexec_file: Prevent kexec range truncation
+CVE-2026-89965|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|nvdimm/btt: reject an arena whose nfree is below the lane count
+CVE-2026-89968|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|nvmet-tcp: reject unsolicited H2CData PDUs
 CVE-2026-89969|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|nvmet-tcp: fix out-of-bounds write when receiving an over-long PDU
 CVE-2026-89970|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|nvmet-auth: Synchronize timeout work during SQ teardown
 CVE-2026-89972|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|nvme: add missing SRCU grace period in error path
@@ -157,6 +161,7 @@ CVE-2026-90415|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not
 CVE-2026-90417|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|RDMA/cxgb4: Fix dereg_skb leak and double free in write_tpt_entry()
 CVE-2026-90418|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U|not stated|Unknown|Unknown|nilfs2: fix BUG in nilfs_copy_dirty_pages() on dirty state mismatch
 CVE-2026-90419|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|nilfs2: prevent out-of-bounds read in super root block parsing
+CVE-2026-90781|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|alsa-lib through 1.2.16.1 Off-by-One Stack Buffer Overflow in __snd_ctl_ascii_elem_id_parse()
 CVE-2026-91708|Important|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-91708: Race condition
 CVE-2026-91709|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-91709: Type confusion
 CVE-2026-91710|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-91710: Use after free
@@ -198,6 +203,11 @@ CVE-2026-91746|Important|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not st
 CVE-2026-91747|Important|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-91747: Use after free
 CVE-2026-91748|Important|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-91748: Race condition
 CVE-2026-91749|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-91749: Use after free
+CVE-2026-91765|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|SOAP: Unbounded Recursion in Server-Side cleanup_xml_node
+CVE-2026-91766|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Cross-origin credential leak in HTTP stream wrapper redirects
+CVE-2026-91767|Moderate|6.5|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:P|not stated|Unknown|Unknown|Heap-buffer-overflow in php_openssl_matches_wildcard_name on crafted server cert wildcard CN
+CVE-2026-91768|Moderate|6.5|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|IPv6 ACL bypass in FastCGI listen.allowed_clients due to partial address comparison (memcmp 12 bytes)
+CVE-2026-91769|Moderate|4.3|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|TLS Hostname Verification Falls Back to CN After SAN Mismatch
 CVE-2026-91779|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L/E:P/RL:X/RC:R|not stated|Unknown|Unknown|GNU Binutils Eh Frame elf-eh-frame.c _bfd_elf_eh_frame_section_offset null pointer dereference
 CVE-2026-91780|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L/E:P/RL:X/RC:R|not stated|Unknown|Unknown|GNU Binutils elflink.c elf_link_add_object_symbols null pointer dereference
 CVE-2026-91781|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L/E:P/RL:O/RC:C|not stated|Unknown|Unknown|GNU Binutils ELF Section elf64-x86-64.c elf_x86_64_common_section_index null pointer dereference
@@ -220,6 +230,7 @@ CVE-2026-92519|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not
 CVE-2026-92520|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|bpf: Zero queue and stack outputs on lock failure
 CVE-2026-92522|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|ACPI: processor: validate MADT IOAPIC entry bounds
 CVE-2026-92523|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|RDMA/nldev: validate dynamic counter attribute length
+CVE-2026-92842|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N/E:P|not stated|Unknown|Unknown|OOB read / info leak in convert.* stream filters when line-break-chars contains NUL
 CVE-2026-93042|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|dmaengine: dw-edma: Terminate all descriptors without callbacks
 CVE-2026-93047|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/v3d: Associate BOs with every job that accesses them
 CVE-2026-93048|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|mtd: part: reject MTDPART_OFS_RETAIN in mtd_add_partition()
@@ -335,18 +346,7 @@ CVE-2026-93599|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not st
 CVE-2026-93600|Low|2.2|CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|rustls webpki Name Constraints URI Validation Bypass
 CVE-2026-93601|Low|2.2|CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|rustls webpki 0.101.0 before 0.103.12 Name Constraint Bypass
 CVE-2026-93602|Moderate|4.4|CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|rustls-webpki before 0.103.10 CRL Revocation Check Bypass
+CVE-2026-93682|Moderate|5.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Out-of-bounds read in the HTTP stream wrapper when following a redirect with an empty Location header
 CVE-2026-93687|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|braces through 3.0.3 Stack Overflow via Deeply Nested Patterns
 CVE-2026-93748|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|http-cache-semantics through 4.2.0 Cross-User Cache Disclosure via max-stale
 CVE-2026-93749|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|source-map-js through 1.2.1 Event Loop Denial of Service
-CVE-2026-93750|Important|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|http-cache-semantics through 4.2.0 Cross-Client Cache Disclosure via Vary Wildcard
-CVE-2026-93781|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|scsi: core: Do not block on tag allocation in scsi_eh_lock_door()
-CVE-2026-93782|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|vhost-scsi: flush backend after device ioctls
-CVE-2026-93783|Important|7.1|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|Bluetooth: RFCOMM: validate skb length in rfcomm_recv_frame
-CVE-2026-93784|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|wifi: cfg80211: validate IEs in cfg80211_wext_siwgenie()
-CVE-2026-93785|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|cifs: validate idmap key payload length
-CVE-2026-93786|Important|8.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|ksmbd: preserve VFS inherited POSIX ACL mask
-CVE-2026-93787|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|smb: client: bound dirent name against end of SMB response in cifs_filldir
-CVE-2026-93788|Moderate|5.1|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|wifi: iwlwifi: acpi: validate WGDS table revision index
-CVE-2026-93789|Moderate|5.1|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|wifi: iwlwifi: bound aligned TLV advance in FW parser
-CVE-2026-93790|Moderate|5.9|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|wifi: iwlwifi: mvm: fix out-of-bounds tid_data access in BA notif
-CVE-2026-93791|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|wifi: iwlwifi: mvm: add a check on the tid coming from the firmware

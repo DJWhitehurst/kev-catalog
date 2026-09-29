@@ -1,5 +1,9 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-09-28T13:17:26Z | part 3 of 8 | 350 of 2574 CVEs | CVE-2026-70569 to CVE-2026-80797
+# Microsoft MSRC 2026-Sep | fetched 2026-09-29T10:09:45Z | part 3 of 8 | 350 of 2592 CVEs | CVE-2026-70564 to CVE-2026-80793
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-70564|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Print Spooler Components Elevation of Privilege Vulnerability
+CVE-2026-70565|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows AF_UNIX Socket Provider Elevation of Privilege Vulnerability
+CVE-2026-70567|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Display Enhancement Service Elevation of Privilege Vulnerability
+CVE-2026-70568|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Defender Firewall Service Elevation of Privilege Vulnerability
 CVE-2026-70569|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Spaceport.sys Elevation of Privilege Vulnerability
 CVE-2026-70570|Important|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
 CVE-2026-70572|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Biometric Service Elevation of Privilege Vulnerability
@@ -346,7 +350,3 @@ CVE-2026-80790|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not sta
 CVE-2026-80791|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|nvmet-auth: zero the AUTH_RECEIVE response buffer
 CVE-2026-80792|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ipv6: fix use-after-free in ip6_finish_output2()
 CVE-2026-80793|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ipv4: reject undersized MTUs in ip_do_fragment()
-CVE-2026-80794|Moderate|4.3|CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|nfc: nci: fix uninit-value in the RF discover/activated NTF handlers
-CVE-2026-80795|not stated|not stated|none published|not stated|Unknown|Unknown|nfc: nci: fix out-of-bounds write in nci_target_auto_activated()
-CVE-2026-80796|Moderate|4.3|CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|nfc: nci: add data_len bound checks to activation parameter extractors
-CVE-2026-80797|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|nfc: pn533: purge fragmented skbs during cleanup
