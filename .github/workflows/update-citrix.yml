@@ -2,7 +2,8 @@ name: Update Citrix security bulletin index
 
 on:
   schedule:
-    - cron: '45 3 * * *'
+    - cron: '37 22 * * *'
+    - cron: '37 4 * * *'
   workflow_dispatch:
 
 permissions:
