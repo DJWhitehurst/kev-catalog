@@ -1,5 +1,11 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-09-30T01:38:42Z | part 4 of 8 | 350 of 2592 CVEs | CVE-2026-80794 to CVE-2026-87491
+# Microsoft MSRC 2026-Sep | fetched 2026-09-30T10:46:09Z | part 4 of 8 | 350 of 2600 CVEs | CVE-2026-80788 to CVE-2026-87480
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-80788|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|nvmet-tcp: Do not WARN on remotely-controlled oversized SGL allocations
+CVE-2026-80789|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|nvmet-tcp: bound SGL data length before allocating command buffers
+CVE-2026-80790|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|nvmet-fc: fix invalid free in LS IOD error path
+CVE-2026-80791|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|nvmet-auth: zero the AUTH_RECEIVE response buffer
+CVE-2026-80792|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ipv6: fix use-after-free in ip6_finish_output2()
+CVE-2026-80793|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ipv4: reject undersized MTUs in ip_do_fragment()
 CVE-2026-80794|Moderate|4.3|CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|nfc: nci: fix uninit-value in the RF discover/activated NTF handlers
 CVE-2026-80795|not stated|not stated|none published|not stated|Unknown|Unknown|nfc: nci: fix out-of-bounds write in nci_target_auto_activated()
 CVE-2026-80796|Moderate|4.3|CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|nfc: nci: add data_len bound checks to activation parameter extractors
@@ -344,9 +350,3 @@ CVE-2026-87477|not stated|not stated|none published|not stated|Unknown|Unknown|C
 CVE-2026-87478|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87478: Observable discrepancy in Autofill
 CVE-2026-87479|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87479: Insufficient policy enforcement in Extensions
 CVE-2026-87480|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87480: Use after free in Printing
-CVE-2026-87484|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87484: UI misrepresentation in Geometry
-CVE-2026-87485|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87485: Incorrect authorization in CORS
-CVE-2026-87487|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87487: Missing authorization in FileSystem
-CVE-2026-87489|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Chromium CVE-2026-87489: Memory corruption in V8
-CVE-2026-87490|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87490: Information leak in Transactions Platform
-CVE-2026-87491|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87491:  Out of bounds write in V8

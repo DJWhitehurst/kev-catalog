@@ -1,5 +1,11 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-09-30T01:38:42Z | part 6 of 8 | 350 of 2592 CVEs | CVE-2026-89961 to CVE-2026-93749
+# Microsoft MSRC 2026-Sep | fetched 2026-09-30T10:46:09Z | part 6 of 8 | 350 of 2600 CVEs | CVE-2026-89952 to CVE-2026-93600
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-89952|Important|8.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|mtd: rawnand: validate ONFI extended parameter page sections
+CVE-2026-89953|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|mtd: mtdoops: free page bitmap when the backing MTD is removed
+CVE-2026-89955|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|s390/vfio-ap: Fix NULL deref in status_show() during queue probe
+CVE-2026-89956|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|s390/vfio-ap: Fix missing lock required to access list of ap_matrix_mdev objects
+CVE-2026-89959|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|s390/vfio-ap: Fix control domain removal in vfio_ap_mdev_cfg_remove
+CVE-2026-89960|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|s390/vfio-ap: fix stale pqap_hook pointer on error in vfio_ap_mdev_set_kvm()
 CVE-2026-89961|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|powerpc/mm: fix wrong addr_pfn tracking in compound vmemmap population
 CVE-2026-89962|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|powerpc/kexec_file: Prevent kexec range truncation
 CVE-2026-89965|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|nvdimm/btt: reject an arena whose nfree is below the lane count
@@ -344,9 +350,3 @@ CVE-2026-93544|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not sta
 CVE-2026-93545|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Out-of-bounds read in libXi's XListInputDevices()
 CVE-2026-93599|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|rustls-webpki before 0.103.13 Panic via empty BIT STRING
 CVE-2026-93600|Low|2.2|CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|rustls webpki Name Constraints URI Validation Bypass
-CVE-2026-93601|Low|2.2|CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|rustls webpki 0.101.0 before 0.103.12 Name Constraint Bypass
-CVE-2026-93602|Moderate|4.4|CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|rustls-webpki before 0.103.10 CRL Revocation Check Bypass
-CVE-2026-93682|Moderate|5.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Out-of-bounds read in the HTTP stream wrapper when following a redirect with an empty Location header
-CVE-2026-93687|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|braces through 3.0.3 Stack Overflow via Deeply Nested Patterns
-CVE-2026-93748|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|http-cache-semantics through 4.2.0 Cross-User Cache Disclosure via max-stale
-CVE-2026-93749|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|source-map-js through 1.2.1 Event Loop Denial of Service

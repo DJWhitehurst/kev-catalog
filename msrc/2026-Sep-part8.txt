@@ -1,5 +1,13 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-09-30T01:38:42Z | part 8 of 8 | 142 of 2592 CVEs | CVE-2026-97939 to CVE-2026-98162
+# Microsoft MSRC 2026-Sep | fetched 2026-09-30T10:46:09Z | part 8 of 8 | 150 of 2600 CVEs | CVE-2026-97929 to CVE-2026-98162
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-97929|Low|2.4|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|ALSA: usbusx2y: validate URB actual_length in interrupt callback
+CVE-2026-97930|Low|1.6|CVSS:3.1/AV:P/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|ALSA: usbusx2y: fix in04_last array size mismatch with in04_buf
+CVE-2026-97931|Moderate|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ALSA: us122l: Prevent write upgrades for read mappings
+CVE-2026-97933|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|tracing: Take trace_array reference when opening a tracer options file
+CVE-2026-97934|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|tracing: Fix memory corruption from a "STACKTRACE" histogram key
+CVE-2026-97935|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|tracing: Set the trace clock before registering the histogram trigger
+CVE-2026-97936|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|tracing: Fix memory corruption from the histogram stacktrace modifier
+CVE-2026-97938|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|reboot: fix cad_pid use-after-free race
 CVE-2026-97939|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ipmr: account multicast table and route memory
 CVE-2026-97940|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ipv6: fix fib6 walker UAF on seq stop
 CVE-2026-97945|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:L|not stated|Unknown|Unknown|x86/mm: Fix user-space data loss with MADV_FREE and THP

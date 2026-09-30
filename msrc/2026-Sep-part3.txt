@@ -1,5 +1,11 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-09-30T01:38:42Z | part 3 of 8 | 350 of 2592 CVEs | CVE-2026-70564 to CVE-2026-80793
+# Microsoft MSRC 2026-Sep | fetched 2026-09-30T10:46:09Z | part 3 of 8 | 350 of 2600 CVEs | CVE-2026-70342 to CVE-2026-80785
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-70342|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+CVE-2026-70351|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft WebP Image Extension Remote Code Execution Vulnerability
+CVE-2026-70352|Critical|10.0|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Azure AI Language Elevation of Privilege Vulnerability
+CVE-2026-70409|Moderate|not stated|none published|not stated|Unknown|Unknown|eldap does not bound the port component of a referral URL before integer conversion
+CVE-2026-70562|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Audio Service Elevation of Privilege Vulnerability
+CVE-2026-70563|Important|8.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Windows Shell Spoofing Vulnerability
 CVE-2026-70564|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Print Spooler Components Elevation of Privilege Vulnerability
 CVE-2026-70565|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows AF_UNIX Socket Provider Elevation of Privilege Vulnerability
 CVE-2026-70567|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Display Enhancement Service Elevation of Privilege Vulnerability
@@ -344,9 +350,3 @@ CVE-2026-80782|Moderate|4.0|CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H|not sta
 CVE-2026-80783|Moderate|5.9|CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|HID: magicmouse: prevent unbounded recursion in magicmouse_raw_event()
 CVE-2026-80784|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|mptcp: pm: fix memory leak from alloc-during-teardown race
 CVE-2026-80785|Moderate|6.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|fbdev: serialize mode sysfs access with lock_fb_info()
-CVE-2026-80788|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|nvmet-tcp: Do not WARN on remotely-controlled oversized SGL allocations
-CVE-2026-80789|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|nvmet-tcp: bound SGL data length before allocating command buffers
-CVE-2026-80790|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|nvmet-fc: fix invalid free in LS IOD error path
-CVE-2026-80791|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|nvmet-auth: zero the AUTH_RECEIVE response buffer
-CVE-2026-80792|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ipv6: fix use-after-free in ip6_finish_output2()
-CVE-2026-80793|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ipv4: reject undersized MTUs in ip_do_fragment()

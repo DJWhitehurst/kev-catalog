@@ -1,5 +1,11 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-09-30T01:38:42Z | part 7 of 8 | 350 of 2592 CVEs | CVE-2026-93750 to CVE-2026-97938
+# Microsoft MSRC 2026-Sep | fetched 2026-09-30T10:46:09Z | part 7 of 8 | 350 of 2600 CVEs | CVE-2026-93601 to CVE-2026-97927
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-93601|Low|2.2|CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|rustls webpki 0.101.0 before 0.103.12 Name Constraint Bypass
+CVE-2026-93602|Moderate|4.4|CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|rustls-webpki before 0.103.10 CRL Revocation Check Bypass
+CVE-2026-93682|Moderate|5.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Out-of-bounds read in the HTTP stream wrapper when following a redirect with an empty Location header
+CVE-2026-93687|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|braces through 3.0.3 Stack Overflow via Deeply Nested Patterns
+CVE-2026-93748|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|http-cache-semantics through 4.2.0 Cross-User Cache Disclosure via max-stale
+CVE-2026-93749|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|source-map-js through 1.2.1 Event Loop Denial of Service
 CVE-2026-93750|Important|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|http-cache-semantics through 4.2.0 Cross-Client Cache Disclosure via Vary Wildcard
 CVE-2026-93781|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|scsi: core: Do not block on tag allocation in scsi_eh_lock_door()
 CVE-2026-93782|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|vhost-scsi: flush backend after device ioctls
@@ -52,6 +58,7 @@ CVE-2026-94281|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not sta
 CVE-2026-94282|Moderate|5.6|CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:H/E:U|not stated|Unknown|Unknown|Out-of-bounds read in libXi's XI2 enter/leave/focus cookie conversion
 CVE-2026-94283|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Out-of-bounds read vulnerability in libX11's XIM (X Input Method) attribute parser
 CVE-2026-94284|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Out-of-bounds read vulnerability in libX11's XIM trigger-keyregistration parser.registration parser
+CVE-2026-94285|Moderate|5.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L/E:U|not stated|Unknown|Unknown|Out-of-bounds read in libX11's byte-oriented codeset parser
 CVE-2026-94286|Important|7.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|Out-of-bounds read in libXtst's RECORD reply parser
 CVE-2026-95274|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-95274: Improper output encoding in DevTools
 CVE-2026-95275|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-95275: Incorrect reference resolution in MediaStream
@@ -167,6 +174,7 @@ CVE-2026-96269|Important|not stated|none published|not stated|Unknown|Unknown|GN
 CVE-2026-96442|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Emacs: emacs: arbitrary code execution in flymake mode
 CVE-2026-96512|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Sudo: sudo: tz environment variable allows bypass of notbefore/notafter time-based authorization
 CVE-2026-96889|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Librsvg: use-after-free when xml includes have duplicated entities
+CVE-2026-97399|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|One-byte overread in strncasecmp on Power8
 CVE-2026-97407|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|ASoC: rockchip: rockchip_pdm: Handle runtime PM resume failures in set_fmt
 CVE-2026-97408|Moderate|4.3|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Bluetooth: L2CAP: validate connectionless PSM length
 CVE-2026-97409|Moderate|6.5|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|nvme-fc: Do not cancel requests in io target before it is initialized
@@ -342,11 +350,3 @@ CVE-2026-97924|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not
 CVE-2026-97925|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|tick/broadcast: Plug clockevents replacement race
 CVE-2026-97926|Moderate|7.0|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ufs: validate cylinder group metadata before caching it
 CVE-2026-97927|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ufs: create the root dentry after loading cylinder metadata
-CVE-2026-97929|Low|2.4|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|ALSA: usbusx2y: validate URB actual_length in interrupt callback
-CVE-2026-97930|Low|1.6|CVSS:3.1/AV:P/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|ALSA: usbusx2y: fix in04_last array size mismatch with in04_buf
-CVE-2026-97931|Moderate|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ALSA: us122l: Prevent write upgrades for read mappings
-CVE-2026-97933|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|tracing: Take trace_array reference when opening a tracer options file
-CVE-2026-97934|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|tracing: Fix memory corruption from a "STACKTRACE" histogram key
-CVE-2026-97935|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|tracing: Set the trace clock before registering the histogram trigger
-CVE-2026-97936|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|tracing: Fix memory corruption from the histogram stacktrace modifier
-CVE-2026-97938|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|reboot: fix cad_pid use-after-free race
