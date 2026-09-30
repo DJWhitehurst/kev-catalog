@@ -1,4 +1,4 @@
-# Broadcom security advisories | fetched 2026-09-29T10:00:40Z | 4854 advisories held, complete | 4854 rows over 50 pages from page 0 | prefixes VCDSA+SYMSA+ESDSA+VTDSA (MFDSA mainframe excluded)
+# Broadcom security advisories | fetched 2026-09-30T01:21:22Z | 4872 advisories held, complete | 4872 rows over 50 pages from page 0 | prefixes VCDSA+SYMSA+ESDSA+VTDSA (MFDSA mainframe excluded)
 # the 8 most recent advisories per prefix, ignoring the window - diagnostic only, NOT a to-do list
 # per prefix - VCDSA: 341 total, newest 2026-09-03 | SYMSA: 479 total, newest 2026-09-03 | ESDSA: 128 total, newest 2026-09-25 | VTDSA: 1948 total, newest 2026-09-18
 # documentId|updated|severity|status|cves|title|url
