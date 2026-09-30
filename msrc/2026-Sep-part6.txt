@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-09-29T10:09:45Z | part 6 of 8 | 350 of 2592 CVEs | CVE-2026-89961 to CVE-2026-93749
+# Microsoft MSRC 2026-Sep | fetched 2026-09-30T01:38:42Z | part 6 of 8 | 350 of 2592 CVEs | CVE-2026-89961 to CVE-2026-93749
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-89961|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|powerpc/mm: fix wrong addr_pfn tracking in compound vmemmap population
 CVE-2026-89962|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|powerpc/kexec_file: Prevent kexec range truncation

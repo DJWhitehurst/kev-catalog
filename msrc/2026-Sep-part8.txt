@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-09-29T10:09:45Z | part 8 of 8 | 142 of 2592 CVEs | CVE-2026-97939 to CVE-2026-98162
+# Microsoft MSRC 2026-Sep | fetched 2026-09-30T01:38:42Z | part 8 of 8 | 142 of 2592 CVEs | CVE-2026-97939 to CVE-2026-98162
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-97939|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ipmr: account multicast table and route memory
 CVE-2026-97940|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ipv6: fix fib6 walker UAF on seq stop

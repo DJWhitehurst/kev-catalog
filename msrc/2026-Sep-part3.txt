@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-09-29T10:09:45Z | part 3 of 8 | 350 of 2592 CVEs | CVE-2026-70564 to CVE-2026-80793
+# Microsoft MSRC 2026-Sep | fetched 2026-09-30T01:38:42Z | part 3 of 8 | 350 of 2592 CVEs | CVE-2026-70564 to CVE-2026-80793
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-70564|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Print Spooler Components Elevation of Privilege Vulnerability
 CVE-2026-70565|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows AF_UNIX Socket Provider Elevation of Privilege Vulnerability

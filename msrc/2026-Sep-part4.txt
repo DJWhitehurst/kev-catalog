@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-09-29T10:09:45Z | part 4 of 8 | 350 of 2592 CVEs | CVE-2026-80794 to CVE-2026-87491
+# Microsoft MSRC 2026-Sep | fetched 2026-09-30T01:38:42Z | part 4 of 8 | 350 of 2592 CVEs | CVE-2026-80794 to CVE-2026-87491
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-80794|Moderate|4.3|CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|nfc: nci: fix uninit-value in the RF discover/activated NTF handlers
 CVE-2026-80795|not stated|not stated|none published|not stated|Unknown|Unknown|nfc: nci: fix out-of-bounds write in nci_target_auto_activated()

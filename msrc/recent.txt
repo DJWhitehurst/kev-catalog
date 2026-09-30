@@ -1,4 +1,4 @@
-# Microsoft MSRC flagged CVEs | fetched 2026-09-29T10:09:45Z | months 2026-Sep | 2592 CVEs read, 165 flagged
+# Microsoft MSRC flagged CVEs | fetched 2026-09-30T01:38:42Z | months 2026-Sep | 2592 CVEs read, 165 flagged
 # flagged = Critical severity, OR Exploited:Yes, OR Publicly Disclosed:Yes | 2 exploited | 0 publicly disclosed
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-100075|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|RDMA/srpt: Fix srpt_alloc_rw_ctxs() unwind counters
