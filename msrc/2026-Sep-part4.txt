@@ -1,5 +1,27 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-01T01:36:35Z | part 4 of 8 | 350 of 2600 CVEs | CVE-2026-80788 to CVE-2026-87480
+# Microsoft MSRC 2026-Sep | fetched 2026-10-01T11:12:06Z | part 4 of 8 | 350 of 2674 CVEs | CVE-2026-80747 to CVE-2026-87454
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-80747|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|drm/amdkfd: Add bounds check for CRAT subtype length
+CVE-2026-80752|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Input: psxpad-spi - set driver data before use
+CVE-2026-80755|Moderate|6.0|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|selinux: reject a permission value exceeding the class permission count
+CVE-2026-80756|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|selinux: do not cancel a policy conversion that never started
+CVE-2026-80757|Moderate|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|selinux: reject a class permission count below its inherited common
+CVE-2026-80761|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Bluetooth: ISO: zero the sockaddr before returning it in getname
+CVE-2026-80762|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Bluetooth: hci_sync: Fix accept list UAF during suspend
+CVE-2026-80763|Moderate|4.3|CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Bluetooth: hci_event: validate LE Set CIG Parameters response
+CVE-2026-80764|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Bluetooth: hci_event: fix LE list UAF on reset
+CVE-2026-80765|Moderate|4.5|CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|HID: hyperv: validate initial device info bounds
+CVE-2026-80766|Moderate|4.0|CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|HID: uclogic: fix use-after-free of inrange_timer on remove
+CVE-2026-80767|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|HID: sensor: custom: Fix use-after-free in enable_sensor
+CVE-2026-80768|Moderate|5.6|CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|HID: ft260: fix stack-use-after-return write in I2C read race
+CVE-2026-80770|Moderate|4.0|CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|HID: nintendo: stop device IO before hid_hw_stop on probe failure
+CVE-2026-80771|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|HID: nintendo: register input device after capabilities are set
+CVE-2026-80772|Moderate|4.3|CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|HID: nintendo: fix out-of-bounds read in joycon_ctlr_read_handler()
+CVE-2026-80780|Moderate|5.9|CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|HID: pidff: fix OOB write when hid->inputs is empty
+CVE-2026-80781|not stated|not stated|none published|not stated|Unknown|Unknown|HID: core: fix OOB read of field->usage in hid_set_field()
+CVE-2026-80782|Moderate|4.0|CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|HID: magicmouse: do not keep a stale msc->input if no input is claimed
+CVE-2026-80783|Moderate|5.9|CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|HID: magicmouse: prevent unbounded recursion in magicmouse_raw_event()
+CVE-2026-80784|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|mptcp: pm: fix memory leak from alloc-during-teardown race
+CVE-2026-80785|Moderate|6.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|fbdev: serialize mode sysfs access with lock_fb_info()
 CVE-2026-80788|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|nvmet-tcp: Do not WARN on remotely-controlled oversized SGL allocations
 CVE-2026-80789|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|nvmet-tcp: bound SGL data length before allocating command buffers
 CVE-2026-80790|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|nvmet-fc: fix invalid free in LS IOD error path
@@ -132,6 +154,7 @@ CVE-2026-81399|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL
 CVE-2026-81400|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Excel Information Disclosure Vulnerability
 CVE-2026-81401|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Excel Information Disclosure Vulnerability
 CVE-2026-81563|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|SVCB AliasMode additional-data error leaks qpcache references
+CVE-2026-81627|Important|8.2|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Qemu-kvm: vapic writable rom alias can escape the option-rom window and expose locked smram
 CVE-2026-81634|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P|not stated|Unknown|Unknown|Possible heap buffer overflow during DNSSEC canonicalization
 CVE-2026-81642|Important|not stated|none published|not stated|Unknown|Unknown|Heap buffer overflow and possible Remote Code Execution when digesting DNSKEY
 CVE-2026-81870|Low|not stated|none published|not stated|Unknown|Unknown|OpenTelemetry-Go: Exporter config logging may leak endpoint URLs in info logs
@@ -254,6 +277,7 @@ CVE-2026-85042|not stated|not stated|none published|not stated|Unknown|Unknown|C
 CVE-2026-85043|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-85043:  Incomplete cleanup in Network
 CVE-2026-85045|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-85045:  Race condition in V8
 CVE-2026-85046|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-85046 Type confusion in V8
+CVE-2026-85047|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-85047: Improper input validation in Transactions Platform
 CVE-2026-85048|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-85048:  Use after free in Compositing
 CVE-2026-85049|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-85049:  Use after free in Skia
 CVE-2026-85051|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-85051:  Type confusion in Compositing
@@ -309,6 +333,7 @@ CVE-2026-87434|not stated|not stated|none published|not stated|Unknown|Unknown|C
 CVE-2026-87435|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87435: Information leak in ControlledFrame
 CVE-2026-87436|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87436: Incomplete cleanup in Browser
 CVE-2026-87437|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87437: Information leak in Frames
+CVE-2026-87438|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87438: Out of bounds write in WebGL
 CVE-2026-87439|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87439: Information leak in ServiceWorker
 CVE-2026-87440|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87440: Out of bounds read in Media
 CVE-2026-87441|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87441: Missing authorization in Downloads
@@ -325,28 +350,3 @@ CVE-2026-87451|not stated|not stated|none published|not stated|Unknown|Unknown|C
 CVE-2026-87452|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87452: Incorrect authorization in GPU
 CVE-2026-87453|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87453: Confused deputy in BackgroundFetch
 CVE-2026-87454|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87454: Information leak in Enterprise
-CVE-2026-87455|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87455: Use after free in Aura
-CVE-2026-87456|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87456: Uninitialized resource in Media
-CVE-2026-87457|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87457: Race condition in Updater
-CVE-2026-87458|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87458: UI misrepresentation in Geometry
-CVE-2026-87459|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87459: Observable discrepancy in Select
-CVE-2026-87460|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87460: Use after free in Platform
-CVE-2026-87461|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87461: Information leak in Core
-CVE-2026-87462|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87462: UI misrepresentation in FedCM
-CVE-2026-87463|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87463: Incorrect authorization in Certificate
-CVE-2026-87465|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87465: Incorrect authorization in Downloads
-CVE-2026-87466|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87466: Incorrect authorization in Workers
-CVE-2026-87467|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87467: Race condition in Updater
-CVE-2026-87468|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87468: Incorrect authorization in Isolated
-CVE-2026-87469|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87469: Improper input validation in Extensions
-CVE-2026-87470|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87470: Improper quantity validation in Tint
-CVE-2026-87471|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87471: Incorrect authorization in ServiceWorker
-CVE-2026-87472|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87472: Improper input validation in FedCM
-CVE-2026-87473|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87473: Incorrect authorization in FileHandling
-CVE-2026-87474|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87474: Use after free in Payments
-CVE-2026-87475|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87475: Missing authorization in Omnibox
-CVE-2026-87476|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87476: Incorrect authorization in Loader
-CVE-2026-87477|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87477: Information leak in Core
-CVE-2026-87478|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87478: Observable discrepancy in Autofill
-CVE-2026-87479|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87479: Insufficient policy enforcement in Extensions
-CVE-2026-87480|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87480: Use after free in Printing

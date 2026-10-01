@@ -1,5 +1,78 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-01T01:36:35Z | part 8 of 8 | 150 of 2600 CVEs | CVE-2026-97929 to CVE-2026-98162
+# Microsoft MSRC 2026-Sep | fetched 2026-10-01T11:12:06Z | part 8 of 8 | 224 of 2674 CVEs | CVE-2026-97536 to CVE-2026-98164
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-97536|Important|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|scsi: qla2xxx: Fix use-after-free of qpair work on queue teardown
+CVE-2026-97537|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|scsi: qla2xxx: Fix queue teardown NULL dma_free and bitmap locking
+CVE-2026-97539|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|usb: xusbatm: don't rely on id table pointer arithmetic
+CVE-2026-97540|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|net: usb: pegasus: don't rely on id table pointer arithmetic
+CVE-2026-97541|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U|not stated|Unknown|Unknown|wifi: ath9k_htc: don't store usb_device_id
+CVE-2026-97542|Low|3.0|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|xfs: bail out on bitmap errors in xrep_agfl_fill
+CVE-2026-97554|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|smb: client: avoid using uninitialized SIDs in cifs_posix_to_fattr()
+CVE-2026-97555|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|smb: client: fix heap overflow in DACL owner/group rewrite
+CVE-2026-97556|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|smb: client: avoid leaking refcount when cifs_sb_tlink() fails
+CVE-2026-97557|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|smb: client: avoid leaking refcount in cifs_queue_oplock_break()
+CVE-2026-97558|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|smb: client: fix cifsFileInfo reference leak in deferred close
+CVE-2026-97559|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|smb: client: fail DACL rewrite when the new DACL exceeds 64K
+CVE-2026-97560|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|smb: client: fix one-byte OOB read in smb2_parse_native_symlink()
+CVE-2026-97561|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|smb: client: honor forceuid/forcegid when mapping SIDs to uid/gid
+CVE-2026-97562|Moderate|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|smb: client: pin DFS superblock in iterator callback
+CVE-2026-97563|Moderate|7.3|CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|smb: client: reject out-of-bounds DataOffset in CIFSSMBRead()
+CVE-2026-97564|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|smb: client: reject userspace cifs.idmap descriptions
+CVE-2026-97565|Important|8.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|smb: client: reject short READ responses in CIFSSMBRead()
+CVE-2026-97566|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|mptcp: pm: kernel: drop pending ADD_ADDR when removing ID0
+CVE-2026-97567|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|mptcp: prevent race between disconnect() and rtx
+CVE-2026-97568|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|mptcp: syncookies: remember the request backup flag
+CVE-2026-97572|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|bnxt_en: Propagate RX ring init failures in bnxt_init_nic()
+CVE-2026-97573|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|bnxt_en: Handle buffer allocation failure in bnxt_rx_ring_reset()
+CVE-2026-97575|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|media: v4l2-ctrls: validate AV1 tile counts
+CVE-2026-97576|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|media: v4l2-ctrls: validate HEVC tile counts
+CVE-2026-97578|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|media: verisilicon: rockchip: guard VPU981 AV1 divisor and tile buffer
+CVE-2026-97581|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|media: verisilicon: hantro: bound G2 HEVC tile loop to the buffer capacity
+CVE-2026-97582|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|hwmon: (gpio-fan) Fix use-after-free in alarm work
+CVE-2026-97587|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|perf: RISC-V: store available counter mask as bitmap
+CVE-2026-97592|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|s390/crypto: Fix missing scrub of temp buffers with AES ctr and gcm algorithm
+CVE-2026-97594|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|landlock: Fix use-after-free of the source's parent directory
+CVE-2026-97595|Moderate|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|mac802154: fix use-after-free of sdata via queued RX frames
+CVE-2026-97596|Moderate|4.8|CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ipvs: reject invalid states in connection template sync records
+CVE-2026-97597|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ipv6: flowlabel: cap duplicate leases per socket
+CVE-2026-97598|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ipv4: fib: bound automatic table ID allocation
+CVE-2026-97599|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|ieee802154: hwsim: serialize pib updates to fix double-free
+CVE-2026-97600|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ieee802154: cc2520: fix FIFOP work use-after-free
+CVE-2026-97601|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ieee802154: 6lowpan: fix NULL dereference in lowpan_newlink
+CVE-2026-97602|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|inet: frags: invalidate queues before flushing them
+CVE-2026-97604|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|fbdev: vfb: defer cleanup until the last reference
+CVE-2026-97605|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|erofs: preserve LZMA decoders on resize failure
+CVE-2026-97607|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|vdpa: ifcvf: Put device on unsupported feature error
+CVE-2026-97608|Moderate|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|netfilter: nf_log: unregister loggers before per-net teardown
+CVE-2026-97609|Moderate|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|netfilter: cttimeout: prevent UAF during module unload
+CVE-2026-97611|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|net: openvswitch: fix use-after-free of the flow table mask array
+CVE-2026-97612|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|net: mpls: clear inner_protocol when the last label is popped
+CVE-2026-97613|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|net: mana: Reserve extra CQ slot for the fence completion CQE
+CVE-2026-97615|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|net: bridge: use option bits for CFM/MRP frame handlers
+CVE-2026-97616|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|net/sched: act_api: release all action references on NEWACTION failure
+CVE-2026-97619|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|io_uring/rw: end write accounting from ->ki_complete
+CVE-2026-97899|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/i915: Fix memory leak in query_perf_config_list()
+CVE-2026-97900|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/drm_exec: fix up contended obj when num_objects is 0
+CVE-2026-97901|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|genetlink: pin family module during policy dump
+CVE-2026-97904|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|cpufreq: initialize policy rwsem before sysfs publication
+CVE-2026-97905|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|cpufreq: zero-initialize policy cpumask before sysfs publication
+CVE-2026-97906|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|bootconfig: Fix integer overflow in initrd size check
+CVE-2026-97907|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|Bluetooth: btrtl: Don't leak return code when parsing firmware format v2
+CVE-2026-97908|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H/E:U|not stated|Unknown|Unknown|Bluetooth: btqcomsmd: destroy RPMsg endpoints before freeing hci_dev
+CVE-2026-97909|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ASoC: sti: initialize IRQ lock before requesting IRQ
+CVE-2026-97910|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ASoC: sprd: validate compress buffer sizes against fixed allocations
+CVE-2026-97915|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|accel/ivpu: Limit firmware log name prints to field size
+CVE-2026-97916|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|accel/ivpu: Validate firmware log buffer metadata
+CVE-2026-97917|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|accel/ivpu: Validate full buffer range in ivpu_to_cpu_addr
+CVE-2026-97918|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|tracing: Undo the registration when enabling the histogram trigger fails
+CVE-2026-97919|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|tracing: Take the reference before publishing the named histogram trigger
+CVE-2026-97920|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|tracing: Keep the entry count when the histogram stats allocation fails
+CVE-2026-97921|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|tracing: Free histogram the field rejected for a bad modifier
+CVE-2026-97922|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|tracing: Free histogram var refs regardless of how often they are referenced
+CVE-2026-97923|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|tracing: Free histogram the var ref when its initialization fails
+CVE-2026-97924|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|tracing/user_events: Don't destroy fields when event removal fails
+CVE-2026-97925|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|tick/broadcast: Plug clockevents replacement race
+CVE-2026-97926|Moderate|7.0|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ufs: validate cylinder group metadata before caching it
+CVE-2026-97927|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ufs: create the root dentry after loading cylinder metadata
 CVE-2026-97929|Low|2.4|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|ALSA: usbusx2y: validate URB actual_length in interrupt callback
 CVE-2026-97930|Low|1.6|CVSS:3.1/AV:P/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|ALSA: usbusx2y: fix in04_last array size mismatch with in04_buf
 CVE-2026-97931|Moderate|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ALSA: us122l: Prevent write upgrades for read mappings
@@ -150,3 +223,4 @@ CVE-2026-98159|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not
 CVE-2026-98160|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|staging: rtl8723bs: fix mismatched free of HalData in rtw_sdio_if1_init()
 CVE-2026-98161|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|nvdimm: pmem: keep PREFLUSH before data writes
 CVE-2026-98162|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|smb/server: fix tree connection leak in smb2_tree_connect()
+CVE-2026-98164|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: x86/mmu: Check write tracking in all address spaces
