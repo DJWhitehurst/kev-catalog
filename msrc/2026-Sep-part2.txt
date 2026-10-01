@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-09-30T10:46:09Z | part 2 of 8 | 350 of 2600 CVEs | CVE-2026-69428 to CVE-2026-70334
+# Microsoft MSRC 2026-Sep | fetched 2026-10-01T01:36:35Z | part 2 of 8 | 350 of 2600 CVEs | CVE-2026-69428 to CVE-2026-70334
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-69428|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows LDAP - Lightweight Directory Access Protocol Denial of Service Vulnerability
 CVE-2026-69429|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Internet Key Exchange (IKE) Protocol Extensions Remote Code Execution Vulnerability

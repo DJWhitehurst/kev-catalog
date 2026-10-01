@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-09-30T10:46:09Z | part 7 of 8 | 350 of 2600 CVEs | CVE-2026-93601 to CVE-2026-97927
+# Microsoft MSRC 2026-Sep | fetched 2026-10-01T01:36:35Z | part 7 of 8 | 350 of 2600 CVEs | CVE-2026-93601 to CVE-2026-97927
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-93601|Low|2.2|CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|rustls webpki 0.101.0 before 0.103.12 Name Constraint Bypass
 CVE-2026-93602|Moderate|4.4|CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|rustls-webpki before 0.103.10 CRL Revocation Check Bypass

@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-09-30T10:46:09Z | part 4 of 8 | 350 of 2600 CVEs | CVE-2026-80788 to CVE-2026-87480
+# Microsoft MSRC 2026-Sep | fetched 2026-10-01T01:36:35Z | part 4 of 8 | 350 of 2600 CVEs | CVE-2026-80788 to CVE-2026-87480
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-80788|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|nvmet-tcp: Do not WARN on remotely-controlled oversized SGL allocations
 CVE-2026-80789|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|nvmet-tcp: bound SGL data length before allocating command buffers
