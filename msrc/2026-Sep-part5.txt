@@ -1,5 +1,18 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-02T01:50:00Z | part 5 of 8 | 350 of 2674 CVEs | CVE-2026-87455 to CVE-2026-89854
+# Microsoft MSRC 2026-Sep | fetched 2026-10-02T10:45:05Z | part 5 of 8 | 350 of 2695 CVEs | CVE-2026-87442 to CVE-2026-89818
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-87442|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87442: Confused deputy in Prerender
+CVE-2026-87443|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87443: Missing authorization in Actor
+CVE-2026-87444|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87444: Memory corruption in Codecs
+CVE-2026-87445|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87445: UI misrepresentation in Session
+CVE-2026-87446|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87446: Incomplete cleanup in Extensions
+CVE-2026-87447|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87447: Incorrect authorization in Network
+CVE-2026-87448|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87448: Use after free in DevTools
+CVE-2026-87449|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87449: Cross-site request forgery in DeviceBoundSessionCredentials
+CVE-2026-87450|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87450: Incorrect authorization in Permissions
+CVE-2026-87451|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87451: Information leak in Downloads
+CVE-2026-87452|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87452: Incorrect authorization in GPU
+CVE-2026-87453|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87453: Confused deputy in BackgroundFetch
+CVE-2026-87454|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87454: Information leak in Enterprise
 CVE-2026-87455|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87455: Use after free in Aura
 CVE-2026-87456|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87456: Uninitialized resource in Media
 CVE-2026-87457|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87457: Race condition in Updater
@@ -109,7 +122,7 @@ CVE-2026-87560|not stated|not stated|none published|not stated|Unknown|Unknown|C
 CVE-2026-87561|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87561: Incorrect authorization in Web Authentication
 CVE-2026-87562|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87562: Incorrect reference resolution in Accessibility
 CVE-2026-87563|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87563: Origin validation error in Paint
-CVE-2026-87564|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N/E:U|not stated|Unknown|Unknown|Chromium CVE-2026-87564: Type confusion in V8
+CVE-2026-87564|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N/E:U|not stated|Unknown|Unknown|Type confusion in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to read memory inside the sandbox via a crafted HTML page. (Chromium security severity: High)
 CVE-2026-87565|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87565: Information leak in Passwords
 CVE-2026-87566|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87566: Observable discrepancy in Layout
 CVE-2026-87567|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87567: UI misrepresentation in UrlFormatting
@@ -132,7 +145,7 @@ CVE-2026-87583|not stated|not stated|none published|not stated|Unknown|Unknown|C
 CVE-2026-87584|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87584: Incorrect authorization in WebUI
 CVE-2026-87585|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87585: Double free in PDFium
 CVE-2026-87586|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87586: Out of bounds read in ANGLE
-CVE-2026-87587|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Chromium CVE-2026-87587: Use after free in V8
+CVE-2026-87587|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Use after free in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)
 CVE-2026-87588|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87588: Use after free in Chromecast
 CVE-2026-87589|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87589: Incorrect authorization in SiteIsolation
 CVE-2026-87590|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87590: Improper input validation in Passwords
@@ -146,7 +159,7 @@ CVE-2026-87597|not stated|not stated|none published|not stated|Unknown|Unknown|C
 CVE-2026-87598|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87598: Incorrect authorization in ServiceWorker
 CVE-2026-87599|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87599: Improper input validation in Interstitials
 CVE-2026-87600|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87600: Improper input validation in Safebrowsing
-CVE-2026-87601|Moderate|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Chromium CVE-2026-87601: Race condition in V8
+CVE-2026-87601|Moderate|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Race condition in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Low)
 CVE-2026-87602|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87602: Out of bounds read in ANGLE
 CVE-2026-87603|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87603: Missing authorization in FileSystem
 CVE-2026-87604|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87604: Out of bounds read in ANGLE
@@ -156,7 +169,7 @@ CVE-2026-87608|not stated|not stated|none published|not stated|Unknown|Unknown|C
 CVE-2026-87609|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87609: Use after free in Sharing
 CVE-2026-87610|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87610: Incorrect authorization in Omnibox
 CVE-2026-87611|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87611: Missing authorization in FileSystem
-CVE-2026-87612|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Chromium CVE-2026-87612: Type confusion in V8
+CVE-2026-87612|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Type confusion in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)
 CVE-2026-87613|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87613: Incorrect reference resolution in Extensions
 CVE-2026-87614|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87614: Incorrect authorization in ServiceWorker
 CVE-2026-87615|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87615: Race condition in Payments
@@ -169,7 +182,7 @@ CVE-2026-87621|not stated|not stated|none published|not stated|Unknown|Unknown|C
 CVE-2026-87622|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87622: Missing authorization in FedCM
 CVE-2026-87623|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87623: Observable discrepancy in DOM
 CVE-2026-87624|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87624: UI misrepresentation in Passwords
-CVE-2026-87625|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Chromium CVE-2026-87625: Use after free in V8
+CVE-2026-87625|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Use after free in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker leveraging social engineering to execute arbitrary code inside the sandbox via a crafted Chrome extension. (Chromium security severity: Medium)
 CVE-2026-87626|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87626: Incorrect authorization in DeviceBoundSessionCredentials
 CVE-2026-87627|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87627: Interpretation conflict in Safebrowsing
 CVE-2026-87628|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87628: Use after free in Cast
@@ -212,7 +225,11 @@ CVE-2026-87910|Moderate|not stated|none published|not stated|Unknown|Unknown|tar
 CVE-2026-88097|Important|8.1|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability
 CVE-2026-88806|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|libX11 XkbGetMap Reply Heap-based Buffer Overflow
 CVE-2026-88807|Moderate|not stated|none published|not stated|Unknown|Unknown|libXrender RenderQueryPictFormats Reply Heap-based Buffer Overflow
+CVE-2026-88815|Moderate|6.2|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|DBI versions before 1.654 for Perl incorrectly treat numeric values as strings in sql_type_cast_svpv
+CVE-2026-88816|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|DBI versions before 1.654 for Perl incorrectly treat numeric values as strings in FetchHashKeyName
+CVE-2026-88831|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Busybox: busybox: httpd silently fails open when ip deny rules contain invalid cidr prefix lengths
 CVE-2026-88832|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:H/E:U|not stated|Unknown|Unknown|Busybox: busybox: romfs volume id parsing performs unbounded memcpy into fixed-size label buffer, causing heap overflow
+CVE-2026-88839|Moderate|6.7|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Busybox: busybox: passwd/group parser writes heap pointers out of bounds due to stale tokenize() endpoint
 CVE-2026-89092|Moderate|4.2|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|Stack overflow in nscd due to unbounded alloca use
 CVE-2026-89102|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|OCSP stapling v2 multi accepts non-CA chain certificates as issuers
 CVE-2026-89133|Moderate|not stated|none published|not stated|Unknown|Unknown|NameConstraints not enforced across unconstrained intermediate CA
@@ -333,20 +350,3 @@ CVE-2026-89813|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not
 CVE-2026-89816|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm: Fix drm_crtc_commit leak if signaled when PAGE_FLIP_EVENT is used
 CVE-2026-89817|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/gud: NUL-terminate TV mode names read from the device
 CVE-2026-89818|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/amdgpu/vcn: fix integer overflow in dec_msg buffer count check
-CVE-2026-89821|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/amd/display: avoid divide-by-zero in __is_lut_linear()
-CVE-2026-89822|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/i915: Guard against NULL driver_data in i915_pci_probe()
-CVE-2026-89823|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|drm: fix race between partial drm_dev_register() failure and ioctl
-CVE-2026-89833|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|f2fs: fix to avoid potential deadloop in f2fs_fsync_node_pages()
-CVE-2026-89837|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|f2fs: fix dentry folio leak in find_in_level
-CVE-2026-89839|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|f2fs: use the mount idmap for the owner check in f2fs_xattr_advise_set()
-CVE-2026-89840|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|f2fs: validate MOVE_RANGE destination size
-CVE-2026-89842|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Skip NVMe LS reject IOCB when FW not started
-CVE-2026-89843|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Zero-init bsg stack buffers to avoid info leak
-CVE-2026-89844|Important|8.8|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Hold vport_slock for host map update in report ID acquisition
-CVE-2026-89845|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Avoid req_q_map double-read in qla2x00_error_entry()
-CVE-2026-89847|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Avoid double completion in async IOCB timeout
-CVE-2026-89849|Important|8.8|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Reject non-SCSI SRB on status IOCB fast path
-CVE-2026-89850|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Don't query firmware state while chip is down
-CVE-2026-89852|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Zero mailbox struct in qla2x00_get_firmware_state()
-CVE-2026-89853|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Fix FCE trace use-after-free during firmware dump
-CVE-2026-89854|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Fix cs84xx use-after-free on host teardown

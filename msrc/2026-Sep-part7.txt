@@ -1,5 +1,23 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-02T01:50:00Z | part 7 of 8 | 350 of 2674 CVEs | CVE-2026-93221 to CVE-2026-97535
+# Microsoft MSRC 2026-Sep | fetched 2026-10-02T10:45:05Z | part 7 of 8 | 350 of 2695 CVEs | CVE-2026-93179 to CVE-2026-97511
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-93179|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/amd/powerplay: fix VoltageObjectInfo zero-stride loop and OOB read
+CVE-2026-93183|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/lima: call drm_mm_init() with a valid allocation range
+CVE-2026-93185|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ASoC: rt700-sdw: always drain jack work on remove
+CVE-2026-93186|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|cxl/mbox: Clamp mailbox output allocation to the payload size
+CVE-2026-93188|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|HID: roccat: bound device-supplied profile index
+CVE-2026-93191|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N/E:U|not stated|Unknown|Unknown|smack: fix incorrect task context in smack_msg_queue_msgrcv
+CVE-2026-93192|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/v3d: Clear queue->active_job when v3d_fence_create() fails
+CVE-2026-93200|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|i3c: master: Fix use-after-free of master->this
+CVE-2026-93202|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|i3c: master: Fix recursive locking during device registration
+CVE-2026-93203|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|batman-adv: bla: avoid CRC corruption due to parallel claim add
+CVE-2026-93205|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|iommu/arm-smmu-v3: Manage teardown with devm
+CVE-2026-93207|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|SUNRPC: Zero rpc_gss_wire_cred at svcauth_gss_decode_credbody() entry
+CVE-2026-93208|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|kasan: fix cache shrink race with CPU hotplug
+CVE-2026-93209|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Bluetooth: hci_core: use skb_get() instead of skb_clone() for req_skb
+CVE-2026-93213|Low|3.0|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|of: fix out-of-bounds read in of_alias_scan() stem parser
+CVE-2026-93214|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|usb: gadget: f_tcm: fix deadlock in usbg_make_tpg()
+CVE-2026-93216|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|mm/page_owner: use memcg_data snapshot to avoid TOCTOU in print_page_owner_memcg()
+CVE-2026-93219|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|clocksource/drivers/timer-sun4i: Advertise a real minimum delta
 CVE-2026-93221|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|nfsd: convert nfsd_net boolean flags to unsigned long flags word
 CVE-2026-93222|Low|2.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:N/I:L/A:N|not stated|Unknown|Unknown|signal: avoid shared siginfo namespace rewrites
 CVE-2026-93223|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|staging: media: tegra-video: fix of_node_put() on VIP parse errors
@@ -128,6 +146,9 @@ CVE-2026-94283|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not sta
 CVE-2026-94284|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Out-of-bounds read vulnerability in libX11's XIM trigger-keyregistration parser.registration parser
 CVE-2026-94285|Moderate|5.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L/E:U|not stated|Unknown|Unknown|Out-of-bounds read in libX11's byte-oriented codeset parser
 CVE-2026-94286|Important|7.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|Out-of-bounds read in libXtst's RECORD reply parser
+CVE-2026-94417|Low|5.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|CRL check skipped when OCSP enabled and certificate has no OCSP URL
+CVE-2026-94418|Low|not stated|none published|not stated|Unknown|Unknown|Signature failure masked by date error under WOLFSSL_SMALL_CERT_VERIFY
+CVE-2026-94419|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Client session cache reference poisoning allows resumption with wrong server
 CVE-2026-95274|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-95274: Improper output encoding in DevTools
 CVE-2026-95275|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-95275: Incorrect reference resolution in MediaStream
 CVE-2026-95276|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-95276: Improper input validation in Themes
@@ -329,24 +350,3 @@ CVE-2026-97508|Moderate|5.3|CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H|not sta
 CVE-2026-97509|Moderate|6.4|CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|thunderbolt: Keep XDomain reference during the lifetime of a service
 CVE-2026-97510|Moderate|4.2|CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|thunderbolt: Release request if tb_cfg_request() fails in __tb_xdomain_response()
 CVE-2026-97511|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|wifi: mac80211: avoid out-of-bounds access in monitor
-CVE-2026-97512|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|spi: spi-qcom-qspi: Fix incomplete error handling in runtime PM
-CVE-2026-97513|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|media: chips-media: wave5: Release m2m_ctx after Instance Removed from List
-CVE-2026-97514|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|media: chips-media: wave5: Fix Reports from Kernel Lock Validator
-CVE-2026-97515|Moderate|4.2|CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|i3c: master: svc: Prevent IRQ storm from false SLVSTART on NPCM845
-CVE-2026-97516|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|wifi: rtw88: Add NULL check for chip->edcca_th in rtw_fw_adaptivity_result()
-CVE-2026-97517|Moderate|5.1|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|wifi: nl80211: reject beacons with bad HE operation
-CVE-2026-97518|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|wifi: cfg80211: reject duplicate wiphy cipher suite entries
-CVE-2026-97519|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|drm/xe: Fix null pointer dereference in devcoredump cleanup
-CVE-2026-97520|Low|3.0|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|gfs2: move quota_init qc iterator increment
-CVE-2026-97521|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|gfs2: fix quota init duplicate scan
-CVE-2026-97522|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|mptcp: fix bad accounting in __mptcp_subflow_push_pending()
-CVE-2026-97523|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|mptcp: close race between scheduler and state change
-CVE-2026-97524|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|mptcp: avoid unneeded actions on subflow reset
-CVE-2026-97527|Important|8.8|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Serialize NVMe unsol ctx list with a per-fcport lock
-CVE-2026-97528|Important|8.8|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Unlink NVMe unsol ctx before freeing on LS reject error
-CVE-2026-97529|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Validate BSG request_len before reading vendor_cmd[]
-CVE-2026-97530|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Fix soft lockup polling continuation IOCB signature
-CVE-2026-97531|Moderate|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Skip vport under deletion in report ID acquisition
-CVE-2026-97532|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Null out freed pointers in qla2x00_mem_alloc() error path
-CVE-2026-97534|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|f2fs: accurately adjust free_sections during free_segment_range
-CVE-2026-97535|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Bound VP index against VP_CTRL IOCB bitmap size

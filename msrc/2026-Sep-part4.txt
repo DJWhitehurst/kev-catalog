@@ -1,5 +1,18 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-02T01:50:00Z | part 4 of 8 | 350 of 2674 CVEs | CVE-2026-80747 to CVE-2026-87454
+# Microsoft MSRC 2026-Sep | fetched 2026-10-02T10:45:05Z | part 4 of 8 | 350 of 2695 CVEs | CVE-2026-80274 to CVE-2026-87441
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-80274|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Validating resolver can abort while caching a mismatched NOQNAME proof
+CVE-2026-80489|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|EUC_JISX0213 decoding may hang on crafted input
+CVE-2026-80726|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|KVM: x86/mmu: WARN and clear role.invalid when creating a child shadow page
+CVE-2026-80728|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Revert "drm/amdgpu: fix aperture mapping leak"
+CVE-2026-80730|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ring-buffer: Fix crash passing ERR_PTR to kthread_stop()
+CVE-2026-80731|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|net: remove CAP_SYS_RAWIO zero-padding in dev_validate_header
+CVE-2026-80732|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|ata: pata_sl82c105: fix bridge revision use-after-free
+CVE-2026-80733|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|net: remove WARN_ON_ONCE() from sk_mc_loop()
+CVE-2026-80737|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|serial: amba-pl011: synchronize DMA teardown
+CVE-2026-80738|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|bpf: Check sk_state before sk_protocol in bpf_tcp_*_syncookie
+CVE-2026-80742|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|af_packet: Don't send zero-byte data in tpacket_snd().
+CVE-2026-80743|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ASoC: xilinx: formatter_pcm: pass aud_drv_data to irq handlers
+CVE-2026-80744|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|netfilter: nf_tables_offload: suppress WARN_ON_ONCE for ENOMEM in abort path
 CVE-2026-80747|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|drm/amdkfd: Add bounds check for CRAT subtype length
 CVE-2026-80752|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Input: psxpad-spi - set driver data before use
 CVE-2026-80755|Moderate|6.0|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|selinux: reject a permission value exceeding the class permission count
@@ -337,16 +350,3 @@ CVE-2026-87438|not stated|not stated|none published|not stated|Unknown|Unknown|C
 CVE-2026-87439|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87439: Information leak in ServiceWorker
 CVE-2026-87440|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87440: Out of bounds read in Media
 CVE-2026-87441|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87441: Missing authorization in Downloads
-CVE-2026-87442|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87442: Confused deputy in Prerender
-CVE-2026-87443|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87443: Missing authorization in Actor
-CVE-2026-87444|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87444: Memory corruption in Codecs
-CVE-2026-87445|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87445: UI misrepresentation in Session
-CVE-2026-87446|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87446: Incomplete cleanup in Extensions
-CVE-2026-87447|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87447: Incorrect authorization in Network
-CVE-2026-87448|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87448: Use after free in DevTools
-CVE-2026-87449|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87449: Cross-site request forgery in DeviceBoundSessionCredentials
-CVE-2026-87450|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87450: Incorrect authorization in Permissions
-CVE-2026-87451|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87451: Information leak in Downloads
-CVE-2026-87452|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87452: Incorrect authorization in GPU
-CVE-2026-87453|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87453: Confused deputy in BackgroundFetch
-CVE-2026-87454|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87454: Information leak in Enterprise

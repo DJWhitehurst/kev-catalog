@@ -1,5 +1,22 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-02T01:50:00Z | part 6 of 8 | 350 of 2674 CVEs | CVE-2026-89856 to CVE-2026-93219
+# Microsoft MSRC 2026-Sep | fetched 2026-10-02T10:45:05Z | part 6 of 8 | 350 of 2695 CVEs | CVE-2026-89821 to CVE-2026-93178
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-89821|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/amd/display: avoid divide-by-zero in __is_lut_linear()
+CVE-2026-89822|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/i915: Guard against NULL driver_data in i915_pci_probe()
+CVE-2026-89823|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|drm: fix race between partial drm_dev_register() failure and ioctl
+CVE-2026-89833|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|f2fs: fix to avoid potential deadloop in f2fs_fsync_node_pages()
+CVE-2026-89837|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|f2fs: fix dentry folio leak in find_in_level
+CVE-2026-89839|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|f2fs: use the mount idmap for the owner check in f2fs_xattr_advise_set()
+CVE-2026-89840|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|f2fs: validate MOVE_RANGE destination size
+CVE-2026-89842|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Skip NVMe LS reject IOCB when FW not started
+CVE-2026-89843|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Zero-init bsg stack buffers to avoid info leak
+CVE-2026-89844|Important|8.8|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Hold vport_slock for host map update in report ID acquisition
+CVE-2026-89845|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Avoid req_q_map double-read in qla2x00_error_entry()
+CVE-2026-89847|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Avoid double completion in async IOCB timeout
+CVE-2026-89849|Important|8.8|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Reject non-SCSI SRB on status IOCB fast path
+CVE-2026-89850|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Don't query firmware state while chip is down
+CVE-2026-89852|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Zero mailbox struct in qla2x00_get_firmware_state()
+CVE-2026-89853|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Fix FCE trace use-after-free during firmware dump
+CVE-2026-89854|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Fix cs84xx use-after-free on host teardown
 CVE-2026-89856|Important|8.4|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Clamp MSI-X derived queue counts to avoid truncation
 CVE-2026-89858|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Bound image count in qla2x00_update_fru_versions()
 CVE-2026-89859|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Zero dport diagnostics buffer to avoid info leak
@@ -268,6 +285,7 @@ CVE-2026-91779|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L/E:P/RL:X/RC:
 CVE-2026-91780|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L/E:P/RL:X/RC:R|not stated|Unknown|Unknown|GNU Binutils elflink.c elf_link_add_object_symbols null pointer dereference
 CVE-2026-91781|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L/E:P/RL:O/RC:C|not stated|Unknown|Unknown|GNU Binutils ELF Section elf64-x86-64.c elf_x86_64_common_section_index null pointer dereference
 CVE-2026-91986|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|gitoxide gix-transport before 0.59.2 CR/LF/NUL Injection
+CVE-2026-92382|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Usbredir: usbredir: unbounded iso_packet_desc[] index in usbredirhost_iso_packet() leads to heap out-of-bounds write
 CVE-2026-92476|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|crypto: keembay - Initialize completion before requesting IRQ
 CVE-2026-92477|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: ufs: debugfs: Reserve space for a string terminator
 CVE-2026-92484|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|cxl/region: Fix use-after-free in find_pos_and_ways() error path
@@ -332,21 +350,3 @@ CVE-2026-93156|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not
 CVE-2026-93160|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U|not stated|Unknown|Unknown|crypto: atmel-ecc - reject hardware ECDH without a public key
 CVE-2026-93177|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/amdgpu/pm/powerplay: bounds-check voltage index in Vega10 lookup
 CVE-2026-93178|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/amdgpu/pm/powerplay: bounds-check voltage index in SMU7 lookup
-CVE-2026-93179|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/amd/powerplay: fix VoltageObjectInfo zero-stride loop and OOB read
-CVE-2026-93183|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/lima: call drm_mm_init() with a valid allocation range
-CVE-2026-93185|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ASoC: rt700-sdw: always drain jack work on remove
-CVE-2026-93186|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|cxl/mbox: Clamp mailbox output allocation to the payload size
-CVE-2026-93188|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|HID: roccat: bound device-supplied profile index
-CVE-2026-93191|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N/E:U|not stated|Unknown|Unknown|smack: fix incorrect task context in smack_msg_queue_msgrcv
-CVE-2026-93192|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/v3d: Clear queue->active_job when v3d_fence_create() fails
-CVE-2026-93200|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|i3c: master: Fix use-after-free of master->this
-CVE-2026-93202|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|i3c: master: Fix recursive locking during device registration
-CVE-2026-93203|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|batman-adv: bla: avoid CRC corruption due to parallel claim add
-CVE-2026-93205|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|iommu/arm-smmu-v3: Manage teardown with devm
-CVE-2026-93207|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|SUNRPC: Zero rpc_gss_wire_cred at svcauth_gss_decode_credbody() entry
-CVE-2026-93208|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|kasan: fix cache shrink race with CPU hotplug
-CVE-2026-93209|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Bluetooth: hci_core: use skb_get() instead of skb_clone() for req_skb
-CVE-2026-93213|Low|3.0|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|of: fix out-of-bounds read in of_alias_scan() stem parser
-CVE-2026-93214|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|usb: gadget: f_tcm: fix deadlock in usbg_make_tpg()
-CVE-2026-93216|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|mm/page_owner: use memcg_data snapshot to avoid TOCTOU in print_page_owner_memcg()
-CVE-2026-93219|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|clocksource/drivers/timer-sun4i: Advertise a real minimum delta
