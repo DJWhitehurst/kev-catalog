@@ -1,5 +1,13 @@
-# Broadcom security advisories | fetched 2026-10-01T11:04:12Z | 4872 advisories held, complete | 4872 rows over 50 pages from page 0 | prefixes VCDSA+SYMSA+ESDSA+VTDSA (MFDSA mainframe excluded)
-# 1 in-scope advisories updated in the last 7 days | 0 skipped with an unparseable date
-# per prefix - VCDSA: 341 total, newest 2026-09-03 | SYMSA: 479 total, newest 2026-09-03 | ESDSA: 128 total, newest 2026-09-25 | VTDSA: 1948 total, newest 2026-09-18
+# Broadcom security advisories | fetched 2026-10-02T01:43:57Z | 4895 advisories held, complete | 4898 rows over 50 pages from page 0 | prefixes VCDSA+SYMSA+ESDSA+VTDSA (MFDSA mainframe excluded)
+# 9 in-scope advisories updated in the last 7 days | 0 skipped with an unparseable date
+# per prefix - VCDSA: 341 total, newest 2026-09-03 | SYMSA: 479 total, newest 2026-09-03 | ESDSA: 128 total, newest 2026-09-25 | VTDSA: 1956 total, newest 2026-10-01
 # documentId|updated|severity|status|cves|title|url
+VTDSA39115|2026-10-01|CRITICAL|CLOSED|See CVE list in advisory|Product Release Advisory - VMware Tanzu for Postgres on Kubernetes 4.5.2|https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39115
+VTDSA39114|2026-10-01|CRITICAL|CLOSED|See CVE list in advisory|Product Release Advisory - Spring Cloud Gateway for Kubernetes 2.2.17|https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39114
+VTDSA39113|2026-10-01|HIGH|CLOSED|See CVE list in advisory|Product Release Advisory - VMware Tanzu for Valkey 9.1.2|https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39113
+VTDSA39112|2026-10-01|HIGH|CLOSED|See CVE list in advisory|Product Release Advisory - VMware Tanzu for Valkey 9.0.6|https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39112
+VTDSA39111|2026-10-01|HIGH|CLOSED|See CVE list in advisory|Product Release Advisory - VMware Tanzu for Valkey 8.1.10|https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39111
+VTDSA39110|2026-10-01|HIGH|CLOSED|See CVE list in advisory|Product Release Advisory - VMware Tanzu for Valkey 8.0.11|https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39110
+VTDSA39109|2026-10-01|CRITICAL|CLOSED|See CVE list in advisory|Product Release Advisory - VMware Tanzu for Valkey on Kubernetes 3.5.1|https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39109
+VTDSA39108|2026-10-01|CRITICAL|CLOSED|See CVE list in advisory|Product Release Advisory - VMware Spring Cloud Data Flow for Kubernetes 1.6.16|https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39108
 ESDSA39033|2026-09-25|MEDIUM|CLOSED|none listed|Security Advisory - TDM 5.0 releases are not impacted by these Spring Framework vulnerabilities|https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39033
