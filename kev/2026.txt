@@ -1,9 +1,10 @@
-# CISA KEV | catalogVersion 2026.09.30 | dateReleased 2026-09-30T16:59:23.0688Z | 1730 entries in full catalog
+# CISA KEV | catalogVersion 2026.10.01 | dateReleased 2026-10-01T19:54:04.9308Z | 1731 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
-# this file: CVE-2026 | 165 entries
+# this file: CVE-2026 | 166 entries
 CVE-2026-0257|2026-05-29|2026-06-01|Palo Alto Networks|PAN-OS
 CVE-2026-0300|2026-05-06|2026-05-09|Palo Alto Networks|PAN-OS
 CVE-2026-0770|2026-07-21|2026-07-24|Langflow|Langflow
+CVE-2026-104286|2026-10-01|2026-10-04|Fortinet|FortiMail
 CVE-2026-10520|2026-06-11|2026-06-14|Ivanti|Sentry
 CVE-2026-11645|2026-06-09|2026-06-23|Google|Chromium V8
 CVE-2026-12569|2026-06-25|2026-06-28|PTC|Windchill and FlexPLM
