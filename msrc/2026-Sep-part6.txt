@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-01T11:12:06Z | part 6 of 8 | 350 of 2674 CVEs | CVE-2026-89856 to CVE-2026-93219
+# Microsoft MSRC 2026-Sep | fetched 2026-10-02T01:50:00Z | part 6 of 8 | 350 of 2674 CVEs | CVE-2026-89856 to CVE-2026-93219
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-89856|Important|8.4|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Clamp MSI-X derived queue counts to avoid truncation
 CVE-2026-89858|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: qla2xxx: Bound image count in qla2x00_update_fru_versions()

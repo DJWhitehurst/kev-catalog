@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-01T11:12:06Z | part 8 of 8 | 224 of 2674 CVEs | CVE-2026-97536 to CVE-2026-98164
+# Microsoft MSRC 2026-Sep | fetched 2026-10-02T01:50:00Z | part 8 of 8 | 224 of 2674 CVEs | CVE-2026-97536 to CVE-2026-98164
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-97536|Important|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|scsi: qla2xxx: Fix use-after-free of qpair work on queue teardown
 CVE-2026-97537|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|scsi: qla2xxx: Fix queue teardown NULL dma_free and bitmap locking

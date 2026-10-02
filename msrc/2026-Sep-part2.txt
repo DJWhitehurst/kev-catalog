@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-01T11:12:06Z | part 2 of 8 | 350 of 2674 CVEs | CVE-2026-69403 to CVE-2026-69906
+# Microsoft MSRC 2026-Sep | fetched 2026-10-02T01:50:00Z | part 2 of 8 | 350 of 2674 CVEs | CVE-2026-69403 to CVE-2026-69906
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-69403|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows SMB Server Information Disclosure Vulnerability
 CVE-2026-69404|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows TCP/IP Elevation of Privilege Vulnerability

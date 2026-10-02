@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-01T11:12:06Z | part 4 of 8 | 350 of 2674 CVEs | CVE-2026-80747 to CVE-2026-87454
+# Microsoft MSRC 2026-Sep | fetched 2026-10-02T01:50:00Z | part 4 of 8 | 350 of 2674 CVEs | CVE-2026-80747 to CVE-2026-87454
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-80747|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|drm/amdkfd: Add bounds check for CRAT subtype length
 CVE-2026-80752|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Input: psxpad-spi - set driver data before use
