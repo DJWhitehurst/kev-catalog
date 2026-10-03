@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-02T10:45:05Z | part 7 of 8 | 350 of 2695 CVEs | CVE-2026-93179 to CVE-2026-97511
+# Microsoft MSRC 2026-Sep | fetched 2026-10-03T01:29:26Z | part 7 of 8 | 350 of 2695 CVEs | CVE-2026-93179 to CVE-2026-97511
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-93179|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/amd/powerplay: fix VoltageObjectInfo zero-stride loop and OOB read
 CVE-2026-93183|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/lima: call drm_mm_init() with a valid allocation range

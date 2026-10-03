@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-02T10:45:05Z | part 8 of 8 | 245 of 2695 CVEs | CVE-2026-97512 to CVE-2026-98164
+# Microsoft MSRC 2026-Sep | fetched 2026-10-03T01:29:26Z | part 8 of 8 | 245 of 2695 CVEs | CVE-2026-97512 to CVE-2026-98164
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-97512|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|spi: spi-qcom-qspi: Fix incomplete error handling in runtime PM
 CVE-2026-97513|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|media: chips-media: wave5: Release m2m_ctx after Instance Removed from List

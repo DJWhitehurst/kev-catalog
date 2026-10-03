@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-02T10:45:05Z | part 2 of 8 | 350 of 2695 CVEs | CVE-2026-69389 to CVE-2026-69866
+# Microsoft MSRC 2026-Sep | fetched 2026-10-03T01:29:26Z | part 2 of 8 | 350 of 2695 CVEs | CVE-2026-69389 to CVE-2026-69866
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-69389|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Storage Management Provider Elevation of Privilege Vulnerability
 CVE-2026-69390|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Spaceport.sys Information Disclosure Vulnerability

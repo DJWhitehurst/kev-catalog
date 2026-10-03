@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-02T10:45:05Z | part 6 of 8 | 350 of 2695 CVEs | CVE-2026-89821 to CVE-2026-93178
+# Microsoft MSRC 2026-Sep | fetched 2026-10-03T01:29:26Z | part 6 of 8 | 350 of 2695 CVEs | CVE-2026-89821 to CVE-2026-93178
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-89821|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/amd/display: avoid divide-by-zero in __is_lut_linear()
 CVE-2026-89822|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/i915: Guard against NULL driver_data in i915_pci_probe()

@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-02T10:45:05Z | part 5 of 8 | 350 of 2695 CVEs | CVE-2026-87442 to CVE-2026-89818
+# Microsoft MSRC 2026-Sep | fetched 2026-10-03T01:29:26Z | part 5 of 8 | 350 of 2695 CVEs | CVE-2026-87442 to CVE-2026-89818
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-87442|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87442: Confused deputy in Prerender
 CVE-2026-87443|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87443: Missing authorization in Actor
