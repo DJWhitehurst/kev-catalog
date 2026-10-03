@@ -1,5 +1,48 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-03T01:29:26Z | part 5 of 8 | 350 of 2695 CVEs | CVE-2026-87442 to CVE-2026-89818
+# Microsoft MSRC 2026-Sep | fetched 2026-10-03T10:05:07Z | part 5 of 8 | 350 of 2742 CVEs | CVE-2026-85508 to CVE-2026-89699
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-85508|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _output_dell_system_info_cmc_ipv6_info in ipmi-oem/ipmi-oem-dell.c (cmc-ipv6-info subcommand to dell get-system-info).
+CVE-2026-85509|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|FreeIPMI before 1.6.19 has a stack-based buffer overflow in _read_fru_data in libfreeipmi/fru/ipmi-fru.c when a BMC returns more bytes than requested.
+CVE-2026-85534|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Libsoup: libsoup: http/2 client crash in on_data_source_read_callback when settings initial_window_size shrinks during deferred body read
+CVE-2026-85769|Moderate|6.5|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Libtpms: libtpms: heap out-of-bounds read in tpm2 state unmarshalling via unchecked block_skip_read() blocksize
+CVE-2026-85875|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Excel Information Disclosure Vulnerability
+CVE-2026-85877|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Print Spooler Remote Code Execution Vulnerability
+CVE-2026-85878|Critical|9.9|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Azure Database for PostgreSQL Elevation of Privilege Vulnerability
+CVE-2026-85880|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C|Elevation of Privilege|Yes|No|Windows Advanced Local Procedure Call (ALPC) Elevation of Privilege Vulnerability
+CVE-2026-85885|Critical|9.9|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft 365 Copilot Elevation of Privilege Vulnerability
+CVE-2026-85887|Critical|7.7|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|M365 Copilot Information Disclosure Vulnerability
+CVE-2026-85889|Critical|10.0|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Azure AI Foundry Elevation of Privilege Vulnerability
+CVE-2026-85892|Important|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability
+CVE-2026-85893|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability
+CVE-2026-85917|Critical|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:P/RL:O/RC:C|Elevation of Privilege|No|No|Azure AI Foundry Elevation of Privilege Vulnerability
+CVE-2026-85921|Critical|8.2|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Secure Kernel Mode Elevation of Privilege Vulnerability
+CVE-2026-86003|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|CoreDNS DoH/DoQ/gRPC bypass UPDATE rejection enforced on UDP/TCP
+CVE-2026-86090|Important|7.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|ntopng before 6.7.260717 Missing Authorization on the Notification Endpoint and Recipient Delete Handlers
+CVE-2026-86091|Important|7.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:L|not stated|Unknown|Unknown|ntopng before 6.7.260717 Missing Authorization on the Host Pool Bulk Delete Handler
+CVE-2026-86098|Important|7.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|ntop nDPI before 6.0 Heap Buffer Overflow via ndpi_json_string_escape
+CVE-2026-86137|Low|2.9|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|In libxml2 before 2.15.4, xmlFAParsePosCharGroup has an out-of-bounds read, aka an out-of-bounds read in the NXT macro in xmlregexp.
+CVE-2026-86138|Moderate|6.9|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L|not stated|Unknown|Unknown|In libxml2 before 2.15.4, xmlDictAddQString in dict.c has an integer overflow and resultant heap-based buffer overflow.
+CVE-2026-86139|Moderate|6.9|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L|not stated|Unknown|Unknown|In libxml2 before 2.15.4, xmlURIEscapeStr in uri.c has an integer overflow.
+CVE-2026-86140|Important|8.0|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L|not stated|Unknown|Unknown|In libxml2 before 2.15.4, xmlSnprintfElements in valid.c has a strcat stack-based buffer overflow.
+CVE-2026-86141|Low|2.9|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|xmlregexp in libxml2 before 2.15.4 has a NULL pointer dereference in xmlRegNewParserCtxt after a strdup failure, i.e., it does not calculate a string length after NULL checking.
+CVE-2026-86142|Moderate|6.9|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L|not stated|Unknown|Unknown|In libxml2 before 2.15.4, there is a heap-based buffer overflow in xmlXPtrEvalXPtrPart because of xmlXPtrEval xpointer length saturation.
+CVE-2026-86143|Moderate|6.9|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L|not stated|Unknown|Unknown|In xmlIO in libxml2 before 2.15.4, an inconsistency in xmlOutputWriteCallback and xmlBufUse causes negative lengths to reach write callbacks, aka a lack of a check for integer overflow before calling writecallback. This has security relevance for many types of uses of that length value within a callback.
+CVE-2026-86144|Moderate|5.6|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L|not stated|Unknown|Unknown|In xinclude in libxml2 before 2.15.4, xmlXIncludeProcess and xmlXIncludeProcessTree do not propagate parseFlags. This has security relevance for, for example, the XML_PARSE_NONET flag, if (without it) a custom resource loader accesses the internet and triggers XML external entity injection, SSRF, or a denial of service (e.g., for an attacker-controlled internet resource that is intentionally slow).
+CVE-2026-86145|Important|8.2|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L|not stated|Unknown|Unknown|PCRE2 before 10.48 allows a pcre2_dfa_match out-of-bounds write because reuse of a cached workspace block, in a recursive DFA matching workspace, lacks a size check (even though a newly allocated block, for the same purpose, does have a size check). This outcome requires an attacker-controlled regular expression, or a recursive pattern in conjunction with a small heap limit (this can be set through the API).
+CVE-2026-8674|Moderate|5.3|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Assertion failure in the DNS stub resolver with a long search domain
+CVE-2026-86805|Moderate|6.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:L|not stated|Unknown|Unknown|AT_SECURE programs may load attacker-controlled code via $ORIGIN
+CVE-2026-87429|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87429: Missing authorization in ServiceWorker
+CVE-2026-87430|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87430: Buffer overflow in WebRTC
+CVE-2026-87431|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87431: Missing authorization in Extensions
+CVE-2026-87432|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87432: Incorrect authorization in Navigation
+CVE-2026-87433|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87433: Race condition in FileAPI
+CVE-2026-87434|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87434: Missing authorization in CORS
+CVE-2026-87435|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87435: Information leak in ControlledFrame
+CVE-2026-87436|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87436: Incomplete cleanup in Browser
+CVE-2026-87437|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87437: Information leak in Frames
+CVE-2026-87438|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87438: Out of bounds write in WebGL
+CVE-2026-87439|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87439: Information leak in ServiceWorker
+CVE-2026-87440|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87440: Out of bounds read in Media
+CVE-2026-87441|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87441: Missing authorization in Downloads
 CVE-2026-87442|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87442: Confused deputy in Prerender
 CVE-2026-87443|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87443: Missing authorization in Actor
 CVE-2026-87444|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87444: Memory corruption in Codecs
@@ -307,46 +350,3 @@ CVE-2026-89685|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not st
 CVE-2026-89686|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|nfsd: fix BUG_ON in nfsd4_alloc_layout_stateid on racing delegation revoke
 CVE-2026-89694|Important|7.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:L|not stated|Unknown|Unknown|nfsd: check client ownership when cancelling a copy-notify stateid
 CVE-2026-89699|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|nfsd: validate symlink target length in NFSv4 CREATE
-CVE-2026-89708|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|nfsd: RCU-protect cl_cb_session to fix use-after-free on session teardown
-CVE-2026-89709|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|lockd, nfsd: RCU-protect nlmsvc_ops dispatch
-CVE-2026-89726|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|lib/ucs2_string.c: fix out-of-bounds read in ucs2_strnlen()
-CVE-2026-89729|Moderate|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|HID: sensor-hub: Fix out-of-bounds write in sensor_hub_get_feature
-CVE-2026-89740|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|serial: imx: serialize imx_uart_ports[] lifetime
-CVE-2026-89741|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|Revert "media: v4l2-dev: fix error handling in __video_register_device()"
-CVE-2026-89742|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|rapidio: mport_cdev: fix use-after-free in dma_req_free()
-CVE-2026-89746|Moderate|6.7|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|tracing: Fix use-after-free with same-name named triggers
-CVE-2026-89750|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|tracing/user_events: Clear copied tracing state before fork duplication
-CVE-2026-89753|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|mm/vmscan: report RCU-tasks quiescent states in shrink_lruvec()
-CVE-2026-89755|Moderate|5.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|mm/migrate_device: clear stale mapping after freeing swapcache
-CVE-2026-89756|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|mm/migrate: report RCU-tasks quiescent states in migrate_pages_batch()
-CVE-2026-89757|Low|3.6|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|mm/mglru: fix and remove redundant unevictable folio handling
-CVE-2026-89762|Moderate|5.2|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|apparmor: fix cred UAF caused by begin_current_label_crit_section()
-CVE-2026-89768|Low|3.0|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|fs: fix user path of nested backing files
-CVE-2026-89777|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|vfio/pci: clear vdev->msi_perm after freeing it on init failure
-CVE-2026-89778|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|isofs: fix out-of-bounds page array access on empty zisofs block
-CVE-2026-89779|Important|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|fs/ntfs3: validate ef->size covers the record's name and value
-CVE-2026-89781|Important|8.4|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|fs/ntfs3: fix out-of-bounds read in read_log_rec_buf()
-CVE-2026-89783|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|xfrm6: fix out-of-bounds write in xfrm6_input_addr() when secpath is full
-CVE-2026-89784|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|SUNRPC: check rpc_sockaddr2uaddr() return value in rpcb_register_inet4/6
-CVE-2026-89785|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|fs/ntfs3: fix out-of-bounds read of INDEX_ROOT in reparse/objid init
-CVE-2026-89786|Important|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|ext4: fix out-of-bounds read in ext4_read_inline_dir()
-CVE-2026-89787|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|ext4: check dir entry fits before reading the hash trailer in ext4_search_dir()
-CVE-2026-89788|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ksmbd: fix tree connection use-after-free in smb2_tree_connect()
-CVE-2026-89789|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|gtp: add synchronize_net() in gtp_newlink() error path to prevent use-after-free
-CVE-2026-89793|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ublk: clear VM_MAYWRITE on read-only ublk char device mmap
-CVE-2026-89795|Important|8.4|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|PCI: Allow per function PCI slots to fix slot reset on s390
-CVE-2026-89796|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|mm/damon/core: avoid infinite kdamond_merge_regions() internal loop
-CVE-2026-89797|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|power: supply: ab8500_fg: fix use-after-free on remove
-CVE-2026-89799|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|bpf: Disable preemption in bpf_get_stackid
-CVE-2026-89800|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/nouveau/uvmm: clear the dirty flag when unwinding an OP_UNMAP_SPARSE
-CVE-2026-89801|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|drm/nouveau/uvmm: fix premature region free on failed OP_UNMAP_SPARSE
-CVE-2026-89802|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/nouveau/uvmm: fix NULL deref unwinding an OP_MAP_SPARSE op
-CVE-2026-89806|Important|8.4|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|drm/sysfb: ofdrm: Fix integer overflow in fb_size calculation
-CVE-2026-89809|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/amdkfd: fix scope of mqd_mgr dereference in pqm_debugfs_mqds
-CVE-2026-89810|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|drm/amdkfd: Fix error path at svm_migrate_copy_to_ram
-CVE-2026-89811|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|drm/amdkfd: Add TLB flush after MES queue eviction/suspension
-CVE-2026-89812|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/amdgpu: force complete the MES ring fences on reset
-CVE-2026-89813|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/amdgpu: force complete the KIQ ring fences on reset
-CVE-2026-89816|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm: Fix drm_crtc_commit leak if signaled when PAGE_FLIP_EVENT is used
-CVE-2026-89817|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/gud: NUL-terminate TV mode names read from the device
-CVE-2026-89818|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/amdgpu/vcn: fix integer overflow in dec_msg buffer count check

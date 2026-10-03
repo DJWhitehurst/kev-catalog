@@ -1,8 +1,12 @@
-# Microsoft MSRC flagged CVEs | fetched 2026-10-03T01:29:26Z | months 2026-Oct, 2026-Sep | 2695 CVEs read, 167 flagged
+# Microsoft MSRC flagged CVEs | fetched 2026-10-03T10:05:07Z | months 2026-Oct, 2026-Sep | 2742 CVEs read, 171 flagged
 # flagged = Critical severity, OR Exploited:Yes, OR Publicly Disclosed:Yes | 2 exploited | 0 publicly disclosed
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-100075|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|RDMA/srpt: Fix srpt_alloc_rw_ctxs() unwind counters
+CVE-2026-101276|Critical|not stated|none published|not stated|Unknown|Unknown|iperf3 3.21 (esnet/iperf) contains a remote, unauthenticated heap use-after-free: the server's per-test watchdog server_timer_proc() frees streams without cancelling/joining their worker threads, so a blocked worker dereferences a freed iperf_stream; fixed in 3.22.
 CVE-2026-102268|Critical|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|PyJWT: Asymmetric-PEM detection bypass: whitespace/line-ending-mutated public keys skip the HS/asymmetric confusion guard
+CVE-2026-102992|Critical|not stated|none published|not stated|Unknown|Unknown|piscina: Prototype-pollution gadget in ThreadPool.options allows RCE via execArgv / loadBalancer / env
+CVE-2026-15390|Critical|not stated|none published|not stated|Unknown|Unknown|Out-of-bounds write in Das U-Boot
+CVE-2026-19445|Critical|not stated|none published|not stated|Unknown|Unknown|Use-after-free of a server-side SSLContext when sni_callback switches contexts
 CVE-2026-34182|Critical|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|No|No|CMS AuthEnvelopedData Processing May Accept Forged Messages
 CVE-2026-55946|Critical|6.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Copilot Information Disclosure Vulnerability
 CVE-2026-58599|Critical|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|HEVC Video Extensions Remote Code Execution Vulnerability

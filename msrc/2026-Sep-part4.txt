@@ -1,5 +1,46 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-03T01:29:26Z | part 4 of 8 | 350 of 2695 CVEs | CVE-2026-80274 to CVE-2026-87441
+# Microsoft MSRC 2026-Sep | fetched 2026-10-03T10:05:07Z | part 4 of 8 | 350 of 2742 CVEs | CVE-2026-78519 to CVE-2026-85507
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-78519|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Outlook Remote Code Execution Vulnerability
+CVE-2026-78520|Critical|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Outlook Information Disclosure Vulnerability
+CVE-2026-78521|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
+CVE-2026-78522|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Word Information Disclosure Vulnerability
+CVE-2026-78523|Important|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows DNS Server Denial of Service Vulnerability
+CVE-2026-78524|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Remote Code Execution Vulnerability
+CVE-2026-78525|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Outlook Remote Code Execution Vulnerability
+CVE-2026-78526|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
+CVE-2026-78607|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Missing Authorization in Elasticsearch Leading to Information Disclosure
+CVE-2026-78662|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U|not stated|Unknown|Unknown|Prevent DoS on deadlocked undecided channel in golang.org/x/crypto/ssh
+CVE-2026-78689|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|NGINX ngx_http_js_module vulnerablility
+CVE-2026-78807|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|An issue in wpa_supplicant all versions before v.2.12 allows a local attacker to bypass proper network context and AKMP matching for PMKSA caching via missing validation in the driver based PMKSA selection path in wpa.c
+CVE-2026-79705|Moderate|4.5|CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Podman: buildah: buildah/copier: directory escape via crafted tar symlinks when used outside buildah by non-root callers
+CVE-2026-80073|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Outlook Information Disclosure Vulnerability
+CVE-2026-80074|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Remote Desktop Client Remote Code Execution Vulnerability
+CVE-2026-80075|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Work Folders Elevation of Privilege Vulnerability
+CVE-2026-80076|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Information Disclosure Vulnerability
+CVE-2026-80077|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Remote Desktop Client Remote Code Execution Vulnerability
+CVE-2026-80078|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Information Disclosure Vulnerability
+CVE-2026-80079|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Word Information Disclosure Vulnerability
+CVE-2026-80080|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
+CVE-2026-80081|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office PowerPoint Remote Code Execution Vulnerability
+CVE-2026-80082|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Information Disclosure Vulnerability
+CVE-2026-80083|Critical|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Hyper-V Remote Code Execution Vulnerability
+CVE-2026-80084|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Outlook Information Disclosure Vulnerability
+CVE-2026-80085|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
+CVE-2026-80086|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office PowerPoint Information Disclosure Vulnerability
+CVE-2026-80087|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Information Disclosure Vulnerability
+CVE-2026-80088|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Word Information Disclosure Vulnerability
+CVE-2026-80089|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Information Disclosure Vulnerability
+CVE-2026-80090|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Word Information Disclosure Vulnerability
+CVE-2026-80091|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Information Disclosure Vulnerability
+CVE-2026-80093|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability
+CVE-2026-80096|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Remote Desktop Services Elevation of Privilege Vulnerability
+CVE-2026-80097|Important|8.6|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Authenticator Elevation of Privilege Vulnerability
+CVE-2026-80098|Critical|9.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:N/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Copilot Studio Elevation of Privilege Vulnerability
+CVE-2026-80225|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Possible degradation of service from continuous queries on the same TCP/DoT connection
+CVE-2026-80229|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|OpenSSL provider use-after-free
+CVE-2026-80230|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N/E:U|not stated|Unknown|Unknown|OpenSSL pinning bypass
+CVE-2026-80231|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N/E:U|not stated|Unknown|Unknown|native CA store conn reuse
+CVE-2026-80255|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N/E:U|not stated|Unknown|Unknown|secure cookie attribute bypass with tab
 CVE-2026-80274|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Validating resolver can abort while caching a mismatched NOQNAME proof
 CVE-2026-80489|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|EUC_JISX0213 decoding may hang on crafted input
 CVE-2026-80726|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|KVM: x86/mmu: WARN and clear role.invalid when creating a child shadow page
@@ -284,6 +325,8 @@ CVE-2026-84357|not stated|not stated|none published|not stated|Unknown|Unknown|C
 CVE-2026-84358|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-84358 Improper privilege management in Downloads
 CVE-2026-84359|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-84359 Information leak in Skia
 CVE-2026-84445|Important|not stated|none published|not stated|Unknown|Unknown|gRPC-Go: Denial of Service (DoS) via crash due to missing `:authority` and `Host` headers in the xDS servers
+CVE-2026-84782|Important|8.2|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|DTLS Retransmits Handshake Messages From a Stale Buffer Offset
+CVE-2026-84784|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|QUIC: Unbounded RETIRE_CONNECTION_ID Backlog
 CVE-2026-84838|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Rpm: command injection in rpmuncompress via unescaped filenames passed to popen()
 CVE-2026-84990|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ntopng: Missing Authorization on System Configuration Backup Download and Listing
 CVE-2026-85042|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-85042:  Use after free in DevTools
@@ -307,46 +350,3 @@ CVE-2026-85504|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not
 CVE-2026-85505|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer over-read in ipmi_oem_fujitsu_get_sel_entry_long_text in ipmi-oem/ipmi-oem-fujitsu.c when a BMC provides a short response, a different vulnerability than CVE-2026-50031 (which has different affected versions).
 CVE-2026-85506|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _get_dell_system_info_idrac_info in ipmi-oem/ipmi-oem-dell.c (idrac-info subcommand to dell get-system-info).
 CVE-2026-85507|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _output_dell_system_info_cmc_info in ipmi-oem/ipmi-oem-dell.c (cmc-info subcommand to dell get-system-info).
-CVE-2026-85508|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _output_dell_system_info_cmc_ipv6_info in ipmi-oem/ipmi-oem-dell.c (cmc-ipv6-info subcommand to dell get-system-info).
-CVE-2026-85509|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|FreeIPMI before 1.6.19 has a stack-based buffer overflow in _read_fru_data in libfreeipmi/fru/ipmi-fru.c when a BMC returns more bytes than requested.
-CVE-2026-85534|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Libsoup: libsoup: http/2 client crash in on_data_source_read_callback when settings initial_window_size shrinks during deferred body read
-CVE-2026-85769|Moderate|6.5|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Libtpms: libtpms: heap out-of-bounds read in tpm2 state unmarshalling via unchecked block_skip_read() blocksize
-CVE-2026-85875|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Excel Information Disclosure Vulnerability
-CVE-2026-85877|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Print Spooler Remote Code Execution Vulnerability
-CVE-2026-85878|Critical|9.9|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Azure Database for PostgreSQL Elevation of Privilege Vulnerability
-CVE-2026-85880|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C|Elevation of Privilege|Yes|No|Windows Advanced Local Procedure Call (ALPC) Elevation of Privilege Vulnerability
-CVE-2026-85885|Critical|9.9|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft 365 Copilot Elevation of Privilege Vulnerability
-CVE-2026-85887|Critical|7.7|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|M365 Copilot Information Disclosure Vulnerability
-CVE-2026-85889|Critical|10.0|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Azure AI Foundry Elevation of Privilege Vulnerability
-CVE-2026-85892|Important|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability
-CVE-2026-85893|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability
-CVE-2026-85917|Critical|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:P/RL:O/RC:C|Elevation of Privilege|No|No|Azure AI Foundry Elevation of Privilege Vulnerability
-CVE-2026-85921|Critical|8.2|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Secure Kernel Mode Elevation of Privilege Vulnerability
-CVE-2026-86003|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|CoreDNS DoH/DoQ/gRPC bypass UPDATE rejection enforced on UDP/TCP
-CVE-2026-86090|Important|7.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|ntopng before 6.7.260717 Missing Authorization on the Notification Endpoint and Recipient Delete Handlers
-CVE-2026-86091|Important|7.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:L|not stated|Unknown|Unknown|ntopng before 6.7.260717 Missing Authorization on the Host Pool Bulk Delete Handler
-CVE-2026-86098|Important|7.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|ntop nDPI before 6.0 Heap Buffer Overflow via ndpi_json_string_escape
-CVE-2026-86137|Low|2.9|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|In libxml2 before 2.15.4, xmlFAParsePosCharGroup has an out-of-bounds read, aka an out-of-bounds read in the NXT macro in xmlregexp.
-CVE-2026-86138|Moderate|6.9|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L|not stated|Unknown|Unknown|In libxml2 before 2.15.4, xmlDictAddQString in dict.c has an integer overflow and resultant heap-based buffer overflow.
-CVE-2026-86139|Moderate|6.9|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L|not stated|Unknown|Unknown|In libxml2 before 2.15.4, xmlURIEscapeStr in uri.c has an integer overflow.
-CVE-2026-86140|Important|8.0|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L|not stated|Unknown|Unknown|In libxml2 before 2.15.4, xmlSnprintfElements in valid.c has a strcat stack-based buffer overflow.
-CVE-2026-86141|Low|2.9|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|xmlregexp in libxml2 before 2.15.4 has a NULL pointer dereference in xmlRegNewParserCtxt after a strdup failure, i.e., it does not calculate a string length after NULL checking.
-CVE-2026-86142|Moderate|6.9|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L|not stated|Unknown|Unknown|In libxml2 before 2.15.4, there is a heap-based buffer overflow in xmlXPtrEvalXPtrPart because of xmlXPtrEval xpointer length saturation.
-CVE-2026-86143|Moderate|6.9|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L|not stated|Unknown|Unknown|In xmlIO in libxml2 before 2.15.4, an inconsistency in xmlOutputWriteCallback and xmlBufUse causes negative lengths to reach write callbacks, aka a lack of a check for integer overflow before calling writecallback. This has security relevance for many types of uses of that length value within a callback.
-CVE-2026-86144|Moderate|5.6|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L|not stated|Unknown|Unknown|In xinclude in libxml2 before 2.15.4, xmlXIncludeProcess and xmlXIncludeProcessTree do not propagate parseFlags. This has security relevance for, for example, the XML_PARSE_NONET flag, if (without it) a custom resource loader accesses the internet and triggers XML external entity injection, SSRF, or a denial of service (e.g., for an attacker-controlled internet resource that is intentionally slow).
-CVE-2026-86145|Important|8.2|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L|not stated|Unknown|Unknown|PCRE2 before 10.48 allows a pcre2_dfa_match out-of-bounds write because reuse of a cached workspace block, in a recursive DFA matching workspace, lacks a size check (even though a newly allocated block, for the same purpose, does have a size check). This outcome requires an attacker-controlled regular expression, or a recursive pattern in conjunction with a small heap limit (this can be set through the API).
-CVE-2026-8674|Moderate|5.3|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Assertion failure in the DNS stub resolver with a long search domain
-CVE-2026-86805|Moderate|6.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:L|not stated|Unknown|Unknown|AT_SECURE programs may load attacker-controlled code via $ORIGIN
-CVE-2026-87429|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87429: Missing authorization in ServiceWorker
-CVE-2026-87430|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87430: Buffer overflow in WebRTC
-CVE-2026-87431|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87431: Missing authorization in Extensions
-CVE-2026-87432|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87432: Incorrect authorization in Navigation
-CVE-2026-87433|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87433: Race condition in FileAPI
-CVE-2026-87434|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87434: Missing authorization in CORS
-CVE-2026-87435|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87435: Information leak in ControlledFrame
-CVE-2026-87436|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87436: Incomplete cleanup in Browser
-CVE-2026-87437|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87437: Information leak in Frames
-CVE-2026-87438|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87438: Out of bounds write in WebGL
-CVE-2026-87439|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87439: Information leak in ServiceWorker
-CVE-2026-87440|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87440: Out of bounds read in Media
-CVE-2026-87441|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87441: Missing authorization in Downloads

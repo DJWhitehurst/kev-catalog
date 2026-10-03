@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-03T01:29:26Z | part 1 of 8 | 350 of 2695 CVEs | CVE-2025-1218 to CVE-2026-69388
+# Microsoft MSRC 2026-Sep | fetched 2026-10-03T10:05:07Z | part 1 of 8 | 350 of 2742 CVEs | CVE-2025-1218 to CVE-2026-69355
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2025-1218|Low|3.4|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Various packet overreads in mysqlnd_writeprotocol.c
 CVE-2025-14181|Moderate|6.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H/E:P|not stated|Unknown|Unknown|Integer overflow to buffer overflow in soap HTTP parsing
@@ -14,6 +14,7 @@ CVE-2026-100077|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|no
 CVE-2026-100078|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|wifi: iwlwifi: mei: pass correct argument to function
 CVE-2026-100079|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|usb: typec: ucsi: unregister debugfs entries on teardown
 CVE-2026-100419|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|gitoxide gix-fs before 0.23.0 Worktree Escape via Symlink
+CVE-2026-101276|Critical|not stated|none published|not stated|Unknown|Unknown|iperf3 3.21 (esnet/iperf) contains a remote, unauthenticated heap use-after-free: the server's per-test watchdog server_timer_proc() frees streams without cancelling/joining their worker threads, so a blocked worker dereferences a freed iperf_stream; fixed in 3.22.
 CVE-2026-101902|Moderate|not stated|none published|not stated|Unknown|Unknown|Axios: Prototype-Pollution Gadget in the Default Instance Allows Inherited Object.prototype.method to Override HTTP Method
 CVE-2026-101904|Moderate|not stated|none published|not stated|Unknown|Unknown|Axios: Header Injection via Inherited headers After Minimal Interceptor
 CVE-2026-101917|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|PyJWT: PyJWKClient still amplifies unauthenticated JWKS fetches on unknown kid values (incomplete fix of CVE-2026-48524)
@@ -33,11 +34,25 @@ CVE-2026-102275|Moderate|6.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:N/E:U|no
 CVE-2026-102276|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|brace-expansion: DoS via uncontrolled recursion in parseCommaParts causing stack exhaustion
 CVE-2026-102277|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|brace-expansion: Quadratic-time expansion of the `{a},b}` rewrite causes CPU denial of service
 CVE-2026-102278|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|brace-expansion: DoS via uncontrolled recursion on nested brace groups causing stack exhaustion
+CVE-2026-102555|Important|8.2|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|Libsoup: libsoup: heap buffer overflow via uninitialized length in data-uri base64 decoding
+CVE-2026-102556|Important|8.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H/E:U|not stated|Unknown|Unknown|Libsoup: libsoup: heap buffer overflow from websocket pong signal type confusion
+CVE-2026-102557|Important|8.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H/E:U|not stated|Unknown|Unknown|Libsoup: libsoup: heap buffer overflow during websocket message reassembly
+CVE-2026-102558|Important|8.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H/E:U|not stated|Unknown|Unknown|Libsoup: libsoup: heap buffer overflow during websocket receive-buffer growth
+CVE-2026-102559|Important|8.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|Libsoup: libsoup: heap buffer overflow during websocket client-frame masking
+CVE-2026-102560|Important|8.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H/E:U|not stated|Unknown|Unknown|Libsoup: libsoup: heap buffer overflow during outgoing permessage-deflate buffer growth
+CVE-2026-102598|Moderate|not stated|none published|not stated|Unknown|Unknown|Werkzeug safe_join() allows Windows special device names
 CVE-2026-102633|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|libexpat 2.7.2 through 2.8.5 Integer Overflow in expat_realloc
-CVE-2026-103111|Important|7.6|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:L|not stated|Unknown|Unknown|PCRE2 before 10.49, when there is an attacker-controlled regular expression and certain JIT API usage, allows an out-of-bounds write with arbitrary data.
+CVE-2026-102925|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|virtualenv bash and fish activation scripts execute commands embedded in paths
+CVE-2026-102930|Important|not stated|none published|not stated|Unknown|Unknown|virtualenv: Downloaded seed wheels (pip/setuptools) are not integrity-checked before use
+CVE-2026-102937|Important|not stated|none published|not stated|Unknown|Unknown|virtualenv: Command injection via --prompt in activate.bat (batch activator)
+CVE-2026-102992|Critical|not stated|none published|not stated|Unknown|Unknown|piscina: Prototype-pollution gadget in ThreadPool.options allows RCE via execArgv / loadBalancer / env
+CVE-2026-103111|Important|8.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|PCRE2 before 10.49, when there is an attacker-controlled regular expression and certain JIT API usage, allows an out-of-bounds write with arbitrary data.
+CVE-2026-103242|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|Rpm: heap-based buffer overflow write in hex2binv() via a mistyped rpmtag_filesignatures header tag
 CVE-2026-11573|Important|not stated|none published|not stated|Unknown|Unknown|Uncontrolled recursion in QDomDocument/QDomNode serialization causes stack exhaustion (QtXml)
+CVE-2026-12345|Moderate|not stated|none published|not stated|Unknown|Unknown|Race condition in tempfile.TemporaryDirectory cleanup allows deleting files outside the temporary directory
 CVE-2026-13608|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|OpenLDAP SASL authentication bypass
 CVE-2026-14957|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|FIPS mode assertion failure via malicious CERT payload
+CVE-2026-15390|Critical|not stated|none published|not stated|Unknown|Unknown|Out-of-bounds write in Das U-Boot
 CVE-2026-15442|Low|not stated|none published|not stated|Unknown|Unknown|Heap use-after-free on read during bidirectional (D)TLS shutdown
 CVE-2026-17545|Moderate|not stated|none published|not stated|Unknown|Unknown|PHP on Windows: Reserved Device Names Are Not Rejected Before File/Stream I/O which can cause DoS
 CVE-2026-18090|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|Gdk-pixbuf: gdk-pixbuf: heap out-of-bounds read in uncompress() via crafted icns rle block
@@ -49,8 +64,10 @@ CVE-2026-18540|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N|not stated|U
 CVE-2026-18743|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Popt-devel: popt-static: short realloc in poptconfigfiletostring
 CVE-2026-18924|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|HTTP/2 server push UAF
 CVE-2026-19444|Moderate|6.5|CVSS:3.1/AV:A/AC:L/PR:H/UI:R/S:C/C:L/I:H/A:N|not stated|Unknown|Unknown|Kubernetes kubectl cp path traversal on Windows allows arbitrary file writes
+CVE-2026-19445|Critical|not stated|none published|not stated|Unknown|Unknown|Use-after-free of a server-side SSLContext when sni_callback switches contexts
 CVE-2026-19499|Important|7.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:H|not stated|Unknown|Unknown|Buffer overflow in strfmon and strfmon_l right-justification padding
 CVE-2026-19542|Moderate|5.6|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L/E:U|not stated|Unknown|Unknown|Stack-based out-of-bounds write in tdelete during tree rebalancing
+CVE-2026-19553|Important|not stated|none published|not stated|Unknown|Unknown|SSLContext.wrap_bio() missing validation of server_hostname parameter
 CVE-2026-19662|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|qpcache NOQNAME proof use-after-free crashes recursive resolver
 CVE-2026-19666|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Use-after-free in query_addnoqnameproof() via the DNS64 filter64 path
 CVE-2026-19667|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Remote assertion failure via 16-bit length truncation in `dns_ncache_add()`
@@ -63,6 +80,9 @@ CVE-2026-31911|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not sta
 CVE-2026-31912|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|OOBR in libpcap before 1.10.7
 CVE-2026-33630|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|c-ares : Use-after-free / double-free in c-ares query-completion handling, remotely triggerable via ares_getaddrinfo() over TCP
 CVE-2026-34182|Critical|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|No|No|CMS AuthEnvelopedData Processing May Accept Forged Messages
+CVE-2026-35189|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Excessive Memory Allocation in Relative CRLDP Processing
+CVE-2026-35191|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|QUIC Unvalidated Amplification Credit may be Over Accounted
+CVE-2026-42772|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Potential CPU DoS via O(n^2) Fragment Reassembly in QUIC
 CVE-2026-42784|Important|7.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:N|not stated|Unknown|Unknown|Sequoia-openpgp: sequoia-openpgp: cryptographic integrity compromise via key flag confusion
 CVE-2026-44950|Important|9.0|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|fs_read_glyphs() heap buffer overflow via cumulative glyph data overflow in libXfont2
 CVE-2026-47297|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft SQL Server Remote Code Execution Vulnerability
@@ -70,6 +90,9 @@ CVE-2026-50349|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-53493|Moderate|not stated|none published|not stated|Unknown|Unknown|Containerd has image-pull DoS via crafted OCI index graph amplification
 CVE-2026-53495|Moderate|not stated|none published|not stated|Unknown|Unknown|containerd CRI ExecSync Goroutine Leak Leading to Node-Level Denial of Service
 CVE-2026-53940|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Conda: Entry-point path traversal in noarch:python install (arbitrary file write) — canonical Python implementation
+CVE-2026-54872|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Timing Side-Channel in Scalar Multiplication for Non-NIST EC Curves
+CVE-2026-54873|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|QUIC STREAM Fragment Metadata DoS
+CVE-2026-54875|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Non-Constant-Time SM2 Scalar Multiplication on ARM64 and RISC-V
 CVE-2026-55007|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Exchange Server Remote Code Execution Vulnerability
 CVE-2026-55556|Important|not stated|none published|not stated|Unknown|Unknown|Rsyslog: Heap buffer overflow in imhttp plugin Basic Authentication handling
 CVE-2026-55946|Critical|6.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Copilot Information Disclosure Vulnerability
@@ -105,6 +128,7 @@ CVE-2026-62874|Critical|10.0|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L/E:U/RL
 CVE-2026-62895|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Azure Arc SQL Server Extension Elevation of Privilege Vulnerability
 CVE-2026-62906|Critical|7.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Discovery Studio Information Disclosure Vulnerability
 CVE-2026-62916|Critical|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Entra ID Elevation of Privilege Vulnerability
+CVE-2026-63209|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Integer Overflow or Wraparound and Out-of-bounds Write in compress
 CVE-2026-63523|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Skype for Business Spoofing Vulnerability
 CVE-2026-6485|Important|8.2|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|UEFI BIOS embedded Shell can be used to bypass Secure Boot
 CVE-2026-64918|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Microsoft Office Spoofing Vulnerability
@@ -114,8 +138,11 @@ CVE-2026-65669|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H/E:U/RL:
 CVE-2026-65772|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Dynamics 365 On-Premises Remote Code Execution Vulnerability
 CVE-2026-65812|Important|6.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Teams for Android Information Disclosure Vulnerability
 CVE-2026-65818|Critical|8.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Power Automate Elevation of Privilege Vulnerability
+CVE-2026-66070|Important|not stated|none published|not stated|Unknown|Unknown|RabbitMQ: CORS * reflects Origin with Allow-Credentials
 CVE-2026-66071|Moderate|not stated|none published|not stated|Unknown|Unknown|RabbitMQ: Atom exhaustion: OAuth2 JWT tag: scope values
 CVE-2026-66073|Moderate|not stated|none published|not stated|Unknown|Unknown|RabbitMQ: Atom table exhaustion via management API node field
+CVE-2026-66077|Important|not stated|none published|not stated|Unknown|Unknown|RabbitMQ: Stored XSS via TLS peer-certificate DN in management UI
+CVE-2026-66079|Important|not stated|none published|not stated|Unknown|Unknown|RabbitMQ: Pre-auth AMQP 1.0 array32 zero-width element DoS
 CVE-2026-66302|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Skype for Business Remote Code Execution Vulnerability
 CVE-2026-66303|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Skype for Business and Lync Denial of Service Vulnerability
 CVE-2026-66304|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Skype for Business Information Disclosure Vulnerability
@@ -137,6 +164,9 @@ CVE-2026-67224|Low|not stated|none published|not stated|Unknown|Unknown|RabbitMQ
 CVE-2026-67227|Moderate|not stated|none published|not stated|Unknown|Unknown|RabbitMQ: Atom exhaustion: to_atom on global-parameter :name
 CVE-2026-67230|Moderate|not stated|none published|not stated|Unknown|Unknown|RabbitMQ: Web-STOMP unbounded pre-auth accumulation
 CVE-2026-67231|Important|not stated|none published|not stated|Unknown|Unknown|RabbitMQ: Trust-store whitelist by Issuer+Serial only
+CVE-2026-67232|Important|not stated|none published|not stated|Unknown|Unknown|RabbitMQ: Web-MQTT decompression bomb
+CVE-2026-67235|Moderate|not stated|none published|not stated|Unknown|Unknown|RabbitMQ: AMQP 0-9-1 body assembly never validates accumulated size
+CVE-2026-67239|Moderate|not stated|none published|not stated|Unknown|Unknown|RabbitMQ: Stored XSS via TLS peer-certificate DN in stream-management UI
 CVE-2026-67368|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft SQL Server Elevation of Privilege Vulnerability
 CVE-2026-67369|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft SQL Server Information Disclosure Vulnerability
 CVE-2026-67370|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft SQL Server Elevation of Privilege Vulnerability
@@ -320,33 +350,3 @@ CVE-2026-69351|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL
 CVE-2026-69352|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Biometric Service Elevation of Privilege Vulnerability
 CVE-2026-69353|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Text Shaping Information Disclosure Vulnerability
 CVE-2026-69355|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Exchange Server Remote Code Execution Vulnerability
-CVE-2026-69356|Important|9.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Microsoft Exchange Server Spoofing Vulnerability
-CVE-2026-69357|Important|7.1|CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows NDIS Elevation of Privilege Vulnerability
-CVE-2026-69358|Important|7.1|CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Remote Desktop Client Remote Code Execution Vulnerability
-CVE-2026-69359|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Active Directory Domain Services Elevation of Privilege Vulnerability
-CVE-2026-69360|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
-CVE-2026-69361|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Microsoft Exchange Server Spoofing Vulnerability
-CVE-2026-69362|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Error Reporting Elevation of Privilege Vulnerability
-CVE-2026-69364|Important|7.1|CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Print Spooler Components Elevation of Privilege Vulnerability
-CVE-2026-69365|Important|8.0|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Local Security Authority (LSA) Server Elevation of Privilege Vulnerability
-CVE-2026-69366|Important|7.1|CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
-CVE-2026-69367|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Standard XPS Information Disclosure Vulnerability
-CVE-2026-69368|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Overlay Filter Elevation of Privilege Vulnerability
-CVE-2026-69369|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows DNS Information Disclosure Vulnerability
-CVE-2026-69371|Important|8.0|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Overlay Filter Elevation of Privilege Vulnerability
-CVE-2026-69372|Important|5.7|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows Network File System Denial of Service Vulnerability
-CVE-2026-69373|Important|6.7|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Overlay Filter Elevation of Privilege Vulnerability
-CVE-2026-69374|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows SMB Server Denial of Service Vulnerability
-CVE-2026-69375|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Microsoft Exchange Server Tampering Vulnerability
-CVE-2026-69376|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Standard XPS Information Disclosure Vulnerability
-CVE-2026-69377|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Modern Device Management (MDM) Elevation of Privilege Vulnerability
-CVE-2026-69378|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Microsoft Exchange Server Denial of Service Vulnerability
-CVE-2026-69379|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows NTFS Elevation of Privilege Vulnerability
-CVE-2026-69380|Important|8.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Exchange Server Elevation of Privilege Vulnerability
-CVE-2026-69381|Important|4.6|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Storage Port Driver Information Disclosure Vulnerability
-CVE-2026-69382|Important|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Exchange Server Information Disclosure Vulnerability
-CVE-2026-69383|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Shell Elevation of Privilege Vulnerability
-CVE-2026-69384|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Virtual Hard Disk (VHD) Miniport Driver Denial of Service Vulnerability
-CVE-2026-69385|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows TCP/IP Elevation of Privilege Vulnerability
-CVE-2026-69386|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Windows Media Foundation Remote Code Execution Vulnerability
-CVE-2026-69388|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Bluetooth Service Elevation of Privilege Vulnerability
