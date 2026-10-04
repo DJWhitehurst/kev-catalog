@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-03T10:05:07Z | part 4 of 8 | 350 of 2742 CVEs | CVE-2026-78519 to CVE-2026-85507
+# Microsoft MSRC 2026-Sep | fetched 2026-10-04T02:00:59Z | part 4 of 8 | 350 of 2742 CVEs | CVE-2026-78519 to CVE-2026-85507
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-78519|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Outlook Remote Code Execution Vulnerability
 CVE-2026-78520|Critical|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Outlook Information Disclosure Vulnerability

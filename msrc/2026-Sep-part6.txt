@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-03T10:05:07Z | part 6 of 8 | 350 of 2742 CVEs | CVE-2026-89708 to CVE-2026-93042
+# Microsoft MSRC 2026-Sep | fetched 2026-10-04T02:00:59Z | part 6 of 8 | 350 of 2742 CVEs | CVE-2026-89708 to CVE-2026-93042
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-89708|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|nfsd: RCU-protect cl_cb_session to fix use-after-free on session teardown
 CVE-2026-89709|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|lockd, nfsd: RCU-protect nlmsvc_ops dispatch
