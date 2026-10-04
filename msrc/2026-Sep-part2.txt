@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-04T02:00:59Z | part 2 of 8 | 350 of 2742 CVEs | CVE-2026-69356 to CVE-2026-69817
+# Microsoft MSRC 2026-Sep | fetched 2026-10-04T10:46:20Z | part 2 of 8 | 350 of 2742 CVEs | CVE-2026-69356 to CVE-2026-69817
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-69356|Important|9.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Microsoft Exchange Server Spoofing Vulnerability
 CVE-2026-69357|Important|7.1|CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows NDIS Elevation of Privilege Vulnerability
