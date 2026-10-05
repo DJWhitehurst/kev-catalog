@@ -1,6 +1,6 @@
-# CISA KEV | catalogVersion 2026.10.02 | dateReleased 2026-10-02T15:19:38.2945Z | 1733 entries in full catalog
+# CISA KEV | catalogVersion 2026.10.04 | dateReleased 2026-10-04T18:52:56.0635Z | 1734 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
-# this file: CVE-2026 | 168 entries
+# this file: CVE-2026 | 169 entries
 CVE-2026-0257|2026-05-29|2026-06-01|Palo Alto Networks|PAN-OS
 CVE-2026-0300|2026-05-06|2026-05-09|Palo Alto Networks|PAN-OS
 CVE-2026-0770|2026-07-21|2026-07-24|Langflow|Langflow
@@ -163,6 +163,7 @@ CVE-2026-87886|2026-09-16|2026-09-19|Acronis|Backup
 CVE-2026-87902|2026-09-25|2026-09-28|WordPress|Core
 CVE-2026-88771|2026-09-27|2026-09-30|Citrix|NetScaler
 CVE-2026-88772|2026-09-27|2026-09-30|Citrix|NetScaler
+CVE-2026-88779|2026-10-04|2026-10-07|Citrix|NetScaler
 CVE-2026-9082|2026-05-22|2026-05-27|Drupal|Core
 CVE-2026-9198|2026-08-04|2026-08-07|IBM|Langflow
 CVE-2026-93616|2026-09-22|2026-09-25|Check Point|Multiple Products
