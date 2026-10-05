@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-05T01:18:49Z | part 7 of 8 | 350 of 2742 CVEs | CVE-2026-93047 to CVE-2026-97450
+# Microsoft MSRC 2026-Sep | fetched 2026-10-05T11:51:58Z | part 7 of 8 | 350 of 2742 CVEs | CVE-2026-93047 to CVE-2026-97450
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-93047|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/v3d: Associate BOs with every job that accesses them
 CVE-2026-93048|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|mtd: part: reject MTDPART_OFS_RETAIN in mtd_add_partition()
