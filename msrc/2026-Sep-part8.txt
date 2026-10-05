@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-04T10:46:20Z | part 8 of 8 | 292 of 2742 CVEs | CVE-2026-97451 to CVE-2026-98164
+# Microsoft MSRC 2026-Sep | fetched 2026-10-05T01:18:49Z | part 8 of 8 | 292 of 2742 CVEs | CVE-2026-97451 to CVE-2026-98164
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-97451|Moderate|6.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|ACPICA: Fix integer overflow in acpi_ex_opcode_3A_1T_1R() (mid_op)
 CVE-2026-97452|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ACPICA: Prevent adding invalid references

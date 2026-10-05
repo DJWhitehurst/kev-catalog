@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-04T10:46:20Z | part 5 of 8 | 350 of 2742 CVEs | CVE-2026-85508 to CVE-2026-89699
+# Microsoft MSRC 2026-Sep | fetched 2026-10-05T01:18:49Z | part 5 of 8 | 350 of 2742 CVEs | CVE-2026-85508 to CVE-2026-89699
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-85508|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _output_dell_system_info_cmc_ipv6_info in ipmi-oem/ipmi-oem-dell.c (cmc-ipv6-info subcommand to dell get-system-info).
 CVE-2026-85509|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|FreeIPMI before 1.6.19 has a stack-based buffer overflow in _read_fru_data in libfreeipmi/fru/ipmi-fru.c when a BMC returns more bytes than requested.
