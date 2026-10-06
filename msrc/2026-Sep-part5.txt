@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-05T11:51:58Z | part 5 of 8 | 350 of 2742 CVEs | CVE-2026-85508 to CVE-2026-89699
+# Microsoft MSRC 2026-Sep | fetched 2026-10-06T02:32:11Z | part 5 of 8 | 350 of 2742 CVEs | CVE-2026-85508 to CVE-2026-89699
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-85508|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _output_dell_system_info_cmc_ipv6_info in ipmi-oem/ipmi-oem-dell.c (cmc-ipv6-info subcommand to dell get-system-info).
 CVE-2026-85509|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|FreeIPMI before 1.6.19 has a stack-based buffer overflow in _read_fru_data in libfreeipmi/fru/ipmi-fru.c when a BMC returns more bytes than requested.
@@ -165,7 +165,7 @@ CVE-2026-87560|not stated|not stated|none published|not stated|Unknown|Unknown|C
 CVE-2026-87561|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87561: Incorrect authorization in Web Authentication
 CVE-2026-87562|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87562: Incorrect reference resolution in Accessibility
 CVE-2026-87563|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87563: Origin validation error in Paint
-CVE-2026-87564|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N/E:U|not stated|Unknown|Unknown|Type confusion in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to read memory inside the sandbox via a crafted HTML page. (Chromium security severity: High)
+CVE-2026-87564|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N/E:U|not stated|Unknown|Unknown|Chromium CVE-2026-87564: Type confusion in V8
 CVE-2026-87565|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87565: Information leak in Passwords
 CVE-2026-87566|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87566: Observable discrepancy in Layout
 CVE-2026-87567|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87567: UI misrepresentation in UrlFormatting
@@ -188,7 +188,7 @@ CVE-2026-87583|not stated|not stated|none published|not stated|Unknown|Unknown|C
 CVE-2026-87584|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87584: Incorrect authorization in WebUI
 CVE-2026-87585|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87585: Double free in PDFium
 CVE-2026-87586|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87586: Out of bounds read in ANGLE
-CVE-2026-87587|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Use after free in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)
+CVE-2026-87587|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Chromium CVE-2026-87587: Use after free in V8
 CVE-2026-87588|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87588: Use after free in Chromecast
 CVE-2026-87589|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87589: Incorrect authorization in SiteIsolation
 CVE-2026-87590|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87590: Improper input validation in Passwords
@@ -202,7 +202,7 @@ CVE-2026-87597|not stated|not stated|none published|not stated|Unknown|Unknown|C
 CVE-2026-87598|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87598: Incorrect authorization in ServiceWorker
 CVE-2026-87599|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87599: Improper input validation in Interstitials
 CVE-2026-87600|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87600: Improper input validation in Safebrowsing
-CVE-2026-87601|Moderate|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Race condition in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Low)
+CVE-2026-87601|Moderate|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Chromium CVE-2026-87601: Race condition in V8
 CVE-2026-87602|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87602: Out of bounds read in ANGLE
 CVE-2026-87603|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87603: Missing authorization in FileSystem
 CVE-2026-87604|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87604: Out of bounds read in ANGLE
@@ -212,7 +212,7 @@ CVE-2026-87608|not stated|not stated|none published|not stated|Unknown|Unknown|C
 CVE-2026-87609|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87609: Use after free in Sharing
 CVE-2026-87610|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87610: Incorrect authorization in Omnibox
 CVE-2026-87611|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87611: Missing authorization in FileSystem
-CVE-2026-87612|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Type confusion in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)
+CVE-2026-87612|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Chromium CVE-2026-87612: Type confusion in V8
 CVE-2026-87613|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87613: Incorrect reference resolution in Extensions
 CVE-2026-87614|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87614: Incorrect authorization in ServiceWorker
 CVE-2026-87615|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87615: Race condition in Payments
@@ -225,7 +225,7 @@ CVE-2026-87621|not stated|not stated|none published|not stated|Unknown|Unknown|C
 CVE-2026-87622|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87622: Missing authorization in FedCM
 CVE-2026-87623|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87623: Observable discrepancy in DOM
 CVE-2026-87624|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87624: UI misrepresentation in Passwords
-CVE-2026-87625|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Use after free in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker leveraging social engineering to execute arbitrary code inside the sandbox via a crafted Chrome extension. (Chromium security severity: Medium)
+CVE-2026-87625|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Chromium CVE-2026-87625: Use after free in V8
 CVE-2026-87626|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87626: Incorrect authorization in DeviceBoundSessionCredentials
 CVE-2026-87627|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87627: Interpretation conflict in Safebrowsing
 CVE-2026-87628|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-87628: Use after free in Cast
