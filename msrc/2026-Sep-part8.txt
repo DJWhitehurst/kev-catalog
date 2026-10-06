@@ -1,5 +1,27 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-06T02:32:11Z | part 8 of 8 | 292 of 2742 CVEs | CVE-2026-97451 to CVE-2026-98164
+# Microsoft MSRC 2026-Sep | fetched 2026-10-06T11:32:24Z | part 8 of 8 | 314 of 2764 CVEs | CVE-2026-97423 to CVE-2026-98164
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-97423|Moderate|6.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|cxl/region: Validate partition index before array access
+CVE-2026-97424|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|drm/amdgpu/ras: add ras_suspend callback and use it for cp_ecc_error_irq
+CVE-2026-97425|Moderate|6.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|drm/amdgpu: fix buffer overflow during vBIOS update
+CVE-2026-97427|Moderate|6.7|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|drm/amd/pm: bound pp_dpm_set_pp_table() memcpy
+CVE-2026-97428|Moderate|5.1|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|drm/amdgpu: harden FRU PIA parsing with bounded helpers
+CVE-2026-97429|Moderate|5.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|drm/amdkfd: fix UAF race in destroy_queue_cpsch
+CVE-2026-97430|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|xhci: Prevent queuing new commands if xhci is inaccessible
+CVE-2026-97432|Moderate|5.1|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|wifi: iwlwifi: mvm: fix P2P-Device binding handling
+CVE-2026-97434|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|dpaa2-switch: fix handling of NAPI on the remove path
+CVE-2026-97435|Moderate|6.0|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|net: dsa: sja1105: flower: reject cross-chip redirect
+CVE-2026-97436|Low|3.0|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|dpaa2-switch: rework FDB management on the bridge leave path
+CVE-2026-97438|Moderate|5.0|CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|fs/ntfs3: validate index entry key bounds
+CVE-2026-97439|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|fs/ntfs3: preserve non-DOS attribute bits in system.dos_attrib
+CVE-2026-97440|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net: qrtr: fix node refcount leak on ctrl packet alloc failure
+CVE-2026-97441|Moderate|4.6|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ata: ahci: fail probe if BAR too small for claimed ports
+CVE-2026-97442|Moderate|6.8|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|wifi: ath11k: fix invalid data access in ath11k_dp_rx_h_undecap_nwifi
+CVE-2026-97444|Moderate|5.1|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|ACPICA: add boundary checks in two places
+CVE-2026-97445|Moderate|5.6|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|ACPICA: Enhance buffer validation in acpi_ut_walk_aml_resources()
+CVE-2026-97446|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ACPICA: Fix NULL pointer dereference in acpi_ns_custom_package()
+CVE-2026-97448|Moderate|5.2|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|ACPICA: Add validation for node in acpi_ns_build_normalized_path()
+CVE-2026-97449|Moderate|4.0|CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ACPICA: Add package limit checks in parser functions
+CVE-2026-97450|Moderate|5.2|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|ACPICA: validate handler object type in two places
 CVE-2026-97451|Moderate|6.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|ACPICA: Fix integer overflow in acpi_ex_opcode_3A_1T_1R() (mid_op)
 CVE-2026-97452|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ACPICA: Prevent adding invalid references
 CVE-2026-97453|Moderate|5.1|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|ACPICA: validate byte_count in acpi_ps_get_next_package_length()

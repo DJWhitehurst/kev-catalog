@@ -1,5 +1,27 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-06T02:32:11Z | part 6 of 8 | 350 of 2742 CVEs | CVE-2026-89708 to CVE-2026-93042
+# Microsoft MSRC 2026-Sep | fetched 2026-10-06T11:32:24Z | part 6 of 8 | 350 of 2764 CVEs | CVE-2026-89628 to CVE-2026-91986
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-89628|Low|3.9|CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|HID: picolcd: clamp eeprom debugfs read to bytes actually received
+CVE-2026-89631|Critical|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|smb: client: reject a tree connect response whose byte count is too small
+CVE-2026-89632|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|smb: client: fix use-before-check of ReparseDataLength in reparse_buf_ptr()
+CVE-2026-89638|Important|8.4|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N|not stated|Unknown|Unknown|smb: client: clear setuid/setgid bit on write with cifsacl/modefromsid/posix extensions
+CVE-2026-89642|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|cifs: call pagecache_isize_extended() in cifs_setsize() when extending
+CVE-2026-89643|Moderate|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|audit: avoid dropping live tree ref on fsnotify rule autoremove
+CVE-2026-89645|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|btrfs: drop recovered reloc root refs on recovery failure
+CVE-2026-89647|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ceph: do not repeat ceph_trim_dentries() if no progress possible
+CVE-2026-89648|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ceph: cap delegated inode count in ceph_parse_deleg_inos()
+CVE-2026-89649|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|ceph: bound xattr value length in __build_xattrs()
+CVE-2026-89650|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ceph: bound num_export_targets array for mds info v2/v3
+CVE-2026-89653|Critical|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|ceph: reject export_targets ranks >= CEPH_MAX_MDS in mdsmap decode
+CVE-2026-89656|Important|7.2|CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|libceph: reject buckets with mismatched CRUSH ids
+CVE-2026-89657|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|libceph: validate OSD extent maps before cursor advance
+CVE-2026-89659|Moderate|6.4|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|NFSD: Prevent client use-after-free during delegation revoke
+CVE-2026-89662|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|NFSD: Prevent lock owner use-after-free during client teardown
+CVE-2026-89669|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|nfsd: initialize copy-notify stateid before publishing it
+CVE-2026-89671|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|nfsd: gate nfs3 setacl by argp->mask
+CVE-2026-89685|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|nfsd: fix clock domain mismatch in clients_still_reclaiming()
+CVE-2026-89686|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|nfsd: fix BUG_ON in nfsd4_alloc_layout_stateid on racing delegation revoke
+CVE-2026-89694|Important|7.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:L|not stated|Unknown|Unknown|nfsd: check client ownership when cancelling a copy-notify stateid
+CVE-2026-89699|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|nfsd: validate symlink target length in NFSv4 CREATE
 CVE-2026-89708|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|nfsd: RCU-protect cl_cb_session to fix use-after-free on session teardown
 CVE-2026-89709|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|lockd, nfsd: RCU-protect nlmsvc_ops dispatch
 CVE-2026-89726|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|lib/ucs2_string.c: fix out-of-bounds read in ucs2_strnlen()
@@ -328,25 +350,3 @@ CVE-2026-91779|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L/E:P/RL:X/RC:
 CVE-2026-91780|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L/E:P/RL:X/RC:R|not stated|Unknown|Unknown|GNU Binutils elflink.c elf_link_add_object_symbols null pointer dereference
 CVE-2026-91781|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L/E:P/RL:O/RC:C|not stated|Unknown|Unknown|GNU Binutils ELF Section elf64-x86-64.c elf_x86_64_common_section_index null pointer dereference
 CVE-2026-91986|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|gitoxide gix-transport before 0.59.2 CR/LF/NUL Injection
-CVE-2026-92382|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Usbredir: usbredir: unbounded iso_packet_desc[] index in usbredirhost_iso_packet() leads to heap out-of-bounds write
-CVE-2026-92476|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|crypto: keembay - Initialize completion before requesting IRQ
-CVE-2026-92477|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|scsi: ufs: debugfs: Reserve space for a string terminator
-CVE-2026-92484|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|cxl/region: Fix use-after-free in find_pos_and_ways() error path
-CVE-2026-92489|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|xfrm: Fix skb double-free in xfrm_dev_direct_output()
-CVE-2026-92493|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|cpufreq: amd-pstate-ut: Skip tests when amd-pstate driver is not active
-CVE-2026-92494|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ext4: fix buffer_head leak in ext4_init_orphan_info
-CVE-2026-92495|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|RDMA/bnxt_re: Clear VM_MAYWRITE on DBR/toggle page mmap
-CVE-2026-92496|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|wifi: ath11k: Avoid buffer overread in ath11k_wmi_tlv_op_rx()
-CVE-2026-92503|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ext4: fix ABBA deadlock in ext4_xattr_inode_cache_find()
-CVE-2026-92506|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|firmware: arm_scmi: Fix requested device removal race
-CVE-2026-92508|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|RDMA/core: Fix potential use after free in ib_free_cq()
-CVE-2026-92509|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|RDMA/core: Fix potential use after free in counter_release()
-CVE-2026-92510|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|RDMA/core: Fix potential use after free in ib_destroy_srq_user()
-CVE-2026-92514|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|RDMA/erdma: Fix CEQ tasklet use-after-free on removal
-CVE-2026-92519|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|riscv, bpf: Fix memory leak in bpf_jit_free
-CVE-2026-92520|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|bpf: Zero queue and stack outputs on lock failure
-CVE-2026-92522|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|ACPI: processor: validate MADT IOAPIC entry bounds
-CVE-2026-92523|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|RDMA/nldev: validate dynamic counter attribute length
-CVE-2026-92842|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N/E:P|not stated|Unknown|Unknown|OOB read / info leak in convert.* stream filters when line-break-chars contains NUL
-CVE-2026-92987|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|roxmltree through 0.21.1 Denial of Service via Quadratic Parsing
-CVE-2026-93042|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|dmaengine: dw-edma: Terminate all descriptors without callbacks
