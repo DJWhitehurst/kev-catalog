@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-07T01:50:30Z | part 4 of 8 | 350 of 2764 CVEs | CVE-2026-78461 to CVE-2026-84838
+# Microsoft MSRC 2026-Sep | fetched 2026-10-07T11:22:29Z | part 4 of 8 | 350 of 2764 CVEs | CVE-2026-78461 to CVE-2026-84838
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-78461|Important|7.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Visual Studio Code Security Feature Bypass Vulnerability
 CVE-2026-78462|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Visual Studio Code Security Feature Bypass Vulnerability
