@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-07T11:22:29Z | part 7 of 8 | 350 of 2764 CVEs | CVE-2026-92382 to CVE-2026-97422
+# Microsoft MSRC 2026-Sep | fetched 2026-10-08T02:17:56Z | part 7 of 8 | 350 of 2764 CVEs | CVE-2026-92382 to CVE-2026-97422
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-92382|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Usbredir: usbredir: unbounded iso_packet_desc[] index in usbredirhost_iso_packet() leads to heap out-of-bounds write
 CVE-2026-92476|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|crypto: keembay - Initialize completion before requesting IRQ

@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-07T11:22:29Z | part 3 of 8 | 350 of 2764 CVEs | CVE-2026-69785 to CVE-2026-78457
+# Microsoft MSRC 2026-Sep | fetched 2026-10-08T02:17:56Z | part 3 of 8 | 350 of 2764 CVEs | CVE-2026-69785 to CVE-2026-78457
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-69785|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Smart Card Elevation of Privilege Vulnerability
 CVE-2026-69786|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Text Shaping Remote Code Execution Vulnerability
