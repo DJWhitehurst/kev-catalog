@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-08T02:17:56Z | part 1 of 1 | 233 of 233 CVEs | CVE-2026-103531 to CVE-2026-98370
+# Microsoft MSRC 2026-Oct | fetched 2026-10-08T11:38:13Z | part 1 of 1 | 233 of 233 CVEs | CVE-2026-103531 to CVE-2026-98370
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-103531|Moderate|5.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L/E:X/RL:O/RC:C|not stated|Unknown|Unknown|OpenSC card-setcos.c setcos_construct_fci_44 stack-based overflow
 CVE-2026-105712|Low|3.6|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:L/E:U|not stated|Unknown|Unknown|gpgtar in GnuPG before 2.5.19 can allow file overwrite via crafted data in an archive. When extracting an untrusted archive with --directory (aka -C) into an existing directory containing a pre-existing symlink, gpgtar can follow that symlink and create or overwrite a file outside the selected extraction directory. The write is limited by the extraction user's filesystem permissions. An archive extracted into a fresh empty directory does not have this risk.

@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-08T02:17:56Z | part 8 of 8 | 314 of 2764 CVEs | CVE-2026-97423 to CVE-2026-98164
+# Microsoft MSRC 2026-Sep | fetched 2026-10-08T11:38:13Z | part 8 of 8 | 314 of 2764 CVEs | CVE-2026-97423 to CVE-2026-98164
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-97423|Moderate|6.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|cxl/region: Validate partition index before array access
 CVE-2026-97424|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|drm/amdgpu/ras: add ras_suspend callback and use it for cp_ecc_error_irq

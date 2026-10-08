@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-08T02:17:56Z | part 6 of 8 | 350 of 2764 CVEs | CVE-2026-89628 to CVE-2026-91986
+# Microsoft MSRC 2026-Sep | fetched 2026-10-08T11:38:13Z | part 6 of 8 | 350 of 2764 CVEs | CVE-2026-89628 to CVE-2026-91986
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-89628|Low|3.9|CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|HID: picolcd: clamp eeprom debugfs read to bytes actually received
 CVE-2026-89631|Critical|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|smb: client: reject a tree connect response whose byte count is too small

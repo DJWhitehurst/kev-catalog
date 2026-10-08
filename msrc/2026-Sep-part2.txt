@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Sep | fetched 2026-10-08T02:17:56Z | part 2 of 8 | 350 of 2764 CVEs | CVE-2026-69333 to CVE-2026-69784
+# Microsoft MSRC 2026-Sep | fetched 2026-10-08T11:38:13Z | part 2 of 8 | 350 of 2764 CVEs | CVE-2026-69333 to CVE-2026-69784
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-69333|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Win32k Elevation of Privilege Vulnerability
 CVE-2026-69334|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Volume Manager Extension Driver Remote Code Execution Vulnerability
