@@ -1,4 +1,4 @@
-# CISA KEV | catalogVersion 2026.10.04 | dateReleased 2026-10-04T18:52:56.0635Z | 1734 entries in full catalog
+# CISA KEV | catalogVersion 2026.10.08 | dateReleased 2026-10-08T20:09:18.9833Z | 1739 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
 # this file: CVE-2022 | 132 entries
 CVE-2022-0028|2022-08-22|2022-09-12|Palo Alto Networks|PAN-OS
@@ -7,7 +7,7 @@ CVE-2022-0492|2026-06-02|2026-06-05|Linux|Kernel
 CVE-2022-0543|2022-03-28|2022-04-18|Redis|Debian-specific Redis Servers
 CVE-2022-0609|2022-02-15|2022-03-01|Google|Chromium Animation
 CVE-2022-0847|2022-04-25|2022-05-16|Linux|Kernel
-CVE-2022-0995|2026-08-26|2026-09-09|Linux|Kernel
+CVE-2022-0995|2026-08-26|2026-08-29|Linux|Kernel
 CVE-2022-1040|2022-03-31|2022-04-21|Sophos|Firewall
 CVE-2022-1096|2022-03-28|2022-04-18|Google|Chromium V8
 CVE-2022-1364|2022-04-15|2022-05-06|Google|Chromium V8

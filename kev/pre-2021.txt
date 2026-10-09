@@ -1,6 +1,6 @@
-# CISA KEV | catalogVersion 2026.10.04 | dateReleased 2026-10-04T18:52:56.0635Z | 1734 entries in full catalog
+# CISA KEV | catalogVersion 2026.10.08 | dateReleased 2026-10-08T20:09:18.9833Z | 1739 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
-# this file: CVE-pre-2021 | 701 entries
+# this file: CVE-pre-2021 | 704 entries
 CVE-2002-0367|2022-03-03|2022-03-24|Microsoft|Windows
 CVE-2004-0210|2022-03-03|2022-03-24|Microsoft|Windows
 CVE-2004-1464|2023-05-19|2023-06-09|Cisco|IOS
@@ -189,6 +189,7 @@ CVE-2015-3035|2022-03-25|2022-04-15|TP-Link|Multiple Archer Devices
 CVE-2015-3043|2022-03-03|2022-03-24|Adobe|Flash Player
 CVE-2015-3113|2022-04-13|2022-05-04|Adobe|Flash Player
 CVE-2015-3246|2026-08-26|2026-09-09|Red Hat|Libuser
+CVE-2015-3306|2026-10-08|2026-10-11|ProFTPD|ProFTPD
 CVE-2015-4068|2022-03-25|2022-04-15|Arcserve|Unified Data Protection (UDP)
 CVE-2015-4495|2022-05-25|2022-06-15|Mozilla|Firefox
 CVE-2015-4852|2021-11-03|2022-05-03|Oracle|WebLogic Server
@@ -198,6 +199,7 @@ CVE-2015-5122|2022-04-13|2022-05-04|Adobe|Flash Player
 CVE-2015-5123|2022-04-13|2022-05-04|Adobe|Flash Player
 CVE-2015-5287|2026-08-26|2026-09-09|Red Hat|Automatic Bug Reporting Tool
 CVE-2015-5317|2023-05-12|2023-06-02|Jenkins|Jenkins User Interface (UI)
+CVE-2015-5477|2026-10-08|2026-10-11|ISC|BIND
 CVE-2015-6175|2022-05-25|2022-06-15|Microsoft|Windows
 CVE-2015-7450|2022-01-10|2022-07-10|IBM|WebSphere Application Server and Server Hypervisor Edition
 CVE-2015-7645|2022-03-03|2022-03-24|Adobe|Flash Player
@@ -224,6 +226,7 @@ CVE-2016-1646|2022-06-08|2022-06-22|Google|Chromium V8
 CVE-2016-20017|2024-01-08|2024-01-29|D-Link|DSL-2750B Devices
 CVE-2016-2386|2022-06-09|2022-06-30|SAP|NetWeaver
 CVE-2016-2388|2022-06-09|2022-06-30|SAP|NetWeaver
+CVE-2016-3081|2026-10-08|2026-10-11|Apache|Struts
 CVE-2016-3088|2022-02-10|2022-08-10|Apache|ActiveMQ
 CVE-2016-3235|2021-11-03|2022-05-03|Microsoft|Office
 CVE-2016-3298|2022-05-24|2022-06-14|Microsoft|Internet Explorer

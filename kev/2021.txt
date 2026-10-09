@@ -1,6 +1,6 @@
-# CISA KEV | catalogVersion 2026.10.04 | dateReleased 2026-10-04T18:52:56.0635Z | 1734 entries in full catalog
+# CISA KEV | catalogVersion 2026.10.08 | dateReleased 2026-10-08T20:09:18.9833Z | 1739 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
-# this file: CVE-2021 | 215 entries
+# this file: CVE-2021 | 216 entries
 CVE-2021-0920|2022-05-23|2022-06-13|Android|Kernel
 CVE-2021-1048|2022-05-23|2022-06-13|Android|Kernel
 CVE-2021-1497|2021-11-03|2021-11-17|Cisco|HyperFlex HX
@@ -136,6 +136,7 @@ CVE-2021-31755|2021-11-03|2021-11-17|Tenda|AC11 Router
 CVE-2021-31955|2021-11-03|2021-11-17|Microsoft|Windows
 CVE-2021-31956|2021-11-03|2021-11-17|Microsoft|Windows
 CVE-2021-31979|2021-11-03|2021-11-17|Microsoft|Windows
+CVE-2021-3199|2026-10-08|2026-10-11|ONLYOFFICE|Docs
 CVE-2021-32030|2025-06-02|2025-06-23|ASUS|Routers
 CVE-2021-32648|2022-01-18|2022-02-01|October CMS|October CMS
 CVE-2021-33044|2024-08-21|2024-09-11|Dahua|IP Camera Firmware

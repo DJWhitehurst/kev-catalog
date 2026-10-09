@@ -1,9 +1,9 @@
-# CISA KEV | catalogVersion 2026.10.04 | dateReleased 2026-10-04T18:52:56.0635Z | 1734 entries in full catalog
+# CISA KEV | catalogVersion 2026.10.08 | dateReleased 2026-10-08T20:09:18.9833Z | 1739 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
-kev/2021.txt | 215 entries | 13481 bytes
+kev/2021.txt | 216 entries | 13533 bytes
 kev/2022.txt | 132 entries | 8347 bytes
-kev/2023.txt | 165 entries | 10392 bytes
+kev/2023.txt | 166 entries | 10443 bytes
 kev/2024.txt | 164 entries | 10334 bytes
 kev/2025.txt | 188 entries | 11534 bytes
 kev/2026.txt | 169 entries | 10597 bytes
-kev/pre-2021.txt | 701 entries | 43223 bytes
+kev/pre-2021.txt | 704 entries | 43370 bytes
