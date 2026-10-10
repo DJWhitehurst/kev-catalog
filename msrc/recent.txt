@@ -1,4 +1,4 @@
-# Microsoft MSRC flagged CVEs | fetched 2026-10-09T11:31:44Z | months 2026-Oct | 240 CVEs read, 97 flagged
+# Microsoft MSRC flagged CVEs | fetched 2026-10-10T01:56:22Z | months 2026-Oct | 240 CVEs read, 97 flagged
 # flagged = Critical severity, OR Exploited:Yes, OR Publicly Disclosed:Yes | 0 exploited | 0 publicly disclosed
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-57941|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_http2 use-after-free / wild write via shared session->bbtmp re-entrancy
