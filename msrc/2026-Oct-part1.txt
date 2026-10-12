@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-11T11:02:26Z | part 1 of 1 | 312 of 312 CVEs | CVE-2026-102404 to CVE-2026-98384
+# Microsoft MSRC 2026-Oct | fetched 2026-10-12T01:49:52Z | part 1 of 1 | 312 of 312 CVEs | CVE-2026-102404 to CVE-2026-98384
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-102404|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Uncontrolled Resource Consumption in Elasticsearch Leading to Denial of Service
 CVE-2026-102407|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|Incorrect Authorization in Elasticsearch Leading to Unauthorized Data Stream Modification
