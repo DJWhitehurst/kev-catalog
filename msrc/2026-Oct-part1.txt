@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-12T01:49:52Z | part 1 of 1 | 312 of 312 CVEs | CVE-2026-102404 to CVE-2026-98384
+# Microsoft MSRC 2026-Oct | fetched 2026-10-12T12:28:47Z | part 1 of 1 | 320 of 320 CVEs | CVE-2026-102404 to CVE-2026-98384
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-102404|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Uncontrolled Resource Consumption in Elasticsearch Leading to Denial of Service
 CVE-2026-102407|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|Incorrect Authorization in Elasticsearch Leading to Unauthorized Data Stream Modification
@@ -27,6 +27,8 @@ CVE-2026-107299|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not st
 CVE-2026-107300|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|msgpack5: Many buffered values can exhaust the streaming decoder stack
 CVE-2026-107301|Moderate|6.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L|not stated|Unknown|Unknown|msgpack5: Partial options disable prototype protection
 CVE-2026-107302|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|msgpack5: Truncated map32 headers throw an unexpected error
+CVE-2026-107324|Important|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Application denial of service via integer overflow in BSON value-length validation in MongoDB Go Driver
+CVE-2026-107325|Important|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Application denial of service via missing BSON array length validation in MongoDB Go Driver
 CVE-2026-107708|Moderate|4.9|CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|MIT krb5 through 1.22.2 KDC NULL Pointer Dereference via S4U2Proxy PAC
 CVE-2026-107718|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|AdonisJS: Unencoded route parameters can produce open redirects
 CVE-2026-107778|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|MIT krb5 through 1.22.2 NULL Pointer Dereference via krb5_rd_cred()
@@ -50,12 +52,14 @@ CVE-2026-48005|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not
 CVE-2026-56153|Important|9.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_charset_lite: Heap overflow in finish_partial_char
 CVE-2026-56154|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_rewrite use-after-free via %{LA-U:HTTP:...}
 CVE-2026-56449|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_proxy_html: crash in dump_content
+CVE-2026-56866|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|HTTP/1 client connection desynchronization after CONNECT rejection in net/http
 CVE-2026-57941|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_http2 use-after-free / wild write via shared session->bbtmp re-entrancy
 CVE-2026-58415|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_dav_fs property database read access
 CVE-2026-59685|Important|8.2|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L/E:U|not stated|Unknown|Unknown|Apache HTTP Server: Out-of-Bounds Write in ap_directory_walk() Canonical-Name Rewrite on CASE_BLIND_FILESYSTEM
 CVE-2026-59797|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_ssl SSLRequire allows .htaccess ap_expr file-function
 CVE-2026-61373|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: Java TSaslNonblockingServer pre-auth unbounded SASL frame allocation
 CVE-2026-61374|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: Java TSaslTransport post-auth data-frame missing size limit
+CVE-2026-61801|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|github.com/moby/sys/user has a possible DoS via unbounded parsing of user and group database files
 CVE-2026-63045|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Apache HTTP Server: mod_proxy_ftp PASV address handling
 CVE-2026-63292|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_vhost_alias stack overflow
 CVE-2026-63686|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Apache HTTP Server: mod_xml2enc crash on charset conversion failure
@@ -75,6 +79,10 @@ CVE-2026-75819|Low|not stated|none published|not stated|Unknown|Unknown|Out-of-b
 CVE-2026-75820|Low|not stated|none published|not stated|Unknown|Unknown|Integer Truncation Leading to Heap Corruption in GNU Aspell
 CVE-2026-77214|Important|8.2|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:L|not stated|Unknown|Unknown|libexpat Heap Buffer Over-read in xmlparse.c via XML_ParseBuffer
 CVE-2026-77900|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Azure App Service Remote Code Execution Vulnerability
+CVE-2026-78659|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|HTTP/2 server memory exhaustion due to Trailer headers in net/http
+CVE-2026-78660|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|HTTP/2 transport accepts malformed framing-related headers in net/http
+CVE-2026-78663|Critical|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|Double flow control refund on HTTP/2 server streams in net/http
+CVE-2026-78669|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Excessive CPU consumption from repeated initial window changes in net/http
 CVE-2026-79768|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Apache HTTP Server: mod_userdir information disclosure
 CVE-2026-82458|Moderate|not stated|none published|not stated|Unknown|Unknown|Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift: Container element count not bounded by the bytes available
 CVE-2026-82459|Moderate|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: Integer underflow in C++ THeaderTransport allows an unauthenticated remote peer to terminate a 32-bit process
