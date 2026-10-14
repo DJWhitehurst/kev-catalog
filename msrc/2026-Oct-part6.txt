@@ -1,0 +1,11 @@
+# Microsoft MSRC 2026-Oct | fetched 2026-10-14T01:26:17Z | part 6 of 6 | 9 of 1759 CVEs | CVE-2026-98374 to CVE-2026-98384
+# cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98374|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|tcp: fix use-after-free of retransmit_skb_hint in tcp_send_synack()
+CVE-2026-98377|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|vlan: require the MAC header to be present in __vlan_insert_inner_tag()
+CVE-2026-98378|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|bpf: Skip unsettled links in link iterator
+CVE-2026-98379|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|netfilter: ip6t_rpfilter: reject routes without inet6_dev
+CVE-2026-98380|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|net/sched: reject IDR error pointers when deleting actions
+CVE-2026-98381|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|veth: manage XDP program pointers during channel resize
+CVE-2026-98382|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|bpf: Reject dev-bound-only programs on other devices
+CVE-2026-98383|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|bpf: Disallow bpf_skb_pull_data() for LWT_SEG6LOCAL
+CVE-2026-98384|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|bpf: Fix out-of-bounds read of sk_protocol in bpf_sock_destroy()
