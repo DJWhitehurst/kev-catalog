@@ -1,12 +1,13 @@
-# CISA KEV | catalogVersion 2026.10.08 | dateReleased 2026-10-08T20:09:18.9833Z | 1739 entries in full catalog
+# CISA KEV | catalogVersion 2026.10.13 | dateReleased 2026-10-13T19:10:43.6568Z | 1741 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
-# this file: CVE-2026 | 169 entries
+# this file: CVE-2026 | 171 entries
 CVE-2026-0257|2026-05-29|2026-06-01|Palo Alto Networks|PAN-OS
 CVE-2026-0300|2026-05-06|2026-05-09|Palo Alto Networks|PAN-OS
 CVE-2026-0770|2026-07-21|2026-07-24|Langflow|Langflow
 CVE-2026-102489|2026-10-02|2026-10-05|Zammad GmbH|Zammad
 CVE-2026-102490|2026-10-02|2026-10-05|Zammad GmbH|Zammad
 CVE-2026-104286|2026-10-01|2026-10-04|Fortinet|FortiMail
+CVE-2026-104935|2026-10-13|2026-10-16|Ivanti|Connect Secure
 CVE-2026-10520|2026-06-11|2026-06-14|Ivanti|Sentry
 CVE-2026-11645|2026-06-09|2026-06-23|Google|Chromium V8
 CVE-2026-12569|2026-06-25|2026-06-28|PTC|Windchill and FlexPLM
@@ -170,3 +171,4 @@ CVE-2026-93616|2026-09-22|2026-09-25|Check Point|Multiple Products
 CVE-2026-93952|2026-09-22|2026-09-25|Arista|VeloCloud Orchestrator
 CVE-2026-94127|2026-09-22|2026-09-25|F5|BIG-IP APM
 CVE-2026-9586|2026-09-02|2026-09-05|Sangoma|Switchvox
+CVE-2026-96951|2026-10-13|2026-10-16|Microsoft|Windows
