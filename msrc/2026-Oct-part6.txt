@@ -1,5 +1,6 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-14T01:26:17Z | part 6 of 6 | 9 of 1759 CVEs | CVE-2026-98374 to CVE-2026-98384
+# Microsoft MSRC 2026-Oct | fetched 2026-10-14T09:45:45Z | part 6 of 6 | 10 of 1760 CVEs | CVE-2026-98370 to CVE-2026-98384
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98370|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|xfrm: fix compat ALLOCSPI request use-after-free
 CVE-2026-98374|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|tcp: fix use-after-free of retransmit_skb_hint in tcp_send_synack()
 CVE-2026-98377|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|vlan: require the MAC header to be present in __vlan_insert_inner_tag()
 CVE-2026-98378|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|bpf: Skip unsettled links in link iterator

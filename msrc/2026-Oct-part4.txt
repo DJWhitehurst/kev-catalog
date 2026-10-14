@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-14T01:26:17Z | part 4 of 6 | 350 of 1759 CVEs | CVE-2026-85855 to CVE-2026-96325
+# Microsoft MSRC 2026-Oct | fetched 2026-10-14T09:45:45Z | part 4 of 6 | 350 of 1760 CVEs | CVE-2026-85855 to CVE-2026-96324
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-85855|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows DWM Core Library Elevation of Privilege Vulnerability
 CVE-2026-85856|Important|7.1|CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Internet Connection Sharing (ICS) Remote Code Execution Vulnerability
@@ -269,6 +269,7 @@ CVE-2026-95184|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not st
 CVE-2026-95209|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|An issue in gnutls v3.8.13 causes legitimate CA certificates to be rejected, leading to a Denial of Service (DoS).
 CVE-2026-95210|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|Improper certificate validation in gnutls v3.8.13 causes the application to accept certificates containing invalid extensions.
 CVE-2026-95512|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Freetype: freetype: denial of service via repeated subroutine allocations in cid font loader
+CVE-2026-95838|Moderate|not stated|none published|not stated|Unknown|Unknown|containerd: Unpack DoS via repeated opaque whiteouts
 CVE-2026-95904|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Event Logging Service Information Disclosure Vulnerability
 CVE-2026-95943|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Connected Devices Platform Service (Cdpsvc) Elevation of Privilege Vulnerability
 CVE-2026-96044|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Office SharePoint Elevation of Privilege Vulnerability
@@ -349,4 +350,3 @@ CVE-2026-96321|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL
 CVE-2026-96322|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Remote Desktop Protocol Elevation of Privilege Vulnerability
 CVE-2026-96323|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Update Elevation of Privilege Vulnerability
 CVE-2026-96324|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Windows Search Component Elevation of Privilege Vulnerability
-CVE-2026-96325|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows SMB Server Denial of Service Vulnerability
