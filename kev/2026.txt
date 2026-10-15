@@ -1,13 +1,16 @@
-# CISA KEV | catalogVersion 2026.10.13 | dateReleased 2026-10-13T19:10:43.6568Z | 1741 entries in full catalog
+# CISA KEV | catalogVersion 2026.10.14 | dateReleased 2026-10-14T19:27:28.0105Z | 1745 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
-# this file: CVE-2026 | 171 entries
+# this file: CVE-2026 | 175 entries
 CVE-2026-0257|2026-05-29|2026-06-01|Palo Alto Networks|PAN-OS
 CVE-2026-0300|2026-05-06|2026-05-09|Palo Alto Networks|PAN-OS
+CVE-2026-0322|2026-10-14|2026-10-17|Palo Alto Networks|PAN-OS
 CVE-2026-0770|2026-07-21|2026-07-24|Langflow|Langflow
 CVE-2026-102489|2026-10-02|2026-10-05|Zammad GmbH|Zammad
 CVE-2026-102490|2026-10-02|2026-10-05|Zammad GmbH|Zammad
 CVE-2026-104286|2026-10-01|2026-10-04|Fortinet|FortiMail
 CVE-2026-104935|2026-10-13|2026-10-16|Ivanti|Connect Secure
+CVE-2026-105133|2026-10-14|2026-10-17|Ahsay|AhsayCBS
+CVE-2026-105134|2026-10-14|2026-10-17|Ahsay|AhsayCBS
 CVE-2026-10520|2026-06-11|2026-06-14|Ivanti|Sentry
 CVE-2026-11645|2026-06-09|2026-06-23|Google|Chromium V8
 CVE-2026-12569|2026-06-25|2026-06-28|PTC|Windchill and FlexPLM
@@ -142,6 +145,7 @@ CVE-2026-75650|2026-09-08|2026-09-11|Adobe|Commerce and Magento
 CVE-2026-76460|2026-09-16|2026-09-19|Cisco|Identity Services Engine
 CVE-2026-76461|2026-09-14|2026-09-17|Cisco|Secure Email Gateway
 CVE-2026-76504|2026-09-30|2026-10-03|Cisco|Catalyst SD-WAN Manager
+CVE-2026-76519|2026-10-14|2026-10-17|Cisco|Secure Email Gateway
 CVE-2026-8037|2026-08-07|2026-08-10|Progress|LoadMaster
 CVE-2026-81578|2026-08-31|2026-09-14|PaperCut|NG/MF
 CVE-2026-81963|2026-09-08|2026-09-22|Microsoft|Windows
