@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-14T09:45:45Z | part 3 of 6 | 350 of 1760 CVEs | CVE-2026-83670 to CVE-2026-85854
+# Microsoft MSRC 2026-Oct | fetched 2026-10-15T00:58:10Z | part 3 of 6 | 350 of 1760 CVEs | CVE-2026-83670 to CVE-2026-85854
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-83670|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Function Discovery Service (fdwsd.dll) Information Disclosure Vulnerability
 CVE-2026-83671|Important|6.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Hyper-V Information Disclosure Vulnerability

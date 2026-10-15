@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-14T09:45:45Z | part 2 of 6 | 350 of 1760 CVEs | CVE-2026-69987 to CVE-2026-83669
+# Microsoft MSRC 2026-Oct | fetched 2026-10-15T00:58:10Z | part 2 of 6 | 350 of 1760 CVEs | CVE-2026-69987 to CVE-2026-83669
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-69987|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Remote Desktop Client Remote Code Execution Vulnerability
 CVE-2026-69988|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Remote Desktop Client Remote Code Execution Vulnerability

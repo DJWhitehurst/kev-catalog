@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-14T09:45:45Z | part 5 of 6 | 350 of 1760 CVEs | CVE-2026-96325 to CVE-2026-98369
+# Microsoft MSRC 2026-Oct | fetched 2026-10-15T00:58:10Z | part 5 of 6 | 350 of 1760 CVEs | CVE-2026-96325 to CVE-2026-98369
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-96325|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows SMB Server Denial of Service Vulnerability
 CVE-2026-96843|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|WebDAV Elevation of Privilege Vulnerability
