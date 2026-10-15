@@ -1,5 +1,15 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-15T00:58:10Z | part 4 of 6 | 350 of 1760 CVEs | CVE-2026-85855 to CVE-2026-96324
+# Microsoft MSRC 2026-Oct | fetched 2026-10-15T09:27:36Z | part 4 of 6 | 350 of 1771 CVEs | CVE-2026-85843 to CVE-2026-96313
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-85843|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Background Intelligent Transfer Service (BITS) Elevation of Privilege Vulnerability
+CVE-2026-85846|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Web Account Manager Elevation of Privilege Vulnerability
+CVE-2026-85847|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Print Spooler Components Information Disclosure Vulnerability
+CVE-2026-85848|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Background Intelligent Transfer Service (BITS) Elevation of Privilege Vulnerability
+CVE-2026-85849|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows AppX Deployment Service Elevation of Privilege Vulnerability
+CVE-2026-85850|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
+CVE-2026-85851|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows SmartScreen Elevation of Privilege Vulnerability
+CVE-2026-85852|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Management Instrumentation Information Disclosure Vulnerability
+CVE-2026-85853|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows DWM Core Library Elevation of Privilege Vulnerability
+CVE-2026-85854|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows DWM Core Library Elevation of Privilege Vulnerability
 CVE-2026-85855|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows DWM Core Library Elevation of Privilege Vulnerability
 CVE-2026-85856|Important|7.1|CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Internet Connection Sharing (ICS) Remote Code Execution Vulnerability
 CVE-2026-85857|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Kernel-Mode Drivers Information Disclosure Vulnerability
@@ -240,6 +250,7 @@ CVE-2026-94440|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not st
 CVE-2026-94444|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Checksum bypass for golang.org/fips140 in cmd/go
 CVE-2026-94447|Moderate|7.0|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Checksum database bypass for golang.org/toolchain in cmd/go
 CVE-2026-94448|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Reset context tracking on consecutive template expressions in html/template
+CVE-2026-94453|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|IKEv2 Use-After-Free bug when using IKE-over-TCP
 CVE-2026-94506|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Access Information Disclosure Vulnerability
 CVE-2026-94510|Critical|9.9|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:L/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Bookings Elevation of Privilege Vulnerability
 CVE-2026-94512|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|SQL Server Remote Code Execution Vulnerability
@@ -339,14 +350,3 @@ CVE-2026-96310|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-96311|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows Network List Service Tampering Vulnerability
 CVE-2026-96312|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
 CVE-2026-96313|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Push Notifications Elevation of Privilege Vulnerability
-CVE-2026-96314|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Audio Service Information Disclosure Vulnerability
-CVE-2026-96315|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows Overlay Filter Tampering Vulnerability
-CVE-2026-96316|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows Routing and Remote Access Service (RRAS) Tampering Vulnerability
-CVE-2026-96317|Important|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
-CVE-2026-96318|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Resume Elevation of Privilege Vulnerability
-CVE-2026-96319|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Print Driver Elevation of Privilege Vulnerability
-CVE-2026-96320|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows DHCP Server Remote Code Execution Vulnerability
-CVE-2026-96321|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Remote Desktop Display Driver Information Disclosure Vulnerability
-CVE-2026-96322|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Remote Desktop Protocol Elevation of Privilege Vulnerability
-CVE-2026-96323|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Update Elevation of Privilege Vulnerability
-CVE-2026-96324|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Windows Search Component Elevation of Privilege Vulnerability

@@ -1,5 +1,16 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-15T00:58:10Z | part 5 of 6 | 350 of 1760 CVEs | CVE-2026-96325 to CVE-2026-98369
+# Microsoft MSRC 2026-Oct | fetched 2026-10-15T09:27:36Z | part 5 of 6 | 350 of 1771 CVEs | CVE-2026-96314 to CVE-2026-98357
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-96314|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Audio Service Information Disclosure Vulnerability
+CVE-2026-96315|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows Overlay Filter Tampering Vulnerability
+CVE-2026-96316|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows Routing and Remote Access Service (RRAS) Tampering Vulnerability
+CVE-2026-96317|Important|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
+CVE-2026-96318|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Resume Elevation of Privilege Vulnerability
+CVE-2026-96319|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Print Driver Elevation of Privilege Vulnerability
+CVE-2026-96320|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows DHCP Server Remote Code Execution Vulnerability
+CVE-2026-96321|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Remote Desktop Display Driver Information Disclosure Vulnerability
+CVE-2026-96322|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Remote Desktop Protocol Elevation of Privilege Vulnerability
+CVE-2026-96323|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Update Elevation of Privilege Vulnerability
+CVE-2026-96324|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Windows Search Component Elevation of Privilege Vulnerability
 CVE-2026-96325|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows SMB Server Denial of Service Vulnerability
 CVE-2026-96843|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|WebDAV Elevation of Privilege Vulnerability
 CVE-2026-96844|Important|8.0|CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Bluetooth Driver Elevation of Privilege Vulnerability
@@ -339,14 +350,3 @@ CVE-2026-98353|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not
 CVE-2026-98354|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|RDMA/mad: Fix receive buffer leak when PKey enforcement fails
 CVE-2026-98355|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|RDMA/rtrs: guard against null kobj name
 CVE-2026-98357|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|IB/isert: wait for deferred control PDU completions before releasing the connection
-CVE-2026-98358|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|IB/iser: reject a remote invalidation of an unregistered direction
-CVE-2026-98359|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|RDMA/core: Reject unregistering netdevs in ib_get_eth_speed
-CVE-2026-98360|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|RDMA/rxe: insert mcg into mcg_tree only after rxe_mcast_add() succeeds
-CVE-2026-98362|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|clk: scpi: bound-check DVFS index in scpi_dvfs_recalc_rate
-CVE-2026-98363|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|firmware: arm_scpi: reject DVFS OPP count above MAX_DVFS_OPPS
-CVE-2026-98364|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|xfrm: hold net_device reference under RCU in bundle creation
-CVE-2026-98365|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|RDMA/rxe: Fix integer overflow in mr_check_range() leading to OOB access
-CVE-2026-98366|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|RDMA/rxe: validate access flags before swapping the MR's PD
-CVE-2026-98367|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|RDMA/siw: Clear association under lock if siw_qp_modify fails in siw_accept
-CVE-2026-98368|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|esp: downgrade zerocopy managed frags before mutating skb frags
-CVE-2026-98369|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|xfrm: add missing rcu_read_lock(), skb_dst_force() and dev_hold() for xfrm_trans_reinject()

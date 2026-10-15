@@ -1,5 +1,16 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-15T00:58:10Z | part 6 of 6 | 10 of 1760 CVEs | CVE-2026-98370 to CVE-2026-98384
+# Microsoft MSRC 2026-Oct | fetched 2026-10-15T09:27:36Z | part 6 of 6 | 21 of 1771 CVEs | CVE-2026-98358 to CVE-2026-98384
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98358|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|IB/iser: reject a remote invalidation of an unregistered direction
+CVE-2026-98359|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|RDMA/core: Reject unregistering netdevs in ib_get_eth_speed
+CVE-2026-98360|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|RDMA/rxe: insert mcg into mcg_tree only after rxe_mcast_add() succeeds
+CVE-2026-98362|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|clk: scpi: bound-check DVFS index in scpi_dvfs_recalc_rate
+CVE-2026-98363|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|firmware: arm_scpi: reject DVFS OPP count above MAX_DVFS_OPPS
+CVE-2026-98364|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|xfrm: hold net_device reference under RCU in bundle creation
+CVE-2026-98365|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|RDMA/rxe: Fix integer overflow in mr_check_range() leading to OOB access
+CVE-2026-98366|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|RDMA/rxe: validate access flags before swapping the MR's PD
+CVE-2026-98367|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|RDMA/siw: Clear association under lock if siw_qp_modify fails in siw_accept
+CVE-2026-98368|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|esp: downgrade zerocopy managed frags before mutating skb frags
+CVE-2026-98369|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|xfrm: add missing rcu_read_lock(), skb_dst_force() and dev_hold() for xfrm_trans_reinject()
 CVE-2026-98370|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|xfrm: fix compat ALLOCSPI request use-after-free
 CVE-2026-98374|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|tcp: fix use-after-free of retransmit_skb_hint in tcp_send_synack()
 CVE-2026-98377|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|vlan: require the MAC header to be present in __vlan_insert_inner_tag()

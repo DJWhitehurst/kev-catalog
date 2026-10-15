@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-15T00:58:10Z | part 1 of 6 | 350 of 1760 CVEs | ADV260001 to CVE-2026-69986
+# Microsoft MSRC 2026-Oct | fetched 2026-10-15T09:27:36Z | part 1 of 6 | 350 of 1771 CVEs | ADV260001 to CVE-2026-69974
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 ADV260001|None|not stated|none published|Not a Vulnerability|No|No|ADV260001 Hardening changes for ReFS volumes on removable media
 CVE-2026-100200|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Update Service Elevation of Privilege Vulnerability
@@ -61,6 +61,7 @@ CVE-2026-102233|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-102234|Important|7.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Visual Studio Code Security Feature Bypass Vulnerability
 CVE-2026-102235|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Visual Studio Code Remote Code Execution Vulnerability
 CVE-2026-102238|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Visual Studio Code Remote Code Execution Vulnerability
+CVE-2026-102342|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|ammonia allows stored XSS through unsanitized SVG animate and set attributes
 CVE-2026-102404|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Uncontrolled Resource Consumption in Elasticsearch Leading to Denial of Service
 CVE-2026-102407|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|Incorrect Authorization in Elasticsearch Leading to Unauthorized Data Stream Modification
 CVE-2026-102411|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Allocation of Resources Without Limits or Throttling in Elasticsearch Leading to Denial of Service
@@ -99,6 +100,8 @@ CVE-2026-103575|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-103576|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Active Directory Federation Services (AD FS) Spoofing Vulnerability
 CVE-2026-103577|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:H/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Microsoft QUIC Security Feature Bypass Vulnerability
 CVE-2026-103578|Important|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
+CVE-2026-103658|Moderate|5.9|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:U|not stated|Unknown|Unknown|GNU Aspell 0.60.8.2 (first vulnerable version is not known) contains a heap-based buffer overflow write (CWE-122) in its read-only dictionary loader. String::reserve() in common/string.hpp computes its capacity check with a signed int ((int)s + 1), so a requested size of 0x7FFFFFFF wraps negative and the backing buffer is never grown. ReadOnlyDict::load() in modules/speller/default/readonly_ws.cpp passes the unvalidated 32-bit size fields from a .rws dictionary header into this path, so a crafted .rws file with a valid endian marker (12345678) and an oversized length field (e.g. lang_name_size = 0x7FFFFFFF) causes attacker-controlled data to be written out of bounds past an undersized heap allocation. An attacker who induces a victim to load a malicious dictionary — for example via aspell dump master <file> — can corrupt heap memory, resulting in denial of service and potentially code execution. Fixed in b830b6e and will be fixed in release 0.60.8.3.
+CVE-2026-104252|Important|7.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N|not stated|Unknown|Unknown|Vitess vttablet /twopcz reflected XSS
 CVE-2026-105003|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|HID Class Driver Elevation of Privilege Vulnerability
 CVE-2026-105004|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Overlay Filter Elevation of Privilege Vulnerability
 CVE-2026-105005|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Schannel Remote Code Execution Vulnerability
@@ -199,7 +202,9 @@ CVE-2026-108468|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-108471|Critical|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Virtualization-Based Security (VBS) Enclave Elevation of Privilege Vulnerability
 CVE-2026-108976|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|GNU Emacs before 31.2 (and TRAMP through 2.8.2) allows OS command injection via a filename because tramp-user-regexp has an incomplete list of disallowed inputs. NOTE: this issue exists because of an incomplete fix for CVE-2026-79992.
 CVE-2026-108985|Important|7.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|ZDR decoding in libnfs through 6.0.2 before 7613236 has an out-of-bounds write related to lib/libnfs-zdr.c with libnfs_zdr_bytes(), libnfs_zdr_string(), and libnfs_zdr_array(). The caller-supplied maxsize value is not honored.
+CVE-2026-109349|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|gix-pack before 0.75.0 Reachable Assertion DoS via Pack Version 3 Header
 CVE-2026-109453|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Virtual Hard Disk (VHD) Miniport Driver Elevation of Privilege Vulnerability
+CVE-2026-109828|Low|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N/E:P/RL:X/RC:C|not stated|Unknown|Unknown|libsndfile WAV Parsing wavlike.c wavlike_subchunk_parse uninitialized variable
 CVE-2026-19029|Moderate|not stated|none published|not stated|Unknown|Unknown|HDF5 scale-offset filter heap buffer over-read via crafted chunk
 CVE-2026-19585|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Go-getter vulnerable to a path traversal in S3/GCS directory download handling
 CVE-2026-21413|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Raw Image Extension Remote Code Execution Vulnerability
@@ -215,6 +220,8 @@ CVE-2026-46572|Important|7.4|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not st
 CVE-2026-46729|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Apache HTTP Server: mod_heartmonitor denial of service
 CVE-2026-47360|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Apache HTTP Server: mod_session: Session cookie not removed during internal redirect
 CVE-2026-48005|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_auth_digest reauthentication attack
+CVE-2026-49264|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|OAuthLib: Unsafe JSONP callback injection in RevocationEndpoint allows arbitrary JavaScript response generation
+CVE-2026-49265|Moderate|6.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|OAuthLib: Timing Attack Vulnerability in PKCE code_verifier Comparison
 CVE-2026-49785|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Security Feature Bypass|No|No|UEFI Secure Boot Security Feature Bypass Vulnerability
 CVE-2026-56153|Important|9.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_charset_lite: Heap overflow in finish_partial_char
 CVE-2026-56154|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_rewrite use-after-free via %{LA-U:HTTP:...}
@@ -238,6 +245,7 @@ CVE-2026-62879|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL
 CVE-2026-63045|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Apache HTTP Server: mod_proxy_ftp PASV address handling
 CVE-2026-63292|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_vhost_alias stack overflow
 CVE-2026-63686|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Apache HTTP Server: mod_xml2enc crash on charset conversion failure
+CVE-2026-63718|Important|8.2|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:N/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_proxy_uwsgi Transfer-Encoding response smuggling
 CVE-2026-63772|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: Unauthenticated single-packet crash of Go Thrift servers via the THeader transform count
 CVE-2026-65674|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft SQL Server Remote Code Execution Vulnerability
 CVE-2026-66054|Moderate|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: C++ THeaderTransport does not enforce configured maxFrameSize
@@ -342,11 +350,3 @@ CVE-2026-69970|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-69971|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Kernel-Mode Drivers Information Disclosure Vulnerability
 CVE-2026-69973|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows libarchive Tampering Vulnerability
 CVE-2026-69974|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Desktop Window Manager Information Disclosure Vulnerability
-CVE-2026-69976|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Remote Desktop Client Remote Code Execution Vulnerability
-CVE-2026-69977|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Quality Windows Audio/Video Experience (QWAVE) service Elevation of Privilege Vulnerability
-CVE-2026-69978|Important|5.6|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Microsoft Windows VMSwitch Denial of Service Vulnerability
-CVE-2026-69979|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Windows AppX Deployment Service Security Feature Bypass Vulnerability
-CVE-2026-69982|Important|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Active Directory Federation Services (AD FS) Security Feature Bypass Vulnerability
-CVE-2026-69984|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Remote Desktop Client Remote Code Execution Vulnerability
-CVE-2026-69985|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows libarchive Remote Code Execution Vulnerability
-CVE-2026-69986|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Remote Desktop Client Remote Code Execution Vulnerability
