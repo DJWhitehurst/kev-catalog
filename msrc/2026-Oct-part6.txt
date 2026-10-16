@@ -1,5 +1,14 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-16T00:49:27Z | part 6 of 6 | 54 of 1804 CVEs | CVE-2026-98321 to CVE-2026-98384
+# Microsoft MSRC 2026-Oct | fetched 2026-10-16T09:19:29Z | part 6 of 6 | 86 of 1836 CVEs | CVE-2026-98308 to CVE-2026-98430
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98308|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ALSA: hda: trace PCM open only after assigning a stream
+CVE-2026-98309|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|drm/vc4: Use managed KMS polling to fix UAF on unbind
+CVE-2026-98311|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|wifi: virt_wifi: don't transfer operstate before register
+CVE-2026-98312|Moderate|4.3|CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ALSA: 6fire: fix OOB write from device-reported iso length
+CVE-2026-98314|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ALSA: pcm: set timer->private_data before registering the PCM timer
+CVE-2026-98316|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ALSA: bcd2000: Fix race between rawmidi and disconnect
+CVE-2026-98317|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|neighbour: Enforce min/max to NDTPA_INTERVAL_PROBE_TIME_MS.
+CVE-2026-98319|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|drm: Fix drm_pending_vblank_event leak in error path for out_fence_ptr
+CVE-2026-98320|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|netfilter: flowtable: hold reference on ct until flow is released
 CVE-2026-98321|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|netfilter: nf_nat: unregister and release hooks on error
 CVE-2026-98322|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|netfilter: nft_nat: fully initialise new_addr in netmap setup
 CVE-2026-98323|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|RDMA/siw: Bound fragmented header copies by the remaining length
@@ -54,3 +63,26 @@ CVE-2026-98381|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|no
 CVE-2026-98382|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|bpf: Reject dev-bound-only programs on other devices
 CVE-2026-98383|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|bpf: Disallow bpf_skb_pull_data() for LWT_SEG6LOCAL
 CVE-2026-98384|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|bpf: Fix out-of-bounds read of sk_protocol in bpf_sock_destroy()
+CVE-2026-98386|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|scsi: qla2xxx: Use memset_io() to clear QLAFX00 request ring slot
+CVE-2026-98388|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|exec: do_close_on_exec() before taking exec_update_lock
+CVE-2026-98389|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|drm/amdgpu: skip gfx switch_power_profile during GPU reset
+CVE-2026-98393|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|net: ipv4: Fix UDP length overflow with PMTU discover and big MTU
+CVE-2026-98394|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|af_unix: Return immediately when manage_oob() returns NULL for 0-length buffer.
+CVE-2026-98401|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net: iptunnel: fix stale transport header during tunnel decapsulation
+CVE-2026-98402|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|net: icmp: avoid invalid transport header access in icmp_send tracepoint
+CVE-2026-98404|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|drm/virtio: Fix a NULL vs ERR_PTR() bug in virtio_gpu_user_framebuffer_create()
+CVE-2026-98405|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|smb: client: fix missing iov bounds check in parse_posix_sids()
+CVE-2026-98406|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mac80211: avoid WARN in set_bitrate_mask when sdata not in driver
+CVE-2026-98407|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|wifi: rsi: fix heap OOB write on key removal
+CVE-2026-98409|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|watchdog: rtd119x: Avoid division by zero
+CVE-2026-98413|Low|3.6|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|selinux: always fill AVC decision in avc_has_perm_noaudit()
+CVE-2026-98419|Moderate|5.1|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|drop_monitor: fix out-of-bounds write in reset_per_cpu_data()
+CVE-2026-98421|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mac80211: require a peer station for TDLS setup confirm
+CVE-2026-98422|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mac80211: reset the AP_VLAN tailroom counter on ifdown
+CVE-2026-98423|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mac80211_hwsim: don't hand frames to mac80211 while stopping
+CVE-2026-98424|Low|3.0|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|wifi: cfg80211: undo netns switch if renaming the wiphy fails
+CVE-2026-98425|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mac80211: don't warn when an IBSS has no channel to scan
+CVE-2026-98426|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mwifiex: fix IRQ leak using wrong index in MSI-X error path
+CVE-2026-98427|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net/sched: codel: bound the dropping loop per dequeue call
+CVE-2026-98429|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|RDMA/efa: Keep EQ resources alive while IRQ is registered
+CVE-2026-98430|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|RDMA/efa: Keep admin queues alive while IRQ is registered

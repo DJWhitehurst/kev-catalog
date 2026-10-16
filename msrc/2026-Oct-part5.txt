@@ -1,5 +1,14 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-16T00:49:27Z | part 5 of 6 | 350 of 1804 CVEs | CVE-2026-96243 to CVE-2026-98320
+# Microsoft MSRC 2026-Oct | fetched 2026-10-16T09:19:29Z | part 5 of 6 | 350 of 1836 CVEs | CVE-2026-96230 to CVE-2026-98307
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-96230|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|ASP.NET Core Remote Code Execution Vulnerability
+CVE-2026-96231|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|.NET Elevation of Privilege Vulnerability
+CVE-2026-96232|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|.NET Information Disclosure Vulnerability
+CVE-2026-96233|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|ASP.NET Core Denial of Service Vulnerability
+CVE-2026-96234|Important|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|.NET Information Disclosure Vulnerability
+CVE-2026-96235|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|.NET Remote Code Execution Vulnerability
+CVE-2026-96236|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|ASP.NET Core Denial of Service Vulnerability
+CVE-2026-96237|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|.NET Remote Code Execution Vulnerability
+CVE-2026-96238|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|.NET Security Feature Bypass Vulnerability
 CVE-2026-96243|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows WalletService Elevation of Privilege Vulnerability
 CVE-2026-96244|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Internal System User Profile Elevation of Privilege Vulnerability
 CVE-2026-96245|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Routing and Remote Access Service (RRAS) Information Disclosure Vulnerability
@@ -138,8 +147,8 @@ CVE-2026-97032|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not
 CVE-2026-97738|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97739|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97740|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Excel Information Disclosure Vulnerability
-CVE-2026-97741|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
-CVE-2026-97742|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97741|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97742|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97743|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Excel Information Disclosure Vulnerability
 CVE-2026-97744|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office PowerPoint Information Disclosure Vulnerability
 CVE-2026-97745|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
@@ -150,20 +159,20 @@ CVE-2026-97749|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:
 CVE-2026-97750|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97751|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97752|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
-CVE-2026-97753|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97753|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97754|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97755|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
-CVE-2026-97756|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97756|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97757|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
-CVE-2026-97758|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97758|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97759|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97760|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Excel Information Disclosure Vulnerability
-CVE-2026-97761|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97761|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97762|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97763|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97765|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97766|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
-CVE-2026-97767|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97767|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97768|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97769|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97770|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
@@ -172,7 +181,7 @@ CVE-2026-97772|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-97773|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97774|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Office Click-To-Run Elevation of Privilege Vulnerability
 CVE-2026-97775|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
-CVE-2026-97776|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97776|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97777|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97778|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97779|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Excel Information Disclosure Vulnerability
@@ -341,12 +350,3 @@ CVE-2026-98303|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not
 CVE-2026-98304|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|net: bcmgenet: restore the hardware filters on open
 CVE-2026-98306|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|seg6: set IPSKB_L3SLAVE from IP6SKB_L3SLAVE on IPIP decapsulation
 CVE-2026-98307|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|wifi: ath11k: cleanup arsta in ath11k_mac_peer_cleanup_all()
-CVE-2026-98308|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ALSA: hda: trace PCM open only after assigning a stream
-CVE-2026-98309|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|drm/vc4: Use managed KMS polling to fix UAF on unbind
-CVE-2026-98311|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|wifi: virt_wifi: don't transfer operstate before register
-CVE-2026-98312|Moderate|4.3|CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ALSA: 6fire: fix OOB write from device-reported iso length
-CVE-2026-98314|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ALSA: pcm: set timer->private_data before registering the PCM timer
-CVE-2026-98316|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ALSA: bcd2000: Fix race between rawmidi and disconnect
-CVE-2026-98317|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|neighbour: Enforce min/max to NDTPA_INTERVAL_PROBE_TIME_MS.
-CVE-2026-98319|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|drm: Fix drm_pending_vblank_event leak in error path for out_fence_ptr
-CVE-2026-98320|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|netfilter: flowtable: hold reference on ct until flow is released

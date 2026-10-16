@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-16T00:49:27Z | part 1 of 6 | 350 of 1804 CVEs | ADV260001 to CVE-2026-69916
+# Microsoft MSRC 2026-Oct | fetched 2026-10-16T09:19:29Z | part 1 of 6 | 350 of 1836 CVEs | ADV260001 to CVE-2026-69905
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 ADV260001|None|not stated|none published|Not a Vulnerability|No|No|ADV260001 Hardening changes for ReFS volumes on removable media
 CVE-2026-100200|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Update Service Elevation of Privilege Vulnerability
@@ -81,7 +81,7 @@ CVE-2026-102863|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-102864|Important|4.6|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Microsoft Office SharePoint Spoofing Vulnerability
 CVE-2026-102865|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office SharePoint Information Disclosure Vulnerability
 CVE-2026-102866|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Office SharePoint Elevation of Privilege Vulnerability
-CVE-2026-102867|Low|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Word Information Disclosure Vulnerability
+CVE-2026-102867|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Word Information Disclosure Vulnerability
 CVE-2026-102869|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|.NET and Visual Studio Elevation of Privilege Vulnerability
 CVE-2026-102870|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|ASP.NET Core Remote Code Execution Vulnerability
 CVE-2026-103006|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Uncontrolled Recursion in Elasticsearch Leading to Denial of Service
@@ -112,6 +112,7 @@ CVE-2026-105009|Important|7.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H/E:U/R
 CVE-2026-105010|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Windows Search Component Elevation of Privilege Vulnerability
 CVE-2026-105013|Important|7.4|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:L/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office SharePoint Remote Code Execution Vulnerability
 CVE-2026-105016|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft QUIC Remote Code Execution Vulnerability
+CVE-2026-105236|Low|not stated|none published|not stated|Unknown|Unknown|TLS 1.2 session resumption in ssl crosses SNI virtual-host client-certificate trust boundaries
 CVE-2026-105326|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N/E:U|not stated|Unknown|Unknown|Cups: cups: argument injection in mailto notifier via notify-recipient-uri
 CVE-2026-105591|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Access Remote Code Execution Vulnerability
 CVE-2026-105592|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Access Remote Code Execution Vulnerability
@@ -163,6 +164,9 @@ CVE-2026-107301|Moderate|6.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L|not st
 CVE-2026-107302|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|msgpack5: Truncated map32 headers throw an unexpected error
 CVE-2026-107324|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Application denial of service via integer overflow in BSON value-length validation in MongoDB Go Driver
 CVE-2026-107325|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Application denial of service via missing BSON array length validation in MongoDB Go Driver
+CVE-2026-107348|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Integer overflow causes an infinite loop in message buffer growth in PgBouncer
+CVE-2026-107349|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Infinite loop on empty option name in startup options parameter in PgBouncer
+CVE-2026-107350|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Authentication bypass via second StartupMessage during SCRAM authentication in PgBouncer
 CVE-2026-107655|Low|4.0|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L/E:U|not stated|Unknown|Unknown|Cups: null pointer dereference via embedded job ticket comments allows remote denial of service
 CVE-2026-107708|Moderate|4.9|CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|MIT krb5 through 1.22.2 KDC NULL Pointer Dereference via S4U2Proxy PAC
 CVE-2026-107718|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|AdonisJS: Unencoded route parameters can produce open redirects
@@ -255,6 +259,7 @@ CVE-2026-48005|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not
 CVE-2026-49264|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|OAuthLib: Unsafe JSONP callback injection in RevocationEndpoint allows arbitrary JavaScript response generation
 CVE-2026-49265|Moderate|6.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|OAuthLib: Timing Attack Vulnerability in PKCE code_verifier Comparison
 CVE-2026-49785|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Security Feature Bypass|No|No|UEFI Secure Boot Security Feature Bypass Vulnerability
+CVE-2026-53615|Important|8.0|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|util-linux libblkid DOS extended-partition overflow produces invalid partition metadata
 CVE-2026-56153|Important|9.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_charset_lite: Heap overflow in finish_partial_char
 CVE-2026-56154|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_rewrite use-after-free via %{LA-U:HTTP:...}
 CVE-2026-56449|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_proxy_html: crash in dump_content
@@ -272,7 +277,7 @@ CVE-2026-61374|Important|not stated|none published|not stated|Unknown|Unknown|Ap
 CVE-2026-61801|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|github.com/moby/sys/user has a possible DoS via unbounded parsing of user and group database files
 CVE-2026-61931|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Perception Simulation Service Elevation of Privilege Vulnerability
 CVE-2026-62687|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Backup Engine Information Disclosure Vulnerability
-CVE-2026-62840|Critical|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Linux Kernel Elevation of Privilege Vulnerability
+CVE-2026-62840|Critical|not stated|none published|Elevation of Privilege|No|No|Linux Kernel Elevation of Privilege Vulnerability
 CVE-2026-62879|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows SmartScreen Tampering Vulnerability
 CVE-2026-63045|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Apache HTTP Server: mod_proxy_ftp PASV address handling
 CVE-2026-63292|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_vhost_alias stack overflow
@@ -345,8 +350,3 @@ CVE-2026-69886|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-69898|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
 CVE-2026-69902|Important|6.7|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows NTFS Remote Code Execution Vulnerability
 CVE-2026-69905|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows AppX Deployment Service Tampering Vulnerability
-CVE-2026-69909|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft COM for Windows Elevation of Privilege Vulnerability
-CVE-2026-69913|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows TCP/IP Remote Code Execution Vulnerability
-CVE-2026-69914|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows AppX Deployment Service Information Disclosure Vulnerability
-CVE-2026-69915|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows NTFS Elevation of Privilege Vulnerability
-CVE-2026-69916|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows NTFS Elevation of Privilege Vulnerability

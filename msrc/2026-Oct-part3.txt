@@ -1,5 +1,12 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-16T00:49:27Z | part 3 of 6 | 350 of 1804 CVEs | CVE-2026-83578 to CVE-2026-85805
+# Microsoft MSRC 2026-Oct | fetched 2026-10-16T09:19:29Z | part 3 of 6 | 350 of 1836 CVEs | CVE-2026-83568 to CVE-2026-85797
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-83568|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel-Mode Drivers Elevation of Privilege Vulnerability
+CVE-2026-83569|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|HID Parser Library Elevation of Privilege Vulnerability
+CVE-2026-83570|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Search Service Elevation of Privilege Vulnerability
+CVE-2026-83571|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Audio Service Information Disclosure Vulnerability
+CVE-2026-83573|Important|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel-Mode Driver Elevation of Privilege Vulnerability
+CVE-2026-83574|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Search Service Elevation of Privilege Vulnerability
+CVE-2026-83575|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Search Service Elevation of Privilege Vulnerability
 CVE-2026-83578|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft PowerShell Remote Code Execution Vulnerability
 CVE-2026-83579|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Smart Card Elevation of Privilege Vulnerability
 CVE-2026-83580|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Client-Side Caching (CSC) Service Elevation of Privilege Vulnerability
@@ -36,7 +43,7 @@ CVE-2026-83656|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL
 CVE-2026-83657|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows Modern Device Management (MDM) Tampering Vulnerability
 CVE-2026-83658|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Error Reporting Information Disclosure Vulnerability
 CVE-2026-83659|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows User Profile Service Elevation of Privilege Vulnerability
-CVE-2026-83663|Moderate|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: TFramedTransport and THeaderTransport re-enter Read once per frame that carries no payload (Go)
+CVE-2026-83663|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: TFramedTransport and THeaderTransport re-enter Read once per frame that carries no payload (Go)
 CVE-2026-83664|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Portable Device File System Driver Information Disclosure Vulnerability
 CVE-2026-83665|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows DHCP Server Denial of Service Vulnerability
 CVE-2026-83666|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Active Directory Certificate Services (AD CS) Elevation of Privilege Vulnerability
@@ -343,10 +350,3 @@ CVE-2026-85794|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL
 CVE-2026-85795|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Text Services Framework Elevation of Privilege Vulnerability
 CVE-2026-85796|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
 CVE-2026-85797|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows GDI Information Disclosure Vulnerability
-CVE-2026-85798|Important|7.2|CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Distributed File System (DFS) Remote Code Execution Vulnerability
-CVE-2026-85799|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Network Policy Server (NPS) Remote Code Execution Vulnerability
-CVE-2026-85800|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Error Reporting Elevation of Privilege Vulnerability
-CVE-2026-85802|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Win32 Kernel Subsystem Elevation of Privilege Vulnerability
-CVE-2026-85803|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Camera Frame Server Monitor Elevation of Privilege Vulnerability
-CVE-2026-85804|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Win32 Kernel Subsystem Elevation of Privilege Vulnerability
-CVE-2026-85805|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Microsoft PowerShell Security Feature Bypass Vulnerability
