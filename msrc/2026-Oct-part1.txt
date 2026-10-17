@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-17T00:48:23Z | part 1 of 6 | 350 of 2091 CVEs | ADV260001 to CVE-2026-106421
+# Microsoft MSRC 2026-Oct | fetched 2026-10-17T08:50:58Z | part 1 of 7 | 350 of 2135 CVEs | ADV260001 to CVE-2026-106416
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 ADV260001|None|not stated|none published|Not a Vulnerability|No|No|ADV260001 Hardening changes for ReFS volumes on removable media
 CVE-2026-100200|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Update Service Elevation of Privilege Vulnerability
@@ -20,6 +20,9 @@ CVE-2026-100219|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-100220|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Media Video Decoder Remote Code Execution Vulnerability
 CVE-2026-100222|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Network Policy Server (NPS) Remote Code Execution Vulnerability
 CVE-2026-100225|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Storage Elevation of Privilege Vulnerability
+CVE-2026-100236|Important|8.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|Dpdk: dpdk: heap out-of-bounds read/write in gso header copy
+CVE-2026-101019|Moderate|6.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:N|not stated|Unknown|Unknown|NGINX ngx_http_js_module vulnerability
+CVE-2026-101025|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|NGINX ngx_http_js_module vulnerability
 CVE-2026-102186|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Network File System Information Disclosure Vulnerability
 CVE-2026-102187|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Kernel Information Disclosure Vulnerability
 CVE-2026-102188|Important|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Storage Port Driver Elevation of Privilege Vulnerability
@@ -102,6 +105,7 @@ CVE-2026-103576|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/R
 CVE-2026-103577|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:H/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Microsoft QUIC Security Feature Bypass Vulnerability
 CVE-2026-103578|Important|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
 CVE-2026-103658|Moderate|5.9|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:U|not stated|Unknown|Unknown|GNU Aspell 0.60.8.2 (first vulnerable version is not known) contains a heap-based buffer overflow write (CWE-122) in its read-only dictionary loader. String::reserve() in common/string.hpp computes its capacity check with a signed int ((int)s + 1), so a requested size of 0x7FFFFFFF wraps negative and the backing buffer is never grown. ReadOnlyDict::load() in modules/speller/default/readonly_ws.cpp passes the unvalidated 32-bit size fields from a .rws dictionary header into this path, so a crafted .rws file with a valid endian marker (12345678) and an oversized length field (e.g. lang_name_size = 0x7FFFFFFF) causes attacker-controlled data to be written out of bounds past an undersized heap allocation. An attacker who induces a victim to load a malicious dictionary — for example via aspell dump master <file> — can corrupt heap memory, resulting in denial of service and potentially code execution. Fixed in b830b6e and will be fixed in release 0.60.8.3.
+CVE-2026-104150|Important|not stated|none published|not stated|Unknown|Unknown|AdonisJS HTTP Server: Uncontrolled Resource Consumption and Inefficient Regular Expression Complexity
 CVE-2026-104252|Important|7.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N|not stated|Unknown|Unknown|Vitess vttablet /twopcz reflected XSS
 CVE-2026-105003|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|HID Class Driver Elevation of Privilege Vulnerability
 CVE-2026-105004|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Overlay Filter Elevation of Privilege Vulnerability
@@ -346,7 +350,3 @@ CVE-2026-106412|Important|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not s
 CVE-2026-106413|Low|4.2|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106413: Race condition
 CVE-2026-106415|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106415: Information leak
 CVE-2026-106416|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106416: Code injection
-CVE-2026-106417|Low|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106417: Integer overflow
-CVE-2026-106418|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106418: Missing authorization
-CVE-2026-106420|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106420: Incorrect calculation
-CVE-2026-106421|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106421: Use after free

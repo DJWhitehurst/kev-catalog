@@ -1,4 +1,4 @@
-# Microsoft MSRC flagged CVEs | fetched 2026-10-17T00:48:23Z | months 2026-Oct | 2091 CVEs read, 200 flagged
+# Microsoft MSRC flagged CVEs | fetched 2026-10-17T08:50:58Z | months 2026-Oct | 2135 CVEs read, 203 flagged
 # flagged = Critical severity, OR Exploited:Yes, OR Publicly Disclosed:Yes | 1 exploited | 2 publicly disclosed
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-100202|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Message Queuing Queue Manager Remote Code Execution Vulnerability
@@ -84,7 +84,9 @@ CVE-2026-88178|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:
 CVE-2026-88185|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
 CVE-2026-88207|Critical|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office PowerPoint Remote Code Execution Vulnerability
 CVE-2026-92707|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|Denial of Service|No|Yes|MessagePack-CSharp Denial of Service Vulnerability
+CVE-2026-93479|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|NGINX Map directive and Regex matching vulnerability
 CVE-2026-94510|Critical|9.9|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:L/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Bookings Elevation of Privilege Vulnerability
+CVE-2026-94603|Critical|10.0|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Podman: The `podman run` command can be instructed to disable almost all sandboxing by image annotation
 CVE-2026-96202|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Raw Image Extension Remote Code Execution Vulnerability
 CVE-2026-96207|Critical|10.0|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Partner Center Elevation of Privilege Vulnerability
 CVE-2026-96222|Critical|7.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Active Directory Federation Services (AD FS) Spoofing Vulnerability
@@ -201,3 +203,4 @@ CVE-2026-98363|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not
 CVE-2026-98365|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|RDMA/rxe: Fix integer overflow in mr_check_range() leading to OOB access
 CVE-2026-98368|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|esp: downgrade zerocopy managed frags before mutating skb frags
 CVE-2026-98370|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|xfrm: fix compat ALLOCSPI request use-after-free
+CVE-2026-99999|Critical|9.3|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|ipv4: validate checksum_start before completing checksum

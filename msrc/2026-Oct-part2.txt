@@ -1,5 +1,9 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-17T00:48:23Z | part 2 of 6 | 350 of 2091 CVEs | CVE-2026-106422 to CVE-2026-70074
+# Microsoft MSRC 2026-Oct | fetched 2026-10-17T08:50:58Z | part 2 of 7 | 350 of 2135 CVEs | CVE-2026-106417 to CVE-2026-70031
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-106417|Low|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106417: Integer overflow
+CVE-2026-106418|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106418: Missing authorization
+CVE-2026-106420|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106420: Incorrect calculation
+CVE-2026-106421|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106421: Use after free
 CVE-2026-106422|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106422: Incorrect authorization
 CVE-2026-106423|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106423: Use after free
 CVE-2026-106424|Moderate|4.0|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106424: Information leak
@@ -140,6 +144,21 @@ CVE-2026-110169|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not s
 CVE-2026-110170|Important|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-110170: Use after free
 CVE-2026-110171|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-110171: Use after free
 CVE-2026-110172|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-110172: Use after free
+CVE-2026-110257|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|OW2 ASM 5.0 before 9.11 Excessive Memory Allocation via BootstrapMethods Attribute
+CVE-2026-110258|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|OW2 ASM 3.0 before 9.11 Excessive Memory Allocation via Multiple RET Instructions
+CVE-2026-110260|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|OW2 ASM 3.0 before 9.11 Quadratic Memory Allocation via Exception Handlers
+CVE-2026-110261|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|OW2 ASM 3.0 before 9.11 Excessive CPU Consumption via ClassWriter COMPUTE_FRAMES
+CVE-2026-110262|Moderate|3.3|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|OW2 ASM 3.1 before 9.11 Excessive Memory Allocation in AdviceAdapter
+CVE-2026-110263|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|OW2 ASM 3.0 before 9.11 Uncontrolled Recursion in SignatureReader
+CVE-2026-110270|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|OW2 ASM 3.0 before 9.11 Exponential Memory Allocation in JSRInlinerAdapter
+CVE-2026-110591|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|OW2 ASM 1.4.3 before 9.11 Excessive Resource Consumption via Analyzer
+CVE-2026-110602|Moderate|6.3|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|libmspack through 0.11alpha Uninitialized Pointer Free via kwajd_open Error Path
+CVE-2026-110659|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ELFIO through 3.12 NULL Pointer Dereference via relocation_section_accessor get_entry
+CVE-2026-110816|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|qs.stringify with arrayFormat comma throws TypeError on array elements that cannot be coerced to a string
+CVE-2026-110923|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Openssh: openssh: sftp can write outside the destination directory from a server-supplied path
+CVE-2026-111137|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|libsmi through 0.5.0 Out-of-Bounds Write via smiValueAsString OCTET STRING DEFVAL
+CVE-2026-111269|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|libical through 4.0.6 Heap Out-of-Bounds Read via icalvalue_decode_ical_string
+CVE-2026-15176|Moderate|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|NGINX ngx_http_core_module vulnerability
 CVE-2026-19029|Moderate|not stated|none published|not stated|Unknown|Unknown|HDF5 scale-offset filter heap buffer over-read via crafted chunk
 CVE-2026-19585|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Go-getter vulnerable to a path traversal in S3/GCS directory download handling
 CVE-2026-21413|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Raw Image Extension Remote Code Execution Vulnerability
@@ -158,7 +177,12 @@ CVE-2026-48005|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not
 CVE-2026-49264|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|OAuthLib: Unsafe JSONP callback injection in RevocationEndpoint allows arbitrary JavaScript response generation
 CVE-2026-49265|Moderate|6.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|OAuthLib: Timing Attack Vulnerability in PKCE code_verifier Comparison
 CVE-2026-49785|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Security Feature Bypass|No|No|UEFI Secure Boot Security Feature Bypass Vulnerability
+CVE-2026-53612|Moderate|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|util-linux mount hook_owner TOCTOU allows local privilege escalation
+CVE-2026-53613|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|util-linux mount target TOCTOU allows local privilege escalation
 CVE-2026-53615|Important|8.0|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|util-linux libblkid DOS extended-partition overflow produces invalid partition metadata
+CVE-2026-55453|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|CUPS ipp backend status-line injection can update queue PPD and lead to conditional RCE as lp via foomatic-rip
+CVE-2026-55467|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|CUPS fax option values bypass the CVE-2026-34980 control-character sanitizer (incomplete fix)
+CVE-2026-55480|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|CUPS copy_model() creates a predictable PPD tempfile without O_EXCL/O_NOFOLLOW (symlink TOCTOU, lp → root)
 CVE-2026-56153|Important|9.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_charset_lite: Heap overflow in finish_partial_char
 CVE-2026-56154|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_rewrite use-after-free via %{LA-U:HTTP:...}
 CVE-2026-56449|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_proxy_html: crash in dump_content
@@ -173,6 +197,8 @@ CVE-2026-59685|Important|8.2|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L/E:U|no
 CVE-2026-59797|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_ssl SSLRequire allows .htaccess ap_expr file-function
 CVE-2026-61373|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: Java TSaslNonblockingServer pre-auth unbounded SASL frame allocation
 CVE-2026-61374|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: Java TSaslTransport post-auth data-frame missing size limit
+CVE-2026-61642|Important|7.7|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:N|not stated|Unknown|Unknown|Squid Request Smuggling in HTTP Transfer-Encoding
+CVE-2026-61702|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|OpenPrinting CUPS: root-side banner file disclosure
 CVE-2026-61801|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|github.com/moby/sys/user has a possible DoS via unbounded parsing of user and group database files
 CVE-2026-61931|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Perception Simulation Service Elevation of Privilege Vulnerability
 CVE-2026-62687|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Backup Engine Information Disclosure Vulnerability
@@ -192,6 +218,7 @@ CVE-2026-66822|Important|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL
 CVE-2026-66837|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: PHP accelerator sizes a stack buffer from a wire-controlled string length
 CVE-2026-66858|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift: skip() does not apply the recursion limit (Python accelerator, PHP, Perl, Lua, Smalltalk, OCaml)
 CVE-2026-66859|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: c_glib multiplexed processor crashes on a message it cannot route
+CVE-2026-67418|Moderate|not stated|none published|not stated|Unknown|Unknown|RabbitMQ MQTT 5: inapplicable PUBLISH property disconnects matching subscribers
 CVE-2026-67625|Important|8.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft SQL Server Remote Code Execution Vulnerability
 CVE-2026-67626|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Microsoft SQL Server Denial of Service Vulnerability
 CVE-2026-67628|Important|4.9|CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft SQL Server Information Disclosure Vulnerability
@@ -323,30 +350,3 @@ CVE-2026-70025|Important|5.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U/RL
 CVE-2026-70026|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Secure Kernel Mode Elevation of Privilege Vulnerability
 CVE-2026-70027|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Subsystem for Linux Elevation of Privilege Vulnerability
 CVE-2026-70031|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows iSCSI Denial of Service Vulnerability
-CVE-2026-70033|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows Remote Desktop Gateway (RD Gateway) Denial of Service Vulnerability
-CVE-2026-70035|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|.NET Framework Remote Code Execution Vulnerability
-CVE-2026-70038|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows iSCSI Remote Code Execution Vulnerability
-CVE-2026-70041|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows CD-ROM Driver Information Disclosure Vulnerability
-CVE-2026-70044|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Windows Media Foundation Information Disclosure Vulnerability
-CVE-2026-70045|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Work Folders Elevation of Privilege Vulnerability
-CVE-2026-70048|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Resilient File System (ReFS) Elevation of Privilege Vulnerability
-CVE-2026-70049|Important|8.0|CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:P/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Configuration Manager Elevation of Privilege Vulnerability
-CVE-2026-70051|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows SmartScreen Elevation of Privilege Vulnerability
-CVE-2026-70052|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft PowerShell Remote Code Execution Vulnerability
-CVE-2026-70054|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows NetBIOS Elevation of Privilege Vulnerability
-CVE-2026-70055|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Cryptographic Services Information Disclosure Vulnerability
-CVE-2026-70056|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Update Service Elevation of Privilege Vulnerability
-CVE-2026-70057|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Windows Routing and Remote Access Service (RRAS) Security Feature Bypass Vulnerability
-CVE-2026-70058|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows DHCP Server Remote Code Execution Vulnerability
-CVE-2026-70059|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows OLE Elevation of Privilege Vulnerability
-CVE-2026-70060|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Win32k Elevation of Privilege Vulnerability
-CVE-2026-70062|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows libarchive Remote Code Execution Vulnerability
-CVE-2026-70063|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Kernel Information Disclosure Vulnerability
-CVE-2026-70064|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kerberos Elevation of Privilege Vulnerability
-CVE-2026-70066|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows DHCP Server Elevation of Privilege Vulnerability
-CVE-2026-70067|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Win32k Elevation of Privilege Vulnerability
-CVE-2026-70068|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Client-Side Caching (CSC) Service Elevation of Privilege Vulnerability
-CVE-2026-70069|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows DHCP Server Remote Code Execution Vulnerability
-CVE-2026-70071|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Role: DNS Server Tampering Vulnerability
-CVE-2026-70072|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows Netlogon Denial of Service Vulnerability
-CVE-2026-70074|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows DNS Information Disclosure Vulnerability
