@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-16T09:19:29Z | part 1 of 6 | 350 of 1836 CVEs | ADV260001 to CVE-2026-69905
+# Microsoft MSRC 2026-Oct | fetched 2026-10-17T00:48:23Z | part 1 of 6 | 350 of 2091 CVEs | ADV260001 to CVE-2026-106421
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 ADV260001|None|not stated|none published|Not a Vulnerability|No|No|ADV260001 Hardening changes for ReFS volumes on removable media
 CVE-2026-100200|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Update Service Elevation of Privilege Vulnerability
@@ -61,6 +61,7 @@ CVE-2026-102233|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-102234|Important|7.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Visual Studio Code Security Feature Bypass Vulnerability
 CVE-2026-102235|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Visual Studio Code Remote Code Execution Vulnerability
 CVE-2026-102238|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Visual Studio Code Remote Code Execution Vulnerability
+CVE-2026-102322|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-102322: Incorrect Authorization
 CVE-2026-102342|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|ammonia allows stored XSS through unsanitized SVG animate and set attributes
 CVE-2026-102404|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Uncontrolled Resource Consumption in Elasticsearch Leading to Denial of Service
 CVE-2026-102407|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|Incorrect Authorization in Elasticsearch Leading to Unauthorized Data Stream Modification
@@ -142,211 +143,210 @@ CVE-2026-105731|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/R
 CVE-2026-105732|Important|7.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|SysInternals Elevation of Privilege Vulnerability
 CVE-2026-105733|Critical|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Hyper-V Remote Code Execution Vulnerability
 CVE-2026-105773|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Canimaan Software ClamXAV local privilege escalation
-CVE-2026-106454|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Twisted: IMAP wildcardToRegexp() ReDoS
-CVE-2026-106547|Important|not stated|none published|not stated|Unknown|Unknown|HDF5 heap buffer overflow in H5VM_array_fill via crafted fill-value metadata
-CVE-2026-106552|Moderate|4.2|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|In sftp in OpenSSH before 10.6, a server can trigger directory traversal (causing files to be written to unintended locations) during a recursive copy operation.
-CVE-2026-106553|Low|2.2|CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|In sshd in OpenSSH before 10.6, credentials can incorrectly persist after failure of a GSSAPIAuthentication authentication attempt.
-CVE-2026-106555|Low|2.2|CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|In sshd in OpenSSH before 10.6, GSSAPIAuthentication authentication state can incorrectly be persisted across authentication attempts.
-CVE-2026-106582|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|In sshd and ssh in OpenSSH before 10.6, an LZ77 dictionary coder can be used even though this is contraindicated by the arXiv 2609.07709 "Crossing the Streams" findings.
-CVE-2026-106583|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|In ssh in OpenSSH before 10.6, a $ or \ character can occur in a command-line username, leading to injection.
-CVE-2026-106584|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|In ssh-keygen in OpenSSH before 10.6, certificates could have incorrect expiration times because of Daylight Saving mishandling. There can be a slightly more severe effect on users in certain Antarctic locations.
-CVE-2026-106585|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|In sshd and ssh in OpenSSH before 10.6, there is no check for whether the maximum packet length is exceeded during decompression of highly compressed data.
-CVE-2026-106586|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|In sshd in OpenSSH before 10.6, the restrict keyword (in authorized_keys) was supposed to be applicable to tunnel forwarding but was not, a different vulnerability than CVE-2026-73283.
-CVE-2026-106587|Low|3.6|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|In sshd in OpenSSH before 10.6, the value "none" for a configuration option is sometimes interpreted as a filename but was intended to mean that a feature is disabled.
-CVE-2026-106589|Low|2.9|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|In sshd in OpenSSH through 10.6, in certain environments such as QNX 6 and SCO OpenServer 5, sshd-session can unexpectedly have root privileges. This is related to the GatewayPorts and StreamLocalForwarding configuration options, and lack of support for file-descriptor passing and unprivileged allocation of PTY devices.
-CVE-2026-107161|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Cyrus-sasl: heap buffer overflow in cyrus-sasl add_to_challenge() allows malicious server to crash or compromise digest-md5 clients
-CVE-2026-107296|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|msgpack5: Decoding negative int64 values mutates the input buffer
-CVE-2026-107297|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|msgpack5: Quadratic parsing in the streaming decoder
-CVE-2026-107298|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|msgpack5: Deeply nested input can exhaust the decoder stack
-CVE-2026-107299|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|msgpack5: Reserved byte can cause unbounded stream buffering
-CVE-2026-107300|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|msgpack5: Many buffered values can exhaust the streaming decoder stack
-CVE-2026-107301|Moderate|6.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L|not stated|Unknown|Unknown|msgpack5: Partial options disable prototype protection
-CVE-2026-107302|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|msgpack5: Truncated map32 headers throw an unexpected error
-CVE-2026-107324|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Application denial of service via integer overflow in BSON value-length validation in MongoDB Go Driver
-CVE-2026-107325|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Application denial of service via missing BSON array length validation in MongoDB Go Driver
-CVE-2026-107348|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Integer overflow causes an infinite loop in message buffer growth in PgBouncer
-CVE-2026-107349|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Infinite loop on empty option name in startup options parameter in PgBouncer
-CVE-2026-107350|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Authentication bypass via second StartupMessage during SCRAM authentication in PgBouncer
-CVE-2026-107655|Low|4.0|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L/E:U|not stated|Unknown|Unknown|Cups: null pointer dereference via embedded job ticket comments allows remote denial of service
-CVE-2026-107708|Moderate|4.9|CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|MIT krb5 through 1.22.2 KDC NULL Pointer Dereference via S4U2Proxy PAC
-CVE-2026-107718|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|AdonisJS: Unencoded route parameters can produce open redirects
-CVE-2026-107778|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|MIT krb5 through 1.22.2 NULL Pointer Dereference via krb5_rd_cred()
-CVE-2026-107885|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L/E:P|not stated|Unknown|Unknown|OpenPrinting CUPS through 2.4.20 contains a resource-exhaustion vulnerability in the submission-timeout handling of cupsdCheckJobs(). The scheduler suppresses timeout processing for all pending jobs whenever any client connection has an in-flight Send-Document operation, without matching that connection to the job being examined. A client allowed to reach the IPP service can hold an incomplete HTTP request containing parsed Send-Document headers before operation authorization, preventing unrelated incomplete jobs from expiring. Where Create-Job submission is allowed, incomplete jobs can accumulate until MaxJobs is exhausted and further legitimate print submissions are rejected. The suppression ends when the held connection closes.
-CVE-2026-107886|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L/E:U|not stated|Unknown|Unknown|OpenPrinting CUPS before 2.4.20 contains a double-free in printer-class management. When CUPS-Add-Modify-Class replaces an existing class member list, add_class() frees pclass->printers without clearing the pointer. If subsequent validation fails, the class retains the dangling pointer; CUPS-Delete-Class subsequently frees the same allocation in cupsdDeletePrinter(). A client authorized to modify and delete classes can cause scheduler-wide denial of service. The default policy requires @SYSTEM privileges.
-CVE-2026-107888|Moderate|5.1|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|OpenPrinting CUPS before 2.4.20 contains a NULL pointer dereference in cupsdCheckJobs() when a job marked job-held-on-create refers to a temporary printer that has been automatically deleted. Temporary-printer cleanup can remove the destination without canceling its held jobs, and the scheduler dereferences the NULL result of cupsdFindDest() while checking holding_new_jobs. This terminates cupsd and interrupts all queues managed by that process. In some plausible scenarios, an unprivileged submission can trigger this.
-CVE-2026-107890|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L/E:U|not stated|Unknown|Unknown|OpenPrinting CUPS before 2.4.20 contains a NULL pointer dereference caused by repeated IPP group tags in job-creation requests. IPP parsing creates unnamed separator attributes with IPP_TAG_ZERO, but add_job() converts these separators to IPP_TAG_JOB. During job startup, get_options()/ipp_length() subsequently calls strlen() on a NULL attribute name, terminating cupsd and disrupting all queues. A single crafted Print-Job request can trigger the crash when the client can reach the scheduler and submit jobs to an accepting, enabled queue supporting the submitted document format. Anonymous submission is possible when permitted by listener and access-control configuration.
-CVE-2026-108119|Moderate|6.3|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|Busybox: busybox: tar extraction-root escape via deferred symlink/hardlink creation bypasses cve-2026-26158 fix
-CVE-2026-108127|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Role: DNS Server Information Disclosure Vulnerability
-CVE-2026-108128|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Role: DNS Server Information Disclosure Vulnerability
-CVE-2026-108129|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Role: DNS Server Information Disclosure Vulnerability
-CVE-2026-108130|Critical|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Virtualization-Based Security (VBS) Enclave Elevation of Privilege Vulnerability
-CVE-2026-108131|Critical|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Active Directory Federation Services (AD FS) Spoofing Vulnerability
-CVE-2026-108132|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kerberos Elevation of Privilege Vulnerability
-CVE-2026-108133|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Modern Device Management (MDM) Elevation of Privilege Vulnerability
-CVE-2026-108134|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Autopilot Elevation of Privilege Vulnerability
-CVE-2026-108135|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Backup Engine Elevation of Privilege Vulnerability
-CVE-2026-108136|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Windows Search Component Elevation of Privilege Vulnerability
-CVE-2026-108266|Critical|not stated|none published|not stated|Unknown|Unknown|Privasys rustls fork: RA-TLS challenge mode did not bind attestation evidence to the TLS session
-CVE-2026-108267|Critical|not stated|none published|not stated|Unknown|Unknown|Privasys Go fork: RA-TLS challenge mode did not bind attestation evidence to the TLS session
-CVE-2026-108396|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Modern Device Management (MDM) Elevation of Privilege Vulnerability
-CVE-2026-108398|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Security Feature Bypass|No|Yes|.NET Framework Security Feature Bypass Vulnerability
-CVE-2026-108399|Critical|7.2|CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Hyper-V Elevation of Privilege Vulnerability
-CVE-2026-108400|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|HEVC Video Extensions Remote Code Execution Vulnerability
-CVE-2026-108426|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
-CVE-2026-108427|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
-CVE-2026-108428|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
-CVE-2026-108429|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
-CVE-2026-108430|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
-CVE-2026-108431|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
-CVE-2026-108432|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
-CVE-2026-108433|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Microsoft Office Word Security Feature Bypass Vulnerability
-CVE-2026-108434|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Word Information Disclosure Vulnerability
-CVE-2026-108435|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Word Information Disclosure Vulnerability
-CVE-2026-108436|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Word Information Disclosure Vulnerability
-CVE-2026-108437|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
-CVE-2026-108438|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Word Information Disclosure Vulnerability
-CVE-2026-108439|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
-CVE-2026-108440|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
-CVE-2026-108441|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
-CVE-2026-108442|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
-CVE-2026-108443|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
-CVE-2026-108444|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Remote Code Execution Vulnerability
-CVE-2026-108445|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
-CVE-2026-108446|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
-CVE-2026-108447|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
-CVE-2026-108448|Critical|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Outlook Remote Code Execution Vulnerability
-CVE-2026-108449|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
-CVE-2026-108450|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
-CVE-2026-108451|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
-CVE-2026-108452|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office SharePoint Remote Code Execution Vulnerability
-CVE-2026-108453|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office PowerPoint Information Disclosure Vulnerability
-CVE-2026-108454|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office PowerPoint Information Disclosure Vulnerability
-CVE-2026-108455|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office PowerPoint Information Disclosure Vulnerability
-CVE-2026-108457|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Windows PDF Remote Code Execution Vulnerability
-CVE-2026-108458|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Remote Desktop Client Remote Code Execution Vulnerability
-CVE-2026-108460|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Message Queuing Remote Code Execution Vulnerability
-CVE-2026-108461|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Broadcast DVR User Service Elevation of Privilege Vulnerability
-CVE-2026-108462|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Kernel Information Disclosure Vulnerability
-CVE-2026-108463|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Windows SmartScreen Security Feature Bypass Vulnerability
-CVE-2026-108464|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Software Protection Platform (SPP) Elevation of Privilege Vulnerability
-CVE-2026-108465|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Update Delivery Optimization Elevation of Privilege Vulnerability
-CVE-2026-108466|Important|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows Kernel Denial of Service Vulnerability
-CVE-2026-108467|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft PostScript Printer Driver Remote Code Execution Vulnerability
-CVE-2026-108468|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
-CVE-2026-108471|Critical|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Virtualization-Based Security (VBS) Enclave Elevation of Privilege Vulnerability
-CVE-2026-108976|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|GNU Emacs before 31.2 (and TRAMP through 2.8.2) allows OS command injection via a filename because tramp-user-regexp has an incomplete list of disallowed inputs. NOTE: this issue exists because of an incomplete fix for CVE-2026-79992.
-CVE-2026-108985|Important|7.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|ZDR decoding in libnfs through 6.0.2 before 7613236 has an out-of-bounds write related to lib/libnfs-zdr.c with libnfs_zdr_bytes(), libnfs_zdr_string(), and libnfs_zdr_array(). The caller-supplied maxsize value is not honored.
-CVE-2026-109349|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|gix-pack before 0.75.0 Reachable Assertion DoS via Pack Version 3 Header
-CVE-2026-109453|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Virtual Hard Disk (VHD) Miniport Driver Elevation of Privilege Vulnerability
-CVE-2026-109461|Important|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Authentication Library (MSAL) for Node.js Information Disclosure Vulnerability
-CVE-2026-109468|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|ASP.NET Core Denial of Service Vulnerability
-CVE-2026-109828|Low|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N/E:P/RL:X/RC:C|not stated|Unknown|Unknown|libsndfile WAV Parsing wavlike.c wavlike_subchunk_parse uninitialized variable
-CVE-2026-19029|Moderate|not stated|none published|not stated|Unknown|Unknown|HDF5 scale-offset filter heap buffer over-read via crafted chunk
-CVE-2026-19585|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Go-getter vulnerable to a path traversal in S3/GCS directory download handling
-CVE-2026-21413|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Raw Image Extension Remote Code Execution Vulnerability
-CVE-2026-42356|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N/E:U|not stated|Unknown|Unknown|Apache HTTP Server: limited RCE for some internal redirects to non-CGI files in CGI directories
-CVE-2026-42528|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Apache HTTP Server: mod_dav shared lock overflow
-CVE-2026-42616|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|In NTFS-3G before 2026.7.7, a heap buffer overflow exists in cat() in ntfscat.c that allows an attacker to corrupt heap memory in the ntfscat binary by crafting a malicious NTFS image. The overflow is triggered by reading a file.
-CVE-2026-42617|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_ir_to_ib() in index.c that allows an attacker to corrupt heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by extending a directory, e.g., by creating a file.
-CVE-2026-42618|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_decompress() in compress.c that allows an attacker to corrupt one byte of heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by reading the special crafted file.
-CVE-2026-46569|Important|7.7|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_ib_copy_tail(), in libntfs-3g/index.c, that allows an attacker to corrupt heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by extending a directory, e.g., by creating a file.
-CVE-2026-46570|Important|8.1|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_index_walk_down() in libntfs-3g/index.c that allows an attacker to corrupt heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by reading the special crafted file metadata.
-CVE-2026-46571|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|In NTFS-3G before 2026.7.7, a out-of-bounds read exists in ntfs_fix_file_name() in libntfs-3g/reparse.c that allows an attacker to read possibly confidential information in ntfs-3g process memory by crafting a malicious NTFS image. The out-of-bounds read is triggered by a readlink on a corrupted file.
-CVE-2026-46572|Important|7.4|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_ib_cut_tail() in libntfs-3g/index.c that allows an attacker to corrupt heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by creating a file in a specially crafted directory.
-CVE-2026-46729|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Apache HTTP Server: mod_heartmonitor denial of service
-CVE-2026-47360|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Apache HTTP Server: mod_session: Session cookie not removed during internal redirect
-CVE-2026-48005|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_auth_digest reauthentication attack
-CVE-2026-49264|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|OAuthLib: Unsafe JSONP callback injection in RevocationEndpoint allows arbitrary JavaScript response generation
-CVE-2026-49265|Moderate|6.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|OAuthLib: Timing Attack Vulnerability in PKCE code_verifier Comparison
-CVE-2026-49785|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Security Feature Bypass|No|No|UEFI Secure Boot Security Feature Bypass Vulnerability
-CVE-2026-53615|Important|8.0|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|util-linux libblkid DOS extended-partition overflow produces invalid partition metadata
-CVE-2026-56153|Important|9.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_charset_lite: Heap overflow in finish_partial_char
-CVE-2026-56154|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_rewrite use-after-free via %{LA-U:HTTP:...}
-CVE-2026-56449|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_proxy_html: crash in dump_content
-CVE-2026-56851|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Panic parsing crafted input in x/text/secure/precis in golang.org/x/text
-CVE-2026-56857|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Root.Mkdir(All) can follow junctions out of the root on Windows in os
-CVE-2026-56866|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|HTTP/1 client connection desynchronization after CONNECT rejection in net/http
-CVE-2026-57941|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_http2 use-after-free / wild write via shared session->bbtmp re-entrancy
-CVE-2026-58280|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|.NET Denial of Service Vulnerability
-CVE-2026-58415|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_dav_fs property database read access
-CVE-2026-59116|Important|6.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Windows Remote Desktop Security Feature Bypass Vulnerability
-CVE-2026-59685|Important|8.2|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L/E:U|not stated|Unknown|Unknown|Apache HTTP Server: Out-of-Bounds Write in ap_directory_walk() Canonical-Name Rewrite on CASE_BLIND_FILESYSTEM
-CVE-2026-59797|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_ssl SSLRequire allows .htaccess ap_expr file-function
-CVE-2026-61373|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: Java TSaslNonblockingServer pre-auth unbounded SASL frame allocation
-CVE-2026-61374|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: Java TSaslTransport post-auth data-frame missing size limit
-CVE-2026-61801|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|github.com/moby/sys/user has a possible DoS via unbounded parsing of user and group database files
-CVE-2026-61931|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Perception Simulation Service Elevation of Privilege Vulnerability
-CVE-2026-62687|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Backup Engine Information Disclosure Vulnerability
-CVE-2026-62840|Critical|not stated|none published|Elevation of Privilege|No|No|Linux Kernel Elevation of Privilege Vulnerability
-CVE-2026-62879|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows SmartScreen Tampering Vulnerability
-CVE-2026-63045|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Apache HTTP Server: mod_proxy_ftp PASV address handling
-CVE-2026-63292|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_vhost_alias stack overflow
-CVE-2026-63686|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Apache HTTP Server: mod_xml2enc crash on charset conversion failure
-CVE-2026-63718|Important|8.2|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:N/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_proxy_uwsgi Transfer-Encoding response smuggling
-CVE-2026-63772|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: Unauthenticated single-packet crash of Go Thrift servers via the THeader transform count
-CVE-2026-65674|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft SQL Server Remote Code Execution Vulnerability
-CVE-2026-66054|Moderate|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: C++ THeaderTransport does not enforce configured maxFrameSize
-CVE-2026-66055|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift: TJSONProtocol accepts a single JSON string/number exceeding the configured size limit (multi-language)
-CVE-2026-66081|Moderate|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: c_glib read_message_begin leaves output parameters unset for non-versioned messages
-CVE-2026-66331|Moderate|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: Buffered transport reads are not accounted against MaxMessageSize
-CVE-2026-66822|Important|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|.NET Information Disclosure Vulnerability
-CVE-2026-66837|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: PHP accelerator sizes a stack buffer from a wire-controlled string length
-CVE-2026-66858|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift: skip() does not apply the recursion limit (Python accelerator, PHP, Perl, Lua, Smalltalk, OCaml)
-CVE-2026-66859|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: c_glib multiplexed processor crashes on a message it cannot route
-CVE-2026-67625|Important|8.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft SQL Server Remote Code Execution Vulnerability
-CVE-2026-67626|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Microsoft SQL Server Denial of Service Vulnerability
-CVE-2026-67628|Important|4.9|CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft SQL Server Information Disclosure Vulnerability
-CVE-2026-67693|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|An issue in gnutls v.3.8.13 allows an attacker to obtain sensitive information via failing to reject end-entity X.509 certificates that contain a contradictory combination of Key Usage (KU) and Extended Key Usage (EKU)
-CVE-2026-68836|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows kernel32.dll Elevation of Privilege Vulnerability
-CVE-2026-68883|Important|8.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft SQL Server Elevation of Privilege Vulnerability
-CVE-2026-69326|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Graphic Fonts Remote Code Execution Vulnerability
-CVE-2026-69354|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Error Reporting Elevation of Privilege Vulnerability
-CVE-2026-69363|Important|8.0|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Error Reporting Elevation of Privilege Vulnerability
-CVE-2026-69370|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Visual Studio Code Remote Code Execution Vulnerability
-CVE-2026-69387|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Error Reporting Elevation of Privilege Vulnerability
-CVE-2026-69435|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Azure SRE Agent Elevation of Privilege Vulnerability
-CVE-2026-69452|Important|7.1|CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Enterprise App Management Elevation of Privilege Vulnerability
-CVE-2026-69454|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Azure Attestation service and Device Health Attestation Service Information Disclosure Vulnerability
-CVE-2026-69471|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
-CVE-2026-69506|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Key Storage Provider Information Disclosure Vulnerability
-CVE-2026-69521|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows iSCSI Remote Code Execution Vulnerability
-CVE-2026-69577|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Azure Attestation service and Device Health Attestation Service Information Disclosure Vulnerability
-CVE-2026-69596|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Program Compatibility Assistant Service Elevation of Privilege Vulnerability
-CVE-2026-69633|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Update Elevation of Privilege Vulnerability
-CVE-2026-69634|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows iSCSI Remote Code Execution Vulnerability
-CVE-2026-69635|Important|6.6|CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
-CVE-2026-69639|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows libarchive Remote Code Execution Vulnerability
-CVE-2026-69640|Important|5.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Windows Key Distribution Center Security Feature Bypass Vulnerability
-CVE-2026-69644|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows iSCSI Information Disclosure Vulnerability
-CVE-2026-69650|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Key Distribution Center Elevation of Privilege Vulnerability
-CVE-2026-69651|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|.NET Denial of Service Vulnerability
-CVE-2026-69673|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Update Elevation of Privilege Vulnerability
-CVE-2026-69675|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Network File System Information Disclosure Vulnerability
-CVE-2026-69705|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows iSCSI Remote Code Execution Vulnerability
-CVE-2026-69718|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Update Elevation of Privilege Vulnerability
-CVE-2026-69721|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows iSCSI Information Disclosure Vulnerability
-CVE-2026-69733|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Update Elevation of Privilege Vulnerability
-CVE-2026-69736|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Credential Manager Elevation of Privilege Vulnerability
-CVE-2026-69743|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Program Compatibility Assistant Service Elevation of Privilege Vulnerability
-CVE-2026-69763|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Storage Elevation of Privilege Vulnerability
-CVE-2026-69765|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Storport Miniport Driver Remote Code Execution Vulnerability
-CVE-2026-69766|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Storage Elevation of Privilege Vulnerability
-CVE-2026-69783|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Update Elevation of Privilege Vulnerability
-CVE-2026-69789|Critical|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Reliable Multicast Transport Driver (RMCAST) Remote Code Execution Vulnerability
-CVE-2026-69795|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Clipboard Server Elevation of Privilege Vulnerability
-CVE-2026-69798|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Wired AutoConfig Service Elevation of Privilege Vulnerability
-CVE-2026-69802|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Network Device Enrollment Service (NDES) Remote Code Execution Vulnerability
-CVE-2026-69830|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows DHCP Server Remote Code Execution Vulnerability
-CVE-2026-69840|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Certificates Elevation of Privilege Vulnerability
-CVE-2026-69850|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Certificates Elevation of Privilege Vulnerability
-CVE-2026-69856|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Storage Elevation of Privilege Vulnerability
-CVE-2026-69867|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|SQLite Elevation of Privilege Vulnerability
-CVE-2026-69877|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Azure DevOps Information Disclosure Vulnerability
-CVE-2026-69880|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Desktop Window Manager Elevation of Privilege Vulnerability
-CVE-2026-69882|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Update Elevation of Privilege Vulnerability
-CVE-2026-69883|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows iSCSI Remote Code Execution Vulnerability
-CVE-2026-69884|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows GDI Elevation of Privilege Vulnerability
-CVE-2026-69886|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Imaging Component Remote Code Execution Vulnerability
-CVE-2026-69898|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
-CVE-2026-69902|Important|6.7|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows NTFS Remote Code Execution Vulnerability
-CVE-2026-69905|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows AppX Deployment Service Tampering Vulnerability
+CVE-2026-106179|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106179: UI misrepresentation
+CVE-2026-106180|Moderate|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106180: Observable discrepancy
+CVE-2026-106181|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106181: Incorrect reference resolution
+CVE-2026-106182|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106182: UI misrepresentation
+CVE-2026-106183|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106183: Missing authorization
+CVE-2026-106184|Important|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106184: Uninitialized resource
+CVE-2026-106185|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106185: Improper input validation
+CVE-2026-106186|Low|8.6|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106186: Uncontrolled search path element
+CVE-2026-106187|Low|4.2|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106187: Missing authorization
+CVE-2026-106188|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106188: Confused deputy
+CVE-2026-106189|Moderate|7.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106189: Code injection
+CVE-2026-106190|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106190: Use after free
+CVE-2026-106191|Low|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106191: Missing authorization
+CVE-2026-106193|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106193: Use after free
+CVE-2026-106194|Moderate|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106194: Missing authorization
+CVE-2026-106195|Low|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106195: Incorrect authorization
+CVE-2026-106196|Moderate|7.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106196: Missing authorization
+CVE-2026-106197|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106197: Use after free
+CVE-2026-106198|Moderate|8.2|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106198: Missing authorization
+CVE-2026-106199|Low|8.2|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106199: Incorrect authorization
+CVE-2026-106200|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106200: Use after free
+CVE-2026-106201|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106201: Race condition
+CVE-2026-106202|Important|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106202: Uninitialized resource
+CVE-2026-106203|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106203: Incomplete cleanup
+CVE-2026-106204|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106204: Use after free
+CVE-2026-106205|Moderate|8.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106205: Missing authorization
+CVE-2026-106207|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106207: Race condition
+CVE-2026-106208|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106208: Missing authorization
+CVE-2026-106210|Moderate|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106210: Observable discrepancy
+CVE-2026-106211|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106211: Use after free
+CVE-2026-106212|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106212: Incorrect authorization
+CVE-2026-106213|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106213: Race condition
+CVE-2026-106214|Important|5.3|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106214: Information leak
+CVE-2026-106215|Important|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106215: Uninitialized resource
+CVE-2026-106216|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106216: Cross-site request forgery
+CVE-2026-106217|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106217: Missing authorization
+CVE-2026-106220|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106220: Information leak
+CVE-2026-106222|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106222: Incorrect authorization
+CVE-2026-106224|Moderate|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106224: Missing authorization
+CVE-2026-106225|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106225: Missing authorization
+CVE-2026-106226|Moderate|4.2|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106226: Improper input validation
+CVE-2026-106227|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106227: Use after free
+CVE-2026-106228|Moderate|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106228: Confused deputy
+CVE-2026-106229|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106229: UI misrepresentation
+CVE-2026-106230|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106230: Incorrect reference resolution
+CVE-2026-106231|Important|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106231: Uninitialized resource
+CVE-2026-106232|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106232: UI misrepresentation
+CVE-2026-106233|Important|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106233: Use after free
+CVE-2026-106234|Low|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106234: Use after free
+CVE-2026-106235|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106235: Use after free
+CVE-2026-106236|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106236: UI misrepresentation
+CVE-2026-106237|Low|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106237: Information leak
+CVE-2026-106238|Moderate|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106238: Race condition
+CVE-2026-106239|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106239: Integer overflow
+CVE-2026-106240|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106240: Type confusion
+CVE-2026-106241|Moderate|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106241: Incorrect authorization
+CVE-2026-106242|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106242: Information leak
+CVE-2026-106243|Important|5.3|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106243: Incomplete cleanup
+CVE-2026-106244|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106244: Incorrect authorization
+CVE-2026-106245|Important|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106245: Uninitialized resource
+CVE-2026-106246|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106246: Incorrect authorization
+CVE-2026-106247|Low|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106247: Buffer overflow
+CVE-2026-106248|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106248: Use after free
+CVE-2026-106249|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106249: Incorrect authorization
+CVE-2026-106250|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106250: Missing authorization
+CVE-2026-106251|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106251: UI misrepresentation
+CVE-2026-106252|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106252: Incorrect comparison
+CVE-2026-106253|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106253: Incorrect authorization
+CVE-2026-106255|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106255: Race condition
+CVE-2026-106256|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106256: Information leak
+CVE-2026-106257|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106257: Use after free
+CVE-2026-106258|Important|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106258: Uninitialized resource
+CVE-2026-106259|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106259: Incorrect authorization
+CVE-2026-106260|Low|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106260: Incorrect authorization
+CVE-2026-106261|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106261: Uninitialized resource
+CVE-2026-106262|Moderate|4.2|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106262: Incomplete cleanup
+CVE-2026-106263|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106263: Improper input validation
+CVE-2026-106264|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106264: Missing authorization
+CVE-2026-106265|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106265: UI misrepresentation
+CVE-2026-106266|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106266: Confused deputy
+CVE-2026-106267|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106267: Missing authorization
+CVE-2026-106268|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106268: Use after free
+CVE-2026-106269|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106269: Use after free
+CVE-2026-106270|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106270: Incorrect authorization
+CVE-2026-106271|Moderate|8.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106271: Missing authorization
+CVE-2026-106272|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106272: UI misrepresentation
+CVE-2026-106273|Important|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106273: Uninitialized resource
+CVE-2026-106274|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106274: Incorrect reference resolution
+CVE-2026-106275|Low|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106275: Uninitialized resource
+CVE-2026-106276|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106276: UI misrepresentation
+CVE-2026-106277|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106277: Information leak
+CVE-2026-106278|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106278: Use after free
+CVE-2026-106279|Moderate|7.4|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106279: Incorrect reference resolution
+CVE-2026-106280|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106280: Incorrect authorization
+CVE-2026-106281|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106281: Use after free
+CVE-2026-106283|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106283: Use after free
+CVE-2026-106284|Moderate|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106284: Out of bounds read
+CVE-2026-106285|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106285: UI misrepresentation
+CVE-2026-106286|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106286: Confused deputy
+CVE-2026-106287|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106287: Information loss
+CVE-2026-106288|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106288: Missing authorization
+CVE-2026-106289|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106289: Missing authorization
+CVE-2026-106291|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106291: Use after free
+CVE-2026-106292|Moderate|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106292: Buffer overflow
+CVE-2026-106293|Important|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106293: Type confusion
+CVE-2026-106294|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106294: Incomplete cleanup
+CVE-2026-106295|Moderate|4.2|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106295: Incorrect authorization
+CVE-2026-106297|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106297: Incorrect authorization
+CVE-2026-106299|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106299: Improper input validation
+CVE-2026-106300|Moderate|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106300: Race condition
+CVE-2026-106301|Moderate|8.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106301: Confused deputy
+CVE-2026-106302|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106302: UI misrepresentation
+CVE-2026-106303|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106303: Observable discrepancy
+CVE-2026-106304|Moderate|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106304: Out of bounds read
+CVE-2026-106306|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106306: Incorrect authorization
+CVE-2026-106307|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106307: Incorrect authorization
+CVE-2026-106308|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106308: Incorrect reference resolution
+CVE-2026-106309|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106309: Incorrect authorization
+CVE-2026-106310|Low|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106310: Use of released resource
+CVE-2026-106311|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106311: Clickjacking
+CVE-2026-106312|Low|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106312: Missing authorization
+CVE-2026-106314|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106314: Incorrect authorization
+CVE-2026-106315|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106315: Use after free
+CVE-2026-106316|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106316: UI misrepresentation
+CVE-2026-106318|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106318: Use after free
+CVE-2026-106321|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106321: Information leak
+CVE-2026-106322|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106322: Open redirect
+CVE-2026-106324|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106324: Incorrect authorization
+CVE-2026-106325|Low|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106325: Incorrect reference resolution
+CVE-2026-106327|Important|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106327: Incorrect authorization
+CVE-2026-106328|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106328: Incorrect authorization
+CVE-2026-106329|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106329: Incorrect authorization
+CVE-2026-106330|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106330: Information leak
+CVE-2026-106331|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106331: Improper input validation
+CVE-2026-106332|Important|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106332: Integer overflow
+CVE-2026-106333|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106333: Incorrect authorization
+CVE-2026-106334|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106334: Information leak
+CVE-2026-106335|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106335: Use after free
+CVE-2026-106336|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106336: Observable discrepancy
+CVE-2026-106338|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106338: UI misrepresentation
+CVE-2026-106339|Low|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106339: Use of released resource
+CVE-2026-106340|Low|4.6|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106340: Missing authorization
+CVE-2026-106341|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106341: Type confusion
+CVE-2026-106342|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106342: Information leak
+CVE-2026-106343|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106343: Improper state validation
+CVE-2026-106344|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106344: Missing authorization
+CVE-2026-106345|Low|4.2|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106345: Use of released resource
+CVE-2026-106346|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106346: Improper state validation
+CVE-2026-106347|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106347: Use after free
+CVE-2026-106348|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106348: Information leak
+CVE-2026-106349|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106349: Use after free
+CVE-2026-106350|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106350: Incorrect authorization
+CVE-2026-106351|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106351: Observable discrepancy
+CVE-2026-106352|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106352: Incorrect authorization
+CVE-2026-106354|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106354: Improper resource exposure
+CVE-2026-106355|Low|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106355: Missing authorization
+CVE-2026-106356|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106356: Clickjacking
+CVE-2026-106357|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106357: Use after free
+CVE-2026-106358|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106358: Use after free
+CVE-2026-106359|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106359: Confused deputy
+CVE-2026-106360|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106360: Information leak
+CVE-2026-106362|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106362: Missing authorization
+CVE-2026-106363|Moderate|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106363: Missing authorization
+CVE-2026-106364|Important|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106364: Incorrect authorization
+CVE-2026-106365|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106365: Missing authorization
+CVE-2026-106369|Important|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106369: Missing authorization
+CVE-2026-106370|Moderate|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106370: Uninitialized resource
+CVE-2026-106371|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106371: Incorrect authorization
+CVE-2026-106373|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106373: Use after free
+CVE-2026-106374|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106374: Type confusion
+CVE-2026-106375|Moderate|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106375: Incomplete cleanup
+CVE-2026-106376|Important|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106376: Uninitialized resource
+CVE-2026-106377|Important|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106377: Race condition
+CVE-2026-106378|Moderate|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106378: Privilege elevation
+CVE-2026-106379|Important|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106379: Uninitialized resource
+CVE-2026-106381|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106381: Incorrect authorization
+CVE-2026-106382|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106382: Use after free
+CVE-2026-106383|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106383: Use after free
+CVE-2026-106384|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106384: Missing authorization
+CVE-2026-106385|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106385: Race condition
+CVE-2026-106386|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106386: Uninitialized resource
+CVE-2026-106388|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106388: Missing authorization
+CVE-2026-106389|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106389: Incorrect authorization
+CVE-2026-106390|Low|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106390: Incorrect provision of specified functionality
+CVE-2026-106391|Moderate|4.2|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106391: Incorrect authorization
+CVE-2026-106392|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106392: Information leak
+CVE-2026-106393|Important|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106393: Use after free
+CVE-2026-106394|Low|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106394: Incomplete cleanup
+CVE-2026-106396|Important|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106396: Improper input validation
+CVE-2026-106398|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106398: Incorrect authorization
+CVE-2026-106399|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106399: Out of bounds read
+CVE-2026-106401|Moderate|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106401: Out of bounds write
+CVE-2026-106402|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106402: Incorrect authorization
+CVE-2026-106403|Moderate|8.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106403: Incorrect authorization
+CVE-2026-106404|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106404: Incorrect authorization
+CVE-2026-106407|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106407: Incorrect authorization
+CVE-2026-106409|Moderate|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106409: Incorrect reference resolution
+CVE-2026-106410|Moderate|4.2|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106410: Missing authorization
+CVE-2026-106411|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106411: Use after free
+CVE-2026-106412|Important|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106412: Race condition
+CVE-2026-106413|Low|4.2|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106413: Race condition
+CVE-2026-106415|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106415: Information leak
+CVE-2026-106416|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106416: Code injection
+CVE-2026-106417|Low|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106417: Integer overflow
+CVE-2026-106418|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106418: Missing authorization
+CVE-2026-106420|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106420: Incorrect calculation
+CVE-2026-106421|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106421: Use after free
