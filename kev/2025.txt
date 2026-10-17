@@ -1,6 +1,6 @@
-# CISA KEV | catalogVersion 2026.10.15 | dateReleased 2026-10-15T17:00:11.2795Z | 1746 entries in full catalog
+# CISA KEV | catalogVersion 2026.10.16 | dateReleased 2026-10-16T17:15:48.8752Z | 1748 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
-# this file: CVE-2025 | 188 entries
+# this file: CVE-2025 | 189 entries
 CVE-2025-0108|2025-02-18|2025-03-11|Palo Alto Networks|PAN-OS
 CVE-2025-0111|2025-02-20|2025-03-13|Palo Alto Networks|PAN-OS
 CVE-2025-0282|2025-01-08|2025-01-15|Ivanti|Connect Secure, Policy Secure, and ZTA Gateways
@@ -160,6 +160,7 @@ CVE-2025-59374|2025-12-17|2026-01-07|ASUS|Live Update
 CVE-2025-59689|2025-09-29|2025-10-20|Libraesva|Email Security Gateway
 CVE-2025-59718|2025-12-16|2025-12-23|Fortinet|Multiple Products
 CVE-2025-60710|2026-04-13|2026-04-27|Microsoft|Windows
+CVE-2025-61624|2026-10-16|2026-10-19|Fortinet|Multiple Products
 CVE-2025-61757|2025-11-21|2025-12-12|Oracle|Fusion Middleware
 CVE-2025-61882|2025-10-06|2025-10-27|Oracle|E-Business Suite
 CVE-2025-61884|2025-10-20|2025-11-10|Oracle|E-Business Suite
