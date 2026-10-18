@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-18T00:26:50Z | part 6 of 7 | 350 of 2135 CVEs | CVE-2026-96846 to CVE-2026-98369
+# Microsoft MSRC 2026-Oct | fetched 2026-10-18T09:08:14Z | part 6 of 7 | 350 of 2135 CVEs | CVE-2026-96846 to CVE-2026-98369
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-96846|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|WebDAV Information Disclosure Vulnerability
 CVE-2026-96847|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|WebDAV Elevation of Privilege Vulnerability
