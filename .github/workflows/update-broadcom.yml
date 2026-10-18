@@ -18,7 +18,7 @@ jobs:
       - name: Fetch the advisory list and build the index
         run: |
           python3 - <<'PY'
-          import json, sys, os, time, datetime, urllib.request, collections
+          import json, sys, os, time, datetime, urllib.request, urllib.error, collections
 
           URL = ("https://support.broadcom.com/web/ecx/security-advisory"
                  "/-/securityadvisory/getSecurityAdvisoryList")
@@ -36,9 +36,19 @@ jobs:
               req = urllib.request.Request(URL, data=body, method="POST")
               req.add_header("Content-Type", "application/json")
               req.add_header("User-Agent", UA)
-              with urllib.request.urlopen(req, timeout=60) as r:
-                  return json.loads(r.read().decode())
-
+              try:
+                  with urllib.request.urlopen(req, timeout=60) as r:
+                      return json.loads(r.read().decode())
+              except urllib.error.HTTPError as e:
+                  print(f"--- HTTP {e.code} on page {page} ---")
+                  for k, v in e.headers.items():
+                      print(f"    {k}: {v}")
+                  try:
+                      print("    body:", e.read(2000).decode("utf-8", "replace"))
+                  except Exception as read_err:
+                      print("    body unreadable:", read_err)
+                  print("--- end ---")
+                  raise
           def fetch_retry(page, attempts=3):
               for n in range(attempts):
                   try:
