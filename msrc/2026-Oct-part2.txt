@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-17T08:50:58Z | part 2 of 7 | 350 of 2135 CVEs | CVE-2026-106417 to CVE-2026-70031
+# Microsoft MSRC 2026-Oct | fetched 2026-10-18T00:26:50Z | part 2 of 7 | 350 of 2135 CVEs | CVE-2026-106417 to CVE-2026-70031
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-106417|Low|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106417: Integer overflow
 CVE-2026-106418|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106418: Missing authorization
