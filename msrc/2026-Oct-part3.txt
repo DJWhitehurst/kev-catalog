@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-18T09:08:14Z | part 3 of 7 | 350 of 2135 CVEs | CVE-2026-70033 to CVE-2026-83695
+# Microsoft MSRC 2026-Oct | fetched 2026-10-19T00:33:07Z | part 3 of 7 | 350 of 2135 CVEs | CVE-2026-70033 to CVE-2026-83695
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-70033|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows Remote Desktop Gateway (RD Gateway) Denial of Service Vulnerability
 CVE-2026-70035|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|.NET Framework Remote Code Execution Vulnerability
