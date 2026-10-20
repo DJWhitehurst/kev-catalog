@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-20T01:18:30Z | part 2 of 7 | 350 of 2135 CVEs | CVE-2026-106417 to CVE-2026-70031
+# Microsoft MSRC 2026-Oct | fetched 2026-10-20T09:39:56Z | part 2 of 7 | 350 of 2297 CVEs | CVE-2026-106417 to CVE-2026-70027
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-106417|Low|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106417: Integer overflow
 CVE-2026-106418|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106418: Missing authorization
@@ -104,6 +104,7 @@ CVE-2026-108471|Critical|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL
 CVE-2026-108976|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|GNU Emacs before 31.2 (and TRAMP through 2.8.2) allows OS command injection via a filename because tramp-user-regexp has an incomplete list of disallowed inputs. NOTE: this issue exists because of an incomplete fix for CVE-2026-79992.
 CVE-2026-108985|Important|7.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|ZDR decoding in libnfs through 6.0.2 before 7613236 has an out-of-bounds write related to lib/libnfs-zdr.c with libnfs_zdr_bytes(), libnfs_zdr_string(), and libnfs_zdr_array(). The caller-supplied maxsize value is not honored.
 CVE-2026-109349|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|gix-pack before 0.75.0 Reachable Assertion DoS via Pack Version 3 Header
+CVE-2026-109351|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Gitoxide gix-pack before 0.75.0 Denial of Service via Pack Header Object Count
 CVE-2026-109453|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Virtual Hard Disk (VHD) Miniport Driver Elevation of Privilege Vulnerability
 CVE-2026-109461|Important|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Authentication Library (MSAL) for Node.js Information Disclosure Vulnerability
 CVE-2026-109468|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|ASP.NET Core Denial of Service Vulnerability
@@ -349,4 +350,3 @@ CVE-2026-70024|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-70025|Important|5.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows Netlogon Denial of Service Vulnerability
 CVE-2026-70026|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Secure Kernel Mode Elevation of Privilege Vulnerability
 CVE-2026-70027|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Subsystem for Linux Elevation of Privilege Vulnerability
-CVE-2026-70031|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows iSCSI Denial of Service Vulnerability
