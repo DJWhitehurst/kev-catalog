@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-20T09:39:56Z | part 6 of 7 | 350 of 2297 CVEs | CVE-2026-96843 to CVE-2026-98367
+# Microsoft MSRC 2026-Oct | fetched 2026-10-21T01:02:49Z | part 6 of 7 | 350 of 2297 CVEs | CVE-2026-96843 to CVE-2026-98367
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-96843|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|WebDAV Elevation of Privilege Vulnerability
 CVE-2026-96844|Important|8.0|CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Bluetooth Driver Elevation of Privilege Vulnerability

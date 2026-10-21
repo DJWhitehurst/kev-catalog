@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-20T09:39:56Z | part 4 of 7 | 350 of 2297 CVEs | CVE-2026-83695 to CVE-2026-85881
+# Microsoft MSRC 2026-Oct | fetched 2026-10-21T01:02:49Z | part 4 of 7 | 350 of 2297 CVEs | CVE-2026-83695 to CVE-2026-85881
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-83695|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Event Logging Service Information Disclosure Vulnerability
 CVE-2026-83696|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability
