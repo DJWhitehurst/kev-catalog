@@ -1,6 +1,6 @@
-# CISA KEV | catalogVersion 2026.10.16 | dateReleased 2026-10-16T17:15:48.8752Z | 1748 entries in full catalog
+# CISA KEV | catalogVersion 2026.10.20 | dateReleased 2026-10-20T19:00:31.8765Z | 1754 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
-# this file: CVE-2026 | 177 entries
+# this file: CVE-2026 | 183 entries
 CVE-2026-0257|2026-05-29|2026-06-01|Palo Alto Networks|PAN-OS
 CVE-2026-0300|2026-05-06|2026-05-09|Palo Alto Networks|PAN-OS
 CVE-2026-0322|2026-10-14|2026-10-17|Palo Alto Networks|PAN-OS
@@ -13,6 +13,8 @@ CVE-2026-104935|2026-10-13|2026-10-16|Ivanti|Connect Secure
 CVE-2026-105133|2026-10-14|2026-10-17|Ahsay|AhsayCBS
 CVE-2026-105134|2026-10-14|2026-10-17|Ahsay|AhsayCBS
 CVE-2026-10520|2026-06-11|2026-06-14|Ivanti|Sentry
+CVE-2026-106931|2026-10-20|2026-10-23|EG Secure Solutions|SiteGuard Server Edition
+CVE-2026-110936|2026-10-20|2026-11-03|Siemens|Software Center
 CVE-2026-11645|2026-06-09|2026-06-23|Google|Chromium V8
 CVE-2026-12569|2026-06-25|2026-06-28|PTC|Windchill and FlexPLM
 CVE-2026-1281|2026-01-29|2026-02-01|Ivanti|Endpoint Manager Mobile (EPMM)
@@ -177,4 +179,8 @@ CVE-2026-93616|2026-09-22|2026-09-25|Check Point|Multiple Products
 CVE-2026-93952|2026-09-22|2026-09-25|Arista|VeloCloud Orchestrator
 CVE-2026-94127|2026-09-22|2026-09-25|F5|BIG-IP APM
 CVE-2026-9586|2026-09-02|2026-09-05|Sangoma|Switchvox
+CVE-2026-96652|2026-10-20|2026-11-03|Plex|Media Server
+CVE-2026-96654|2026-10-20|2026-10-23|Plex|Media Server
+CVE-2026-96655|2026-10-20|2026-11-03|Plex|Media Server
+CVE-2026-96656|2026-10-20|2026-10-23|Plex|Media Server
 CVE-2026-96951|2026-10-13|2026-10-16|Microsoft|Windows
