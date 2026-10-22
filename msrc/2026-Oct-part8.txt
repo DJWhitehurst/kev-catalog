@@ -1,5 +1,8 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-22T00:57:52Z | part 8 of 8 | 125 of 2575 CVEs | CVE-2026-98732 to CVE-2026-99999
+# Microsoft MSRC 2026-Oct | fetched 2026-10-22T09:40:15Z | part 8 of 8 | 128 of 2578 CVEs | CVE-2026-98729 to CVE-2026-99999
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98729|not stated|not stated|none published|not stated|Unknown|Unknown|x86/mm: Don't apply va_align to hugetlb mappings on AMD F15h
+CVE-2026-98730|not stated|not stated|none published|not stated|Unknown|Unknown|Bluetooth: btintel_pcie: reject oversized TX packets in send_frame()
+CVE-2026-98731|not stated|not stated|none published|not stated|Unknown|Unknown|Bluetooth: btintel_pcie: fix plen overflow in btintel_pcie_recv_frame()
 CVE-2026-98732|Low|2.4|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Bluetooth: btintel: fix buffer over-read in btintel_hw_error()
 CVE-2026-98733|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Bluetooth: hci_core: Serialize fragmented ISO packet queueing
 CVE-2026-98734|Important|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Bluetooth: hci_core: Serialize SCO and ISO scheduling with teardown

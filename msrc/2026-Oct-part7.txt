@@ -1,5 +1,8 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-22T00:57:52Z | part 7 of 8 | 350 of 2575 CVEs | CVE-2026-98331 to CVE-2026-98731
+# Microsoft MSRC 2026-Oct | fetched 2026-10-22T09:40:15Z | part 7 of 8 | 350 of 2578 CVEs | CVE-2026-98328 to CVE-2026-98728
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98328|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|wifi: mac80211: add HE 6 GHz capability in the scan elems len
+CVE-2026-98329|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|wifi: mac80211: don't allow injecting frames wider than the chanctx
+CVE-2026-98330|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|wifi: cfg80211: get the wiphy out of a dying network namespace
 CVE-2026-98331|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|wifi: mac80211: unlist vifs when their netdev is unregistered
 CVE-2026-98332|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|wifi: mac80211: only operate on TDLS peers in the TDLS code
 CVE-2026-98333|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|wifi: mac80211: reset the LED state when ifup fails
@@ -347,6 +350,3 @@ CVE-2026-98725|Critical|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H|not sta
 CVE-2026-98726|Moderate|6.3|CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|nvme-multipath: fix underflow in ANA log bounds checks
 CVE-2026-98727|not stated|not stated|none published|not stated|Unknown|Unknown|nvme-multipath: set BLK_FEAT_ZONED only after the zone info is known
 CVE-2026-98728|not stated|not stated|none published|not stated|Unknown|Unknown|tpm: fix off-by-four bounds check in tpm2_get_random()
-CVE-2026-98729|not stated|not stated|none published|not stated|Unknown|Unknown|x86/mm: Don't apply va_align to hugetlb mappings on AMD F15h
-CVE-2026-98730|not stated|not stated|none published|not stated|Unknown|Unknown|Bluetooth: btintel_pcie: reject oversized TX packets in send_frame()
-CVE-2026-98731|not stated|not stated|none published|not stated|Unknown|Unknown|Bluetooth: btintel_pcie: fix plen overflow in btintel_pcie_recv_frame()
