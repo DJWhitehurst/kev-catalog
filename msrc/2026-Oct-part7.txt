@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-21T09:41:05Z | part 7 of 8 | 350 of 2575 CVEs | CVE-2026-98331 to CVE-2026-98731
+# Microsoft MSRC 2026-Oct | fetched 2026-10-22T00:57:52Z | part 7 of 8 | 350 of 2575 CVEs | CVE-2026-98331 to CVE-2026-98731
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-98331|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|wifi: mac80211: unlist vifs when their netdev is unregistered
 CVE-2026-98332|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|wifi: mac80211: only operate on TDLS peers in the TDLS code

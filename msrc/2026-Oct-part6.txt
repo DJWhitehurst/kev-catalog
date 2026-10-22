@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-21T09:41:05Z | part 6 of 8 | 350 of 2575 CVEs | CVE-2026-96315 to CVE-2026-98330
+# Microsoft MSRC 2026-Oct | fetched 2026-10-22T00:57:52Z | part 6 of 8 | 350 of 2575 CVEs | CVE-2026-96315 to CVE-2026-98330
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-96315|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows Overlay Filter Tampering Vulnerability
 CVE-2026-96316|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows Routing and Remote Access Service (RRAS) Tampering Vulnerability

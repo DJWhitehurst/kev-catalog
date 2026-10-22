@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-21T09:41:05Z | part 8 of 8 | 125 of 2575 CVEs | CVE-2026-98732 to CVE-2026-99999
+# Microsoft MSRC 2026-Oct | fetched 2026-10-22T00:57:52Z | part 8 of 8 | 125 of 2575 CVEs | CVE-2026-98732 to CVE-2026-99999
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-98732|Low|2.4|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Bluetooth: btintel: fix buffer over-read in btintel_hw_error()
 CVE-2026-98733|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Bluetooth: hci_core: Serialize fragmented ISO packet queueing

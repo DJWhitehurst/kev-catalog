@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-21T09:41:05Z | part 3 of 8 | 350 of 2575 CVEs | CVE-2026-70017 to CVE-2026-83687
+# Microsoft MSRC 2026-Oct | fetched 2026-10-22T00:57:52Z | part 3 of 8 | 350 of 2575 CVEs | CVE-2026-70017 to CVE-2026-83687
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-70017|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Secure Kernel Mode Information Disclosure Vulnerability
 CVE-2026-70021|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Direct Composition Elevation of Privilege Vulnerability

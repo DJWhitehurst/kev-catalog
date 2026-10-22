@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-21T09:41:05Z | part 4 of 8 | 350 of 2575 CVEs | CVE-2026-83688 to CVE-2026-85870
+# Microsoft MSRC 2026-Oct | fetched 2026-10-22T00:57:52Z | part 4 of 8 | 350 of 2575 CVEs | CVE-2026-83688 to CVE-2026-85870
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-83688|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Remote Desktop Client Remote Code Execution Vulnerability
 CVE-2026-83689|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Error Reporting Elevation of Privilege Vulnerability

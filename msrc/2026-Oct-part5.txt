@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-21T09:41:05Z | part 5 of 8 | 350 of 2575 CVEs | CVE-2026-85871 to CVE-2026-96314
+# Microsoft MSRC 2026-Oct | fetched 2026-10-22T00:57:52Z | part 5 of 8 | 350 of 2575 CVEs | CVE-2026-85871 to CVE-2026-96314
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-85871|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel-Mode Drivers Elevation of Privilege Vulnerability
 CVE-2026-85872|Important|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Storage VSP Driver Elevation of Privilege Vulnerability
