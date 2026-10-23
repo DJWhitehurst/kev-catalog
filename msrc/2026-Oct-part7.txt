@@ -1,5 +1,19 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-23T01:01:05Z | part 7 of 9 | 350 of 2937 CVEs | CVE-2026-96304 to CVE-2026-98317
+# Microsoft MSRC 2026-Oct | fetched 2026-10-23T09:37:34Z | part 7 of 9 | 350 of 2952 CVEs | CVE-2026-96252 to CVE-2026-98299
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-96252|Important|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Active Directory Federation Services (AD FS) Spoofing Vulnerability
+CVE-2026-96253|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Print Driver Elevation of Privilege Vulnerability
+CVE-2026-96254|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Print Driver Elevation of Privilege Vulnerability
+CVE-2026-96277|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: Ruby `SimpleServer` ends `serve()` on any non-Transport/Protocol exception
+CVE-2026-96286|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: Perl servers end `serve()` when serving one connection fails
+CVE-2026-96287|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: Perl `FramedTransport` reads and TLS socket writes re-slice the remaining buffer on every call (quadratic)
+CVE-2026-96288|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: Erlang generated struct reads have no recursion-depth guard (unbounded memory)
+CVE-2026-96289|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: php `--gen php:inlined` struct readers (and `TProtocol::skipBinary`) have no recursion-depth guard
+CVE-2026-96292|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: Lua `THttpTransport:_parseHeaders` matches each header line with a backtracking pattern (quadratic)
+CVE-2026-96294|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: nodejs web server: no `error` listener on an upgraded WebSocket connection
+CVE-2026-96300|Important|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|RPC Endpoint Mapper Service Denial of Service Vulnerability
+CVE-2026-96301|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Print Driver Elevation of Privilege Vulnerability
+CVE-2026-96302|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
+CVE-2026-96303|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Microsoft PowerShell Security Feature Bypass Vulnerability
 CVE-2026-96304|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Print Driver Elevation of Privilege Vulnerability
 CVE-2026-96305|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
 CVE-2026-96306|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Sysmain Service Elevation of Privilege Vulnerability
@@ -114,6 +128,7 @@ CVE-2026-97030|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not sta
 CVE-2026-97031|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Reject malformed ECH outer extension references in crypto/tls
 CVE-2026-97032|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|HTTP/2 server crash due to HPACK encoder race in net/http
 CVE-2026-97205|Moderate|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|NGINX ngx_http_core_module vulnerability
+CVE-2026-97206|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|DNS-over-QUIC (DoQ) path-migration can lead to use-after-free on multi-threaded deployments.
 CVE-2026-97380|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|MariaDB: GRANT PROXY with empty password incorrectly checks grantor's privileges
 CVE-2026-97629|Important|6.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:N|not stated|Unknown|Unknown|NGINX ngx_http_ssl_module vulnerability
 CVE-2026-97738|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
@@ -241,7 +256,7 @@ CVE-2026-98192|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not
 CVE-2026-98193|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|wifi: libipw: reject TKIP frames without a full MIC
 CVE-2026-98194|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|wifi: libertas_tf: fix UAF in lbtf_free_adapter()
 CVE-2026-98195|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|wifi: iwlegacy: fix broadcast stations deallocation
-CVE-2026-98196|not stated|not stated|none published|not stated|Unknown|Unknown|wifi: brcmsmac: fix UAF in brcms_free_timer()
+CVE-2026-98196|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|wifi: brcmsmac: fix UAF in brcms_free_timer()
 CVE-2026-98197|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|hwmon: (w83791d) remove fan/pwm 4-5 sysfs group on remove
 CVE-2026-98198|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|hwmon: (pwm-fan) Stop RPM timer before freeing tach data
 CVE-2026-98199|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|hwmon: (pmbus/core) increase number of phases and add new mask
@@ -335,18 +350,3 @@ CVE-2026-98295|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not
 CVE-2026-98296|not stated|not stated|none published|not stated|Unknown|Unknown|Bluetooth: btintel_pcie: validate TX skb length in send_sync
 CVE-2026-98298|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|dmaengine: mmp_pdma: fix wrong sg length in mmp_pdma_prep_slave_sg()
 CVE-2026-98299|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|tcp: do not let tcp_rmem be set below 4096
-CVE-2026-98300|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|tcp: Don't call skb_clone_and_charge_r() for close()d listener in tcp_v6_do_rcv().
-CVE-2026-98301|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|net: bridge: mst: move switchdev call outside rcu
-CVE-2026-98302|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|net: fddi: skfp: fix NULL deref when setting the MAC address while down
-CVE-2026-98303|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ipv4: icmp: reject RTN_UNREACHABLE input routes in icmp_route_lookup
-CVE-2026-98304|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|net: bcmgenet: restore the hardware filters on open
-CVE-2026-98306|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|seg6: set IPSKB_L3SLAVE from IP6SKB_L3SLAVE on IPIP decapsulation
-CVE-2026-98307|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|wifi: ath11k: cleanup arsta in ath11k_mac_peer_cleanup_all()
-CVE-2026-98308|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ALSA: hda: trace PCM open only after assigning a stream
-CVE-2026-98309|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|drm/vc4: Use managed KMS polling to fix UAF on unbind
-CVE-2026-98311|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|wifi: virt_wifi: don't transfer operstate before register
-CVE-2026-98312|Moderate|4.3|CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ALSA: 6fire: fix OOB write from device-reported iso length
-CVE-2026-98313|not stated|not stated|none published|not stated|Unknown|Unknown|drm/msm/dp: skip PUSH_IDLE when the link was never enabled
-CVE-2026-98314|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ALSA: pcm: set timer->private_data before registering the PCM timer
-CVE-2026-98316|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ALSA: bcd2000: Fix race between rawmidi and disconnect
-CVE-2026-98317|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|neighbour: Enforce min/max to NDTPA_INTERVAL_PROBE_TIME_MS.

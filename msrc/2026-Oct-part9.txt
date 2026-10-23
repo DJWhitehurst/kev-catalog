@@ -1,5 +1,20 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-23T01:01:05Z | part 9 of 9 | 137 of 2937 CVEs | CVE-2026-98720 to CVE-2026-99999
+# Microsoft MSRC 2026-Oct | fetched 2026-10-23T09:37:34Z | part 9 of 9 | 152 of 2952 CVEs | CVE-2026-98701 to CVE-2026-99999
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98701|Moderate|4.3|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mac80211: release mesh path quota on failed additions
+CVE-2026-98702|not stated|not stated|none published|not stated|Unknown|Unknown|wifi: mac80211: reject invalid 320 MHz CSA bandwidth
+CVE-2026-98703|Moderate|6.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|wifi: mac80211: minstrel_ht: validate fixed rate index
+CVE-2026-98704|Moderate|6.4|CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|wifi: mac80211: keep fallback association elements alive
+CVE-2026-98706|Important|7.1|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|wifi: mac80211: drain PS delivery work during station teardown
+CVE-2026-98707|Important|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|wifi: mac80211: shut down RX BA session timer on teardown
+CVE-2026-98708|Moderate|5.2|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|wifi: mac80211: keep paired old chanctx alive
+CVE-2026-98709|Important|7.1|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|wifi: mac80211: count only matching reservations in reserved switch
+CVE-2026-98710|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: iwlegacy: 3945: free EEPROM data on remove
+CVE-2026-98711|Moderate|4.6|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|wifi: cw1200: fix TX padding OOB read leaking heap data to device
+CVE-2026-98713|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: arm64: Apply the fine-grained UNDEFs without FEAT_FGT
+CVE-2026-98714|Moderate|4.2|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:N/I:L/A:L|not stated|Unknown|Unknown|KVM: SVM: Update control fields on #VMEXIT if and only if VMRUN succeeded
+CVE-2026-98715|Important|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|KVM: SVM: Preserve TLB control (i.e. pending TLB flush) on failed VMRUN
+CVE-2026-98716|Important|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|KVM: SVM: Use the active VMCB's MSR bitmap when checking if MSR is intercepted
+CVE-2026-98717|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|KVM: x86/mmu: Bail from shadow walks if the root is invalid or a dummy
 CVE-2026-98720|Important|7.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:L/I:H/A:H|not stated|Unknown|Unknown|KVM: nVMX: Force MSR bitmap refresh if runtime eVMCS controls are modified
 CVE-2026-98721|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|mtd: rawnand: cadence: Initialize IRQ state before requesting IRQ
 CVE-2026-98722|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|mtd: block2mtd: Fix divide error when erase_size is zero
@@ -59,9 +74,9 @@ CVE-2026-98777|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not sta
 CVE-2026-98778|Moderate|6.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|binder: fix is_failure flag for superseded transaction cleanup
 CVE-2026-98779|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/amdgpu: fix ACP MFD device leak on init failure
 CVE-2026-98780|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/amdgpu: fix IP instance memory leak on kobject add failure
-CVE-2026-98781|not stated|not stated|none published|not stated|Unknown|Unknown|drm/mediatek: Fix pdev reference leak in mtk_drm_bind()
-CVE-2026-98782|not stated|not stated|none published|not stated|Unknown|Unknown|drm/mediatek: Fix ovl adaptor platform device leak
-CVE-2026-98783|not stated|not stated|none published|not stated|Unknown|Unknown|drm/mediatek: Add missing IS_ERR check for ovl_adaptor platform device
+CVE-2026-98781|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/mediatek: Fix pdev reference leak in mtk_drm_bind()
+CVE-2026-98782|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/mediatek: Fix ovl adaptor platform device leak
+CVE-2026-98783|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/mediatek: Add missing IS_ERR check for ovl_adaptor platform device
 CVE-2026-98784|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/amdgpu/gfx6: fix firmware leak on teardown
 CVE-2026-98785|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|drm/amd/display: check dc_state_create_copy() for NULL in dm_suspend
 CVE-2026-98786|Moderate|4.0|CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|drm/amd/display: guard dc_sink dereferences in MST mode validation

@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-23T01:01:05Z | part 2 of 9 | 350 of 2937 CVEs | CVE-2026-106415 to CVE-2026-113173
+# Microsoft MSRC 2026-Oct | fetched 2026-10-23T09:37:34Z | part 2 of 9 | 350 of 2952 CVEs | CVE-2026-106415 to CVE-2026-113172
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-106415|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106415: Information leak
 CVE-2026-106416|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106416: Code injection
@@ -168,6 +168,7 @@ CVE-2026-111137|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H|not st
 CVE-2026-111269|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|libical through 4.0.6 Heap Out-of-Bounds Read via icalvalue_decode_ical_string
 CVE-2026-111444|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Wheels through 4.1.2 allows SQL injection on MySQL/MariaDB with backslash escaping enabled (NO_BACKSLASH_ESCAPES absent) when an application supplies request data to inline-literal paths. These include opt-in parameterize=false queries and IN lists, and positions in developer-written where strings that the parser does not bind, such as BETWEEN bounds, function arguments and LIKE ESCAPE literals. Doubling single quotes without accounting for backslash escapes allows a value to alter the query. Bound paths are not affected; whereBetween() is bound from 4.1.2. This is fixed in 4.2.0.
 CVE-2026-111450|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Wheels through 4.1.1 derives its default production error-email address from the Host header of the request that starts the application. If no explicit error-email recipient is configured, a mail server is configured, and the server accepts an attacker-chosen Host, an attacker whose request triggers a cold start can direct later error emails to an address under their control for that application's lifetime. Emails disclose error and request metadata; on engines/versions where scope dumps render, they may also disclose configuration secrets and other users' session/cookie data. On the Lucee 7 engine, scope dumps fail to render, limiting disclosure to header fields. This is fixed in 4.1.2.
+CVE-2026-111943|Important|7.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Distrust compromised intermediate certificates in crypto/x509
 CVE-2026-112992|Moderate|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-112992: Memory corruption
 CVE-2026-112993|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-112993: Use after free
 CVE-2026-112994|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-112994: Memory corruption
@@ -349,4 +350,3 @@ CVE-2026-113169|Low|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|
 CVE-2026-113170|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113170: Use after free
 CVE-2026-113171|Moderate|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113171: Memory corruption
 CVE-2026-113172|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113172: Memory corruption
-CVE-2026-113173|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113173: Improper input validation
