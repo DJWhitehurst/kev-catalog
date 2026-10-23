@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-22T09:40:15Z | part 1 of 8 | 350 of 2578 CVEs | ADV260001 to CVE-2026-106415
+# Microsoft MSRC 2026-Oct | fetched 2026-10-23T01:01:05Z | part 1 of 9 | 350 of 2937 CVEs | ADV260001 to CVE-2026-106413
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 ADV260001|None|not stated|none published|Not a Vulnerability|No|No|ADV260001 Hardening changes for ReFS volumes on removable media
 CVE-2026-100200|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Update Service Elevation of Privilege Vulnerability
@@ -117,6 +117,7 @@ CVE-2026-105008|Important|9.0|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H/E:U/R
 CVE-2026-105009|Important|7.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Server Update Service Elevation of Privilege Vulnerability
 CVE-2026-105010|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Windows Search Component Elevation of Privilege Vulnerability
 CVE-2026-105013|Important|7.4|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:L/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office SharePoint Remote Code Execution Vulnerability
+CVE-2026-105014|Critical|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N/E:P/RL:O/RC:C|Remote Code Execution|No|No|Azure Pipelines Remote Code Execution Vulnerability
 CVE-2026-105016|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft QUIC Remote Code Execution Vulnerability
 CVE-2026-105236|Low|not stated|none published|not stated|Unknown|Unknown|TLS 1.2 session resumption in ssl crosses SNI virtual-host client-certificate trust boundaries
 CVE-2026-105326|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N/E:U|not stated|Unknown|Unknown|Cups: cups: argument injection in mailto notifier via notify-recipient-uri
@@ -349,4 +350,3 @@ CVE-2026-106410|Moderate|4.2|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L|not st
 CVE-2026-106411|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106411: Use after free
 CVE-2026-106412|Important|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106412: Race condition
 CVE-2026-106413|Low|4.2|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106413: Race condition
-CVE-2026-106415|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106415: Information leak
