@@ -1,5 +1,10 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-24T01:11:46Z | part 7 of 9 | 350 of 2952 CVEs | CVE-2026-96252 to CVE-2026-98299
+# Microsoft MSRC 2026-Oct | fetched 2026-10-24T09:09:05Z | part 7 of 9 | 350 of 3010 CVEs | CVE-2026-96247 to CVE-2026-98293
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-96247|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Kernel-Mode Drivers Information Disclosure Vulnerability
+CVE-2026-96248|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows Host Guardian Service Denial of Service Vulnerability
+CVE-2026-96249|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Win32 Kernel Subsystem Elevation of Privilege Vulnerability
+CVE-2026-96250|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Print Driver Elevation of Privilege Vulnerability
+CVE-2026-96251|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft PowerShell Remote Code Execution Vulnerability
 CVE-2026-96252|Important|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Active Directory Federation Services (AD FS) Spoofing Vulnerability
 CVE-2026-96253|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Print Driver Elevation of Privilege Vulnerability
 CVE-2026-96254|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Print Driver Elevation of Privilege Vulnerability
@@ -345,8 +350,3 @@ CVE-2026-98290|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not
 CVE-2026-98291|not stated|not stated|none published|not stated|Unknown|Unknown|Bluetooth: btintel_pcie: fix off-by-one bounds check in RX submit
 CVE-2026-98292|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Bluetooth: btmtksdio, btmtkuart: validate WMT event length before struct access
 CVE-2026-98293|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|Bluetooth: ISO: Fix parent socket leak in iso_conn_ready()
-CVE-2026-98294|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|Bluetooth: hci_qca: Do not write to the serial port after it is closed
-CVE-2026-98295|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Bluetooth: coredump: Quiesce dump work on unregister
-CVE-2026-98296|not stated|not stated|none published|not stated|Unknown|Unknown|Bluetooth: btintel_pcie: validate TX skb length in send_sync
-CVE-2026-98298|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|dmaengine: mmp_pdma: fix wrong sg length in mmp_pdma_prep_slave_sg()
-CVE-2026-98299|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|tcp: do not let tcp_rmem be set below 4096

@@ -1,5 +1,10 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-24T01:11:46Z | part 8 of 9 | 350 of 2952 CVEs | CVE-2026-98300 to CVE-2026-98700
+# Microsoft MSRC 2026-Oct | fetched 2026-10-24T09:09:05Z | part 8 of 9 | 350 of 3010 CVEs | CVE-2026-98294 to CVE-2026-98690
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98294|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|Bluetooth: hci_qca: Do not write to the serial port after it is closed
+CVE-2026-98295|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Bluetooth: coredump: Quiesce dump work on unregister
+CVE-2026-98296|not stated|not stated|none published|not stated|Unknown|Unknown|Bluetooth: btintel_pcie: validate TX skb length in send_sync
+CVE-2026-98298|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|dmaengine: mmp_pdma: fix wrong sg length in mmp_pdma_prep_slave_sg()
+CVE-2026-98299|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|tcp: do not let tcp_rmem be set below 4096
 CVE-2026-98300|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|tcp: Don't call skb_clone_and_charge_r() for close()d listener in tcp_v6_do_rcv().
 CVE-2026-98301|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|net: bridge: mst: move switchdev call outside rcu
 CVE-2026-98302|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|net: fddi: skfp: fix NULL deref when setting the MAC address while down
@@ -140,6 +145,7 @@ CVE-2026-98458|Moderate|6.5|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not sta
 CVE-2026-98459|Moderate|5.3|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Bluetooth: ISO: balance the parent hold in hci_bind_bis()
 CVE-2026-98460|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|Bluetooth: hci_sock: reject out-of-range OCF values
 CVE-2026-98461|Moderate|5.2|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|Bluetooth: hci_sock: validate event length before filtering
+CVE-2026-98462|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Bluetooth: hci_conn: fix CIS hold ownership on reuse
 CVE-2026-98464|Moderate|6.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|RISC-V: KVM: Synchronize hrtimer callback during teardown
 CVE-2026-98465|Moderate|4.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L|not stated|Unknown|Unknown|RISC-V: KVM: Serialize IMSIC attributes with vCPU migration
 CVE-2026-98466|Important|8.2|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|KVM: arm64: Transfer the hyp stack pages out of the host stage-2
@@ -150,6 +156,7 @@ CVE-2026-98471|Moderate|6.0|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N|not sta
 CVE-2026-98472|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: SEV: Free have_run_cpus during VM destruction even if VM is no longer SEV
 CVE-2026-98474|not stated|not stated|none published|not stated|Unknown|Unknown|s390/pci: Fix missing device lock in zpci_report_status()
 CVE-2026-98475|not stated|not stated|none published|not stated|Unknown|Unknown|s390/cmf: Fix virtual vs physical address confusion
+CVE-2026-98476|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|s390/cio: Fix NULL pointer dereference in ccw_device_get_util_str()
 CVE-2026-98477|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|perf/core: Fix NULL pmu_ctx passed to pmu->sched_task()
 CVE-2026-98479|Important|7.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:L|not stated|Unknown|Unknown|scsi: libiscsi_tcp: Check the data direction of a Data-In PDU
 CVE-2026-98480|not stated|not stated|none published|not stated|Unknown|Unknown|nfc: trf7970a: power down on startup RX gain failure
@@ -254,6 +261,7 @@ CVE-2026-98585|not stated|not stated|none published|not stated|Unknown|Unknown|e
 CVE-2026-98586|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|sctp: hold asoc or transport before mod_timer() in timer handlers
 CVE-2026-98588|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|bpf, sockmap: Reject max_entries > INT_MAX in sock_map_alloc
 CVE-2026-98589|Moderate|6.7|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|bpf: Reject pkt arguments in mutating subprogs
+CVE-2026-98590|Moderate|6.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|bpf: Fix bpf_sock context code generation
 CVE-2026-98591|Moderate|6.7|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|bpf: Fix bounds check for skb-backed dynptrs
 CVE-2026-98592|not stated|not stated|none published|not stated|Unknown|Unknown|net: spacemit: clear TX descriptor on fragment mapping failure
 CVE-2026-98593|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|s390/debug: Fix NULL pointer dereference in debug_info_copy()
@@ -288,6 +296,7 @@ CVE-2026-98623|Moderate|5.1|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:H|not sta
 CVE-2026-98624|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|netfilter: nfnetlink_queue: hold nfnl mutex in event notifier
 CVE-2026-98625|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|netfilter: flowtable: publish HW_DEAD after worker is done
 CVE-2026-98626|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|bpf: Restrict CO-RE poisoning to relocatable instructions
+CVE-2026-98628|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L/E:U|not stated|Unknown|Unknown|bpf: Make post-verification instruction rewrites killable
 CVE-2026-98629|Low|3.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|net/sched: cls_u32: fix manual hash table handle IDR aliasing
 CVE-2026-98630|not stated|not stated|none published|not stated|Unknown|Unknown|eth: fbnic: Fix payload page pool error cleanup
 CVE-2026-98631|Moderate|6.0|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|xsk: Use a 32-bit compare in xsk_map_gen_lookup
@@ -298,6 +307,7 @@ CVE-2026-98636|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not sta
 CVE-2026-98637|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: arm64: Do not clear VM-wide SVE feature on vCPU init failure
 CVE-2026-98638|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: arm64: Validate the SVE vector length in pkvm_vcpu_init_sve()
 CVE-2026-98639|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: riscv: Fix NACL hfence entry update order
+CVE-2026-98640|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|HID: amd_sfh: Validate PCI BAR size before mapping
 CVE-2026-98641|not stated|not stated|none published|not stated|Unknown|Unknown|bpf, arm64: set up the frame pointer for the exception callback
 CVE-2026-98642|Moderate|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|bpf: Fix UAF due to concurrent consumption of ttrace lists in alloc_bulk
 CVE-2026-98643|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|bpf: Fix out-of-bounds read of rtt_min in sock_ops
@@ -340,13 +350,3 @@ CVE-2026-98686|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N|not st
 CVE-2026-98687|Important|8.1|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|thunderbolt: Reject oversized XDomain properties responses
 CVE-2026-98689|not stated|not stated|none published|not stated|Unknown|Unknown|thunderbolt: Don't access a DP tunnel after its DPRX read was canceled
 CVE-2026-98690|not stated|not stated|none published|not stated|Unknown|Unknown|thunderbolt: Fix domain reference leak when DPRX read is canceled
-CVE-2026-98691|not stated|not stated|none published|not stated|Unknown|Unknown|thunderbolt: Tear down inactive DP tunnels when the domain is stopped
-CVE-2026-98692|not stated|not stated|none published|not stated|Unknown|Unknown|thunderbolt: Make the DP tunnel activation callback mandatory
-CVE-2026-98693|not stated|not stated|none published|not stated|Unknown|Unknown|thunderbolt: Hold a router reference for each allocated HopID
-CVE-2026-98694|Moderate|5.2|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|thunderbolt: Fix KASAN reported use-after-free when request is canceled
-CVE-2026-98695|Moderate|4.2|CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|USB: serial: fix ioctl hangup race
-CVE-2026-98696|Moderate|5.2|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|USB: serial: fix driver deregistration order
-CVE-2026-98697|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|USB: serial: fix dynamic id driver deregistration race
-CVE-2026-98698|Moderate|5.7|CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|wifi: mac80211: handle empty FILS association request payload
-CVE-2026-98699|Moderate|6.4|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|wifi: mac80211: fix mesh fast xmit path deletion UAF
-CVE-2026-98700|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mac80211: set info->band for 802.3 encap offload frames

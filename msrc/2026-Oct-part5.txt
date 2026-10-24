@@ -1,5 +1,8 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-24T01:11:46Z | part 5 of 9 | 350 of 2952 CVEs | CVE-2026-83677 to CVE-2026-85858
+# Microsoft MSRC 2026-Oct | fetched 2026-10-24T09:09:05Z | part 5 of 9 | 350 of 3010 CVEs | CVE-2026-83674 to CVE-2026-85855
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-83674|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Spoofing|No|No|Active Directory Federation Services (AD FS) Spoofing Vulnerability
+CVE-2026-83675|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
+CVE-2026-83676|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
 CVE-2026-83677|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows DHCP Client Denial of Service Vulnerability
 CVE-2026-83678|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows TCP/IP Elevation of Privilege Vulnerability
 CVE-2026-83679|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Defender Firewall Service Elevation of Privilege Vulnerability
@@ -347,6 +350,3 @@ CVE-2026-85852|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL
 CVE-2026-85853|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows DWM Core Library Elevation of Privilege Vulnerability
 CVE-2026-85854|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows DWM Core Library Elevation of Privilege Vulnerability
 CVE-2026-85855|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows DWM Core Library Elevation of Privilege Vulnerability
-CVE-2026-85856|Important|7.1|CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Internet Connection Sharing (ICS) Remote Code Execution Vulnerability
-CVE-2026-85857|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Kernel-Mode Drivers Information Disclosure Vulnerability
-CVE-2026-85858|Important|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Win32 Kernel Subsystem Elevation of Privilege Vulnerability
