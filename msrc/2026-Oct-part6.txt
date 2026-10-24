@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-23T09:37:34Z | part 6 of 9 | 350 of 2952 CVEs | CVE-2026-85859 to CVE-2026-96251
+# Microsoft MSRC 2026-Oct | fetched 2026-10-24T01:11:46Z | part 6 of 9 | 350 of 2952 CVEs | CVE-2026-85859 to CVE-2026-96251
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-85859|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows Message Queuing Queue Manager Denial of Service Vulnerability
 CVE-2026-85860|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Message Queuing Queue Manager Elevation of Privilege Vulnerability

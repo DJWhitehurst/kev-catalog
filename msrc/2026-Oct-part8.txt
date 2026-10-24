@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-23T09:37:34Z | part 8 of 9 | 350 of 2952 CVEs | CVE-2026-98300 to CVE-2026-98700
+# Microsoft MSRC 2026-Oct | fetched 2026-10-24T01:11:46Z | part 8 of 9 | 350 of 2952 CVEs | CVE-2026-98300 to CVE-2026-98700
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-98300|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|tcp: Don't call skb_clone_and_charge_r() for close()d listener in tcp_v6_do_rcv().
 CVE-2026-98301|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|net: bridge: mst: move switchdev call outside rcu

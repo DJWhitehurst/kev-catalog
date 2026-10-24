@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-23T09:37:34Z | part 7 of 9 | 350 of 2952 CVEs | CVE-2026-96252 to CVE-2026-98299
+# Microsoft MSRC 2026-Oct | fetched 2026-10-24T01:11:46Z | part 7 of 9 | 350 of 2952 CVEs | CVE-2026-96252 to CVE-2026-98299
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-96252|Important|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Active Directory Federation Services (AD FS) Spoofing Vulnerability
 CVE-2026-96253|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Print Driver Elevation of Privilege Vulnerability
