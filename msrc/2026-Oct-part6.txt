@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-24T09:09:05Z | part 6 of 9 | 350 of 3010 CVEs | CVE-2026-85856 to CVE-2026-96246
+# Microsoft MSRC 2026-Oct | fetched 2026-10-25T00:34:26Z | part 6 of 9 | 350 of 3010 CVEs | CVE-2026-85856 to CVE-2026-96246
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-85856|Important|7.1|CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Internet Connection Sharing (ICS) Remote Code Execution Vulnerability
 CVE-2026-85857|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Kernel-Mode Drivers Information Disclosure Vulnerability

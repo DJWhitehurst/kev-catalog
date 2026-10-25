@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-24T09:09:05Z | part 9 of 9 | 210 of 3010 CVEs | CVE-2026-98691 to CVE-2026-99999
+# Microsoft MSRC 2026-Oct | fetched 2026-10-25T00:34:26Z | part 9 of 9 | 210 of 3010 CVEs | CVE-2026-98691 to CVE-2026-99999
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-98691|not stated|not stated|none published|not stated|Unknown|Unknown|thunderbolt: Tear down inactive DP tunnels when the domain is stopped
 CVE-2026-98692|not stated|not stated|none published|not stated|Unknown|Unknown|thunderbolt: Make the DP tunnel activation callback mandatory
