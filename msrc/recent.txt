@@ -1,4 +1,4 @@
-# Microsoft MSRC flagged CVEs | fetched 2026-10-25T00:34:26Z | months 2026-Oct | 3010 CVEs read, 220 flagged
+# Microsoft MSRC flagged CVEs | fetched 2026-10-25T09:26:31Z | months 2026-Oct | 3012 CVEs read, 220 flagged
 # flagged = Critical severity, OR Exploited:Yes, OR Publicly Disclosed:Yes | 1 exploited | 2 publicly disclosed
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-100202|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Message Queuing Queue Manager Remote Code Execution Vulnerability

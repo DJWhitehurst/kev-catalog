@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-25T00:34:26Z | part 8 of 9 | 350 of 3010 CVEs | CVE-2026-98294 to CVE-2026-98690
+# Microsoft MSRC 2026-Oct | fetched 2026-10-25T09:26:31Z | part 8 of 9 | 350 of 3012 CVEs | CVE-2026-98294 to CVE-2026-98689
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-98294|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|Bluetooth: hci_qca: Do not write to the serial port after it is closed
 CVE-2026-98295|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Bluetooth: coredump: Quiesce dump work on unregister
@@ -154,6 +154,7 @@ CVE-2026-98468|not stated|not stated|none published|not stated|Unknown|Unknown|K
 CVE-2026-98469|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: arm64: Fix AArch32 DBGBXVR<n> handling
 CVE-2026-98471|Moderate|6.0|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N|not stated|Unknown|Unknown|KVM: SEV: Do cache maintenance on the source VM during intra-host migration
 CVE-2026-98472|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: SEV: Free have_run_cpus during VM destruction even if VM is no longer SEV
+CVE-2026-98473|not stated|not stated|none published|not stated|Unknown|Unknown|s390/vfio-ap: fix KVM GISC and page leak when queue removed from host config
 CVE-2026-98474|not stated|not stated|none published|not stated|Unknown|Unknown|s390/pci: Fix missing device lock in zpci_report_status()
 CVE-2026-98475|not stated|not stated|none published|not stated|Unknown|Unknown|s390/cmf: Fix virtual vs physical address confusion
 CVE-2026-98476|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|s390/cio: Fix NULL pointer dereference in ccw_device_get_util_str()
@@ -349,4 +350,3 @@ CVE-2026-98685|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N|not sta
 CVE-2026-98686|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|smb: client: discard post-EOF pagecache when extending a file via zero range
 CVE-2026-98687|Important|8.1|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|thunderbolt: Reject oversized XDomain properties responses
 CVE-2026-98689|not stated|not stated|none published|not stated|Unknown|Unknown|thunderbolt: Don't access a DP tunnel after its DPRX read was canceled
-CVE-2026-98690|not stated|not stated|none published|not stated|Unknown|Unknown|thunderbolt: Fix domain reference leak when DPRX read is canceled

@@ -1,5 +1,6 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-25T00:34:26Z | part 9 of 9 | 210 of 3010 CVEs | CVE-2026-98691 to CVE-2026-99999
+# Microsoft MSRC 2026-Oct | fetched 2026-10-25T09:26:31Z | part 9 of 9 | 212 of 3012 CVEs | CVE-2026-98690 to CVE-2026-99999
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98690|not stated|not stated|none published|not stated|Unknown|Unknown|thunderbolt: Fix domain reference leak when DPRX read is canceled
 CVE-2026-98691|not stated|not stated|none published|not stated|Unknown|Unknown|thunderbolt: Tear down inactive DP tunnels when the domain is stopped
 CVE-2026-98692|not stated|not stated|none published|not stated|Unknown|Unknown|thunderbolt: Make the DP tunnel activation callback mandatory
 CVE-2026-98693|not stated|not stated|none published|not stated|Unknown|Unknown|thunderbolt: Hold a router reference for each allocated HopID
@@ -186,6 +187,7 @@ CVE-2026-98889|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not
 CVE-2026-98890|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|wifi: libertas: reject short monitor TX frames
 CVE-2026-98891|Moderate|4.3|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mac80211: validate deauth frame length before reason access
 CVE-2026-98892|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|firmware: arm_scmi: Validate BASE_ERROR_EVENT payload size
+CVE-2026-98893|not stated|not stated|none published|not stated|Unknown|Unknown|firmware: arm_scmi: Validate SENSOR_UPDATE payload size
 CVE-2026-98894|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/amd/ras: reset CPER ring on corrupt entry size
 CVE-2026-98895|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net/mlx5: HWS, Handle destroying table that has a miss table
 CVE-2026-98896|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|thunderbolt: Keep the domain reference while processing hotplug

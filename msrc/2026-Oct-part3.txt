@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-25T00:34:26Z | part 3 of 9 | 350 of 3010 CVEs | CVE-2026-113172 to CVE-2026-69997
+# Microsoft MSRC 2026-Oct | fetched 2026-10-25T09:26:31Z | part 3 of 9 | 350 of 3012 CVEs | CVE-2026-113172 to CVE-2026-69997
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-113172|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113172: Memory corruption
 CVE-2026-113173|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113173: Improper input validation

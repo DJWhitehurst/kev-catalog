@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-25T00:34:26Z | part 7 of 9 | 350 of 3010 CVEs | CVE-2026-96247 to CVE-2026-98293
+# Microsoft MSRC 2026-Oct | fetched 2026-10-25T09:26:31Z | part 7 of 9 | 350 of 3012 CVEs | CVE-2026-96247 to CVE-2026-98293
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-96247|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Kernel-Mode Drivers Information Disclosure Vulnerability
 CVE-2026-96248|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows Host Guardian Service Denial of Service Vulnerability
