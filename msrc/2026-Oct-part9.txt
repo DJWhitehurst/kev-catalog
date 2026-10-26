@@ -1,5 +1,11 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-26T00:45:36Z | part 9 of 9 | 213 of 3013 CVEs | CVE-2026-98689 to CVE-2026-99999
+# Microsoft MSRC 2026-Oct | fetched 2026-10-26T10:33:37Z | part 9 of 9 | 219 of 3019 CVEs | CVE-2026-98682 to CVE-2026-99999
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98682|not stated|not stated|none published|not stated|Unknown|Unknown|smb: client: drain and invalidate before server-side copy/clone
+CVE-2026-98683|not stated|not stated|none published|not stated|Unknown|Unknown|smb: client: flush dirty data before zeroing a range
+CVE-2026-98684|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N/E:U|not stated|Unknown|Unknown|smb: client: flush and commit data before querying allocated ranges
+CVE-2026-98685|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|smb: client: discard post-EOF pagecache when extending a file via clone range
+CVE-2026-98686|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|smb: client: discard post-EOF pagecache when extending a file via zero range
+CVE-2026-98687|Important|8.1|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|thunderbolt: Reject oversized XDomain properties responses
 CVE-2026-98689|not stated|not stated|none published|not stated|Unknown|Unknown|thunderbolt: Don't access a DP tunnel after its DPRX read was canceled
 CVE-2026-98690|not stated|not stated|none published|not stated|Unknown|Unknown|thunderbolt: Fix domain reference leak when DPRX read is canceled
 CVE-2026-98691|not stated|not stated|none published|not stated|Unknown|Unknown|thunderbolt: Tear down inactive DP tunnels when the domain is stopped

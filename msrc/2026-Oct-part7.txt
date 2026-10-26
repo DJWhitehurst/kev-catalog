@@ -1,5 +1,10 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-26T00:45:36Z | part 7 of 9 | 350 of 3013 CVEs | CVE-2026-96246 to CVE-2026-98292
+# Microsoft MSRC 2026-Oct | fetched 2026-10-26T10:33:37Z | part 7 of 9 | 350 of 3019 CVEs | CVE-2026-96237 to CVE-2026-98286
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-96237|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|.NET Remote Code Execution Vulnerability
+CVE-2026-96238|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|.NET Security Feature Bypass Vulnerability
+CVE-2026-96243|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows WalletService Elevation of Privilege Vulnerability
+CVE-2026-96244|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Internal System User Profile Elevation of Privilege Vulnerability
+CVE-2026-96245|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Routing and Remote Access Service (RRAS) Information Disclosure Vulnerability
 CVE-2026-96246|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Network Policy Server (NPS) Information Disclosure Vulnerability
 CVE-2026-96247|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Kernel-Mode Drivers Information Disclosure Vulnerability
 CVE-2026-96248|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows Host Guardian Service Denial of Service Vulnerability
@@ -135,6 +140,7 @@ CVE-2026-97031|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not st
 CVE-2026-97032|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|HTTP/2 server crash due to HPACK encoder race in net/http
 CVE-2026-97205|Moderate|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|NGINX ngx_http_core_module vulnerability
 CVE-2026-97206|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|DNS-over-QUIC (DoQ) path-migration can lead to use-after-free on multi-threaded deployments.
+CVE-2026-97229|not stated|10.0|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Integer Overflow or Wraparound in GitLab
 CVE-2026-97380|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|MariaDB: GRANT PROXY with empty password incorrectly checks grantor's privileges
 CVE-2026-97629|Important|6.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:N|not stated|Unknown|Unknown|NGINX ngx_http_ssl_module vulnerability
 CVE-2026-97738|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
@@ -344,9 +350,3 @@ CVE-2026-98283|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not
 CVE-2026-98284|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|netlink: do not free nlk->groups while lockless readers can use it
 CVE-2026-98285|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|net: bridge: vlan: fix bugs caused by switchdev deletion errors
 CVE-2026-98286|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drop_monitor: use timer_shutdown_sync() to prevent timer rearming during teardown
-CVE-2026-98287|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|pppoatm: ensure a writable skb header and linear data
-CVE-2026-98288|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|net: stmmac: fix TSO header length truncation
-CVE-2026-98289|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|af_unix: Unify scc_index when finalising SCC in __unix_walk_scc().
-CVE-2026-98290|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Bluetooth: RFCOMM: avoid socket lock inversion in listener cleanup
-CVE-2026-98291|not stated|not stated|none published|not stated|Unknown|Unknown|Bluetooth: btintel_pcie: fix off-by-one bounds check in RX submit
-CVE-2026-98292|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Bluetooth: btmtksdio, btmtkuart: validate WMT event length before struct access
