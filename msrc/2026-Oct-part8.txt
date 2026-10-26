@@ -1,5 +1,6 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-25T09:26:31Z | part 8 of 9 | 350 of 3012 CVEs | CVE-2026-98294 to CVE-2026-98689
+# Microsoft MSRC 2026-Oct | fetched 2026-10-26T00:45:36Z | part 8 of 9 | 350 of 3013 CVEs | CVE-2026-98293 to CVE-2026-98687
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98293|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|Bluetooth: ISO: Fix parent socket leak in iso_conn_ready()
 CVE-2026-98294|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|Bluetooth: hci_qca: Do not write to the serial port after it is closed
 CVE-2026-98295|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Bluetooth: coredump: Quiesce dump work on unregister
 CVE-2026-98296|not stated|not stated|none published|not stated|Unknown|Unknown|Bluetooth: btintel_pcie: validate TX skb length in send_sync
@@ -349,4 +350,3 @@ CVE-2026-98684|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N/E:U|not stat
 CVE-2026-98685|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|smb: client: discard post-EOF pagecache when extending a file via clone range
 CVE-2026-98686|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|smb: client: discard post-EOF pagecache when extending a file via zero range
 CVE-2026-98687|Important|8.1|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|thunderbolt: Reject oversized XDomain properties responses
-CVE-2026-98689|not stated|not stated|none published|not stated|Unknown|Unknown|thunderbolt: Don't access a DP tunnel after its DPRX read was canceled

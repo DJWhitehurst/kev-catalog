@@ -1,5 +1,6 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-25T09:26:31Z | part 9 of 9 | 212 of 3012 CVEs | CVE-2026-98690 to CVE-2026-99999
+# Microsoft MSRC 2026-Oct | fetched 2026-10-26T00:45:36Z | part 9 of 9 | 213 of 3013 CVEs | CVE-2026-98689 to CVE-2026-99999
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98689|not stated|not stated|none published|not stated|Unknown|Unknown|thunderbolt: Don't access a DP tunnel after its DPRX read was canceled
 CVE-2026-98690|not stated|not stated|none published|not stated|Unknown|Unknown|thunderbolt: Fix domain reference leak when DPRX read is canceled
 CVE-2026-98691|not stated|not stated|none published|not stated|Unknown|Unknown|thunderbolt: Tear down inactive DP tunnels when the domain is stopped
 CVE-2026-98692|not stated|not stated|none published|not stated|Unknown|Unknown|thunderbolt: Make the DP tunnel activation callback mandatory
