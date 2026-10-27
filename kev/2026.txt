@@ -1,6 +1,6 @@
-# CISA KEV | catalogVersion 2026.10.23 | dateReleased 2026-10-23T19:30:18.9209Z | 1756 entries in full catalog
+# CISA KEV | catalogVersion 2026.10.26 | dateReleased 2026-10-26T22:24:24.6101Z | 1758 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
-# this file: CVE-2026 | 185 entries
+# this file: CVE-2026 | 187 entries
 CVE-2026-0257|2026-05-29|2026-06-01|Palo Alto Networks|PAN-OS
 CVE-2026-0300|2026-05-06|2026-05-09|Palo Alto Networks|PAN-OS
 CVE-2026-0322|2026-10-14|2026-10-17|Palo Alto Networks|PAN-OS
@@ -14,6 +14,8 @@ CVE-2026-105133|2026-10-14|2026-10-17|Ahsay|AhsayCBS
 CVE-2026-105134|2026-10-14|2026-10-17|Ahsay|AhsayCBS
 CVE-2026-10520|2026-06-11|2026-06-14|Ivanti|Sentry
 CVE-2026-106931|2026-10-20|2026-10-23|EG Secure Solutions|SiteGuard Server Edition
+CVE-2026-109618|2026-10-26|2026-10-29|PHP Group|PHP
+CVE-2026-109619|2026-10-26|2026-10-29|PHP Group|PHP
 CVE-2026-110447|2026-10-23|2026-10-26|Collabora|Collabora Online – Built-in CODE Server
 CVE-2026-110936|2026-10-20|2026-11-03|Siemens|Software Center
 CVE-2026-114625|2026-10-23|2026-10-26|Arista|VeloCloud Orchestrator
