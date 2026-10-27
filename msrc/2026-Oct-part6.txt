@@ -1,5 +1,45 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-27T01:38:14Z | part 6 of 9 | 350 of 3088 CVEs | CVE-2026-85373 to CVE-2026-94603
+# Microsoft MSRC 2026-Oct | fetched 2026-10-27T10:04:16Z | part 6 of 10 | 350 of 3228 CVEs | CVE-2026-85321 to CVE-2026-88838
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-85321|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Active Directory Federation Services (AD FS) Denial of Service Vulnerability
+CVE-2026-85322|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Routing and Remote Access Service (RRAS) Information Disclosure Vulnerability
+CVE-2026-85323|Important|6.8|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Network Device Enrollment Service (NDES) Spoofing Vulnerability
+CVE-2026-85324|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Active Directory Federation Services (AD FS) Denial of Service Vulnerability
+CVE-2026-85327|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Print Spooler Components Elevation of Privilege Vulnerability
+CVE-2026-85328|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Projected File System Elevation of Privilege Vulnerability
+CVE-2026-85329|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Account Elevation of Privilege Vulnerability
+CVE-2026-85330|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Microsoft Edge for Android Security Feature Bypass Vulnerability
+CVE-2026-85331|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Device Association Service Information Disclosure Vulnerability
+CVE-2026-85332|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Device Association Service Elevation of Privilege Vulnerability
+CVE-2026-85333|Important|6.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Performance Monitor Elevation of Privilege Vulnerability
+CVE-2026-85334|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Message Queuing Queue Manager Information Disclosure Vulnerability
+CVE-2026-85336|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Device Association Service Information Disclosure Vulnerability
+CVE-2026-85337|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Remote Desktop Client Information Disclosure Vulnerability
+CVE-2026-85338|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Graphics Component Elevation of Privilege Vulnerability
+CVE-2026-85339|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+CVE-2026-85340|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Office Click-To-Run Elevation of Privilege Vulnerability
+CVE-2026-85341|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Video Driver Elevation of Privilege Vulnerability
+CVE-2026-85342|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Device Association Service Elevation of Privilege Vulnerability
+CVE-2026-85343|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Hyper-V Elevation of Privilege Vulnerability
+CVE-2026-85352|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Device Association Service Elevation of Privilege Vulnerability
+CVE-2026-85353|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Print Spooler Components Information Disclosure Vulnerability
+CVE-2026-85354|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Error Reporting Elevation of Privilege Vulnerability
+CVE-2026-85355|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Common Log File System Driver Elevation of Privilege Vulnerability
+CVE-2026-85356|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Volume Manager Extension Driver Elevation of Privilege Vulnerability
+CVE-2026-85357|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Phone Service Elevation of Privilege Vulnerability
+CVE-2026-85358|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
+CVE-2026-85359|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Performance Monitor Elevation of Privilege Vulnerability
+CVE-2026-85361|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
+CVE-2026-85362|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Management Instrumentation Elevation of Privilege Vulnerability
+CVE-2026-85363|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|.NET Framework Elevation of Privilege Vulnerability
+CVE-2026-85364|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
+CVE-2026-85365|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Servicing Stack Updates Elevation of Privilege Vulnerability
+CVE-2026-85366|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
+CVE-2026-85367|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Cash Drawer Protocol Provider Elevation of Privilege Vulnerability
+CVE-2026-85368|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows TCP/IP Elevation of Privilege Vulnerability
+CVE-2026-85369|Important|8.2|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Hyper-V Elevation of Privilege Vulnerability
+CVE-2026-85370|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|WebDAV Elevation of Privilege Vulnerability
+CVE-2026-85371|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Network Policy Server (NPS) Remote Code Execution Vulnerability
+CVE-2026-85372|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
 CVE-2026-85373|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Universal Plug and Play (UPnP) Device Host Elevation of Privilege Vulnerability
 CVE-2026-85374|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Installer Information Disclosure Vulnerability
 CVE-2026-85375|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Universal Plug and Play (UPnP) Device Host Elevation of Privilege Vulnerability
@@ -310,43 +350,3 @@ CVE-2026-88829|Important|7.2|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N|not st
 CVE-2026-88833|Moderate|6.5|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Busybox: busybox: udhcpc integer underflow in dhcp packet length calculation causes denial of service
 CVE-2026-88834|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Busybox: busybox: httpd user existence oracle in non-default shadow-disabled builds
 CVE-2026-88838|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Busybox: busybox: non-root mount option filter bypass allows clearing fstab security restrictions
-CVE-2026-88842|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|Busybox: busybox: dpkg stale field_start pointer causes out-of-bounds read and status file corruption
-CVE-2026-89091|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Ansible-core: ansible-core: ansible-galaxy collection install symlink path escape allows arbitrary file write / code execution
-CVE-2026-89098|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Nfs-utils: nfs-utils: denial of service via assertion failure in fsidd
-CVE-2026-90440|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: An exception escaping a libevent callback stops the D library's non-blocking server, allowing an unauthenticated remote attacker to deny service
-CVE-2026-90954|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Busybox: busybox: dpkg-deb extraction-root escape via per-ar-member deferred symlink flush
-CVE-2026-91135|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: C++ `THeaderTransport::transform()` heap buffer overflow (write direction)
-CVE-2026-91137|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: PHP `thrift_protocol` accelerator: zero-byte container elements
-CVE-2026-91403|Critical|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 8u511, 8u511-perf, 11.0.33, 17.0.21, 21.0.13, 25.0.5, 27.0.1; Oracle GraalVM for JDK: 17.0.21 and  21.0.13; Oracle GraalVM Enterprise Edition: 21.3.20. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in th
-CVE-2026-92386|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|server-set cookie aborts cookie jar load
-CVE-2026-92387|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:L|not stated|Unknown|Unknown|never-ending loop via server response omission
-CVE-2026-92391|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|curl_mime_free stack overflow by recursion
-CVE-2026-92392|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|HTTP/2 upload Use-After-Free
-CVE-2026-92542|Moderate|not stated|none published|not stated|Unknown|Unknown|Blind VXLAN injection into encrypted overlay networks from cluster peer
-CVE-2026-92543|Important|not stated|none published|not stated|Unknown|Unknown|Docker Engine insecure-registry fallback via malicious DNS responses
-CVE-2026-92707|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|Denial of Service|No|Yes|MessagePack-CSharp Denial of Service Vulnerability
-CVE-2026-92834|Moderate|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: C++ WebSocket server transport does not read a full request length
-CVE-2026-93318|Important|not stated|none published|not stated|Unknown|Unknown|Cache poisoning via unvalidated image layer DiffIDs
-CVE-2026-93319|Moderate|not stated|none published|not stated|Unknown|Unknown|A malicious frontend can cause a daemon panic
-CVE-2026-93320|Moderate|not stated|none published|not stated|Unknown|Unknown|BuildKit improperly handles special files in build snapshots
-CVE-2026-93321|Moderate|not stated|none published|not stated|Unknown|Unknown|Malformed LLB file operation can crash buildkitd
-CVE-2026-93322|Moderate|not stated|none published|not stated|Unknown|Unknown|Malformed MergeOp can crash the BuildKit daemon
-CVE-2026-93323|Moderate|not stated|none published|not stated|Unknown|Unknown|Oversized Dockerfile or .dockerignore can exhaust buildkitd memory
-CVE-2026-93326|Moderate|not stated|none published|not stated|Unknown|Unknown|Crafted Git build source can bypass certain policy validation
-CVE-2026-93479|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|NGINX Map directive and Regex matching vulnerability
-CVE-2026-93546|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_dav_fs namespace overflow
-CVE-2026-93925|Moderate|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: C++ `THeaderTransport::writeVarint32()` stack buffer overflow on a negative protocol id
-CVE-2026-93926|Moderate|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: C++ `THeaderTransport::untransform()` leaks the zlib stream on the error path
-CVE-2026-94200|Important|not stated|none published|not stated|Unknown|Unknown|TLS 1.3 client ticket store crashed by NewSessionTicket with empty early_data extension in ssl
-CVE-2026-94265|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:L|not stated|Unknown|Unknown|Authorization: Negotiate sent to foreign origin
-CVE-2026-94439|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|HTTP/1 server connection desynchronization after 2xx CONNECT response in net/http
-CVE-2026-94440|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Memory limit bypass when parsing MIME headers in net/textproto, mime/multipart
-CVE-2026-94444|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Checksum bypass for golang.org/fips140 in cmd/go
-CVE-2026-94447|Moderate|7.0|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Checksum database bypass for golang.org/toolchain in cmd/go
-CVE-2026-94448|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Reset context tracking on consecutive template expressions in html/template
-CVE-2026-94453|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|IKEv2 Use-After-Free bug when using IKE-over-TCP
-CVE-2026-94506|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Access Information Disclosure Vulnerability
-CVE-2026-94510|Critical|9.9|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:L/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Bookings Elevation of Privilege Vulnerability
-CVE-2026-94512|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|SQL Server Remote Code Execution Vulnerability
-CVE-2026-94520|Important|4.9|CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Microsoft SQL Server Denial of Service Vulnerability
-CVE-2026-94603|Critical|10.0|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Podman: The `podman run` command can be instructed to disable almost all sandboxing by image annotation

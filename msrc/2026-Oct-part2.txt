@@ -1,5 +1,26 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-27T01:38:14Z | part 2 of 9 | 350 of 3088 CVEs | CVE-2026-106354 to CVE-2026-113105
+# Microsoft MSRC 2026-Oct | fetched 2026-10-27T10:04:16Z | part 2 of 10 | 350 of 3228 CVEs | CVE-2026-106333 to CVE-2026-113071
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-106333|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106333: Incorrect authorization
+CVE-2026-106334|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106334: Information leak
+CVE-2026-106335|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106335: Use after free
+CVE-2026-106336|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106336: Observable discrepancy
+CVE-2026-106337|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106337: UI misrepresentation in UI
+CVE-2026-106338|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106338: UI misrepresentation
+CVE-2026-106339|Low|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106339: Use of released resource
+CVE-2026-106340|Low|4.6|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106340: Missing authorization
+CVE-2026-106341|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106341: Type confusion
+CVE-2026-106342|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106342: Information leak
+CVE-2026-106343|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106343: Improper state validation
+CVE-2026-106344|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106344: Missing authorization
+CVE-2026-106345|Low|4.2|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106345: Use of released resource
+CVE-2026-106346|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106346: Improper state validation
+CVE-2026-106347|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106347: Use after free
+CVE-2026-106348|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106348: Information leak
+CVE-2026-106349|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106349: Use after free
+CVE-2026-106350|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106350: Incorrect authorization
+CVE-2026-106351|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106351: Observable discrepancy
+CVE-2026-106352|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106352: Incorrect authorization
+CVE-2026-106353|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106353: Improper input validation in Mobile
 CVE-2026-106354|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106354: Improper resource exposure
 CVE-2026-106355|Low|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106355: Missing authorization
 CVE-2026-106356|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106356: Clickjacking
@@ -18,6 +39,7 @@ CVE-2026-106368|not stated|not stated|none published|not stated|Unknown|Unknown|
 CVE-2026-106369|Important|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106369: Missing authorization
 CVE-2026-106370|Moderate|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106370: Uninitialized resource
 CVE-2026-106371|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106371: Incorrect authorization
+CVE-2026-106372|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106372: Incorrect authorization in UI
 CVE-2026-106373|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106373: Use after free
 CVE-2026-106374|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106374: Type confusion
 CVE-2026-106375|Moderate|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106375: Incomplete cleanup
@@ -219,12 +241,23 @@ CVE-2026-110260|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not st
 CVE-2026-110261|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|OW2 ASM 3.0 before 9.11 Excessive CPU Consumption via ClassWriter COMPUTE_FRAMES
 CVE-2026-110262|Moderate|3.3|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|OW2 ASM 3.1 before 9.11 Excessive Memory Allocation in AdviceAdapter
 CVE-2026-110263|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|OW2 ASM 3.0 before 9.11 Uncontrolled Recursion in SignatureReader
-CVE-2026-110264|not stated|10.0|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Integer Overflow or Wraparound in GitLab
+CVE-2026-110264|Critical|10.0|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Integer Overflow or Wraparound in GitLab
 CVE-2026-110270|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|OW2 ASM 3.0 before 9.11 Exponential Memory Allocation in JSRInlinerAdapter
+CVE-2026-110354|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|HAProxy 3 before 3.4.6 allows a remote unauthenticated attacker to cause a denial of service (persistent worker-thread CPU exhaustion) via an HTTP/1.1 chunked request. Although the H1 multiplexer drains the request before closing the stream, the parser repeatedly re-processes the same bytes without making progress. The affected thread stays busy at 100% CPU after timeouts expire and after the client disconnects, and repeated requests can consume all worker threads until the process is restarted.
 CVE-2026-110591|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|OW2 ASM 1.4.3 before 9.11 Excessive Resource Consumption via Analyzer
 CVE-2026-110602|Moderate|6.3|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|libmspack through 0.11alpha Uninitialized Pointer Free via kwajd_open Error Path
 CVE-2026-110659|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ELFIO through 3.12 NULL Pointer Dereference via relocation_section_accessor get_entry
 CVE-2026-110816|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|qs.stringify with arrayFormat comma throws TypeError on array elements that cannot be coerced to a string
+CVE-2026-110913|Important|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-110913: Memory corruption in DOM
+CVE-2026-110914|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-110914: Memory corruption in Workers
+CVE-2026-110915|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-110915: Use after free in Compositing
+CVE-2026-110916|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-110916: Improper input validation in Desktop
+CVE-2026-110917|Important|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-110917: Memory corruption in SVG
+CVE-2026-110918|Important|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-110918: Memory corruption in Core
+CVE-2026-110919|Important|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-110919: Use after free in V8
+CVE-2026-110920|Important|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-110920: Memory corruption in V8
+CVE-2026-110921|Important|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-110921: Use after free in V8
+CVE-2026-110922|Critical|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-110922: Use after free in Prerender
 CVE-2026-110923|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Openssh: openssh: sftp can write outside the destination directory from a server-supplied path
 CVE-2026-110924|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N/E:U|not stated|Unknown|Unknown|Openssh: openssh: gssapi delegated credentials can be stored after a failed authentication
 CVE-2026-110926|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U|not stated|Unknown|Unknown|Openssh: openssh: shared lz77 compression dictionary leaks plaintext across channels
@@ -235,6 +268,7 @@ CVE-2026-111269|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H|not st
 CVE-2026-111444|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Wheels through 4.1.2 allows SQL injection on MySQL/MariaDB with backslash escaping enabled (NO_BACKSLASH_ESCAPES absent) when an application supplies request data to inline-literal paths. These include opt-in parameterize=false queries and IN lists, and positions in developer-written where strings that the parser does not bind, such as BETWEEN bounds, function arguments and LIKE ESCAPE literals. Doubling single quotes without accounting for backslash escapes allows a value to alter the query. Bound paths are not affected; whereBetween() is bound from 4.1.2. This is fixed in 4.2.0.
 CVE-2026-111450|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Wheels through 4.1.1 derives its default production error-email address from the Host header of the request that starts the application. If no explicit error-email recipient is configured, a mail server is configured, and the server accepts an attacker-chosen Host, an attacker whose request triggers a cold start can direct later error emails to an address under their control for that application's lifetime. Emails disclose error and request metadata; on engines/versions where scope dumps render, they may also disclose configuration secrets and other users' session/cookie data. On the Lucee 7 engine, scope dumps fail to render, limiting disclosure to header fields. This is fixed in 4.1.2.
 CVE-2026-111497|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|Yes|Google: CVE-2026-111497 Buffer overflow vulnerability in the Brotli decoder
+CVE-2026-111943|Important|7.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|No|No|Go: CVE-2026-111943 Distrust compromised intermediate certificates in crypto/x509
 CVE-2026-112085|Important|8.2|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:N|not stated|Unknown|Unknown|webpack-dev-server vulnerable to cross-origin WebSocket access via proxied upgrades
 CVE-2026-112992|Moderate|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-112992: Memory corruption
 CVE-2026-112993|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-112993: Use after free
@@ -316,37 +350,3 @@ CVE-2026-113068|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not st
 CVE-2026-113069|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113069: Memory corruption
 CVE-2026-113070|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-113070: Out of bounds read
 CVE-2026-113071|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113071: Use after free
-CVE-2026-113072|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113072: Memory corruption
-CVE-2026-113073|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113073: Use after free
-CVE-2026-113074|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113074: Use after free
-CVE-2026-113075|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113075: Use after free
-CVE-2026-113076|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113076: Use after free
-CVE-2026-113077|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-113077: Memory corruption
-CVE-2026-113078|Moderate|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113078: Improper input validation
-CVE-2026-113079|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113079: Use after free
-CVE-2026-113080|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113080: Use after free
-CVE-2026-113081|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113081: Use after free
-CVE-2026-113082|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-113082: Memory corruption
-CVE-2026-113083|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113083: Memory corruption
-CVE-2026-113084|Moderate|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113084: Improper input validation
-CVE-2026-113085|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113085: Use after free
-CVE-2026-113086|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113086: Improper input validation
-CVE-2026-113087|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113087: Use after free
-CVE-2026-113088|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113088: Memory corruption
-CVE-2026-113089|Moderate|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113089: Improper input validation
-CVE-2026-113090|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113090: Memory corruption
-CVE-2026-113091|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113091: Use after free
-CVE-2026-113092|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113092: Use after free
-CVE-2026-113093|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113093: Memory corruption
-CVE-2026-113094|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113094: Memory corruption
-CVE-2026-113095|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113095: Out of bounds read
-CVE-2026-113096|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113096: Memory corruption
-CVE-2026-113097|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113097: Use after free
-CVE-2026-113098|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-113098: Memory corruption
-CVE-2026-113099|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113099: Improper input validation
-CVE-2026-113100|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113100: Memory corruption
-CVE-2026-113101|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113101: Use after free
-CVE-2026-113102|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-113102: Out of bounds read
-CVE-2026-113103|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113103: Use after free
-CVE-2026-113104|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113104: Memory corruption
-CVE-2026-113105|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113105: Use after free
