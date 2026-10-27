@@ -1,5 +1,74 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-26T10:33:37Z | part 9 of 9 | 219 of 3019 CVEs | CVE-2026-98682 to CVE-2026-99999
+# Microsoft MSRC 2026-Oct | fetched 2026-10-27T01:38:14Z | part 9 of 9 | 288 of 3088 CVEs | CVE-2026-98603 to CVE-2026-99999
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98603|not stated|not stated|none published|not stated|Unknown|Unknown|ovpn: replace bind when clearing stale local source
+CVE-2026-98604|not stated|not stated|none published|not stated|Unknown|Unknown|ovpn: replace bind when learning local endpoint
+CVE-2026-98605|Moderate|5.1|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|drm/bridge: samsung-dsim: fix TE GPIO lifetime for host attach
+CVE-2026-98606|Moderate|6.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|drm/virtio: release the GEM object on virtio_gpu_vram_create() errors
+CVE-2026-98607|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/virtio: fix object leaks in virtio_gpu_resource_create_blob_ioctl()
+CVE-2026-98608|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|drm/virtio: fix object leak in virtio_gpu_resource_create_ioctl()
+CVE-2026-98609|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|drm/virtio: fix object leak when drm_gem_handle_create() fails
+CVE-2026-98610|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net/sched: sch_hfsc: bound the classify inner-filter walk with a drift budget
+CVE-2026-98611|not stated|not stated|none published|not stated|Unknown|Unknown|bpf: Check params size before reading reserved fields
+CVE-2026-98612|Moderate|6.1|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|net: usb: catc: bound the RX packet length in catc_rx_done()
+CVE-2026-98613|not stated|not stated|none published|not stated|Unknown|Unknown|bpf: Bound ownership depth through local kptrs and graph roots
+CVE-2026-98614|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|sctp: avoid livelock while updating retransmit path
+CVE-2026-98615|not stated|not stated|none published|not stated|Unknown|Unknown|eth: fbnic: Set AW_FLUSH_MODE alongside AW_FLUSH when flushing the mailbox
+CVE-2026-98616|not stated|not stated|none published|not stated|Unknown|Unknown|eth: fbnic: reset num_napi when the napi vectors are freed
+CVE-2026-98617|not stated|not stated|none published|not stated|Unknown|Unknown|eth: fbnic: use the Rx queue napi pointer to find the napi vector
+CVE-2026-98618|not stated|not stated|none published|not stated|Unknown|Unknown|eth: fbnic: Handle maximum standalone channels
+CVE-2026-98620|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net: ethernet: mtk_eth_soc: unregister net_devices in case of probe failure
+CVE-2026-98621|Critical|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|net: gue: reject invalid REMCSUM offsets
+CVE-2026-98622|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net/sched: act_ct: don't WARN on benign flow_offload_alloc() failure
+CVE-2026-98623|Moderate|5.1|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|drm/nouveau/clk: fix list cursor use after loop in nvkm_clk_ustate_update
+CVE-2026-98624|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|netfilter: nfnetlink_queue: hold nfnl mutex in event notifier
+CVE-2026-98625|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|netfilter: flowtable: publish HW_DEAD after worker is done
+CVE-2026-98626|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|bpf: Restrict CO-RE poisoning to relocatable instructions
+CVE-2026-98628|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L/E:U|not stated|Unknown|Unknown|bpf: Make post-verification instruction rewrites killable
+CVE-2026-98629|Low|3.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|net/sched: cls_u32: fix manual hash table handle IDR aliasing
+CVE-2026-98630|not stated|not stated|none published|not stated|Unknown|Unknown|eth: fbnic: Fix payload page pool error cleanup
+CVE-2026-98631|Moderate|6.0|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|xsk: Use a 32-bit compare in xsk_map_gen_lookup
+CVE-2026-98632|Moderate|5.2|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|Bluetooth: mgmt: Dequeue pending mesh_send_sync entries on cancel
+CVE-2026-98633|not stated|not stated|none published|not stated|Unknown|Unknown|Bluetooth: btnxpuart: Fix skb leak in nxp_process_fw_dump()
+CVE-2026-98634|Moderate|6.1|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|scsi: sd_zbc: Reject disks with too many zones
+CVE-2026-98636|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|squashfs: Add dictionary size range check to prevent shift-out-of-bounds
+CVE-2026-98637|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: arm64: Do not clear VM-wide SVE feature on vCPU init failure
+CVE-2026-98638|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: arm64: Validate the SVE vector length in pkvm_vcpu_init_sve()
+CVE-2026-98639|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: riscv: Fix NACL hfence entry update order
+CVE-2026-98640|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|HID: amd_sfh: Validate PCI BAR size before mapping
+CVE-2026-98641|not stated|not stated|none published|not stated|Unknown|Unknown|bpf, arm64: set up the frame pointer for the exception callback
+CVE-2026-98642|Moderate|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|bpf: Fix UAF due to concurrent consumption of ttrace lists in alloc_bulk
+CVE-2026-98643|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|bpf: Fix out-of-bounds read of rtt_min in sock_ops
+CVE-2026-98644|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|bpf: Avoid soft lockup in __htab_map_lookup_and_delete_batch()
+CVE-2026-98646|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|tcp: Skip cond_resched() in inet_csk_listen_stop() under BPF context
+CVE-2026-98647|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|bpf: Fix divide-by-zero in btf_struct_walk()
+CVE-2026-98648|not stated|not stated|none published|not stated|Unknown|Unknown|s390/uv: Prevent potential out-of-bounds read
+CVE-2026-98652|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|KVM: s390: Add missing srcu in kvm_s390_set_irq_state()
+CVE-2026-98655|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|perf: Require kernel access for text poke events
+CVE-2026-98656|Moderate|5.2|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|iio: trigger: cancel reenable_work before freeing trigger
+CVE-2026-98657|Moderate|5.2|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|iio: proximity: pulsedlight: fix iio_device left registered on PM setup failure
+CVE-2026-98658|not stated|not stated|none published|not stated|Unknown|Unknown|iio: proximity: aw96103: validate firmware data length
+CVE-2026-98659|not stated|not stated|none published|not stated|Unknown|Unknown|iio: pressure: rohm-bm1390: Return error when read fails
+CVE-2026-98660|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|iio: pressure: bmp280: fix out-of-bounds access in sampling frequency lookup
+CVE-2026-98661|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|iio: light: rohm-bu27034: Fix infinite delay on error
+CVE-2026-98662|Moderate|5.2|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|iio: light: gp2ap020a00f: drain irq_work after free_irq
+CVE-2026-98663|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|iio: imu: adis16480: fix unprotected debugfs reads
+CVE-2026-98664|Moderate|5.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|iio: imu: adis16400: fix unprotected debugfs reads
+CVE-2026-98665|Moderate|4.6|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|iio: health: max30102: fix NULL dereference in interrupt handler
+CVE-2026-98666|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|iio: gyro: adis16136: fix unprotected debugfs reads
+CVE-2026-98668|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|iio: buffer: Ensure bounce buffer used for unaligned case is zeroed.
+CVE-2026-98669|Moderate|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|iio: buffer: serialize buffer teardown with mode claims
+CVE-2026-98670|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|iio: adc: xilinx-xadc: free IRQ before cancelling the unmask worker on unbind
+CVE-2026-98671|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|iio: adc: sun4i-gpadc-iio: clean up on thermal zone registration failure
+CVE-2026-98672|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|iio: adc: stm32-adc: fix possible division by zero in processed channel
+CVE-2026-98673|not stated|not stated|none published|not stated|Unknown|Unknown|iio: adc: pac1934: check ACPI label duplication
+CVE-2026-98674|not stated|not stated|none published|not stated|Unknown|Unknown|iio: adc: adi-axi-adc: Initialize state mutex
+CVE-2026-98675|not stated|not stated|none published|not stated|Unknown|Unknown|iio: adc: ade9000: handle Phase C dip events in IRQ1 handler
+CVE-2026-98676|not stated|not stated|none published|not stated|Unknown|Unknown|iio: adc: ade9000: fix NULL pointer dereference in clkout registration
+CVE-2026-98677|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|iio: adc: ad_sigma_delta: fix use-after-free on unbind
+CVE-2026-98678|not stated|not stated|none published|not stated|Unknown|Unknown|iio: adc: ad4030: fix invalid oversampling_ratio validation
+CVE-2026-98679|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|iio: accel: kxcjk-1013: reject duplicate event disable
+CVE-2026-98680|not stated|not stated|none published|not stated|Unknown|Unknown|iio: accel: kionix-kx022a: Prevent memory leak and fix state
+CVE-2026-98681|Moderate|5.0|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L|not stated|Unknown|Unknown|smb: client: split cifsFileInfo bitfields to avoid shared-byte RMW races
 CVE-2026-98682|not stated|not stated|none published|not stated|Unknown|Unknown|smb: client: drain and invalidate before server-side copy/clone
 CVE-2026-98683|not stated|not stated|none published|not stated|Unknown|Unknown|smb: client: flush dirty data before zeroing a range
 CVE-2026-98684|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N/E:U|not stated|Unknown|Unknown|smb: client: flush and commit data before querying allocated ranges

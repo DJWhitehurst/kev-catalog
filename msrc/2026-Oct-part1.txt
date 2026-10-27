@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-26T10:33:37Z | part 1 of 9 | 350 of 3019 CVEs | ADV260001 to CVE-2026-106413
+# Microsoft MSRC 2026-Oct | fetched 2026-10-27T01:38:14Z | part 1 of 9 | 350 of 3088 CVEs | ADV260001 to CVE-2026-106353
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 ADV260001|None|not stated|none published|Not a Vulnerability|No|No|ADV260001 Hardening changes for ReFS volumes on removable media
 CVE-2026-100200|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Update Service Elevation of Privilege Vulnerability
@@ -64,7 +64,38 @@ CVE-2026-102233|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-102234|Important|7.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Visual Studio Code Security Feature Bypass Vulnerability
 CVE-2026-102235|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Visual Studio Code Remote Code Execution Vulnerability
 CVE-2026-102238|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Visual Studio Code Remote Code Execution Vulnerability
+CVE-2026-102299|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-102299: Type confusion
+CVE-2026-102301|Important|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-102301: Out of bounds write
+CVE-2026-102302|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-102302: Buffer overflow
+CVE-2026-102303|Important|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-102303: Uninitialized resource
+CVE-2026-102304|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-102304: Use after free
+CVE-2026-102305|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-102305: UI misrepresentation
+CVE-2026-102306|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-102306: Use after free
+CVE-2026-102307|Important|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-102307: Uninitialized resource
+CVE-2026-102308|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-102308: Use after free
+CVE-2026-102309|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-102309: Use after free
+CVE-2026-102310|Low|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-102310: Missing authorization
+CVE-2026-102311|Important|3.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-102311: Uninitialized resource
+CVE-2026-102312|Important|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-102312: UI misrepresentation
+CVE-2026-102313|Important|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-102313: Uninitialized resource
+CVE-2026-102314|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-102314: UI misrepresentation
+CVE-2026-102315|Important|3.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-102315: Uninitialized resource
+CVE-2026-102316|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-102316: Use after free
+CVE-2026-102317|Important|8.6|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-102317: Improper privilege management
+CVE-2026-102318|Important|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-102318: Out of bounds read
+CVE-2026-102319|Important|3.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-102319: Uninitialized resource
+CVE-2026-102320|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-102320: Missing authorization
+CVE-2026-102321|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-102321: Type confusion
 CVE-2026-102322|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-102322: Incorrect Authorization
+CVE-2026-102323|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-102323: Type confusion
+CVE-2026-102324|Important|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-102324: Use after free
+CVE-2026-102325|Important|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-102325: Uninitialized resource
+CVE-2026-102326|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-102326: Type confusion
+CVE-2026-102327|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-102327: Incorrect authorization in WebView
+CVE-2026-102328|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-102328: Type confusion
+CVE-2026-102329|Important|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-102329: Cross-site scripting
+CVE-2026-102330|Low|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-102330: Incorrect authorization
+CVE-2026-102331|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-102331: Buffer overflow
 CVE-2026-102342|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|ammonia allows stored XSS through unsanitized SVG animate and set attributes
 CVE-2026-102404|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Uncontrolled Resource Consumption in Elasticsearch Leading to Denial of Service
 CVE-2026-102407|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|Incorrect Authorization in Elasticsearch Leading to Unauthorized Data Stream Modification
@@ -162,6 +193,7 @@ CVE-2026-106188|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not st
 CVE-2026-106189|Moderate|7.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106189: Code injection
 CVE-2026-106190|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106190: Use after free
 CVE-2026-106191|Low|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106191: Missing authorization
+CVE-2026-106192|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106192: Information leak in Mobile
 CVE-2026-106193|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106193: Use after free
 CVE-2026-106194|Moderate|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106194: Missing authorization
 CVE-2026-106195|Low|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106195: Incorrect authorization
@@ -175,8 +207,10 @@ CVE-2026-106202|Important|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not s
 CVE-2026-106203|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106203: Incomplete cleanup
 CVE-2026-106204|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106204: Use after free
 CVE-2026-106205|Moderate|8.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106205: Missing authorization
+CVE-2026-106206|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106206: Improper input validation in Mobile
 CVE-2026-106207|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106207: Race condition
 CVE-2026-106208|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106208: Missing authorization
+CVE-2026-106209|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106209: UI misrepresentation in Mobile
 CVE-2026-106210|Moderate|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106210: Observable discrepancy
 CVE-2026-106211|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106211: Use after free
 CVE-2026-106212|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106212: Incorrect authorization
@@ -186,7 +220,9 @@ CVE-2026-106215|Important|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not s
 CVE-2026-106216|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106216: Cross-site request forgery
 CVE-2026-106217|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106217: Missing authorization
 CVE-2026-106220|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106220: Information leak
+CVE-2026-106221|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106221: Confused deputy in WebAPKs
 CVE-2026-106222|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106222: Incorrect authorization
+CVE-2026-106223|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106223: Uninitialized resource in GPU
 CVE-2026-106224|Moderate|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106224: Missing authorization
 CVE-2026-106225|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106225: Missing authorization
 CVE-2026-106226|Moderate|4.2|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106226: Improper input validation
@@ -217,6 +253,7 @@ CVE-2026-106250|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N|not stated|
 CVE-2026-106251|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106251: UI misrepresentation
 CVE-2026-106252|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106252: Incorrect comparison
 CVE-2026-106253|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106253: Incorrect authorization
+CVE-2026-106254|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106254: Information leak in Mobile
 CVE-2026-106255|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106255: Race condition
 CVE-2026-106256|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106256: Information leak
 CVE-2026-106257|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106257: Use after free
@@ -231,7 +268,7 @@ CVE-2026-106265|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not st
 CVE-2026-106266|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106266: Confused deputy
 CVE-2026-106267|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106267: Missing authorization
 CVE-2026-106268|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106268: Use after free
-CVE-2026-106269|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106269: Use after free
+CVE-2026-106269|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106269: Use after free
 CVE-2026-106270|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106270: Incorrect authorization
 CVE-2026-106271|Moderate|8.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106271: Missing authorization
 CVE-2026-106272|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106272: UI misrepresentation
@@ -251,18 +288,22 @@ CVE-2026-106286|Moderate|not stated|none published|not stated|Unknown|Unknown|Ch
 CVE-2026-106287|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106287: Information loss
 CVE-2026-106288|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106288: Missing authorization
 CVE-2026-106289|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106289: Missing authorization
+CVE-2026-106290|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106290: Uninitialized resource in GPU
 CVE-2026-106291|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106291: Use after free
 CVE-2026-106292|Moderate|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106292: Buffer overflow
 CVE-2026-106293|Important|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106293: Type confusion
 CVE-2026-106294|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106294: Incomplete cleanup
 CVE-2026-106295|Moderate|4.2|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106295: Incorrect authorization
+CVE-2026-106296|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106296: Improper privilege management in UI
 CVE-2026-106297|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106297: Incorrect authorization
+CVE-2026-106298|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106298: Use after free in Chrome Tabs
 CVE-2026-106299|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106299: Improper input validation
 CVE-2026-106300|Moderate|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106300: Race condition
 CVE-2026-106301|Moderate|8.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106301: Confused deputy
 CVE-2026-106302|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106302: UI misrepresentation
 CVE-2026-106303|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106303: Observable discrepancy
 CVE-2026-106304|Moderate|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106304: Out of bounds read
+CVE-2026-106305|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106305: UI misrepresentation in Mobile
 CVE-2026-106306|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106306: Incorrect authorization
 CVE-2026-106307|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106307: Incorrect authorization
 CVE-2026-106308|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106308: Incorrect reference resolution
@@ -270,14 +311,18 @@ CVE-2026-106309|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|
 CVE-2026-106310|Low|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106310: Use of released resource
 CVE-2026-106311|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106311: Clickjacking
 CVE-2026-106312|Low|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106312: Missing authorization
+CVE-2026-106313|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106313: Incorrect authorization in Browser
 CVE-2026-106314|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106314: Incorrect authorization
 CVE-2026-106315|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106315: Use after free
 CVE-2026-106316|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106316: UI misrepresentation
+CVE-2026-106317|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106317: UI misrepresentation in FullScreen
 CVE-2026-106318|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106318: Use after free
+CVE-2026-106320|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106320: Use of released resource in UI
 CVE-2026-106321|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106321: Information leak
 CVE-2026-106322|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106322: Open redirect
 CVE-2026-106324|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106324: Incorrect authorization
 CVE-2026-106325|Low|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106325: Incorrect reference resolution
+CVE-2026-106326|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106326: Confused deputy in UI
 CVE-2026-106327|Important|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106327: Incorrect authorization
 CVE-2026-106328|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106328: Incorrect authorization
 CVE-2026-106329|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106329: Incorrect authorization
@@ -288,6 +333,7 @@ CVE-2026-106333|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not st
 CVE-2026-106334|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106334: Information leak
 CVE-2026-106335|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106335: Use after free
 CVE-2026-106336|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106336: Observable discrepancy
+CVE-2026-106337|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106337: UI misrepresentation in UI
 CVE-2026-106338|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106338: UI misrepresentation
 CVE-2026-106339|Low|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106339: Use of released resource
 CVE-2026-106340|Low|4.6|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106340: Missing authorization
@@ -303,50 +349,4 @@ CVE-2026-106349|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not s
 CVE-2026-106350|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106350: Incorrect authorization
 CVE-2026-106351|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106351: Observable discrepancy
 CVE-2026-106352|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106352: Incorrect authorization
-CVE-2026-106354|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106354: Improper resource exposure
-CVE-2026-106355|Low|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106355: Missing authorization
-CVE-2026-106356|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106356: Clickjacking
-CVE-2026-106357|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106357: Use after free
-CVE-2026-106358|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106358: Use after free
-CVE-2026-106359|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106359: Confused deputy
-CVE-2026-106360|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106360: Information leak
-CVE-2026-106362|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106362: Missing authorization
-CVE-2026-106363|Moderate|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106363: Missing authorization
-CVE-2026-106364|Important|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106364: Incorrect authorization
-CVE-2026-106365|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106365: Missing authorization
-CVE-2026-106369|Important|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106369: Missing authorization
-CVE-2026-106370|Moderate|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106370: Uninitialized resource
-CVE-2026-106371|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106371: Incorrect authorization
-CVE-2026-106373|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106373: Use after free
-CVE-2026-106374|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106374: Type confusion
-CVE-2026-106375|Moderate|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106375: Incomplete cleanup
-CVE-2026-106376|Important|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106376: Uninitialized resource
-CVE-2026-106377|Important|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106377: Race condition
-CVE-2026-106378|Moderate|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106378: Privilege elevation
-CVE-2026-106379|Important|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106379: Uninitialized resource
-CVE-2026-106381|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106381: Incorrect authorization
-CVE-2026-106382|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106382: Use after free
-CVE-2026-106383|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106383: Use after free
-CVE-2026-106384|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106384: Missing authorization
-CVE-2026-106385|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106385: Race condition
-CVE-2026-106386|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106386: Uninitialized resource
-CVE-2026-106388|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106388: Missing authorization
-CVE-2026-106389|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106389: Incorrect authorization
-CVE-2026-106390|Low|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106390: Incorrect provision of specified functionality
-CVE-2026-106391|Moderate|4.2|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106391: Incorrect authorization
-CVE-2026-106392|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106392: Information leak
-CVE-2026-106393|Important|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106393: Use after free
-CVE-2026-106394|Low|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106394: Incomplete cleanup
-CVE-2026-106396|Important|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106396: Improper input validation
-CVE-2026-106398|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106398: Incorrect authorization
-CVE-2026-106399|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106399: Out of bounds read
-CVE-2026-106401|Moderate|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106401: Out of bounds write
-CVE-2026-106402|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106402: Incorrect authorization
-CVE-2026-106403|Moderate|8.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106403: Incorrect authorization
-CVE-2026-106404|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106404: Incorrect authorization
-CVE-2026-106407|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106407: Incorrect authorization
-CVE-2026-106409|Moderate|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106409: Incorrect reference resolution
-CVE-2026-106410|Moderate|4.2|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106410: Missing authorization
-CVE-2026-106411|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106411: Use after free
-CVE-2026-106412|Important|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106412: Race condition
-CVE-2026-106413|Low|4.2|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106413: Race condition
+CVE-2026-106353|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106353: Improper input validation in Mobile
