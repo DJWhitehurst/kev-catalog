@@ -1,5 +1,9 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-28T01:48:54Z | part 8 of 10 | 350 of 3231 CVEs | CVE-2026-97842 to CVE-2026-98555
+# Microsoft MSRC 2026-Oct | fetched 2026-10-28T10:51:05Z | part 8 of 10 | 350 of 3238 CVEs | CVE-2026-97838 to CVE-2026-98551
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-97838|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Role: DNS Server Information Disclosure Vulnerability
+CVE-2026-97839|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Role: DNS Server Information Disclosure Vulnerability
+CVE-2026-97840|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Role: DNS Server Information Disclosure Vulnerability
+CVE-2026-97841|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Role: DNS Server Information Disclosure Vulnerability
 CVE-2026-97842|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Role: DNS Server Information Disclosure Vulnerability
 CVE-2026-97843|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Role: DNS Server Information Disclosure Vulnerability
 CVE-2026-97844|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Role: DNS Server Information Disclosure Vulnerability
@@ -346,7 +350,3 @@ CVE-2026-98548|Important|7.0|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H|not st
 CVE-2026-98549|Important|7.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|tcp: prevent collapsing skbs across boundary in rtx queue
 CVE-2026-98550|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|tipc: reject invalid and unexpected GRP_ACK_MSG to prevent bc_ackers underflow
 CVE-2026-98551|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|perf/core: Fill branch entries with a single assignment
-CVE-2026-98552|not stated|not stated|none published|not stated|Unknown|Unknown|perf/core: Fix a refcount leak in attach_perf_ctx_data()
-CVE-2026-98553|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|autofs: fix sbi->pipe file reference leak in autofs_kill_sb()
-CVE-2026-98554|Moderate|5.3|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|vlan: ensure sufficient headroom in vlan_dev_hard_header()
-CVE-2026-98555|Moderate|6.4|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|llc: fix skb UAF and leaks on llc_mac_hdr_init() failure

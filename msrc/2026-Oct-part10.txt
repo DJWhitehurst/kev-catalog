@@ -1,5 +1,9 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-28T01:48:54Z | part 10 of 10 | 81 of 3231 CVEs | CVE-2026-98950 to CVE-2026-99999
+# Microsoft MSRC 2026-Oct | fetched 2026-10-28T10:51:05Z | part 10 of 10 | 88 of 3238 CVEs | CVE-2026-98945 to CVE-2026-99999
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98945|Moderate|4.6|CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|HID: steam: Rearrange teardown sequence
+CVE-2026-98946|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|drm/vc4: Disable the V3D interrupt across runtime suspend
+CVE-2026-98947|Low|2.6|CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|vsock: Fix memory leak in vmci_transport_recv_dgram_cb()
+CVE-2026-98948|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|mlxsw: spectrum_flower: Fix port range register leak in tmplt_create()
 CVE-2026-98950|Low|3.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|flow_dissector: avoid u16 truncation of hlen in bpf_flow_dissect()
 CVE-2026-98951|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|riscv: ptrace: Zero-initialize regset buffers before copyin
 CVE-2026-98954|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net: always dissect GSO packets in __virtio_net_hdr_to_skb()
@@ -80,4 +84,7 @@ CVE-2026-99081|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not st
 CVE-2026-99082|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|KVM: x86: Use active memslots for the per-vCPU MMIO cache
 CVE-2026-99083|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ksmbd: fix heap out-of-bounds write in krb5_authenticate()
 CVE-2026-99087|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|dm-integrity: fix NULL pointer dereference when the 'R' flag is used
+CVE-2026-99088|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|net: openvswitch: validate transport header presence in set_ipv6_addr
+CVE-2026-99090|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|drm/amdgpu: serialize vblank counter reads against GPU reset
+CVE-2026-99095|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|drm/vc4: drain the hangcheck timer and works on V3D unbind
 CVE-2026-99999|Critical|9.3|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|ipv4: validate checksum_start before completing checksum

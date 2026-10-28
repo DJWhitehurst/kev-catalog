@@ -1,5 +1,9 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-28T01:48:54Z | part 6 of 10 | 350 of 3231 CVEs | CVE-2026-85320 to CVE-2026-88833
+# Microsoft MSRC 2026-Oct | fetched 2026-10-28T10:51:05Z | part 6 of 10 | 350 of 3238 CVEs | CVE-2026-85087 to CVE-2026-88226
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-85087|Moderate|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: Python ≥3.12 host-name check silently becomes a no-op
+CVE-2026-85088|Moderate|not stated|none published|not stated|Unknown|Unknown|Apache Thrift, Apache Thrift: The C++ and D clients fall back to the certificate Common Name when subjectAltName entries are present but do not match
+CVE-2026-85318|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Servicing Stack Updates Elevation of Privilege Vulnerability
+CVE-2026-85319|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Active Directory Federation Services (AD FS) Denial of Service Vulnerability
 CVE-2026-85320|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Print Spooler Components Information Disclosure Vulnerability
 CVE-2026-85321|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Active Directory Federation Services (AD FS) Denial of Service Vulnerability
 CVE-2026-85322|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Routing and Remote Access Service (RRAS) Information Disclosure Vulnerability
@@ -173,7 +177,7 @@ CVE-2026-85939|Important|5.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL
 CVE-2026-85941|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
 CVE-2026-85943|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Reliable Multicast Transport Driver (RMCAST) Elevation of Privilege Vulnerability
 CVE-2026-85945|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
-CVE-2026-86410|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:L/E:U|not stated|Unknown|Unknown|redirect to SFTP or SCP bypasses host verification
+CVE-2026-86410|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:L/A:N/E:U|not stated|Unknown|Unknown|redirect to SFTP or SCP bypasses host verification
 CVE-2026-86411|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L/E:U|not stated|Unknown|Unknown|FTP connection reuse inherits client-certificate
 CVE-2026-86412|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L/E:U|not stated|Unknown|Unknown|server-set cookie erases cookie jar
 CVE-2026-86413|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:L|not stated|Unknown|Unknown|Negotiate credentials sent to redirected origin
@@ -346,7 +350,3 @@ CVE-2026-88209|Important|4.6|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N/E:U/RL
 CVE-2026-88210|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Microsoft Office Word Security Feature Bypass Vulnerability
 CVE-2026-88219|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|RPC Runtime Library Remote Code Execution Vulnerability
 CVE-2026-88226|Important|4.6|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Storage Port Driver Information Disclosure Vulnerability
-CVE-2026-88647|Important|7.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|A hostname verification bypass in GnuTLS v3.8.13 allows attackers to circumvent the Common Name fallback mechanism and eavesdrop on communications via a crafted certificate.
-CVE-2026-88648|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Incomplete X.509 implementation in GnuTLS v3.8.13 allows attackers controlling a subordinate Certificate Authority to bypass cross-domain PKI restrictions and issue unauthorized certificates.
-CVE-2026-88829|Important|7.2|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|Busybox: busybox: http request smuggling via pipelined requests in httpd reverse proxy
-CVE-2026-88833|Moderate|6.5|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Busybox: busybox: udhcpc integer underflow in dhcp packet length calculation causes denial of service

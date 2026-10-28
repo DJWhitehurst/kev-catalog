@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-28T01:48:54Z | part 3 of 10 | 350 of 3231 CVEs | CVE-2026-113073 to CVE-2026-67626
+# Microsoft MSRC 2026-Oct | fetched 2026-10-28T10:51:05Z | part 3 of 10 | 350 of 3238 CVEs | CVE-2026-113073 to CVE-2026-66858
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-113073|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113073: Use after free
 CVE-2026-113074|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113074: Use after free
@@ -281,14 +281,18 @@ CVE-2026-115379|Moderate|5.7|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H|not st
 CVE-2026-115383|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Wasmtime 47.0.0 before 48.0.4 and 49.0.0 before 49.0.2 GC Heap Corruption via Tag Imports
 CVE-2026-115384|Critical|9.9|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Wasmtime 39.0.0 before 48.0.4 and 49.0.0 before 49.0.2 Stack Buffer Overflow
 CVE-2026-115392|Important|7.9|CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:L|not stated|Unknown|Unknown|Wasmtime before 24.0.13, 25.0.0 before 36.0.14, 37.0.0 before 46.0.3, and 47.0.0 before 47.0.4 Sandbox Escape via Trailing Slashes
+CVE-2026-115449|not stated|3.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Libslirp: libslirp: icmp echo reply length desynchronization leaks host ip to guest
 CVE-2026-115506|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|libexpat through 2.9.0 Denial of Service via Billion Laughs Detection Delay
 CVE-2026-115557|Critical|not stated|none published|not stated|Unknown|Unknown|Distrust compromised intermediate certificates in ssl module
+CVE-2026-116620|Moderate|7.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:P/RL:X/RC:C|not stated|Unknown|Unknown|Tencent RapidJSON Regex stream.h Take out-of-bounds
+CVE-2026-116732|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|libdwarf through 2.3.3 Heap Out-of-Bounds Read via dwarf_debug_addr_table
 CVE-2026-15176|Moderate|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|NGINX ngx_http_core_module vulnerability
-CVE-2026-17591|Low|3.6|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Libarchive: libarchive: use-after-free via aliased mac metadata copy
+CVE-2026-17591|Low|3.6|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L/E:U|not stated|Unknown|Unknown|Libarchive: libarchive: use-after-free via aliased mac metadata copy
 CVE-2026-19029|Moderate|not stated|none published|not stated|Unknown|Unknown|HDF5 scale-offset filter heap buffer over-read via crafted chunk
 CVE-2026-19585|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Go-getter vulnerable to a path traversal in S3/GCS directory download handling
 CVE-2026-20942|Low|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Microsoft Edge (Chromium-based) Spoofing Vulnerability
 CVE-2026-21413|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Raw Image Extension Remote Code Execution Vulnerability
+CVE-2026-2270|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|StatefulSet and ControllerRevision write permissions allow cross-namespace pod creation
 CVE-2026-42356|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N/E:U|not stated|Unknown|Unknown|Apache HTTP Server: limited RCE for some internal redirects to non-CGI files in CGI directories
 CVE-2026-42528|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Apache HTTP Server: mod_dav shared lock overflow
 CVE-2026-42616|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|In NTFS-3G before 2026.7.7, a heap buffer overflow exists in cat() in ntfscat.c that allows an attacker to corrupt heap memory in the ntfscat binary by crafting a malicious NTFS image. The overflow is triggered by reading a file.
@@ -346,7 +350,3 @@ CVE-2026-66331|Moderate|not stated|none published|not stated|Unknown|Unknown|Apa
 CVE-2026-66822|Important|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|.NET Information Disclosure Vulnerability
 CVE-2026-66837|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: PHP accelerator sizes a stack buffer from a wire-controlled string length
 CVE-2026-66858|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift: skip() does not apply the recursion limit (Python accelerator, PHP, Perl, Lua, Smalltalk, OCaml)
-CVE-2026-66859|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: c_glib multiplexed processor crashes on a message it cannot route
-CVE-2026-67418|Moderate|not stated|none published|not stated|Unknown|Unknown|RabbitMQ MQTT 5: inapplicable PUBLISH property disconnects matching subscribers
-CVE-2026-67625|Important|8.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft SQL Server Remote Code Execution Vulnerability
-CVE-2026-67626|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Microsoft SQL Server Denial of Service Vulnerability

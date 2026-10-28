@@ -1,5 +1,9 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-28T01:48:54Z | part 9 of 10 | 350 of 3231 CVEs | CVE-2026-98556 to CVE-2026-98948
+# Microsoft MSRC 2026-Oct | fetched 2026-10-28T10:51:05Z | part 9 of 10 | 350 of 3238 CVEs | CVE-2026-98552 to CVE-2026-98944
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98552|not stated|not stated|none published|not stated|Unknown|Unknown|perf/core: Fix a refcount leak in attach_perf_ctx_data()
+CVE-2026-98553|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|autofs: fix sbi->pipe file reference leak in autofs_kill_sb()
+CVE-2026-98554|Moderate|5.3|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|vlan: ensure sufficient headroom in vlan_dev_hard_header()
+CVE-2026-98555|Moderate|6.4|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|llc: fix skb UAF and leaks on llc_mac_hdr_init() failure
 CVE-2026-98556|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|gve: DQO: reject TSO packets with an out of range MSS
 CVE-2026-98558|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net: flush skb_defer_nodes in dev_cpu_dead()
 CVE-2026-98559|Important|7.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|net/smc: fix UAF on lgr list traversal in smcr_port_err()
@@ -346,7 +350,3 @@ CVE-2026-98940|Moderate|6.7|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H|not sta
 CVE-2026-98942|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:L/A:N|not stated|Unknown|Unknown|sched_ext: Build the cid tables privately and publish them with RCU
 CVE-2026-98943|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|HID: steam: Clean up locking
 CVE-2026-98944|Moderate|4.0|CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|HID: steam: Refactor registration
-CVE-2026-98945|Moderate|4.6|CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|HID: steam: Rearrange teardown sequence
-CVE-2026-98946|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|drm/vc4: Disable the V3D interrupt across runtime suspend
-CVE-2026-98947|Low|2.6|CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|vsock: Fix memory leak in vmci_transport_recv_dgram_cb()
-CVE-2026-98948|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|mlxsw: spectrum_flower: Fix port range register leak in tmplt_create()

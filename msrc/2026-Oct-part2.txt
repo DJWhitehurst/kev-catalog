@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-28T01:48:54Z | part 2 of 10 | 350 of 3231 CVEs | CVE-2026-106333 to CVE-2026-113072
+# Microsoft MSRC 2026-Oct | fetched 2026-10-28T10:51:05Z | part 2 of 10 | 350 of 3238 CVEs | CVE-2026-106333 to CVE-2026-113072
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-106333|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106333: Incorrect authorization
 CVE-2026-106334|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106334: Information leak
