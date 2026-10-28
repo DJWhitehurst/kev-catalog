@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-27T10:04:16Z | part 2 of 10 | 350 of 3228 CVEs | CVE-2026-106333 to CVE-2026-113071
+# Microsoft MSRC 2026-Oct | fetched 2026-10-28T01:48:54Z | part 2 of 10 | 350 of 3231 CVEs | CVE-2026-106333 to CVE-2026-113072
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-106333|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106333: Incorrect authorization
 CVE-2026-106334|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106334: Information leak
@@ -268,7 +268,6 @@ CVE-2026-111269|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H|not st
 CVE-2026-111444|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Wheels through 4.1.2 allows SQL injection on MySQL/MariaDB with backslash escaping enabled (NO_BACKSLASH_ESCAPES absent) when an application supplies request data to inline-literal paths. These include opt-in parameterize=false queries and IN lists, and positions in developer-written where strings that the parser does not bind, such as BETWEEN bounds, function arguments and LIKE ESCAPE literals. Doubling single quotes without accounting for backslash escapes allows a value to alter the query. Bound paths are not affected; whereBetween() is bound from 4.1.2. This is fixed in 4.2.0.
 CVE-2026-111450|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Wheels through 4.1.1 derives its default production error-email address from the Host header of the request that starts the application. If no explicit error-email recipient is configured, a mail server is configured, and the server accepts an attacker-chosen Host, an attacker whose request triggers a cold start can direct later error emails to an address under their control for that application's lifetime. Emails disclose error and request metadata; on engines/versions where scope dumps render, they may also disclose configuration secrets and other users' session/cookie data. On the Lucee 7 engine, scope dumps fail to render, limiting disclosure to header fields. This is fixed in 4.1.2.
 CVE-2026-111497|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|Yes|Google: CVE-2026-111497 Buffer overflow vulnerability in the Brotli decoder
-CVE-2026-111943|Important|7.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|No|No|Go: CVE-2026-111943 Distrust compromised intermediate certificates in crypto/x509
 CVE-2026-112085|Important|8.2|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:N|not stated|Unknown|Unknown|webpack-dev-server vulnerable to cross-origin WebSocket access via proxied upgrades
 CVE-2026-112992|Moderate|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-112992: Memory corruption
 CVE-2026-112993|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-112993: Use after free
@@ -350,3 +349,4 @@ CVE-2026-113068|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not st
 CVE-2026-113069|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113069: Memory corruption
 CVE-2026-113070|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-113070: Out of bounds read
 CVE-2026-113071|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113071: Use after free
+CVE-2026-113072|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113072: Memory corruption

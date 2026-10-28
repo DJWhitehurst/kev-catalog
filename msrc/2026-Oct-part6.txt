@@ -1,5 +1,6 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-27T10:04:16Z | part 6 of 10 | 350 of 3228 CVEs | CVE-2026-85321 to CVE-2026-88838
+# Microsoft MSRC 2026-Oct | fetched 2026-10-28T01:48:54Z | part 6 of 10 | 350 of 3231 CVEs | CVE-2026-85320 to CVE-2026-88833
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-85320|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Print Spooler Components Information Disclosure Vulnerability
 CVE-2026-85321|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Active Directory Federation Services (AD FS) Denial of Service Vulnerability
 CVE-2026-85322|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Routing and Remote Access Service (RRAS) Information Disclosure Vulnerability
 CVE-2026-85323|Important|6.8|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Network Device Enrollment Service (NDES) Spoofing Vulnerability
@@ -223,6 +224,7 @@ CVE-2026-88074|Critical|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:
 CVE-2026-88075|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Configuration Manager Elevation of Privilege Vulnerability
 CVE-2026-88076|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
 CVE-2026-88077|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability
+CVE-2026-88078|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Microsoft Edge (Chromium-based) Spoofing Vulnerability
 CVE-2026-88079|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows MIDI Service Module Elevation of Privileges Vulnerability
 CVE-2026-88080|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
 CVE-2026-88081|Important|7.7|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft SQL Server Information Disclosure Vulnerability
@@ -348,5 +350,3 @@ CVE-2026-88647|Important|7.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N|not st
 CVE-2026-88648|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Incomplete X.509 implementation in GnuTLS v3.8.13 allows attackers controlling a subordinate Certificate Authority to bypass cross-domain PKI restrictions and issue unauthorized certificates.
 CVE-2026-88829|Important|7.2|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|Busybox: busybox: http request smuggling via pipelined requests in httpd reverse proxy
 CVE-2026-88833|Moderate|6.5|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Busybox: busybox: udhcpc integer underflow in dhcp packet length calculation causes denial of service
-CVE-2026-88834|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Busybox: busybox: httpd user existence oracle in non-default shadow-disabled builds
-CVE-2026-88838|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Busybox: busybox: non-root mount option filter bypass allows clearing fstab security restrictions

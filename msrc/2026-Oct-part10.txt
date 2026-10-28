@@ -1,5 +1,8 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-27T10:04:16Z | part 10 of 10 | 78 of 3228 CVEs | CVE-2026-98955 to CVE-2026-99999
+# Microsoft MSRC 2026-Oct | fetched 2026-10-28T01:48:54Z | part 10 of 10 | 81 of 3231 CVEs | CVE-2026-98950 to CVE-2026-99999
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98950|Low|3.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|flow_dissector: avoid u16 truncation of hlen in bpf_flow_dissect()
+CVE-2026-98951|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|riscv: ptrace: Zero-initialize regset buffers before copyin
+CVE-2026-98954|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net: always dissect GSO packets in __virtio_net_hdr_to_skb()
 CVE-2026-98955|Low|3.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|flow_dissector: avoid u16 truncation of skb->len when computing thoff
 CVE-2026-98956|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|ASoC: adau1372: allow sleepy powerdown GPIOs
 CVE-2026-98957|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|wifi: mt76: mt7915: disable rx napi when removing device

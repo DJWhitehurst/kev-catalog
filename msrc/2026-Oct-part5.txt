@@ -1,5 +1,6 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-27T10:04:16Z | part 5 of 10 | 350 of 3228 CVEs | CVE-2026-72968 to CVE-2026-85320
+# Microsoft MSRC 2026-Oct | fetched 2026-10-28T01:48:54Z | part 5 of 10 | 350 of 3231 CVEs | CVE-2026-72955 to CVE-2026-85319
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-72955|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Application Compatibility Cache Elevation of Privilege Vulnerability
 CVE-2026-72968|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Program Compatibility Assistant Service Elevation of Privilege Vulnerability
 CVE-2026-72969|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Program Compatibility Assistant Service Elevation of Privilege Vulnerability
 CVE-2026-73027|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Setup Files Cleanup Elevation of Privilege Vulnerability
@@ -349,4 +350,3 @@ CVE-2026-85087|Moderate|not stated|none published|not stated|Unknown|Unknown|Apa
 CVE-2026-85088|Moderate|not stated|none published|not stated|Unknown|Unknown|Apache Thrift, Apache Thrift: The C++ and D clients fall back to the certificate Common Name when subjectAltName entries are present but do not match
 CVE-2026-85318|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Servicing Stack Updates Elevation of Privilege Vulnerability
 CVE-2026-85319|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Active Directory Federation Services (AD FS) Denial of Service Vulnerability
-CVE-2026-85320|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Print Spooler Components Information Disclosure Vulnerability

@@ -1,5 +1,8 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-27T10:04:16Z | part 8 of 10 | 350 of 3228 CVEs | CVE-2026-98167 to CVE-2026-98559
+# Microsoft MSRC 2026-Oct | fetched 2026-10-28T01:48:54Z | part 8 of 10 | 350 of 3231 CVEs | CVE-2026-97842 to CVE-2026-98555
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-97842|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Role: DNS Server Information Disclosure Vulnerability
+CVE-2026-97843|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Role: DNS Server Information Disclosure Vulnerability
+CVE-2026-97844|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Role: DNS Server Information Disclosure Vulnerability
 CVE-2026-98167|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|smb: client: fix server->total_read for compound encrypted PDUs
 CVE-2026-98168|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|smb: client: fix reparse buffer bounds in cifs_query_reparse_point()
 CVE-2026-98169|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|smb: client: fix potential OOB read in smb3_enum_snapshots()
@@ -347,6 +350,3 @@ CVE-2026-98552|not stated|not stated|none published|not stated|Unknown|Unknown|p
 CVE-2026-98553|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|autofs: fix sbi->pipe file reference leak in autofs_kill_sb()
 CVE-2026-98554|Moderate|5.3|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|vlan: ensure sufficient headroom in vlan_dev_hard_header()
 CVE-2026-98555|Moderate|6.4|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|llc: fix skb UAF and leaks on llc_mac_hdr_init() failure
-CVE-2026-98556|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|gve: DQO: reject TSO packets with an out of range MSS
-CVE-2026-98558|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net: flush skb_defer_nodes in dev_cpu_dead()
-CVE-2026-98559|Important|7.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|net/smc: fix UAF on lgr list traversal in smcr_port_err()
