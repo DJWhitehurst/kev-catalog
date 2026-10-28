@@ -1,6 +1,6 @@
-# CISA KEV | catalogVersion 2026.10.26 | dateReleased 2026-10-26T22:24:24.6101Z | 1758 entries in full catalog
+# CISA KEV | catalogVersion 2026.10.27 | dateReleased 2026-10-27T19:00:02.2307Z | 1760 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
-# this file: CVE-2026 | 187 entries
+# this file: CVE-2026 | 189 entries
 CVE-2026-0257|2026-05-29|2026-06-01|Palo Alto Networks|PAN-OS
 CVE-2026-0300|2026-05-06|2026-05-09|Palo Alto Networks|PAN-OS
 CVE-2026-0322|2026-10-14|2026-10-17|Palo Alto Networks|PAN-OS
@@ -18,6 +18,7 @@ CVE-2026-109618|2026-10-26|2026-10-29|PHP Group|PHP
 CVE-2026-109619|2026-10-26|2026-10-29|PHP Group|PHP
 CVE-2026-110447|2026-10-23|2026-10-26|Collabora|Collabora Online – Built-in CODE Server
 CVE-2026-110936|2026-10-20|2026-11-03|Siemens|Software Center
+CVE-2026-111497|2026-10-27|2026-11-10|Google|Brotli
 CVE-2026-114625|2026-10-23|2026-10-26|Arista|VeloCloud Orchestrator
 CVE-2026-11645|2026-06-09|2026-06-23|Google|Chromium V8
 CVE-2026-12569|2026-06-25|2026-06-28|PTC|Windchill and FlexPLM
@@ -107,6 +108,7 @@ CVE-2026-46817|2026-07-15|2026-07-18|Oracle|E-Business Suite
 CVE-2026-48027|2026-05-27|2026-06-10|Nx|Nx Console
 CVE-2026-48172|2026-05-26|2026-05-29|LiteSpeed|cPanel Plugin
 CVE-2026-48282|2026-07-07|2026-07-10|Adobe|ColdFusion
+CVE-2026-48356|2026-10-27|2026-11-10|Adobe|Commerce and Magento
 CVE-2026-48558|2026-06-29|2026-07-02|SimpleHelp |SimpleHelp
 CVE-2026-48710|2026-09-02|2026-09-16|Kludex|Starlette
 CVE-2026-48907|2026-06-16|2026-06-19|Widget Factory|Joomla Content Editor 
