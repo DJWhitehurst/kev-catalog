@@ -1,5 +1,28 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-29T01:57:34Z | part 9 of 10 | 350 of 3238 CVEs | CVE-2026-98552 to CVE-2026-98944
+# Microsoft MSRC 2026-Oct | fetched 2026-10-29T11:07:52Z | part 9 of 10 | 350 of 3327 CVEs | CVE-2026-98527 to CVE-2026-98909
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98527|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|gpio: zynq: fix runtime PM leak on request error path
+CVE-2026-98528|not stated|not stated|none published|not stated|Unknown|Unknown|gpio: cdev: fix kernel stack leak to user-space in error path
+CVE-2026-98529|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|gpio: arizona: Fix runtime PM leak in arizona_gpio_direction_out()
+CVE-2026-98531|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|ipv6: sr: enforce exact attribute length for SEG6_ATTR_DST
+CVE-2026-98532|Moderate|5.6|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|ipv6: do not let ipv6_find_hdr() return an offset past the packet end
+CVE-2026-98533|not stated|not stated|none published|not stated|Unknown|Unknown|ipe: protect the dm-verity root hash with RCU
+CVE-2026-98534|not stated|not stated|none published|not stated|Unknown|Unknown|ipe: fix use-after-free when auditing a newly loaded policy
+CVE-2026-98535|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|fsl/fman: Fix clk reference leak in read_dts_node()
+CVE-2026-98536|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|writeback: report a Tasks-RCU quiescent state per cgwb drain pass
+CVE-2026-98537|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|workqueue: Fix NULL current_pwq deref in flush dependency check
+CVE-2026-98538|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|writeback: bound cleanup_offline_cgwb() rescans by rotating scanned inodes
+CVE-2026-98539|Moderate|6.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|fs/ntfs3: use d_instantiate_new() in ntfs_create_inode() and murder syzbot's "WARNING in do_new_mount" saga
+CVE-2026-98541|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|fou: reject omitted FOU_ATTR_IPPROTO on FOU_ENCAP_DIRECT
+CVE-2026-98542|not stated|not stated|none published|not stated|Unknown|Unknown|cgroup/cpuset: Return PERR_NOCPUS in remote_partition_enable() on subpartitions_cpus conflict
+CVE-2026-98543|not stated|not stated|none published|not stated|Unknown|Unknown|bpf: fs/xattr: don't assume the inode is locked in path_unlink/path_rmdir
+CVE-2026-98544|Moderate|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|bna: prevent IOC timer rearm during teardown
+CVE-2026-98545|Moderate|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ata: libata-scsi: bound the ATA passthru sense descriptor writes
+CVE-2026-98546|not stated|not stated|none published|not stated|Unknown|Unknown|arm64/boot: Disable trapping of PMZR_EL0 writes to EL2
+CVE-2026-98547|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|af_packet: fix integer overflow in prb_calc_retire_blk_tmo()
+CVE-2026-98548|Important|7.0|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|sctp: discard the rest of the packet on a stale-cookie error
+CVE-2026-98549|Important|7.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|tcp: prevent collapsing skbs across boundary in rtx queue
+CVE-2026-98550|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|tipc: reject invalid and unexpected GRP_ACK_MSG to prevent bc_ackers underflow
+CVE-2026-98551|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|perf/core: Fill branch entries with a single assignment
 CVE-2026-98552|not stated|not stated|none published|not stated|Unknown|Unknown|perf/core: Fix a refcount leak in attach_perf_ctx_data()
 CVE-2026-98553|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|autofs: fix sbi->pipe file reference leak in autofs_kill_sb()
 CVE-2026-98554|Moderate|5.3|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|vlan: ensure sufficient headroom in vlan_dev_hard_header()
@@ -310,7 +333,7 @@ CVE-2026-98889|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not
 CVE-2026-98890|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|wifi: libertas: reject short monitor TX frames
 CVE-2026-98891|Moderate|4.3|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mac80211: validate deauth frame length before reason access
 CVE-2026-98892|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|firmware: arm_scmi: Validate BASE_ERROR_EVENT payload size
-CVE-2026-98893|not stated|not stated|none published|not stated|Unknown|Unknown|firmware: arm_scmi: Validate SENSOR_UPDATE payload size
+CVE-2026-98893|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|firmware: arm_scmi: Validate SENSOR_UPDATE payload size
 CVE-2026-98894|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/amd/ras: reset CPER ring on corrupt entry size
 CVE-2026-98895|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net/mlx5: HWS, Handle destroying table that has a miss table
 CVE-2026-98896|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|thunderbolt: Keep the domain reference while processing hotplug
@@ -327,26 +350,3 @@ CVE-2026-98906|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not sta
 CVE-2026-98907|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|btrfs: protect sb_write_pointer() with invalidate lock
 CVE-2026-98908|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|net: microchip: sparx5: clean up PSFP resources on flower setup failure
 CVE-2026-98909|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|net: cpsw_new: unregister devlink on port registration failure
-CVE-2026-98910|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/amdkfd: Unwind debug trap enable on copy_to_user failure
-CVE-2026-98911|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|dpaa2-switch: fix the error path in dpaa2_switch_rx()
-CVE-2026-98912|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|ALSA: seq: oss: Reject reads that cannot fit the next event
-CVE-2026-98913|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|net: thunderx: fix PTP device ref leak in nicvf_probe()
-CVE-2026-98914|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|drm/amdgpu: cap ATOM command table nesting depth
-CVE-2026-98915|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|media: video-i2c: use vb2_video_unregister_device on driver removal
-CVE-2026-98916|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|wifi: nl80211: check link is beaconing for color change
-CVE-2026-98917|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|parisc: Increase kernel stack size to 32kb
-CVE-2026-98924|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|fs: avoid repeated scans in evict_inodes()
-CVE-2026-98925|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|bpf, sockmap: Fix self-redirect copied_seq double-counting
-CVE-2026-98926|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|drm/amd/display: Remove sink usage from DPMS
-CVE-2026-98929|Low|3.0|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|macsec: initialize SecY before registering the netdevice
-CVE-2026-98930|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|KVM: s390: Fix IRQ injection with SIGP Stop and Store Status
-CVE-2026-98931|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|mtd: spinand: fix NULL pointer dereference with no ECC engine
-CVE-2026-98932|Moderate|5.1|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|EDAC/altera: Fix use-after-free in error paths
-CVE-2026-98934|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|ipv6: sr: use skb_get_hash_net() in seg6_make_flowlabel()
-CVE-2026-98935|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|rtc: dev: zero-initialize struct rtc_wkalrm to prevent information leak
-CVE-2026-98936|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: ath11k: reset ar->num_stations on hardware start
-CVE-2026-98937|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|perf/core: Check kernel access when kernel callchains are requested
-CVE-2026-98940|Moderate|6.7|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|ASoC: qcom: lpass-cpu: use DAI table index for playback constraints
-CVE-2026-98942|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:L/A:N|not stated|Unknown|Unknown|sched_ext: Build the cid tables privately and publish them with RCU
-CVE-2026-98943|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|HID: steam: Clean up locking
-CVE-2026-98944|Moderate|4.0|CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|HID: steam: Refactor registration
