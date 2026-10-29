@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-28T10:51:05Z | part 7 of 10 | 350 of 3238 CVEs | CVE-2026-88647 to CVE-2026-97837
+# Microsoft MSRC 2026-Oct | fetched 2026-10-29T01:57:34Z | part 7 of 10 | 350 of 3238 CVEs | CVE-2026-88647 to CVE-2026-97837
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-88647|Important|7.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|A hostname verification bypass in GnuTLS v3.8.13 allows attackers to circumvent the Common Name fallback mechanism and eavesdrop on communications via a crafted certificate.
 CVE-2026-88648|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Incomplete X.509 implementation in GnuTLS v3.8.13 allows attackers controlling a subordinate Certificate Authority to bypass cross-domain PKI restrictions and issue unauthorized certificates.

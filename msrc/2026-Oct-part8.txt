@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-28T10:51:05Z | part 8 of 10 | 350 of 3238 CVEs | CVE-2026-97838 to CVE-2026-98551
+# Microsoft MSRC 2026-Oct | fetched 2026-10-29T01:57:34Z | part 8 of 10 | 350 of 3238 CVEs | CVE-2026-97838 to CVE-2026-98551
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-97838|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Role: DNS Server Information Disclosure Vulnerability
 CVE-2026-97839|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Role: DNS Server Information Disclosure Vulnerability

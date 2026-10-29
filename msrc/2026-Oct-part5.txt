@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-28T10:51:05Z | part 5 of 10 | 350 of 3238 CVEs | CVE-2026-70571 to CVE-2026-85086
+# Microsoft MSRC 2026-Oct | fetched 2026-10-29T01:57:34Z | part 5 of 10 | 350 of 3238 CVEs | CVE-2026-70571 to CVE-2026-85086
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-70571|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Exchange Server Remote Code Execution Vulnerability
 CVE-2026-70580|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Spoofing|No|No|Windows Credential Guard Spoofing Vulnerability

@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-28T10:51:05Z | part 4 of 10 | 350 of 3238 CVEs | CVE-2026-66859 to CVE-2026-70566
+# Microsoft MSRC 2026-Oct | fetched 2026-10-29T01:57:34Z | part 4 of 10 | 350 of 3238 CVEs | CVE-2026-66859 to CVE-2026-70566
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-66859|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: c_glib multiplexed processor crashes on a message it cannot route
 CVE-2026-67418|Moderate|not stated|none published|not stated|Unknown|Unknown|RabbitMQ MQTT 5: inapplicable PUBLISH property disconnects matching subscribers

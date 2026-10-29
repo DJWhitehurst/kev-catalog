@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-28T10:51:05Z | part 6 of 10 | 350 of 3238 CVEs | CVE-2026-85087 to CVE-2026-88226
+# Microsoft MSRC 2026-Oct | fetched 2026-10-29T01:57:34Z | part 6 of 10 | 350 of 3238 CVEs | CVE-2026-85087 to CVE-2026-88226
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-85087|Moderate|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: Python ≥3.12 host-name check silently becomes a no-op
 CVE-2026-85088|Moderate|not stated|none published|not stated|Unknown|Unknown|Apache Thrift, Apache Thrift: The C++ and D clients fall back to the certificate Common Name when subjectAltName entries are present but do not match
