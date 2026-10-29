@@ -1,6 +1,6 @@
-# CISA KEV | catalogVersion 2026.10.27 | dateReleased 2026-10-27T19:00:02.2307Z | 1760 entries in full catalog
+# CISA KEV | catalogVersion 2026.10.28 | dateReleased 2026-10-28T19:00:04.8077Z | 1762 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
-# this file: CVE-2026 | 189 entries
+# this file: CVE-2026 | 191 entries
 CVE-2026-0257|2026-05-29|2026-06-01|Palo Alto Networks|PAN-OS
 CVE-2026-0300|2026-05-06|2026-05-09|Palo Alto Networks|PAN-OS
 CVE-2026-0322|2026-10-14|2026-10-17|Palo Alto Networks|PAN-OS
@@ -94,6 +94,7 @@ CVE-2026-3910|2026-03-13|2026-03-27|Google|Chromium V8
 CVE-2026-39808|2026-07-16|2026-07-19|Fortinet|FortiSandbox
 CVE-2026-39987|2026-04-23|2026-05-07|Marimo|Marimo
 CVE-2026-41091|2026-05-20|2026-06-03|Microsoft|Defender
+CVE-2026-41709|2026-10-28|2026-11-11|Broadcom|VMware ESX
 CVE-2026-41940|2026-04-30|2026-05-03|WebPros|cPanel & WHM and WP2 (WordPress Squared)
 CVE-2026-42016|2026-09-11|2026-09-25|JFrog|Artifactory
 CVE-2026-42018|2026-09-11|2026-09-25|JFrog|Artifactory
@@ -104,6 +105,7 @@ CVE-2026-45247|2026-06-03|2026-06-06|Mirasvit|Mirasvit Full Page Cache Warmer
 CVE-2026-45321|2026-05-27|2026-06-10|TanStack|TanStack
 CVE-2026-45498|2026-05-20|2026-06-03|Microsoft|Defender
 CVE-2026-45659|2026-07-01|2026-07-04|Microsoft|SharePoint Server
+CVE-2026-46300|2026-10-28|2026-10-31|Linux|Kernel
 CVE-2026-46817|2026-07-15|2026-07-18|Oracle|E-Business Suite
 CVE-2026-48027|2026-05-27|2026-06-10|Nx|Nx Console
 CVE-2026-48172|2026-05-26|2026-05-29|LiteSpeed|cPanel Plugin
