@@ -1,4 +1,4 @@
-# CISA KEV | catalogVersion 2026.10.28 | dateReleased 2026-10-28T19:00:04.8077Z | 1762 entries in full catalog
+# CISA KEV | catalogVersion 2026.10.29 | dateReleased 2026-10-29T19:09:34.4003Z | 1764 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
 # this file: CVE-2022 | 132 entries
 CVE-2022-0028|2022-08-22|2022-09-12|Palo Alto Networks|PAN-OS
