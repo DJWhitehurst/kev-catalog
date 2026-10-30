@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-30T02:10:40Z | part 2 of 10 | 350 of 3327 CVEs | CVE-2026-106332 to CVE-2026-113068
+# Microsoft MSRC 2026-Oct | fetched 2026-10-30T11:02:44Z | part 2 of 10 | 350 of 3344 CVEs | CVE-2026-106332 to CVE-2026-113068
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-106332|Important|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106332: Integer overflow
 CVE-2026-106333|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-106333: Incorrect authorization

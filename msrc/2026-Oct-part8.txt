@@ -1,5 +1,22 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-30T02:10:40Z | part 8 of 10 | 350 of 3327 CVEs | CVE-2026-97814 to CVE-2026-98526
+# Microsoft MSRC 2026-Oct | fetched 2026-10-30T11:02:44Z | part 8 of 10 | 350 of 3344 CVEs | CVE-2026-97793 to CVE-2026-98507
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-97793|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Setup and Deployment Elevation of Privilege Vulnerability
+CVE-2026-97794|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Container Isolation FS Filter Driver (unionfs.sys) Elevation of Privilege Vulnerability
+CVE-2026-97798|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Error Reporting Service Elevation of Privilege Vulnerability
+CVE-2026-97799|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Audio Service Elevation of Privilege Vulnerability
+CVE-2026-97800|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Mobile Broadband Elevation of Privilege Vulnerability
+CVE-2026-97801|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|.NET Framework Tampering Vulnerability
+CVE-2026-97803|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
+CVE-2026-97804|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|HID Class Driver Elevation of Privilege Vulnerability
+CVE-2026-97805|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Partition Management Driver Remote Code Execution Vulnerability
+CVE-2026-97806|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Broadcast DVR User Service Elevation of Privilege Vulnerability
+CVE-2026-97807|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Broadcast DVR User Service Elevation of Privilege Vulnerability
+CVE-2026-97808|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Broadcast DVR User Service Elevation of Privilege Vulnerability
+CVE-2026-97809|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Broadcast DVR User Service Elevation of Privilege Vulnerability
+CVE-2026-97810|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Container Isolation FS Filter Driver (unionfs.sys) Elevation of Privilege Vulnerability
+CVE-2026-97811|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft OpenSSH for Windows Elevation of Privilege Vulnerability
+CVE-2026-97812|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Update Orchestrator Service Elevation of Privilege Vulnerability
+CVE-2026-97813|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Hyper-V Information Disclosure Vulnerability
 CVE-2026-97814|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Text Shaping Remote Code Execution Vulnerability
 CVE-2026-97815|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Error Reporting Remote Code Execution Vulnerability
 CVE-2026-97816|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft OpenSSH for Windows Remote Code Execution Vulnerability
@@ -333,20 +350,3 @@ CVE-2026-98504|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not sta
 CVE-2026-98505|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|mm/damon/vaddr: avoid hw-driven pte updates during damon_hugetlb_mkold()
 CVE-2026-98506|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|mm/hugetlb: do not dissolve gigantic pages without runtime support
 CVE-2026-98507|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|mm/rmap: fix missing barrier between anon_vma init and vma->anon_vma publish
-CVE-2026-98508|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|drm/virtio: fix NULL pointer dereference on fence allocation failure
-CVE-2026-98509|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/virtio: fix memory leak of fence event on execbuffer failure
-CVE-2026-98510|not stated|not stated|none published|not stated|Unknown|Unknown|drm/xe/vm: nuke PTs only after unlinking contested VMAs
-CVE-2026-98511|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/nouveau: don't bump pin count on failed re-pin in nouveau_bo_pin_locked()
-CVE-2026-98512|not stated|not stated|none published|not stated|Unknown|Unknown|drm/nouveau: RCU-free the scheduler-containing nouveau_sched
-CVE-2026-98513|not stated|not stated|none published|not stated|Unknown|Unknown|drm/nouveau: Fix runtime PM leak in nouveau_connector_detect()
-CVE-2026-98514|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/nouveau: Fix gem reference leak in validate_init()
-CVE-2026-98515|Moderate|6.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|drm/nouveau: fix double-free in nvif_vmm_dtor
-CVE-2026-98516|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/nouveau: Fix bridge reference leak in nv1a_ram_new()
-CVE-2026-98517|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|drm/nouveau/uvmm: fix UAF in nouveau_uvmm_sm when BO is in TTM_PL_SYSTEM
-CVE-2026-98519|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/amdgpu: Fix runtime PM leak in amdgpu_debugfs_test_ib_show()
-CVE-2026-98521|Moderate|6.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|drm/i915: fix incorrect RCU teardown order
-CVE-2026-98522|not stated|not stated|none published|not stated|Unknown|Unknown|drm/imagination: Propagate map failures correctly from pvr_mmu_map_sgl()
-CVE-2026-98523|not stated|not stated|none published|not stated|Unknown|Unknown|drm/client: fix restore of partially initialized client
-CVE-2026-98524|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|rds: ib: Clear the sg list when mapping an MR fails
-CVE-2026-98525|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:L|not stated|Unknown|Unknown|mctp: route: iterate socket tag list in mctp_lookup_prealloc_tag()
-CVE-2026-98526|Important|8.3|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|llc: reserve device headroom for allocated frames

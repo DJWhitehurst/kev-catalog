@@ -1,5 +1,8 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-30T02:10:40Z | part 7 of 10 | 350 of 3327 CVEs | CVE-2026-88189 to CVE-2026-97813
+# Microsoft MSRC 2026-Oct | fetched 2026-10-30T11:02:44Z | part 7 of 10 | 350 of 3344 CVEs | CVE-2026-88185 to CVE-2026-97792
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-88185|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
+CVE-2026-88186|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
+CVE-2026-88188|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows DWM Core Library Elevation of Privilege Vulnerability
 CVE-2026-88189|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows DWM Core Library Elevation of Privilege Vulnerability
 CVE-2026-88190|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Excel Information Disclosure Vulnerability
 CVE-2026-88191|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Windows Search Component Elevation of Privilege Vulnerability
@@ -44,6 +47,7 @@ CVE-2026-92392|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not st
 CVE-2026-92542|Moderate|not stated|none published|not stated|Unknown|Unknown|Blind VXLAN injection into encrypted overlay networks from cluster peer
 CVE-2026-92543|Important|not stated|none published|not stated|Unknown|Unknown|Docker Engine insecure-registry fallback via malicious DNS responses
 CVE-2026-92707|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|Denial of Service|No|Yes|MessagePack-CSharp Denial of Service Vulnerability
+CVE-2026-92709|Important|7.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L/E:U|not stated|Unknown|Unknown|Rsyslog: DynFile Path Traversal → Arbitrary File Write as Root → RCE
 CVE-2026-92834|Moderate|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: C++ WebSocket server transport does not read a full request length
 CVE-2026-93318|Important|not stated|none published|not stated|Unknown|Unknown|Cache poisoning via unvalidated image layer DiffIDs
 CVE-2026-93319|Moderate|not stated|none published|not stated|Unknown|Unknown|A malicious frontend can cause a daemon panic
@@ -53,11 +57,22 @@ CVE-2026-93322|Moderate|not stated|none published|not stated|Unknown|Unknown|Mal
 CVE-2026-93323|Moderate|not stated|none published|not stated|Unknown|Unknown|Oversized Dockerfile or .dockerignore can exhaust buildkitd memory
 CVE-2026-93326|Moderate|not stated|none published|not stated|Unknown|Unknown|Crafted Git build source can bypass certain policy validation
 CVE-2026-93479|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|NGINX Map directive and Regex matching vulnerability
+CVE-2026-93515|Moderate|not stated|none published|not stated|Unknown|Unknown|.Org Server Present Extension Use-After-Free
+CVE-2026-93516|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|.Org Server XInput Passive Grab Use-After-Free
+CVE-2026-93517|Important|not stated|none published|not stated|Unknown|Unknown|X.Org Server GLX RenderLarge Heap Buffer Overflow
+CVE-2026-93518|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|X.Org Server XKB ResizeKeyType Numeric Truncation
+CVE-2026-93519|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|X.Org Server XFixes Pointer Barrier Event List Buffer Overflow
+CVE-2026-93520|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|X.Org Server XKB ChangeKeycodeRange Heap Out-of-Bounds Write
+CVE-2026-93521|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|X.Org Server RandR ChangeProviderProperty Heap Buffer Overflow
+CVE-2026-93523|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|X.Org Server XInput2 PassiveUngrabDevice Out-of-Bounds Write
+CVE-2026-93524|Moderate|not stated|none published|not stated|Unknown|Unknown|X.Org Server XKB SetMap Key Width/Action Count Desync Out-Of-Bounds Read
+CVE-2026-93536|Moderate|5.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|X.Org Server GestureBuildSprite Use-After-Free
 CVE-2026-93546|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_dav_fs namespace overflow
 CVE-2026-93925|Moderate|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: C++ `THeaderTransport::writeVarint32()` stack buffer overflow on a negative protocol id
 CVE-2026-93926|Moderate|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: C++ `THeaderTransport::untransform()` leaks the zlib stream on the error path
 CVE-2026-94200|Important|not stated|none published|not stated|Unknown|Unknown|TLS 1.3 client ticket store crashed by NewSessionTicket with empty early_data extension in ssl
 CVE-2026-94265|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:L|not stated|Unknown|Unknown|Authorization: Negotiate sent to foreign origin
+CVE-2026-94300|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Concurrent GSS-TSIG messages corrupt memory
 CVE-2026-94439|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|HTTP/1 server connection desynchronization after 2xx CONNECT response in net/http
 CVE-2026-94440|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Memory limit bypass when parsing MIME headers in net/textproto, mime/multipart
 CVE-2026-94444|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Checksum bypass for golang.org/fips140 in cmd/go
@@ -211,6 +226,7 @@ CVE-2026-96865|Important|5.6|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N/E:U/RL
 CVE-2026-96866|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Network Device Enrollment Service (NDES) Denial of Service Vulnerability
 CVE-2026-96867|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows NTFS Remote Code Execution Vulnerability
 CVE-2026-96868|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
+CVE-2026-96888|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Named may terminate unexpectedly when a redirect zone is used with strict QNAME minimization
 CVE-2026-96909|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows BitLocker Remote Code Execution Vulnerability
 CVE-2026-96910|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Windows Search Component Information Disclosure Vulnerability
 CVE-2026-96911|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Windows Search Component Elevation of Privilege Vulnerability
@@ -280,6 +296,7 @@ CVE-2026-97032|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not sta
 CVE-2026-97205|Moderate|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|NGINX ngx_http_core_module vulnerability
 CVE-2026-97206|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|DNS-over-QUIC (DoQ) path-migration can lead to use-after-free on multi-threaded deployments.
 CVE-2026-97229|Critical|10.0|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Integer Overflow or Wraparound in GitLab
+CVE-2026-97313|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Specific RPZ configurations and query patterns may result in an unexpected exit
 CVE-2026-97380|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|MariaDB: GRANT PROXY with empty password incorrectly checks grantor's privileges
 CVE-2026-97629|Important|6.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:N|not stated|Unknown|Unknown|NGINX ngx_http_ssl_module vulnerability
 CVE-2026-97738|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
@@ -333,20 +350,3 @@ CVE-2026-97788|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL
 CVE-2026-97789|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Remote Desktop Client Remote Code Execution Vulnerability
 CVE-2026-97790|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows Container Isolation FS Filter Driver (unionfs.sys) Tampering Vulnerability
 CVE-2026-97792|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Container Isolation FS Filter Driver (unionfs.sys) Elevation of Privilege Vulnerability
-CVE-2026-97793|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Setup and Deployment Elevation of Privilege Vulnerability
-CVE-2026-97794|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Container Isolation FS Filter Driver (unionfs.sys) Elevation of Privilege Vulnerability
-CVE-2026-97798|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Error Reporting Service Elevation of Privilege Vulnerability
-CVE-2026-97799|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Audio Service Elevation of Privilege Vulnerability
-CVE-2026-97800|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Mobile Broadband Elevation of Privilege Vulnerability
-CVE-2026-97801|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|.NET Framework Tampering Vulnerability
-CVE-2026-97803|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
-CVE-2026-97804|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|HID Class Driver Elevation of Privilege Vulnerability
-CVE-2026-97805|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Partition Management Driver Remote Code Execution Vulnerability
-CVE-2026-97806|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Broadcast DVR User Service Elevation of Privilege Vulnerability
-CVE-2026-97807|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Broadcast DVR User Service Elevation of Privilege Vulnerability
-CVE-2026-97808|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Broadcast DVR User Service Elevation of Privilege Vulnerability
-CVE-2026-97809|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Broadcast DVR User Service Elevation of Privilege Vulnerability
-CVE-2026-97810|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Container Isolation FS Filter Driver (unionfs.sys) Elevation of Privilege Vulnerability
-CVE-2026-97811|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft OpenSSH for Windows Elevation of Privilege Vulnerability
-CVE-2026-97812|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Update Orchestrator Service Elevation of Privilege Vulnerability
-CVE-2026-97813|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Hyper-V Information Disclosure Vulnerability

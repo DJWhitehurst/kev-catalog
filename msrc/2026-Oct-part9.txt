@@ -1,5 +1,22 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-30T02:10:40Z | part 9 of 10 | 350 of 3327 CVEs | CVE-2026-98527 to CVE-2026-98909
+# Microsoft MSRC 2026-Oct | fetched 2026-10-30T11:02:44Z | part 9 of 10 | 350 of 3344 CVEs | CVE-2026-98508 to CVE-2026-98892
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98508|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|drm/virtio: fix NULL pointer dereference on fence allocation failure
+CVE-2026-98509|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/virtio: fix memory leak of fence event on execbuffer failure
+CVE-2026-98510|not stated|not stated|none published|not stated|Unknown|Unknown|drm/xe/vm: nuke PTs only after unlinking contested VMAs
+CVE-2026-98511|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/nouveau: don't bump pin count on failed re-pin in nouveau_bo_pin_locked()
+CVE-2026-98512|not stated|not stated|none published|not stated|Unknown|Unknown|drm/nouveau: RCU-free the scheduler-containing nouveau_sched
+CVE-2026-98513|not stated|not stated|none published|not stated|Unknown|Unknown|drm/nouveau: Fix runtime PM leak in nouveau_connector_detect()
+CVE-2026-98514|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/nouveau: Fix gem reference leak in validate_init()
+CVE-2026-98515|Moderate|6.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|drm/nouveau: fix double-free in nvif_vmm_dtor
+CVE-2026-98516|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/nouveau: Fix bridge reference leak in nv1a_ram_new()
+CVE-2026-98517|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|drm/nouveau/uvmm: fix UAF in nouveau_uvmm_sm when BO is in TTM_PL_SYSTEM
+CVE-2026-98519|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/amdgpu: Fix runtime PM leak in amdgpu_debugfs_test_ib_show()
+CVE-2026-98521|Moderate|6.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|drm/i915: fix incorrect RCU teardown order
+CVE-2026-98522|not stated|not stated|none published|not stated|Unknown|Unknown|drm/imagination: Propagate map failures correctly from pvr_mmu_map_sgl()
+CVE-2026-98523|not stated|not stated|none published|not stated|Unknown|Unknown|drm/client: fix restore of partially initialized client
+CVE-2026-98524|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|rds: ib: Clear the sg list when mapping an MR fails
+CVE-2026-98525|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:L|not stated|Unknown|Unknown|mctp: route: iterate socket tag list in mctp_lookup_prealloc_tag()
+CVE-2026-98526|Important|8.3|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|llc: reserve device headroom for allocated frames
 CVE-2026-98527|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|gpio: zynq: fix runtime PM leak on request error path
 CVE-2026-98528|not stated|not stated|none published|not stated|Unknown|Unknown|gpio: cdev: fix kernel stack leak to user-space in error path
 CVE-2026-98529|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|gpio: arizona: Fix runtime PM leak in arizona_gpio_direction_out()
@@ -333,20 +350,3 @@ CVE-2026-98889|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not
 CVE-2026-98890|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|wifi: libertas: reject short monitor TX frames
 CVE-2026-98891|Moderate|4.3|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mac80211: validate deauth frame length before reason access
 CVE-2026-98892|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|firmware: arm_scmi: Validate BASE_ERROR_EVENT payload size
-CVE-2026-98893|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|firmware: arm_scmi: Validate SENSOR_UPDATE payload size
-CVE-2026-98894|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/amd/ras: reset CPER ring on corrupt entry size
-CVE-2026-98895|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net/mlx5: HWS, Handle destroying table that has a miss table
-CVE-2026-98896|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|thunderbolt: Keep the domain reference while processing hotplug
-CVE-2026-98897|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|ksmbd: don't hold ci->m_lock while waiting for a lease break ack
-CVE-2026-98898|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/amd/pm/si: Don't schedule thermal work when queue isn't initialized
-CVE-2026-98899|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|netfilter: ipset: mark the rcu locked areas properly
-CVE-2026-98900|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|xen/gntalloc: validate grant count before allocation
-CVE-2026-98901|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|ksmbd: fix lease break and ack state handling
-CVE-2026-98902|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|md/raid5: let stripe batch bm_seq comparison wrap-safe
-CVE-2026-98903|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|mailbox: imx: Add a channel shutdown field
-CVE-2026-98904|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|mailbox: imx: Use devm_pm_runtime_enable()
-CVE-2026-98905|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|drm/amdkfd: Properly acquire queue buffers in CRIU restore
-CVE-2026-98906|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net: lan966x: restore RX state on reload failure
-CVE-2026-98907|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|btrfs: protect sb_write_pointer() with invalidate lock
-CVE-2026-98908|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|net: microchip: sparx5: clean up PSFP resources on flower setup failure
-CVE-2026-98909|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|net: cpsw_new: unregister devlink on port registration failure

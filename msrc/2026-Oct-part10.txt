@@ -1,5 +1,22 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-30T02:10:40Z | part 10 of 10 | 177 of 3327 CVEs | CVE-2026-98910 to CVE-2026-99999
+# Microsoft MSRC 2026-Oct | fetched 2026-10-30T11:02:44Z | part 10 of 10 | 194 of 3344 CVEs | CVE-2026-98893 to CVE-2026-99999
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98893|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|firmware: arm_scmi: Validate SENSOR_UPDATE payload size
+CVE-2026-98894|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/amd/ras: reset CPER ring on corrupt entry size
+CVE-2026-98895|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net/mlx5: HWS, Handle destroying table that has a miss table
+CVE-2026-98896|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|thunderbolt: Keep the domain reference while processing hotplug
+CVE-2026-98897|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|ksmbd: don't hold ci->m_lock while waiting for a lease break ack
+CVE-2026-98898|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/amd/pm/si: Don't schedule thermal work when queue isn't initialized
+CVE-2026-98899|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|netfilter: ipset: mark the rcu locked areas properly
+CVE-2026-98900|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|xen/gntalloc: validate grant count before allocation
+CVE-2026-98901|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|ksmbd: fix lease break and ack state handling
+CVE-2026-98902|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|md/raid5: let stripe batch bm_seq comparison wrap-safe
+CVE-2026-98903|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|mailbox: imx: Add a channel shutdown field
+CVE-2026-98904|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|mailbox: imx: Use devm_pm_runtime_enable()
+CVE-2026-98905|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|drm/amdkfd: Properly acquire queue buffers in CRIU restore
+CVE-2026-98906|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net: lan966x: restore RX state on reload failure
+CVE-2026-98907|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|btrfs: protect sb_write_pointer() with invalidate lock
+CVE-2026-98908|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|net: microchip: sparx5: clean up PSFP resources on flower setup failure
+CVE-2026-98909|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|net: cpsw_new: unregister devlink on port registration failure
 CVE-2026-98910|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/amdkfd: Unwind debug trap enable on copy_to_user failure
 CVE-2026-98911|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|dpaa2-switch: fix the error path in dpaa2_switch_rx()
 CVE-2026-98912|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|ALSA: seq: oss: Reject reads that cannot fit the next event

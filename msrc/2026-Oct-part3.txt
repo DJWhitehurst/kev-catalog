@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-30T02:10:40Z | part 3 of 10 | 350 of 3327 CVEs | CVE-2026-113069 to CVE-2026-61373
+# Microsoft MSRC 2026-Oct | fetched 2026-10-30T11:02:44Z | part 3 of 10 | 350 of 3344 CVEs | CVE-2026-113069 to CVE-2026-59685
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-113069|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113069: Memory corruption
 CVE-2026-113070|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-113070: Out of bounds read
@@ -278,6 +278,7 @@ CVE-2026-113343|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not st
 CVE-2026-113344|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113344: Use after free
 CVE-2026-113679|Moderate|7.0|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|HarfBuzz 8.0.0 through 14.6.0 Out-of-Bounds Write via WebAssembly font_glyph_to_string
 CVE-2026-113680|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|HarfBuzz 8.0.0 through 14.6.0 WebAssembly Shaper NULL Pointer Dereference DoS
+CVE-2026-113724|Moderate|4.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L|not stated|Unknown|Unknown|virtualenv: Deletion recovery can change a symlink target's mode
 CVE-2026-114148|Important|not stated|none published|Elevation of Privilege|No|No|ASP.NET Core Elevation of Privilege Vulnerability
 CVE-2026-114583|Moderate|not stated|none published|not stated|Unknown|Unknown|tar filter allows writing outside destination via empty-named symlink
 CVE-2026-114613|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|MessagePack: Unbounded memory leak in msgpack C extension on strict_map_key validation failure
@@ -312,6 +313,7 @@ CVE-2026-16762|Moderate|not stated|none published|not stated|Unknown|Unknown|Den
 CVE-2026-17591|Low|3.6|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L/E:U|not stated|Unknown|Unknown|Libarchive: libarchive: use-after-free via aliased mac metadata copy
 CVE-2026-19029|Moderate|not stated|none published|not stated|Unknown|Unknown|HDF5 scale-offset filter heap buffer over-read via crafted chunk
 CVE-2026-19585|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Go-getter vulnerable to a path traversal in S3/GCS directory download handling
+CVE-2026-19630|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Amplified resource exhaustion in inbound message processing
 CVE-2026-20942|Low|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Microsoft Edge (Chromium-based) Spoofing Vulnerability
 CVE-2026-21413|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Raw Image Extension Remote Code Execution Vulnerability
 CVE-2026-2270|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|StatefulSet and ControllerRevision write permissions allow cross-namespace pod creation
@@ -348,5 +350,3 @@ CVE-2026-58280|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL
 CVE-2026-58415|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_dav_fs property database read access
 CVE-2026-59116|Important|6.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Windows Remote Desktop Security Feature Bypass Vulnerability
 CVE-2026-59685|Important|8.2|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L/E:U|not stated|Unknown|Unknown|Apache HTTP Server: Out-of-Bounds Write in ap_directory_walk() Canonical-Name Rewrite on CASE_BLIND_FILESYSTEM
-CVE-2026-59797|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_ssl SSLRequire allows .htaccess ap_expr file-function
-CVE-2026-61373|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: Java TSaslNonblockingServer pre-auth unbounded SASL frame allocation
