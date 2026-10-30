@@ -1,4 +1,4 @@
-# Citrix security bulletins | fetched 2026-10-29T11:04:05Z | 9 bulletins held, 9 carrying a date | 25 CTX numbers seen, read 25 via API and 0 by rendering, 0 unreadable
+# Citrix security bulletins | fetched 2026-10-30T02:07:36Z | 9 bulletins held, 9 carrying a date | 25 CTX numbers seen, read 25 via API and 0 by rendering, 0 unreadable
 # ctxId|updated|severity|cvss|vector|cves|exploitation|title|url
 CTX697263|2026-10-22|not stated|0.0|none published|CVE-2026-109618 CVE-2026-109619|not stated|Citrix Security Advisory for CVE-2026-109618 and CVE-2026-109619|https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697263&articleTitle=Citrix_Security_Advisory_for_CVE_2026_109618_and_CVE_2026_109619
 CTX697257|2026-10-23|High|0.0|none published|CVE-2026-114406|not stated|XenServer Security Update for CVE-2026-114406|https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697257&articleURL=XenServer_Security_Update_for_CVE_2026_114406
