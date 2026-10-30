@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-29T11:07:52Z | part 8 of 10 | 350 of 3327 CVEs | CVE-2026-97814 to CVE-2026-98526
+# Microsoft MSRC 2026-Oct | fetched 2026-10-30T02:10:40Z | part 8 of 10 | 350 of 3327 CVEs | CVE-2026-97814 to CVE-2026-98526
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-97814|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Text Shaping Remote Code Execution Vulnerability
 CVE-2026-97815|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Error Reporting Remote Code Execution Vulnerability

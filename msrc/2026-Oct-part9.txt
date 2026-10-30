@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-29T11:07:52Z | part 9 of 10 | 350 of 3327 CVEs | CVE-2026-98527 to CVE-2026-98909
+# Microsoft MSRC 2026-Oct | fetched 2026-10-30T02:10:40Z | part 9 of 10 | 350 of 3327 CVEs | CVE-2026-98527 to CVE-2026-98909
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-98527|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|gpio: zynq: fix runtime PM leak on request error path
 CVE-2026-98528|not stated|not stated|none published|not stated|Unknown|Unknown|gpio: cdev: fix kernel stack leak to user-space in error path

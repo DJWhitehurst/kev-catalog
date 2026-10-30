@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-29T11:07:52Z | part 5 of 10 | 350 of 3327 CVEs | CVE-2026-70280 to CVE-2026-83931
+# Microsoft MSRC 2026-Oct | fetched 2026-10-30T02:10:40Z | part 5 of 10 | 350 of 3327 CVEs | CVE-2026-70280 to CVE-2026-83931
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-70280|Important|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Windows Hello Security Feature Bypass Vulnerability
 CVE-2026-70281|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Outlook Information Disclosure Vulnerability

@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-29T11:07:52Z | part 7 of 10 | 350 of 3327 CVEs | CVE-2026-88189 to CVE-2026-97813
+# Microsoft MSRC 2026-Oct | fetched 2026-10-30T02:10:40Z | part 7 of 10 | 350 of 3327 CVEs | CVE-2026-88189 to CVE-2026-97813
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-88189|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows DWM Core Library Elevation of Privilege Vulnerability
 CVE-2026-88190|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Excel Information Disclosure Vulnerability

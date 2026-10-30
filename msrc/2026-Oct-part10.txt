@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-29T11:07:52Z | part 10 of 10 | 177 of 3327 CVEs | CVE-2026-98910 to CVE-2026-99999
+# Microsoft MSRC 2026-Oct | fetched 2026-10-30T02:10:40Z | part 10 of 10 | 177 of 3327 CVEs | CVE-2026-98910 to CVE-2026-99999
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-98910|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/amdkfd: Unwind debug trap enable on copy_to_user failure
 CVE-2026-98911|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|dpaa2-switch: fix the error path in dpaa2_switch_rx()
