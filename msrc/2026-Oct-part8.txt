@@ -1,5 +1,6 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-30T11:02:44Z | part 8 of 10 | 350 of 3344 CVEs | CVE-2026-97793 to CVE-2026-98507
+# Microsoft MSRC 2026-Oct | fetched 2026-10-31T01:52:45Z | part 8 of 10 | 350 of 3345 CVEs | CVE-2026-97792 to CVE-2026-98506
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-97792|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Container Isolation FS Filter Driver (unionfs.sys) Elevation of Privilege Vulnerability
 CVE-2026-97793|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Setup and Deployment Elevation of Privilege Vulnerability
 CVE-2026-97794|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Container Isolation FS Filter Driver (unionfs.sys) Elevation of Privilege Vulnerability
 CVE-2026-97798|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Error Reporting Service Elevation of Privilege Vulnerability
@@ -349,4 +350,3 @@ CVE-2026-98503|Moderate|6.0|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:H/A:H|not sta
 CVE-2026-98504|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|PCI: of_property: Omit bus properties without a subordinate bus
 CVE-2026-98505|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|mm/damon/vaddr: avoid hw-driven pte updates during damon_hugetlb_mkold()
 CVE-2026-98506|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|mm/hugetlb: do not dissolve gigantic pages without runtime support
-CVE-2026-98507|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|mm/rmap: fix missing barrier between anon_vma init and vma->anon_vma publish

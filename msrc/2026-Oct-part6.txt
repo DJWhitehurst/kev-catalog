@@ -1,5 +1,6 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-30T11:02:44Z | part 6 of 10 | 350 of 3344 CVEs | CVE-2026-83929 to CVE-2026-88184
+# Microsoft MSRC 2026-Oct | fetched 2026-10-31T01:52:45Z | part 6 of 10 | 350 of 3345 CVEs | CVE-2026-83928 to CVE-2026-88183
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-83928|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Local Security Authority Subsystem Service (LSASS) Remote Code Execution Vulnerability
 CVE-2026-83929|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows GDI Remote Code Execution Vulnerability
 CVE-2026-83930|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Update Orchestrator Service Elevation of Privilege Vulnerability
 CVE-2026-83931|Important|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Hyper-V Remote Code Execution Vulnerability
@@ -349,4 +350,3 @@ CVE-2026-88180|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-88181|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows DWM Core Library Elevation of Privilege Vulnerability
 CVE-2026-88182|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Windows Search Component Elevation of Privilege Vulnerability
 CVE-2026-88183|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office PowerPoint Information Disclosure Vulnerability
-CVE-2026-88184|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Excel Information Disclosure Vulnerability

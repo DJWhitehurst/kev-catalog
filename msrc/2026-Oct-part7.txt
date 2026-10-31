@@ -1,5 +1,6 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-30T11:02:44Z | part 7 of 10 | 350 of 3344 CVEs | CVE-2026-88185 to CVE-2026-97792
+# Microsoft MSRC 2026-Oct | fetched 2026-10-31T01:52:45Z | part 7 of 10 | 350 of 3345 CVEs | CVE-2026-88184 to CVE-2026-97790
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-88184|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Excel Information Disclosure Vulnerability
 CVE-2026-88185|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
 CVE-2026-88186|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
 CVE-2026-88188|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows DWM Core Library Elevation of Privilege Vulnerability
@@ -349,4 +350,3 @@ CVE-2026-97787|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-97788|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Active Directory Federation Services (AD FS) Information Disclosure Vulnerability
 CVE-2026-97789|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Remote Desktop Client Remote Code Execution Vulnerability
 CVE-2026-97790|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows Container Isolation FS Filter Driver (unionfs.sys) Tampering Vulnerability
-CVE-2026-97792|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Container Isolation FS Filter Driver (unionfs.sys) Elevation of Privilege Vulnerability

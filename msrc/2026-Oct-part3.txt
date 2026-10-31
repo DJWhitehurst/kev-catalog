@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-30T11:02:44Z | part 3 of 10 | 350 of 3344 CVEs | CVE-2026-113069 to CVE-2026-59685
+# Microsoft MSRC 2026-Oct | fetched 2026-10-31T01:52:45Z | part 3 of 10 | 350 of 3345 CVEs | CVE-2026-113069 to CVE-2026-59116
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-113069|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113069: Memory corruption
 CVE-2026-113070|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-113070: Out of bounds read
@@ -306,6 +306,7 @@ CVE-2026-116620|Moderate|7.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:P/RL
 CVE-2026-116732|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|libdwarf through 2.3.3 Heap Out-of-Bounds Read via dwarf_debug_addr_table
 CVE-2026-117556|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|zchunk before 1.5.5 Heap Out-of-Bounds Read via read_preface()
 CVE-2026-117610|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|libexpat through 2.9.0 NULL Pointer Dereference via External Entity Subparser
+CVE-2026-118147|Important|7.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Visual Studio Spoofing Vulnerability
 CVE-2026-118370|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|libexpat through 2.9.0 Integer Overflow in storeAtts via attIndex and nPrefixes
 CVE-2026-118384|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|GNU mtools through 4.0.49 has an out-of-bounds write in parse_vses in vfat.c.
 CVE-2026-15176|Moderate|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|NGINX ngx_http_core_module vulnerability
@@ -349,4 +350,3 @@ CVE-2026-57941|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not
 CVE-2026-58280|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|.NET Denial of Service Vulnerability
 CVE-2026-58415|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_dav_fs property database read access
 CVE-2026-59116|Important|6.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Windows Remote Desktop Security Feature Bypass Vulnerability
-CVE-2026-59685|Important|8.2|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L/E:U|not stated|Unknown|Unknown|Apache HTTP Server: Out-of-Bounds Write in ap_directory_walk() Canonical-Name Rewrite on CASE_BLIND_FILESYSTEM

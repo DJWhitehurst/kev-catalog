@@ -1,5 +1,6 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-30T11:02:44Z | part 9 of 10 | 350 of 3344 CVEs | CVE-2026-98508 to CVE-2026-98892
+# Microsoft MSRC 2026-Oct | fetched 2026-10-31T01:52:45Z | part 9 of 10 | 350 of 3345 CVEs | CVE-2026-98507 to CVE-2026-98891
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98507|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|mm/rmap: fix missing barrier between anon_vma init and vma->anon_vma publish
 CVE-2026-98508|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|drm/virtio: fix NULL pointer dereference on fence allocation failure
 CVE-2026-98509|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/virtio: fix memory leak of fence event on execbuffer failure
 CVE-2026-98510|not stated|not stated|none published|not stated|Unknown|Unknown|drm/xe/vm: nuke PTs only after unlinking contested VMAs
@@ -349,4 +350,3 @@ CVE-2026-98888|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not
 CVE-2026-98889|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|wifi: iwlwifi: mvm: fix sched scan IE sizing
 CVE-2026-98890|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|wifi: libertas: reject short monitor TX frames
 CVE-2026-98891|Moderate|4.3|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mac80211: validate deauth frame length before reason access
-CVE-2026-98892|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|firmware: arm_scmi: Validate BASE_ERROR_EVENT payload size

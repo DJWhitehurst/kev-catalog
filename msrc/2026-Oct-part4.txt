@@ -1,5 +1,6 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-30T11:02:44Z | part 4 of 10 | 350 of 3344 CVEs | CVE-2026-59797 to CVE-2026-70277
+# Microsoft MSRC 2026-Oct | fetched 2026-10-31T01:52:45Z | part 4 of 10 | 350 of 3345 CVEs | CVE-2026-59685 to CVE-2026-70276
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-59685|Important|8.2|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L/E:U|not stated|Unknown|Unknown|Apache HTTP Server: Out-of-Bounds Write in ap_directory_walk() Canonical-Name Rewrite on CASE_BLIND_FILESYSTEM
 CVE-2026-59797|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_ssl SSLRequire allows .htaccess ap_expr file-function
 CVE-2026-61373|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: Java TSaslNonblockingServer pre-auth unbounded SASL frame allocation
 CVE-2026-61374|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: Java TSaslTransport post-auth data-frame missing size limit
@@ -349,4 +350,3 @@ CVE-2026-70273|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-70274|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Bind Filter Driver Elevation of Privilege Vulnerability
 CVE-2026-70275|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows CD-ROM File System Driver Remote Code Execution Vulnerability
 CVE-2026-70276|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Office Click-To-Run Elevation of Privilege Vulnerability
-CVE-2026-70277|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Fast FAT File System Driver Information Disclosure Vulnerability
