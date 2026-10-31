@@ -1,6 +1,6 @@
-# CISA KEV | catalogVersion 2026.10.29 | dateReleased 2026-10-29T19:09:34.4003Z | 1764 entries in full catalog
+# CISA KEV | catalogVersion 2026.10.30 | dateReleased 2026-10-30T17:02:45.3665Z | 1766 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
-# this file: CVE-2026 | 193 entries
+# this file: CVE-2026 | 195 entries
 CVE-2026-0257|2026-05-29|2026-06-01|Palo Alto Networks|PAN-OS
 CVE-2026-0300|2026-05-06|2026-05-09|Palo Alto Networks|PAN-OS
 CVE-2026-0322|2026-10-14|2026-10-17|Palo Alto Networks|PAN-OS
@@ -18,9 +18,11 @@ CVE-2026-109618|2026-10-26|2026-10-29|PHP Group|PHP
 CVE-2026-109619|2026-10-26|2026-10-29|PHP Group|PHP
 CVE-2026-110447|2026-10-23|2026-10-26|Collabora|Collabora Online – Built-in CODE Server
 CVE-2026-110936|2026-10-20|2026-11-03|Siemens|Software Center
+CVE-2026-111357|2026-10-30|2026-11-02|Ivanti|Connect Secure
 CVE-2026-111497|2026-10-27|2026-11-10|Google|Brotli
 CVE-2026-114625|2026-10-23|2026-10-26|Arista|VeloCloud Orchestrator
 CVE-2026-11645|2026-06-09|2026-06-23|Google|Chromium V8
+CVE-2026-118527|2026-10-30|2026-11-13|Ivanti|Connect Secure
 CVE-2026-12569|2026-06-25|2026-06-28|PTC|Windchill and FlexPLM
 CVE-2026-1281|2026-01-29|2026-02-01|Ivanti|Endpoint Manager Mobile (EPMM)
 CVE-2026-1340|2026-04-08|2026-04-11|Ivanti|Endpoint Manager Mobile (EPMM)
