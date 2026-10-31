@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-31T01:52:45Z | part 1 of 10 | 350 of 3345 CVEs | ADV260001 to CVE-2026-106331
+# Microsoft MSRC 2026-Oct | fetched 2026-10-31T10:37:51Z | part 1 of 10 | 350 of 3375 CVEs | ADV260001 to CVE-2026-106331
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 ADV260001|None|not stated|none published|Not a Vulnerability|No|No|ADV260001 Hardening changes for ReFS volumes on removable media
 CVE-2026-100200|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Update Service Elevation of Privilege Vulnerability
