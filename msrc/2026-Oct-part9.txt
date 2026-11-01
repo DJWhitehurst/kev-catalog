@@ -1,5 +1,55 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-31T10:37:51Z | part 9 of 10 | 350 of 3375 CVEs | CVE-2026-98475 to CVE-2026-98853
+# Microsoft MSRC 2026-Oct | fetched 2026-11-01T01:30:23Z | part 9 of 10 | 350 of 3425 CVEs | CVE-2026-98420 to CVE-2026-98800
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98420|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ksmbd: follow SMB2 session expiration semantics
+CVE-2026-98421|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mac80211: require a peer station for TDLS setup confirm
+CVE-2026-98422|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mac80211: reset the AP_VLAN tailroom counter on ifdown
+CVE-2026-98423|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mac80211_hwsim: don't hand frames to mac80211 while stopping
+CVE-2026-98424|Low|3.0|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|wifi: cfg80211: undo netns switch if renaming the wiphy fails
+CVE-2026-98425|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mac80211: don't warn when an IBSS has no channel to scan
+CVE-2026-98426|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mwifiex: fix IRQ leak using wrong index in MSI-X error path
+CVE-2026-98427|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net/sched: codel: bound the dropping loop per dequeue call
+CVE-2026-98429|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|RDMA/efa: Keep EQ resources alive while IRQ is registered
+CVE-2026-98430|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|RDMA/efa: Keep admin queues alive while IRQ is registered
+CVE-2026-98431|not stated|not stated|none published|not stated|Unknown|Unknown|RDMA/uverbs: Fix mmap_lock/disassociation_lock circular dependency
+CVE-2026-98432|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ipv4: free inet_opt and ireq_opt after an RCU grace period
+CVE-2026-98433|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|KVM: PPC: Book3S HV: fix secure device page leak on uv_page_in() failure
+CVE-2026-98435|Moderate|5.2|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|EDAC/altera: Use parent device for devres in altr_portb_setup()
+CVE-2026-98436|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|accel/amdxdna: Disable device buffer exporting
+CVE-2026-98437|not stated|not stated|none published|not stated|Unknown|Unknown|media: qcom: iris: fix runtime PM reference leaks
+CVE-2026-98439|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|smb/server: cancel async requests when closing connection
+CVE-2026-98440|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: arm64: nv: Delay freeing of shadow S2 structures until VM destruction
+CVE-2026-98441|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|net/sched: act_ct: avoid modifying shared unconfirmed ct entry
+CVE-2026-98442|Important|7.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|net/sched: act_ct: fix helper UAF due to extensions realloc
+CVE-2026-98443|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|xfs: fix cursor and pointer handling when recovering iunlink buckets
+CVE-2026-98444|not stated|not stated|none published|not stated|Unknown|Unknown|xfs: drop dquot flush lock when we can't find a buffer to flush
+CVE-2026-98445|not stated|not stated|none published|not stated|Unknown|Unknown|xfs: don't let memory failures leak blocks and kill repairs
+CVE-2026-98446|not stated|not stated|none published|not stated|Unknown|Unknown|xfs: don't let hidden_space go negative in xfs_metafile_resv_init
+CVE-2026-98447|not stated|not stated|none published|not stated|Unknown|Unknown|xfs: fix wild memcpy access when formatting ondisk rtrefcount btree roots
+CVE-2026-98448|not stated|not stated|none published|not stated|Unknown|Unknown|xfs: release orphanage dir inode if chown fails
+CVE-2026-98449|Moderate|4.2|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|smb: client: delete compound mids on send failure before unlock
+CVE-2026-98450|Low|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|smb: client: close completed creates on compound wait errors
+CVE-2026-98451|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|smb: client: use finish_no_open() for non-regular inodes
+CVE-2026-98452|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|smb: client: clean up failed cached directory opens
+CVE-2026-98453|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|smb: client: close handle after create-context parsing failure
+CVE-2026-98454|Moderate|6.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L|not stated|Unknown|Unknown|smb: client: fix create context out-of-bounds reads
+CVE-2026-98455|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Bluetooth: RFCOMM: fix NULL dereference of dlc->session in RFCOMM_CONNINFO
+CVE-2026-98456|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Bluetooth: mgmt: fix race in read_unconf_index_list()
+CVE-2026-98457|Important|7.1|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|Bluetooth: L2CAP: validate frame length before control and FCS access
+CVE-2026-98458|Moderate|6.5|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Bluetooth: ISO: release unused CIS holds after channel attach
+CVE-2026-98459|Moderate|5.3|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Bluetooth: ISO: balance the parent hold in hci_bind_bis()
+CVE-2026-98460|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|Bluetooth: hci_sock: reject out-of-range OCF values
+CVE-2026-98461|Moderate|5.2|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|Bluetooth: hci_sock: validate event length before filtering
+CVE-2026-98462|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Bluetooth: hci_conn: fix CIS hold ownership on reuse
+CVE-2026-98464|Moderate|6.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|RISC-V: KVM: Synchronize hrtimer callback during teardown
+CVE-2026-98465|Moderate|4.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L|not stated|Unknown|Unknown|RISC-V: KVM: Serialize IMSIC attributes with vCPU migration
+CVE-2026-98466|Important|8.2|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|KVM: arm64: Transfer the hyp stack pages out of the host stage-2
+CVE-2026-98467|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: arm64: nv: Fix null ptr deref on nested wp/unmap, teardown race
+CVE-2026-98468|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: arm64: Fix spurious warning for benign stage 2 teardown race
+CVE-2026-98469|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: arm64: Fix AArch32 DBGBXVR<n> handling
+CVE-2026-98471|Moderate|6.0|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N|not stated|Unknown|Unknown|KVM: SEV: Do cache maintenance on the source VM during intra-host migration
+CVE-2026-98472|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: SEV: Free have_run_cpus during VM destruction even if VM is no longer SEV
+CVE-2026-98473|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L/E:U|not stated|Unknown|Unknown|s390/vfio-ap: fix KVM GISC and page leak when queue removed from host config
+CVE-2026-98474|not stated|not stated|none published|not stated|Unknown|Unknown|s390/pci: Fix missing device lock in zpci_report_status()
 CVE-2026-98475|not stated|not stated|none published|not stated|Unknown|Unknown|s390/cmf: Fix virtual vs physical address confusion
 CVE-2026-98476|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|s390/cio: Fix NULL pointer dereference in ccw_device_get_util_str()
 CVE-2026-98477|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|perf/core: Fix NULL pmu_ctx passed to pmu->sched_task()
@@ -300,53 +350,3 @@ CVE-2026-98797|Moderate|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H|not sta
 CVE-2026-98798|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net: bcmgenet: fix NULL dereference in set_coalesce before first open
 CVE-2026-98799|Moderate|5.2|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|bpf: Skip detached progs in trampoline images that are still in use
 CVE-2026-98800|Moderate|5.2|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|bpf: Wait for an RCU tasks grace period before freeing trampoline progs
-CVE-2026-98801|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|net: restrict SO_RESERVE_MEM to TCP sockets and cap max value
-CVE-2026-98802|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|seg6: ensure packet data is writable before modifying SRH and IPv6 DA
-CVE-2026-98803|Moderate|6.5|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net: stmmac: fix rx Scatter-Gather support
-CVE-2026-98804|not stated|not stated|none published|not stated|Unknown|Unknown|net: page_pool: fix use-after-free in page_pool_recycle_ring_bulk()
-CVE-2026-98805|Moderate|6.8|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|tipc: prevent GCM nonce reuse on peer key changes
-CVE-2026-98806|not stated|not stated|none published|not stated|Unknown|Unknown|octeontx2-pf: Fix aura BPID assignment when CONFIG_DCB is enabled
-CVE-2026-98807|Low|3.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|net/mlx5: Fix slab-out-of-bounds when handling team device events
-CVE-2026-98808|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|net: systemport: Fix buffer overflow in bcm_sysport_get_stats()
-CVE-2026-98809|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Bluetooth: hci_sync: don't drain cmd_sync backlog on unregister
-CVE-2026-98810|Moderate|5.1|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|wifi: mac80211: fix slab-out-of-bounds read in ieee80211_monitor_select_queue()
-CVE-2026-98811|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|net/sched: cls_api: reclaim an empty proto on the error path
-CVE-2026-98812|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net/mctp: publish the mctp_dev only after it is initialised
-CVE-2026-98814|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|nvme: fix command effects log lifetime for multipath heads
-CVE-2026-98815|Moderate|6.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|nvme: fix cdev lifetime
-CVE-2026-98816|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|bpf: Fix overflow of jump offset in constant blinding
-CVE-2026-98818|not stated|not stated|none published|not stated|Unknown|Unknown|mm/slab: do not wake up kswapd in __kfree_rcu_sheaf()
-CVE-2026-98819|Moderate|5.2|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|Bluetooth: btintel: validate DDC record lengths
-CVE-2026-98820|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|blk-mq: set RQF_USE_SCHED when the operation is known
-CVE-2026-98821|not stated|not stated|none published|not stated|Unknown|Unknown|block: reject polled dio with user integrity metadata
-CVE-2026-98822|Moderate|6.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N|not stated|Unknown|Unknown|wifi: mac80211: prevent AP VLAN tx from other interfaces
-CVE-2026-98823|Moderate|6.4|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|wifi: cfg80211: preserve hidden-group beacon IE ownership
-CVE-2026-98824|Moderate|5.2|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|wifi: mac80211: validate TX status rate metadata
-CVE-2026-98825|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|rtc: mpfs: fix unchecked devm_clk_get() error pointer in probe()
-CVE-2026-98826|Moderate|6.4|CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|rtc: ac100: Fix clock provider use-after-free on probe failure
-CVE-2026-98827|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|wifi: ath9k_htc: bound TX aggregation to MAX_TX_BUF_SIZE
-CVE-2026-98828|Moderate|5.2|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|wifi: ath9k: reject short WMI command responses
-CVE-2026-98829|Important|8.1|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|wifi: mac80211: drop oversized fragments to avoid extra_len overflow
-CVE-2026-98830|Moderate|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|wifi: wfx: validate MIB read length before copying to caller
-CVE-2026-98831|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|of/overlay: don't leak fragment references when changeset init fails
-CVE-2026-98833|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|mtd: core: call _get_device() with the master MTD
-CVE-2026-98834|Moderate|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|mtd: core: avoid double-free of OTP NVMEM device
-CVE-2026-98835|Moderate|5.2|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|iio: accel: kionix-kx022a: Fix array boundary check
-CVE-2026-98836|Moderate|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ALSA: line6: reject oversized playback packets
-CVE-2026-98837|Moderate|4.6|CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|ALSA: caiaq: unregister the input device when probe fails
-CVE-2026-98838|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|vt: skip screen update for DEC alignment test on backgroup consoles
-CVE-2026-98839|Low|3.0|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|vt: selection: Fix unsigned underflow and slab-out-of-bounds read in paste_selection()
-CVE-2026-98840|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|vc_screen: reload vc pointer before if (ret) in vcs_write() to avoid UAF
-CVE-2026-98841|not stated|not stated|none published|not stated|Unknown|Unknown|virt: vmgenid: set driver_data before registering notification handlers
-CVE-2026-98842|not stated|not stated|none published|not stated|Unknown|Unknown|module: fix lost error code from codetag_load_module()
-CVE-2026-98843|not stated|not stated|none published|not stated|Unknown|Unknown|netfs: zero gaps in read-gaps folio to avoid writing back stale data
-CVE-2026-98844|not stated|not stated|none published|not stated|Unknown|Unknown|netfs: clear post-EOF pagecache when extending a file via write
-CVE-2026-98845|not stated|not stated|none published|not stated|Unknown|Unknown|tpm: Disable TPM on null key name mismatch
-CVE-2026-98846|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|sctp: check RCV_SHUTDOWN after the sendmsg connect wait
-CVE-2026-98847|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|rtc: spear: initialize IRQ state before requesting alarm IRQ
-CVE-2026-98848|Low|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|rtc: ac100: Assign .num before accessing .hws
-CVE-2026-98849|not stated|not stated|none published|not stated|Unknown|Unknown|pfcp: fix socket lifetime on netdevice registration failure
-CVE-2026-98850|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net/packet: prevent TX_RING byte count overflow
-CVE-2026-98851|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|netfilter: nft_flow_offload: drop flowtable reference on init error path
-CVE-2026-98852|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|net: extend IPv6 exthdr detection of tunneled packets
-CVE-2026-98853|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net: gso: limit recursive IP-in-IP segmentation

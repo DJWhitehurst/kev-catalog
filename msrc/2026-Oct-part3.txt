@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-31T10:37:51Z | part 3 of 10 | 350 of 3375 CVEs | CVE-2026-113067 to CVE-2026-42618
+# Microsoft MSRC 2026-Oct | fetched 2026-11-01T01:30:23Z | part 3 of 10 | 350 of 3425 CVEs | CVE-2026-113067 to CVE-2026-118342
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-113067|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113067: Use after free
 CVE-2026-113068|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113068: Use after free
@@ -318,35 +318,35 @@ CVE-2026-117556|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L|not st
 CVE-2026-117610|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|libexpat through 2.9.0 NULL Pointer Dereference via External Entity Subparser
 CVE-2026-118131|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|CVE-2026-118131
 CVE-2026-118147|Important|7.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Visual Studio Spoofing Vulnerability
-CVE-2026-118370|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|libexpat through 2.9.0 Integer Overflow in storeAtts via attIndex and nPrefixes
-CVE-2026-118384|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|GNU mtools through 4.0.49 has an out-of-bounds write in parse_vses in vfat.c.
-CVE-2026-118669|Important|not stated|none published|not stated|Unknown|Unknown|OAuthLib: Token grants can use attacker-supplied client_id for authorization after authenticating a different client
-CVE-2026-119025|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|open 7.2.0 before 11.0.0 OS Command Injection via PowerShell on Windows
-CVE-2026-119195|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|pyasn1: Quadratic-time denial of service in constructed string and indefinite-length ANY decoding
-CVE-2026-119196|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|pyasn1: Quadratic CPU consumption in constructed BIT STRING decoding
-CVE-2026-119197|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|pyasn1: Quadratic-complexity denial of service in binary REAL decoding
-CVE-2026-119371|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|SQLite before 3.54.0 Stack Exhaustion via CTE Chain in selectExpander()
-CVE-2026-119372|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|SQLite before 3.54.0 Use-After-Free in FTS3 fts3BestSnippet() via snippet()
-CVE-2026-119373|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|SQLite before 3.54.0 FTS5 Heap Buffer Overflow via fts5MergeRowidLists()
-CVE-2026-119374|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|SQLite before 3.54.0 Heap Buffer Overflow via FTS5 fts5DoSecureDelete()
-CVE-2026-119375|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|SQLite before 3.54.0 Information Disclosure via WAL Page Size Mismatch
-CVE-2026-119376|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|SQLite before 3.54.0 Stack Exhaustion via COLLATE Operator Chain
-CVE-2026-119378|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|SQLite before 3.54.0 Use-After-Free in R-Tree nodeWrite()
-CVE-2026-119379|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|SQLite before 3.54.0 Heap Buffer Overflow via Session Extension sessionUpdateFind()
-CVE-2026-119568|Critical|7.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|vsftpd through 3.0.5 require_ssl_reuse Bypass via FTPS Data Channel Hijacking
-CVE-2026-119586|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|SQLite CLI through 3.54.1 Command Injection via .recover Output
-CVE-2026-119591|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|SQLite before 3.54.0 Stack Exhaustion via countOfViewOptimization() in VALUES Clause
-CVE-2026-15176|Moderate|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|NGINX ngx_http_core_module vulnerability
-CVE-2026-16762|Moderate|not stated|none published|not stated|Unknown|Unknown|Denial-of-service vulnerability in the Qt Core QXmlStream parser (QXmlStreamReader) impacts Qt
-CVE-2026-17591|Low|3.6|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L/E:U|not stated|Unknown|Unknown|Libarchive: libarchive: use-after-free via aliased mac metadata copy
-CVE-2026-19029|Moderate|not stated|none published|not stated|Unknown|Unknown|HDF5 scale-offset filter heap buffer over-read via crafted chunk
-CVE-2026-19585|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Go-getter vulnerable to a path traversal in S3/GCS directory download handling
-CVE-2026-19630|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Amplified resource exhaustion in inbound message processing
-CVE-2026-20942|Low|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Microsoft Edge (Chromium-based) Spoofing Vulnerability
-CVE-2026-21413|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Raw Image Extension Remote Code Execution Vulnerability
-CVE-2026-2270|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|StatefulSet and ControllerRevision write permissions allow cross-namespace pod creation
-CVE-2026-42356|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N/E:U|not stated|Unknown|Unknown|Apache HTTP Server: limited RCE for some internal redirects to non-CGI files in CGI directories
-CVE-2026-42528|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Apache HTTP Server: mod_dav shared lock overflow
-CVE-2026-42616|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|In NTFS-3G before 2026.7.7, a heap buffer overflow exists in cat() in ntfscat.c that allows an attacker to corrupt heap memory in the ntfscat binary by crafting a malicious NTFS image. The overflow is triggered by reading a file.
-CVE-2026-42617|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_ir_to_ib() in index.c that allows an attacker to corrupt heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by extending a directory, e.g., by creating a file.
-CVE-2026-42618|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_decompress() in compress.c that allows an attacker to corrupt one byte of heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by reading the special crafted file.
+CVE-2026-118304|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118304 Improper input validation in SVG
+CVE-2026-118305|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118305 Memory corruption in Turbolev
+CVE-2026-118306|Critical|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118306 Memory corruption in FileSystem
+CVE-2026-118307|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118307 Use after free in Paint
+CVE-2026-118308|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118308 Use after free in SVG
+CVE-2026-118310|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118310 Improper input validation in Views
+CVE-2026-118311|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118311 Memory corruption in Media
+CVE-2026-118312|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118312 Memory corruption in Paint
+CVE-2026-118313|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118313 Use after free in Video
+CVE-2026-118315|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118315 Improper input validation in SVG
+CVE-2026-118316|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118316 Improper input validation in V8
+CVE-2026-118317|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118317 Memory corruption in HTML
+CVE-2026-118318|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118318 Improper access control in V8
+CVE-2026-118319|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118319 Memory corruption in Skia
+CVE-2026-118320|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118320 Memory corruption in V8
+CVE-2026-118322|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118322 Memory corruption in ANGLE
+CVE-2026-118327|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118327 Memory corruption in Media
+CVE-2026-118328|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118328 Improper input validation in WebRTC
+CVE-2026-118329|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118329 Improper input validation in ANGLE
+CVE-2026-118330|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118330 Use after free in Browser
+CVE-2026-118331|Critical|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118331 Improper input validation in FileAPI
+CVE-2026-118332|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118332 Improper input validation in Compositing
+CVE-2026-118333|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118333 Missing authorization in Video
+CVE-2026-118334|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118334 Use after free in ImageCapture
+CVE-2026-118335|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118335 Improper input validation in Metrics
+CVE-2026-118336|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118336 Improper input validation in Headless
+CVE-2026-118337|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118337 Improper access control in Forms
+CVE-2026-118338|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118338 Use after free in Animation
+CVE-2026-118339|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118339 Use after free in Animation
+CVE-2026-118340|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118340 Memory corruption in Skia
+CVE-2026-118341|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118341 Use after free in Modularization
+CVE-2026-118342|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118342 Out of bounds write in Editing

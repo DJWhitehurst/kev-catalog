@@ -1,5 +1,54 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-31T10:37:51Z | part 4 of 10 | 350 of 3375 CVEs | CVE-2026-46569 to CVE-2026-70247
+# Microsoft MSRC 2026-Oct | fetched 2026-11-01T01:30:23Z | part 4 of 10 | 350 of 3425 CVEs | CVE-2026-118343 to CVE-2026-70186
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-118343|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118343 Improper input validation in ReadingList
+CVE-2026-118344|Critical|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118344 Use after free in Layout
+CVE-2026-118345|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118345 Use after free in PDFium
+CVE-2026-118346|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118346 Use after free in Compositing
+CVE-2026-118347|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118347 Use after free in FileSystem
+CVE-2026-118348|Critical|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118348 Improper input validation in Skia
+CVE-2026-118349|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118349 Memory corruption in Payments
+CVE-2026-118350|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118350 Use after free in Turbolev
+CVE-2026-118351|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118351 Memory corruption in Skia
+CVE-2026-118352|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118352 Memory corruption in Cache
+CVE-2026-118353|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118353 Use after free in Paint
+CVE-2026-118354|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118354 Improper input validation in Skia
+CVE-2026-118355|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118355 Improper input validation in Command
+CVE-2026-118356|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118356 Use after free in WTF
+CVE-2026-118357|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118357 Use after free in FileSystem
+CVE-2026-118358|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118358 Memory corruption in WebAudio
+CVE-2026-118359|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118359 Memory corruption in V8
+CVE-2026-118370|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|libexpat through 2.9.0 Integer Overflow in storeAtts via attIndex and nPrefixes
+CVE-2026-118384|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|GNU mtools through 4.0.49 has an out-of-bounds write in parse_vses in vfat.c.
+CVE-2026-118669|Important|not stated|none published|not stated|Unknown|Unknown|OAuthLib: Token grants can use attacker-supplied client_id for authorization after authenticating a different client
+CVE-2026-119025|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|open 7.2.0 before 11.0.0 OS Command Injection via PowerShell on Windows
+CVE-2026-119195|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|pyasn1: Quadratic-time denial of service in constructed string and indefinite-length ANY decoding
+CVE-2026-119196|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|pyasn1: Quadratic CPU consumption in constructed BIT STRING decoding
+CVE-2026-119197|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|pyasn1: Quadratic-complexity denial of service in binary REAL decoding
+CVE-2026-119371|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|SQLite before 3.54.0 Stack Exhaustion via CTE Chain in selectExpander()
+CVE-2026-119372|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|SQLite before 3.54.0 Use-After-Free in FTS3 fts3BestSnippet() via snippet()
+CVE-2026-119373|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|SQLite before 3.54.0 FTS5 Heap Buffer Overflow via fts5MergeRowidLists()
+CVE-2026-119374|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|SQLite before 3.54.0 Heap Buffer Overflow via FTS5 fts5DoSecureDelete()
+CVE-2026-119375|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|SQLite before 3.54.0 Information Disclosure via WAL Page Size Mismatch
+CVE-2026-119376|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|SQLite before 3.54.0 Stack Exhaustion via COLLATE Operator Chain
+CVE-2026-119378|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|SQLite before 3.54.0 Use-After-Free in R-Tree nodeWrite()
+CVE-2026-119379|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|SQLite before 3.54.0 Heap Buffer Overflow via Session Extension sessionUpdateFind()
+CVE-2026-119568|Critical|7.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|vsftpd through 3.0.5 require_ssl_reuse Bypass via FTPS Data Channel Hijacking
+CVE-2026-119586|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|SQLite CLI through 3.54.1 Command Injection via .recover Output
+CVE-2026-119591|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|SQLite before 3.54.0 Stack Exhaustion via countOfViewOptimization() in VALUES Clause
+CVE-2026-15176|Moderate|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|NGINX ngx_http_core_module vulnerability
+CVE-2026-16762|Moderate|not stated|none published|not stated|Unknown|Unknown|Denial-of-service vulnerability in the Qt Core QXmlStream parser (QXmlStreamReader) impacts Qt
+CVE-2026-17591|Low|3.6|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L/E:U|not stated|Unknown|Unknown|Libarchive: libarchive: use-after-free via aliased mac metadata copy
+CVE-2026-19029|Moderate|not stated|none published|not stated|Unknown|Unknown|HDF5 scale-offset filter heap buffer over-read via crafted chunk
+CVE-2026-19585|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Go-getter vulnerable to a path traversal in S3/GCS directory download handling
+CVE-2026-19630|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Amplified resource exhaustion in inbound message processing
+CVE-2026-20942|Low|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Microsoft Edge (Chromium-based) Spoofing Vulnerability
+CVE-2026-21413|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Raw Image Extension Remote Code Execution Vulnerability
+CVE-2026-2270|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|StatefulSet and ControllerRevision write permissions allow cross-namespace pod creation
+CVE-2026-42356|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N/E:U|not stated|Unknown|Unknown|Apache HTTP Server: limited RCE for some internal redirects to non-CGI files in CGI directories
+CVE-2026-42528|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Apache HTTP Server: mod_dav shared lock overflow
+CVE-2026-42616|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|In NTFS-3G before 2026.7.7, a heap buffer overflow exists in cat() in ntfscat.c that allows an attacker to corrupt heap memory in the ntfscat binary by crafting a malicious NTFS image. The overflow is triggered by reading a file.
+CVE-2026-42617|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_ir_to_ib() in index.c that allows an attacker to corrupt heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by extending a directory, e.g., by creating a file.
+CVE-2026-42618|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_decompress() in compress.c that allows an attacker to corrupt one byte of heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by reading the special crafted file.
 CVE-2026-46569|Important|7.7|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_ib_copy_tail(), in libntfs-3g/index.c, that allows an attacker to corrupt heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by extending a directory, e.g., by creating a file.
 CVE-2026-46570|Important|8.1|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_index_walk_down() in libntfs-3g/index.c that allows an attacker to corrupt heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by reading the special crafted file metadata.
 CVE-2026-46571|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|In NTFS-3G before 2026.7.7, a out-of-bounds read exists in ntfs_fix_file_name() in libntfs-3g/reparse.c that allows an attacker to read possibly confidential information in ntfs-3g process memory by crafting a malicious NTFS image. The out-of-bounds read is triggered by a readlink on a corrupted file.
@@ -301,52 +350,3 @@ CVE-2026-70183|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-70184|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Backup Engine Elevation of Privilege Vulnerability
 CVE-2026-70185|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Microsoft PowerShell Security Feature Bypass Vulnerability
 CVE-2026-70186|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|ASP.NET Core Denial of Service Vulnerability
-CVE-2026-70187|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Remote Desktop Services Remote Code Execution Vulnerability
-CVE-2026-70188|Important|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|ASP.NET Core Security Feature Bypass Vulnerability
-CVE-2026-70189|Important|6.7|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft SQL Server Remote Code Execution Vulnerability
-CVE-2026-70190|Important|7.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|.NET Elevation of Privilege Vulnerability
-CVE-2026-70194|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|.NET Framework Security Feature Bypass Vulnerability
-CVE-2026-70195|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Ancillary Function Driver for WinSock Information Disclosure Vulnerability
-CVE-2026-70196|Important|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|ASP.NET Core Denial of Service Vulnerability
-CVE-2026-70197|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|.NET and Visual Studio Remote Code Execution Vulnerability
-CVE-2026-70198|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Push Notifications Elevation of Privilege Vulnerability
-CVE-2026-70199|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Kernel Information Disclosure Vulnerability
-CVE-2026-70201|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows DHCP Server Denial of Service Vulnerability
-CVE-2026-70202|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Office SharePoint Elevation of Privilege Vulnerability
-CVE-2026-70205|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
-CVE-2026-70206|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Word Information Disclosure Vulnerability
-CVE-2026-70207|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Network Policy Server (NPS) Remote Code Execution Vulnerability
-CVE-2026-70208|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|HTTP.sys Information Disclosure Vulnerability
-CVE-2026-70209|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Win32k Elevation of Privilege Vulnerability
-CVE-2026-70210|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows OLE DB Elevation of Privilege Vulnerability
-CVE-2026-70211|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Win32k Information Disclosure Vulnerability
-CVE-2026-70212|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Security Center Elevation of Privilege Vulnerability
-CVE-2026-70213|Important|8.0|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Power Apps Remote Code Execution Vulnerability
-CVE-2026-70214|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Excel Information Disclosure Vulnerability
-CVE-2026-70215|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office PowerPoint Remote Code Execution Vulnerability
-CVE-2026-70216|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows Mobile Device Management Tampering Vulnerability
-CVE-2026-70217|Important|4.9|CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office SharePoint Information Disclosure Vulnerability
-CVE-2026-70218|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows StateRepository API Elevation of Privilege Vulnerability
-CVE-2026-70219|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Excel Information Disclosure Vulnerability
-CVE-2026-70220|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
-CVE-2026-70222|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Shell Elevation of Privilege Vulnerability
-CVE-2026-70223|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Console Driver Elevation of Privilege Vulnerability
-CVE-2026-70225|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
-CVE-2026-70227|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Device Association Service Information Disclosure Vulnerability
-CVE-2026-70228|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Desktop Window Manager Elevation of Privilege Vulnerability
-CVE-2026-70229|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Active Directory Domain Services Remote Code Execution Vulnerability
-CVE-2026-70230|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Audio Service Elevation of Privilege Vulnerability
-CVE-2026-70232|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Kernel Information Disclosure Vulnerability
-CVE-2026-70233|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Common Log File System Driver Elevation of Privilege Vulnerability
-CVE-2026-70234|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Desktop Window Manager Information Disclosure Vulnerability
-CVE-2026-70235|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Windows Event Tracing Spoofing Vulnerability
-CVE-2026-70236|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Win32k Elevation of Privilege Vulnerability
-CVE-2026-70237|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
-CVE-2026-70238|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Storage Spaces Controller Elevation of Privilege Vulnerability
-CVE-2026-70241|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kerberos Elevation of Privilege Vulnerability
-CVE-2026-70242|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Outlook Remote Code Execution Vulnerability
-CVE-2026-70243|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
-CVE-2026-70244|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows DNS Server Information Disclosure Vulnerability
-CVE-2026-70245|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
-CVE-2026-70246|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Office SharePoint Elevation of Privilege Vulnerability
-CVE-2026-70247|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|HTTP.sys Remote Code Execution Vulnerability

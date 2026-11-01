@@ -1,5 +1,54 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-31T10:37:51Z | part 5 of 10 | 350 of 3375 CVEs | CVE-2026-70248 to CVE-2026-83899
+# Microsoft MSRC 2026-Oct | fetched 2026-11-01T01:30:23Z | part 5 of 10 | 350 of 3425 CVEs | CVE-2026-70187 to CVE-2026-83845
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-70187|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Remote Desktop Services Remote Code Execution Vulnerability
+CVE-2026-70188|Important|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|ASP.NET Core Security Feature Bypass Vulnerability
+CVE-2026-70189|Important|6.7|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft SQL Server Remote Code Execution Vulnerability
+CVE-2026-70190|Important|7.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|.NET Elevation of Privilege Vulnerability
+CVE-2026-70194|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|.NET Framework Security Feature Bypass Vulnerability
+CVE-2026-70195|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Ancillary Function Driver for WinSock Information Disclosure Vulnerability
+CVE-2026-70196|Important|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|ASP.NET Core Denial of Service Vulnerability
+CVE-2026-70197|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|.NET and Visual Studio Remote Code Execution Vulnerability
+CVE-2026-70198|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Push Notifications Elevation of Privilege Vulnerability
+CVE-2026-70199|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Kernel Information Disclosure Vulnerability
+CVE-2026-70201|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows DHCP Server Denial of Service Vulnerability
+CVE-2026-70202|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Office SharePoint Elevation of Privilege Vulnerability
+CVE-2026-70205|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+CVE-2026-70206|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Word Information Disclosure Vulnerability
+CVE-2026-70207|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Network Policy Server (NPS) Remote Code Execution Vulnerability
+CVE-2026-70208|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|HTTP.sys Information Disclosure Vulnerability
+CVE-2026-70209|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Win32k Elevation of Privilege Vulnerability
+CVE-2026-70210|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows OLE DB Elevation of Privilege Vulnerability
+CVE-2026-70211|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Win32k Information Disclosure Vulnerability
+CVE-2026-70212|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Security Center Elevation of Privilege Vulnerability
+CVE-2026-70213|Important|8.0|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Power Apps Remote Code Execution Vulnerability
+CVE-2026-70214|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Excel Information Disclosure Vulnerability
+CVE-2026-70215|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office PowerPoint Remote Code Execution Vulnerability
+CVE-2026-70216|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows Mobile Device Management Tampering Vulnerability
+CVE-2026-70217|Important|4.9|CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office SharePoint Information Disclosure Vulnerability
+CVE-2026-70218|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows StateRepository API Elevation of Privilege Vulnerability
+CVE-2026-70219|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Excel Information Disclosure Vulnerability
+CVE-2026-70220|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
+CVE-2026-70222|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Shell Elevation of Privilege Vulnerability
+CVE-2026-70223|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Console Driver Elevation of Privilege Vulnerability
+CVE-2026-70225|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+CVE-2026-70227|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Device Association Service Information Disclosure Vulnerability
+CVE-2026-70228|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Desktop Window Manager Elevation of Privilege Vulnerability
+CVE-2026-70229|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Active Directory Domain Services Remote Code Execution Vulnerability
+CVE-2026-70230|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Audio Service Elevation of Privilege Vulnerability
+CVE-2026-70232|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Kernel Information Disclosure Vulnerability
+CVE-2026-70233|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Common Log File System Driver Elevation of Privilege Vulnerability
+CVE-2026-70234|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Desktop Window Manager Information Disclosure Vulnerability
+CVE-2026-70235|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Windows Event Tracing Spoofing Vulnerability
+CVE-2026-70236|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Win32k Elevation of Privilege Vulnerability
+CVE-2026-70237|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+CVE-2026-70238|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Storage Spaces Controller Elevation of Privilege Vulnerability
+CVE-2026-70241|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kerberos Elevation of Privilege Vulnerability
+CVE-2026-70242|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Outlook Remote Code Execution Vulnerability
+CVE-2026-70243|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
+CVE-2026-70244|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows DNS Server Information Disclosure Vulnerability
+CVE-2026-70245|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+CVE-2026-70246|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Office SharePoint Elevation of Privilege Vulnerability
+CVE-2026-70247|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|HTTP.sys Remote Code Execution Vulnerability
 CVE-2026-70248|Important|6.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows Hyper-V Denial of Service Vulnerability
 CVE-2026-70249|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Win32k Elevation of Privilege Vulnerability
 CVE-2026-70250|Critical|8.8|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows DHCP Client Remote Code Execution Vulnerability
@@ -301,52 +350,3 @@ CVE-2026-83842|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-83843|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows Internet Key Exchange (IKE) Extension Denial of Service Vulnerability
 CVE-2026-83844|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Paint Remote Code Execution Vulnerability
 CVE-2026-83845|Important|8.4|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Windows Internet (wininet.dll) Spoofing Vulnerability
-CVE-2026-83846|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Connected Devices Platform Service (Cdpsvc) Elevation of Privilege Vulnerability
-CVE-2026-83847|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Account Elevation of Privilege Vulnerability
-CVE-2026-83848|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows COM+ Event System Service Elevation of Privilege Vulnerability
-CVE-2026-83849|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Hello Information Disclosure Vulnerability
-CVE-2026-83850|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Windows Search Component Elevation of Privilege Vulnerability
-CVE-2026-83851|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Partition Management Driver Elevation of Privilege Vulnerability
-CVE-2026-83852|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Bind Filter Driver Elevation of Privilege Vulnerability
-CVE-2026-83853|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Hello Elevation of Privilege Vulnerability
-CVE-2026-83854|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Notification Information Disclosure Vulnerability
-CVE-2026-83855|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows WLAN Service Denial of Service Vulnerability
-CVE-2026-83856|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Event Logging Service Remote Code Execution Vulnerability
-CVE-2026-83857|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Universal Disk Format File System Driver (UDFS) Elevation of Privilege Vulnerability
-CVE-2026-83859|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows NTFS Elevation of Privilege Vulnerability
-CVE-2026-83860|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows GDI Denial of Service Vulnerability
-CVE-2026-83861|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Remote Desktop Protocol Elevation of Privilege Vulnerability
-CVE-2026-83862|Important|8.8|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Network Load Balancing Remote Code Execution Vulnerability
-CVE-2026-83863|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Servicing Stack Updates Elevation of Privilege Vulnerability
-CVE-2026-83864|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows NTFS Information Disclosure Vulnerability
-CVE-2026-83865|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows Internet (wininet.dll) Tampering Vulnerability
-CVE-2026-83866|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Win32k Elevation of Privilege Vulnerability
-CVE-2026-83867|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Push Notifications Elevation of Privilege Vulnerability
-CVE-2026-83868|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Bluetooth Driver Elevation of Privilege Vulnerability
-CVE-2026-83869|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows  Domain Name Service Remote Code Execution Vulnerability
-CVE-2026-83870|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Aggregated Data Platform Service Information Disclosure Vulnerability
-CVE-2026-83871|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft OpenSSH for Windows Elevation of Privilege Vulnerability
-CVE-2026-83872|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows TCP/IP Local Elevation of Privilege Vulnerability
-CVE-2026-83873|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Shell Elevation of Privilege Vulnerability
-CVE-2026-83874|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Event Tracing Remote Code Execution Vulnerability
-CVE-2026-83875|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Human Interface Device Information Disclosure Vulnerability
-CVE-2026-83876|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Shell Elevation of Privilege Vulnerability
-CVE-2026-83877|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Devices Human Interface Elevation of Privilege Vulnerability
-CVE-2026-83879|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Overlay Filter Elevation of Privilege Vulnerability
-CVE-2026-83881|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows exFAT File System Elevation of Privilege Vulnerability
-CVE-2026-83882|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
-CVE-2026-83883|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Win32k Elevation of Privilege Vulnerability
-CVE-2026-83884|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Human Interface Device Information Disclosure Vulnerability
-CVE-2026-83885|Important|5.6|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:N/I:H/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Windows Virtualization-Based Security (VBS) Enclave Spoofing Vulnerability
-CVE-2026-83886|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Update Orchestrator Service Elevation of Privilege Vulnerability
-CVE-2026-83887|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|HID Parser Library Information Disclosure Vulnerability
-CVE-2026-83888|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows CD-ROM Driver Elevation of Privilege Vulnerability
-CVE-2026-83889|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows DNS Server Remote Code Execution Vulnerability
-CVE-2026-83891|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
-CVE-2026-83892|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Human Interface Device Information Disclosure Vulnerability
-CVE-2026-83893|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Clipboard User Service Information Disclosure Vulnerability
-CVE-2026-83895|Important|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Win32 Kernel Subsystem Elevation of Privilege Vulnerability
-CVE-2026-83896|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Direct Composition Elevation of Privilege Vulnerability
-CVE-2026-83897|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Win32 Kernel Subsystem Information Disclosure Vulnerability
-CVE-2026-83898|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|HID Parser Library Information Disclosure Vulnerability
-CVE-2026-83899|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability

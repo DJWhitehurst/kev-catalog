@@ -1,5 +1,55 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-10-31T10:37:51Z | part 8 of 10 | 350 of 3375 CVEs | CVE-2026-97758 to CVE-2026-98474
+# Microsoft MSRC 2026-Oct | fetched 2026-11-01T01:30:23Z | part 8 of 10 | 350 of 3425 CVEs | CVE-2026-96958 to CVE-2026-98419
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-96958|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|.NET Denial of Service Vulnerability
+CVE-2026-96959|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|.NET Denial of Service Vulnerability
+CVE-2026-96960|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|.NET Denial of Service Vulnerability
+CVE-2026-96990|Important|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: Erlang thrift_json_protocol reads a whole message with no size bound
+CVE-2026-96995|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Office Word Elevation of Privilege Vulnerability
+CVE-2026-96996|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
+CVE-2026-96997|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Office OneNote Elevation of Privilege Vulnerability
+CVE-2026-97001|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
+CVE-2026-97003|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97004|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97005|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office PowerPoint Information Disclosure Vulnerability
+CVE-2026-97007|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97008|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97009|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97010|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97011|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97012|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Outlook Remote Code Execution Vulnerability
+CVE-2026-97014|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Excel Information Disclosure Vulnerability
+CVE-2026-97016|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Outlook Remote Code Execution Vulnerability
+CVE-2026-97017|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97030|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|Recognize yield as regexp preceder keyword in html/template
+CVE-2026-97031|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Reject malformed ECH outer extension references in crypto/tls
+CVE-2026-97032|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|HTTP/2 server crash due to HPACK encoder race in net/http
+CVE-2026-97205|Moderate|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|NGINX ngx_http_core_module vulnerability
+CVE-2026-97206|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|DNS-over-QUIC (DoQ) path-migration can lead to use-after-free on multi-threaded deployments.
+CVE-2026-97229|Critical|10.0|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Integer Overflow or Wraparound in GitLab
+CVE-2026-97313|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Specific RPZ configurations and query patterns may result in an unexpected exit
+CVE-2026-97380|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|MariaDB: GRANT PROXY with empty password incorrectly checks grantor's privileges
+CVE-2026-97629|Important|6.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:N|not stated|Unknown|Unknown|NGINX ngx_http_ssl_module vulnerability
+CVE-2026-97631|Important|not stated|none published|not stated|Unknown|Unknown|Pre-boot RCE in EDK II PXE driver
+CVE-2026-97738|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97739|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97740|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Excel Information Disclosure Vulnerability
+CVE-2026-97741|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97742|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97743|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Excel Information Disclosure Vulnerability
+CVE-2026-97744|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office PowerPoint Information Disclosure Vulnerability
+CVE-2026-97745|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97746|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97747|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97748|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97749|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Outlook Remote Code Execution Vulnerability
+CVE-2026-97750|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97751|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97752|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97753|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97754|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97755|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97756|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-97757|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97758|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97759|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-97760|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Excel Information Disclosure Vulnerability
@@ -300,53 +350,3 @@ CVE-2026-98413|Low|3.6|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:L|not stated|U
 CVE-2026-98414|not stated|not stated|none published|not stated|Unknown|Unknown|memcg: avoid charging the root memcg from obj_cgroup_charge_pages()
 CVE-2026-98415|not stated|not stated|none published|not stated|Unknown|Unknown|soc: samsung: exynos-pmu: fix use-after-free of interrupt generator node
 CVE-2026-98419|Moderate|5.1|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|drop_monitor: fix out-of-bounds write in reset_per_cpu_data()
-CVE-2026-98420|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ksmbd: follow SMB2 session expiration semantics
-CVE-2026-98421|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mac80211: require a peer station for TDLS setup confirm
-CVE-2026-98422|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mac80211: reset the AP_VLAN tailroom counter on ifdown
-CVE-2026-98423|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mac80211_hwsim: don't hand frames to mac80211 while stopping
-CVE-2026-98424|Low|3.0|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|wifi: cfg80211: undo netns switch if renaming the wiphy fails
-CVE-2026-98425|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mac80211: don't warn when an IBSS has no channel to scan
-CVE-2026-98426|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mwifiex: fix IRQ leak using wrong index in MSI-X error path
-CVE-2026-98427|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net/sched: codel: bound the dropping loop per dequeue call
-CVE-2026-98429|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|RDMA/efa: Keep EQ resources alive while IRQ is registered
-CVE-2026-98430|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|RDMA/efa: Keep admin queues alive while IRQ is registered
-CVE-2026-98431|not stated|not stated|none published|not stated|Unknown|Unknown|RDMA/uverbs: Fix mmap_lock/disassociation_lock circular dependency
-CVE-2026-98432|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ipv4: free inet_opt and ireq_opt after an RCU grace period
-CVE-2026-98433|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|KVM: PPC: Book3S HV: fix secure device page leak on uv_page_in() failure
-CVE-2026-98435|Moderate|5.2|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|EDAC/altera: Use parent device for devres in altr_portb_setup()
-CVE-2026-98436|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|accel/amdxdna: Disable device buffer exporting
-CVE-2026-98437|not stated|not stated|none published|not stated|Unknown|Unknown|media: qcom: iris: fix runtime PM reference leaks
-CVE-2026-98439|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|smb/server: cancel async requests when closing connection
-CVE-2026-98440|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: arm64: nv: Delay freeing of shadow S2 structures until VM destruction
-CVE-2026-98441|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|net/sched: act_ct: avoid modifying shared unconfirmed ct entry
-CVE-2026-98442|Important|7.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|net/sched: act_ct: fix helper UAF due to extensions realloc
-CVE-2026-98443|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|xfs: fix cursor and pointer handling when recovering iunlink buckets
-CVE-2026-98444|not stated|not stated|none published|not stated|Unknown|Unknown|xfs: drop dquot flush lock when we can't find a buffer to flush
-CVE-2026-98445|not stated|not stated|none published|not stated|Unknown|Unknown|xfs: don't let memory failures leak blocks and kill repairs
-CVE-2026-98446|not stated|not stated|none published|not stated|Unknown|Unknown|xfs: don't let hidden_space go negative in xfs_metafile_resv_init
-CVE-2026-98447|not stated|not stated|none published|not stated|Unknown|Unknown|xfs: fix wild memcpy access when formatting ondisk rtrefcount btree roots
-CVE-2026-98448|not stated|not stated|none published|not stated|Unknown|Unknown|xfs: release orphanage dir inode if chown fails
-CVE-2026-98449|Moderate|4.2|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|smb: client: delete compound mids on send failure before unlock
-CVE-2026-98450|Low|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|smb: client: close completed creates on compound wait errors
-CVE-2026-98451|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|smb: client: use finish_no_open() for non-regular inodes
-CVE-2026-98452|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|smb: client: clean up failed cached directory opens
-CVE-2026-98453|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|smb: client: close handle after create-context parsing failure
-CVE-2026-98454|Moderate|6.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L|not stated|Unknown|Unknown|smb: client: fix create context out-of-bounds reads
-CVE-2026-98455|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Bluetooth: RFCOMM: fix NULL dereference of dlc->session in RFCOMM_CONNINFO
-CVE-2026-98456|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Bluetooth: mgmt: fix race in read_unconf_index_list()
-CVE-2026-98457|Important|7.1|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|Bluetooth: L2CAP: validate frame length before control and FCS access
-CVE-2026-98458|Moderate|6.5|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Bluetooth: ISO: release unused CIS holds after channel attach
-CVE-2026-98459|Moderate|5.3|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Bluetooth: ISO: balance the parent hold in hci_bind_bis()
-CVE-2026-98460|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|Bluetooth: hci_sock: reject out-of-range OCF values
-CVE-2026-98461|Moderate|5.2|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|Bluetooth: hci_sock: validate event length before filtering
-CVE-2026-98462|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Bluetooth: hci_conn: fix CIS hold ownership on reuse
-CVE-2026-98464|Moderate|6.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|RISC-V: KVM: Synchronize hrtimer callback during teardown
-CVE-2026-98465|Moderate|4.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L|not stated|Unknown|Unknown|RISC-V: KVM: Serialize IMSIC attributes with vCPU migration
-CVE-2026-98466|Important|8.2|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|KVM: arm64: Transfer the hyp stack pages out of the host stage-2
-CVE-2026-98467|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: arm64: nv: Fix null ptr deref on nested wp/unmap, teardown race
-CVE-2026-98468|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: arm64: Fix spurious warning for benign stage 2 teardown race
-CVE-2026-98469|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: arm64: Fix AArch32 DBGBXVR<n> handling
-CVE-2026-98471|Moderate|6.0|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N|not stated|Unknown|Unknown|KVM: SEV: Do cache maintenance on the source VM during intra-host migration
-CVE-2026-98472|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: SEV: Free have_run_cpus during VM destruction even if VM is no longer SEV
-CVE-2026-98473|Low|1.9|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L/E:U|not stated|Unknown|Unknown|s390/vfio-ap: fix KVM GISC and page leak when queue removed from host config
-CVE-2026-98474|not stated|not stated|none published|not stated|Unknown|Unknown|s390/pci: Fix missing device lock in zpci_report_status()
