@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-02T01:53:47Z | part 5 of 10 | 350 of 3425 CVEs | CVE-2026-70187 to CVE-2026-83845
+# Microsoft MSRC 2026-Oct | fetched 2026-11-02T12:53:31Z | part 5 of 10 | 350 of 3425 CVEs | CVE-2026-70187 to CVE-2026-83845
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-70187|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Remote Desktop Services Remote Code Execution Vulnerability
 CVE-2026-70188|Important|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|ASP.NET Core Security Feature Bypass Vulnerability

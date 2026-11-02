@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-02T01:53:47Z | part 9 of 10 | 350 of 3425 CVEs | CVE-2026-98420 to CVE-2026-98800
+# Microsoft MSRC 2026-Oct | fetched 2026-11-02T12:53:31Z | part 9 of 10 | 350 of 3425 CVEs | CVE-2026-98420 to CVE-2026-98800
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-98420|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ksmbd: follow SMB2 session expiration semantics
 CVE-2026-98421|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|wifi: mac80211: require a peer station for TDLS setup confirm
