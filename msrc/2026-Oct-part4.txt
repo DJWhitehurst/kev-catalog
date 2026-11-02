@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-01T11:31:19Z | part 4 of 10 | 350 of 3425 CVEs | CVE-2026-118343 to CVE-2026-70186
+# Microsoft MSRC 2026-Oct | fetched 2026-11-02T01:53:47Z | part 4 of 10 | 350 of 3425 CVEs | CVE-2026-118343 to CVE-2026-70186
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-118343|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118343 Improper input validation in ReadingList
 CVE-2026-118344|Critical|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118344 Use after free in Layout
