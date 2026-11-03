@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-02T12:53:31Z | part 10 of 10 | 275 of 3425 CVEs | CVE-2026-98801 to CVE-2026-99999
+# Microsoft MSRC 2026-Oct | fetched 2026-11-03T03:44:11Z | part 10 of 10 | 275 of 3425 CVEs | CVE-2026-98801 to CVE-2026-99999
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-98801|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|net: restrict SO_RESERVE_MEM to TCP sockets and cap max value
 CVE-2026-98802|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|seg6: ensure packet data is writable before modifying SRH and IPv6 DA

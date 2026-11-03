@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-02T12:53:31Z | part 3 of 10 | 350 of 3425 CVEs | CVE-2026-113067 to CVE-2026-118342
+# Microsoft MSRC 2026-Oct | fetched 2026-11-03T03:44:11Z | part 3 of 10 | 350 of 3425 CVEs | CVE-2026-113067 to CVE-2026-118342
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-113067|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113067: Use after free
 CVE-2026-113068|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113068: Use after free
