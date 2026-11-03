@@ -1,5 +1,9 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-03T03:44:11Z | part 3 of 10 | 350 of 3425 CVEs | CVE-2026-113067 to CVE-2026-118342
+# Microsoft MSRC 2026-Oct | fetched 2026-11-03T12:24:17Z | part 3 of 10 | 350 of 3475 CVEs | CVE-2026-113063 to CVE-2026-118330
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-113063|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113063: Improper input validation
+CVE-2026-113064|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113064: Memory corruption
+CVE-2026-113065|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113065: Use after free
+CVE-2026-113066|Low|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-113066: Memory corruption
 CVE-2026-113067|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113067: Use after free
 CVE-2026-113068|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113068: Use after free
 CVE-2026-113069|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-113069: Memory corruption
@@ -285,11 +289,15 @@ CVE-2026-114148|Important|not stated|none published|Elevation of Privilege|No|No
 CVE-2026-114538|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|Bootstrap - Moderately critical - Cross-site scripting - SA-CONTRIB-2026-236
 CVE-2026-114583|Moderate|not stated|none published|not stated|Unknown|Unknown|tar filter allows writing outside destination via empty-named symlink
 CVE-2026-114613|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|MessagePack: Unbounded memory leak in msgpack C extension on strict_map_key validation failure
+CVE-2026-114690|Moderate|6.2|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Gcc: confirmed out-of-bounds read/write in libstdc++ parallel `std
+CVE-2026-114691|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Gcc: integer wrap in `std
+CVE-2026-115207|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N/E:U|not stated|Unknown|Unknown|Patch: filename validation bypass in reversal fallback allows file creation outside the working directory
 CVE-2026-115379|Moderate|5.7|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Wasmtime 47.0.0 before 48.0.4 and 49.0.0 before 49.0.2 GC Heap Corruption via try_call
 CVE-2026-115383|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Wasmtime 47.0.0 before 48.0.4 and 49.0.0 before 49.0.2 GC Heap Corruption via Tag Imports
 CVE-2026-115384|Critical|9.9|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Wasmtime 39.0.0 before 48.0.4 and 49.0.0 before 49.0.2 Stack Buffer Overflow
 CVE-2026-115392|Important|7.9|CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:L|not stated|Unknown|Unknown|Wasmtime before 24.0.13, 25.0.0 before 36.0.14, 37.0.0 before 46.0.3, and 47.0.0 before 47.0.4 Sandbox Escape via Trailing Slashes
 CVE-2026-115449|not stated|3.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Libslirp: libslirp: icmp echo reply length desynchronization leaks host ip to guest
+CVE-2026-115455|Moderate|6.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|Gcc: stack overflow in std::bitset on libstdc++
 CVE-2026-115484|Important|7.6|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H/E:U|not stated|Unknown|Unknown|Open-iscsi: open-iscsi: dhcpv4 option parser heap out-of-bounds read in iscsiuio parse_msg
 CVE-2026-115485|Moderate|6.3|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:U|not stated|Unknown|Unknown|Open-iscsi: open-iscsi: dhcpv6 vendor option strlen heap out-of-bounds read and 1-byte write in iscsiuio
 CVE-2026-115486|Moderate|7.1|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L/E:U|not stated|Unknown|Unknown|Open-iscsi: open-iscsi: ipv6 neighbor discovery missing option length validation in iscsiuio allows arp table poisoning
@@ -305,7 +313,11 @@ CVE-2026-115889|Critical|9.9|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:H/A:H/E:U|no
 CVE-2026-115893|Critical|9.9|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Wasmtime: Cranelift backend on aarch64 can jump to incorrect target on large Wasm `br_table` instruction
 CVE-2026-115897|Low|not stated|none published|not stated|Unknown|Unknown|Serialize JavaScript: Cross-site scripting (XSS) via unescaped </script at the end of a serialized function body
 CVE-2026-115905|Critical|not stated|none published|not stated|Unknown|Unknown|zip: Critical Parser Differential & Security Control Bypass via Dual-Header Inconsistencies (Zip Cloaking) Leading to Arbitrary File Overwrite & RCE
+CVE-2026-115906|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|zip: AES Entry HMAC Authentication Bypass on Premature EOF
 CVE-2026-115909|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|zip: Unbounded Symlink-Target Handling Can Abort Or Exhaust Memory During Extraction
+CVE-2026-115919|Moderate|6.2|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ONNX: Out-of-Bounds Read in RNN/GRU/LSTM Shape Inference (Old Opsets, Missing Rank Check)
+CVE-2026-115920|Moderate|6.2|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ONNX: Out-of-bounds read in ConvTranspose shape inference via undersized weight rank
+CVE-2026-115921|Moderate|6.2|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ONNX: Null Pointer Dereference in ScanInferenceFunction Due to Missing Required Attribute
 CVE-2026-116137|Moderate|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|adm-zip through 0.6.1 Duplicate-Entry Validation Bypass via Canonically Equivalent Names
 CVE-2026-116566|Moderate|not stated|none published|not stated|Unknown|Unknown|socket.getaddrinfo() accepts embedded null bytes in host and port
 CVE-2026-116585|Moderate|not stated|none published|not stated|Unknown|Unknown|Go JOSE: Panic during CBC-HMAC processing
@@ -338,15 +350,3 @@ CVE-2026-118327|Important|not stated|none published|not stated|Unknown|Unknown|C
 CVE-2026-118328|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118328 Improper input validation in WebRTC
 CVE-2026-118329|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118329 Improper input validation in ANGLE
 CVE-2026-118330|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118330 Use after free in Browser
-CVE-2026-118331|Critical|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118331 Improper input validation in FileAPI
-CVE-2026-118332|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118332 Improper input validation in Compositing
-CVE-2026-118333|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118333 Missing authorization in Video
-CVE-2026-118334|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118334 Use after free in ImageCapture
-CVE-2026-118335|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118335 Improper input validation in Metrics
-CVE-2026-118336|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118336 Improper input validation in Headless
-CVE-2026-118337|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118337 Improper access control in Forms
-CVE-2026-118338|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118338 Use after free in Animation
-CVE-2026-118339|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118339 Use after free in Animation
-CVE-2026-118340|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118340 Memory corruption in Skia
-CVE-2026-118341|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118341 Use after free in Modularization
-CVE-2026-118342|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118342 Out of bounds write in Editing
