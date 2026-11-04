@@ -1,5 +1,6 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-03T12:24:17Z | part 10 of 10 | 325 of 3475 CVEs | CVE-2026-98749 to CVE-2026-99999
+# Microsoft MSRC 2026-Oct | fetched 2026-11-04T02:45:19Z | part 10 of 10 | 326 of 3476 CVEs | CVE-2026-98748 to CVE-2026-99999
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98748|Low|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|serial: 8250_bcm7271: fix use-after-free in brcmuart_remove()
 CVE-2026-98749|Moderate|5.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|tty: serial: max3100: shut down timer before freeing port
 CVE-2026-98750|Moderate|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|tty: fix saved termios reset race
 CVE-2026-98751|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|tty: abort break signalling on hangup

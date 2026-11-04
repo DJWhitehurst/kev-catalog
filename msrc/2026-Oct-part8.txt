@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-03T12:24:17Z | part 8 of 10 | 350 of 3475 CVEs | CVE-2026-96863 to CVE-2026-98354
+# Microsoft MSRC 2026-Oct | fetched 2026-11-04T02:45:19Z | part 8 of 10 | 350 of 3476 CVEs | CVE-2026-96863 to CVE-2026-98353
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-96863|Important|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Storage Port Driver Elevation of Privilege Vulnerability
 CVE-2026-96864|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Failover Cluster Virtual Driver Remote Code Execution Vulnerability
@@ -73,6 +73,7 @@ CVE-2026-97017|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-97030|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|Recognize yield as regexp preceder keyword in html/template
 CVE-2026-97031|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Reject malformed ECH outer extension references in crypto/tls
 CVE-2026-97032|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|HTTP/2 server crash due to HPACK encoder race in net/http
+CVE-2026-97045|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|Check all ancestor namespace transitions when rendering raw text in html in golang.org/x/net
 CVE-2026-97205|Moderate|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|NGINX ngx_http_core_module vulnerability
 CVE-2026-97206|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|DNS-over-QUIC (DoQ) path-migration can lead to use-after-free on multi-threaded deployments.
 CVE-2026-97229|Critical|10.0|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Integer Overflow or Wraparound in GitLab
@@ -349,4 +350,3 @@ CVE-2026-98350|not stated|not stated|none published|not stated|Unknown|Unknown|w
 CVE-2026-98351|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|wifi: virt_wifi: free skb when disconnected
 CVE-2026-98352|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|RDMA/rtrs-clt: Fix CQ pool leak when connect is interrupted
 CVE-2026-98353|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|RDMA/erdma: Use IRQ-safe XArray helpers for QP and CQ tables
-CVE-2026-98354|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|RDMA/mad: Fix receive buffer leak when PKey enforcement fails

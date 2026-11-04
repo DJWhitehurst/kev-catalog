@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-03T12:24:17Z | part 5 of 10 | 350 of 3475 CVEs | CVE-2026-70143 to CVE-2026-83778
+# Microsoft MSRC 2026-Oct | fetched 2026-11-04T02:45:19Z | part 5 of 10 | 350 of 3476 CVEs | CVE-2026-70143 to CVE-2026-83778
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-70143|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Network File System Remote Code Execution Vulnerability
 CVE-2026-70144|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Win32k Elevation of Privilege Vulnerability

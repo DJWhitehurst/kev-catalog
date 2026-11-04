@@ -1,5 +1,6 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-03T12:24:17Z | part 9 of 10 | 350 of 3475 CVEs | CVE-2026-98355 to CVE-2026-98748
+# Microsoft MSRC 2026-Oct | fetched 2026-11-04T02:45:19Z | part 9 of 10 | 350 of 3476 CVEs | CVE-2026-98354 to CVE-2026-98747
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98354|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|RDMA/mad: Fix receive buffer leak when PKey enforcement fails
 CVE-2026-98355|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|RDMA/rtrs: guard against null kobj name
 CVE-2026-98356|not stated|not stated|none published|not stated|Unknown|Unknown|RDMA/bnxt_re: check create_singlethread_workqueue() in DCB setup
 CVE-2026-98357|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|IB/isert: wait for deferred control PDU completions before releasing the connection
@@ -349,4 +350,3 @@ CVE-2026-98744|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|U
 CVE-2026-98745|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|arm64/fpsimd: signal: Forbid non-streaming SVE payload on SME-only systems
 CVE-2026-98746|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|serial: ma35d1: Fix clock reference leak in ma35d1serial_probe()
 CVE-2026-98747|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|serial: core: fix NULL pointer dereference in serial_core_unregister_port()
-CVE-2026-98748|Low|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|serial: 8250_bcm7271: fix use-after-free in brcmuart_remove()
