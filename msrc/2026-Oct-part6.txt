@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-04T02:45:19Z | part 6 of 10 | 350 of 3476 CVEs | CVE-2026-83779 to CVE-2026-87704
+# Microsoft MSRC 2026-Oct | fetched 2026-11-04T12:36:00Z | part 6 of 10 | 350 of 3476 CVEs | CVE-2026-83779 to CVE-2026-87704
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-83779|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
 CVE-2026-83780|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows CCFFilter Driver Remote Code Execution Vulnerability

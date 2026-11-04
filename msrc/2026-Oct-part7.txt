@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-04T02:45:19Z | part 7 of 10 | 350 of 3476 CVEs | CVE-2026-87705 to CVE-2026-96862
+# Microsoft MSRC 2026-Oct | fetched 2026-11-04T12:36:00Z | part 7 of 10 | 350 of 3476 CVEs | CVE-2026-87705 to CVE-2026-96862
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-87705|Important|7.4|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Windows Hyper-V Security Feature Bypass Vulnerability
 CVE-2026-87706|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Storage Spaces Controller Elevation of Privilege Vulnerability
@@ -186,17 +186,17 @@ CVE-2026-93322|Moderate|not stated|none published|not stated|Unknown|Unknown|Mal
 CVE-2026-93323|Moderate|not stated|none published|not stated|Unknown|Unknown|Oversized Dockerfile or .dockerignore can exhaust buildkitd memory
 CVE-2026-93326|Moderate|not stated|none published|not stated|Unknown|Unknown|Crafted Git build source can bypass certain policy validation
 CVE-2026-93479|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|NGINX Map directive and Regex matching vulnerability
-CVE-2026-93515|Moderate|not stated|none published|not stated|Unknown|Unknown|.Org Server Present Extension Use-After-Free
-CVE-2026-93516|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|.Org Server XInput Passive Grab Use-After-Free
-CVE-2026-93517|Important|not stated|none published|not stated|Unknown|Unknown|X.Org Server GLX RenderLarge Heap Buffer Overflow
-CVE-2026-93518|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|X.Org Server XKB ResizeKeyType Numeric Truncation
-CVE-2026-93519|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|X.Org Server XFixes Pointer Barrier Event List Buffer Overflow
-CVE-2026-93520|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|X.Org Server XKB ChangeKeycodeRange Heap Out-of-Bounds Write
-CVE-2026-93521|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|X.Org Server RandR ChangeProviderProperty Heap Buffer Overflow
+CVE-2026-93515|not stated|not stated|none published|not stated|Unknown|Unknown|.Org Server Present Extension Use-After-Free
+CVE-2026-93516|not stated|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|.Org Server XInput Passive Grab Use-After-Free
+CVE-2026-93517|Moderate|not stated|none published|not stated|Unknown|Unknown|X.Org Server GLX RenderLarge Heap Buffer Overflow
+CVE-2026-93518|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|X.Org Server XKB ResizeKeyType Numeric Truncation
+CVE-2026-93519|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|X.Org Server XFixes Pointer Barrier Event List Buffer Overflow
+CVE-2026-93520|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|X.Org Server XKB ChangeKeycodeRange Heap Out-of-Bounds Write
+CVE-2026-93521|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|X.Org Server RandR ChangeProviderProperty Heap Buffer Overflow
 CVE-2026-93522|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|X.Org Server Glamor CopyArea Heap Buffer Overflow
-CVE-2026-93523|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|X.Org Server XInput2 PassiveUngrabDevice Out-of-Bounds Write
-CVE-2026-93524|Moderate|not stated|none published|not stated|Unknown|Unknown|X.Org Server XKB SetMap Key Width/Action Count Desync Out-Of-Bounds Read
-CVE-2026-93536|Moderate|5.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|X.Org Server GestureBuildSprite Use-After-Free
+CVE-2026-93523|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|X.Org Server XInput2 PassiveUngrabDevice Out-of-Bounds Write
+CVE-2026-93524|not stated|not stated|none published|not stated|Unknown|Unknown|X.Org Server XKB SetMap Key Width/Action Count Desync Out-Of-Bounds Read
+CVE-2026-93536|not stated|5.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|X.Org Server GestureBuildSprite Use-After-Free
 CVE-2026-93546|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Apache HTTP Server: mod_dav_fs namespace overflow
 CVE-2026-93925|Moderate|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: C++ `THeaderTransport::writeVarint32()` stack buffer overflow on a negative protocol id
 CVE-2026-93926|Moderate|not stated|none published|not stated|Unknown|Unknown|Apache Thrift: C++ `THeaderTransport::untransform()` leaks the zlib stream on the error path

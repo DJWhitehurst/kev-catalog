@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-04T02:45:19Z | part 4 of 10 | 350 of 3476 CVEs | CVE-2026-118331 to CVE-2026-70142
+# Microsoft MSRC 2026-Oct | fetched 2026-11-04T12:36:00Z | part 4 of 10 | 350 of 3476 CVEs | CVE-2026-118331 to CVE-2026-70142
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-118331|Critical|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118331 Improper input validation in FileAPI
 CVE-2026-118332|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118332 Improper input validation in Compositing

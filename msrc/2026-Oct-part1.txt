@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-04T02:45:19Z | part 1 of 10 | 350 of 3476 CVEs | ADV260001 to CVE-2026-106328
+# Microsoft MSRC 2026-Oct | fetched 2026-11-04T12:36:00Z | part 1 of 10 | 350 of 3476 CVEs | ADV260001 to CVE-2026-106328
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 ADV260001|None|not stated|none published|Not a Vulnerability|No|No|ADV260001 Hardening changes for ReFS volumes on removable media
 CVE-2019-25781|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Python-Markdown 3.0 through 3.11.2 Denial of Service via Link Bracket Parsing
