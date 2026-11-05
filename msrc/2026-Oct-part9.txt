@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-04T12:36:00Z | part 9 of 10 | 350 of 3476 CVEs | CVE-2026-98354 to CVE-2026-98747
+# Microsoft MSRC 2026-Oct | fetched 2026-11-05T02:52:21Z | part 9 of 10 | 350 of 3476 CVEs | CVE-2026-98354 to CVE-2026-98747
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-98354|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|RDMA/mad: Fix receive buffer leak when PKey enforcement fails
 CVE-2026-98355|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|RDMA/rtrs: guard against null kobj name
