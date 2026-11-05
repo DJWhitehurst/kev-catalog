@@ -1,6 +1,6 @@
-# CISA KEV | catalogVersion 2026.11.03 | dateReleased 2026-11-03T20:00:24.8741Z | 1767 entries in full catalog
+# CISA KEV | catalogVersion 2026.11.04 | dateReleased 2026-11-04T20:00:05.774Z | 1768 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
-# this file: CVE-2024 | 164 entries
+# this file: CVE-2024 | 165 entries
 CVE-2024-0012|2024-11-18|2024-12-09|Palo Alto Networks|PAN-OS
 CVE-2024-0519|2024-01-17|2024-02-07|Google|Chromium V8
 CVE-2024-0769|2025-06-25|2025-07-16|D-Link|DIR-859 Router
@@ -47,6 +47,7 @@ CVE-2024-27198|2024-03-07|2024-03-28|JetBrains|TeamCity
 CVE-2024-27199|2026-04-20|2026-05-04|JetBrains|TeamCity
 CVE-2024-27348|2024-09-18|2024-10-09|Apache|HugeGraph-Server
 CVE-2024-27443|2025-05-19|2025-06-09|Synacor|Zimbra Collaboration Suite (ZCS)
+CVE-2024-27834|2026-11-04|2026-11-18|Apple|Multiple Products
 CVE-2024-28986|2024-08-15|2024-09-05|SolarWinds|Web Help Desk
 CVE-2024-28987|2024-10-15|2024-11-05|SolarWinds|Web Help Desk
 CVE-2024-28995|2024-07-17|2024-08-07|SolarWinds|Serv-U
