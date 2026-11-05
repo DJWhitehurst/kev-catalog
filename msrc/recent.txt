@@ -1,6 +1,7 @@
-# Microsoft MSRC flagged CVEs | fetched 2026-11-05T02:52:21Z | months 2026-Nov, 2026-Oct | 3476 CVEs read, 239 flagged
+# Microsoft MSRC flagged CVEs | fetched 2026-11-05T12:47:05Z | months 2026-Nov, 2026-Oct | 3555 CVEs read, 240 flagged
 # flagged = Critical severity, OR Exploited:Yes, OR Publicly Disclosed:Yes | 1 exploited | 3 publicly disclosed
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-76024|Critical|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-76024: Memory corruption
 CVE-2026-100202|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Message Queuing Queue Manager Remote Code Execution Vulnerability
 CVE-2026-100209|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-100210|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability

@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-05T02:52:21Z | part 1 of 10 | 350 of 3476 CVEs | ADV260001 to CVE-2026-106328
+# Microsoft MSRC 2026-Oct | fetched 2026-11-05T12:47:05Z | part 1 of 10 | 350 of 3488 CVEs | ADV260001 to CVE-2026-106327
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 ADV260001|None|not stated|none published|Not a Vulnerability|No|No|ADV260001 Hardening changes for ReFS volumes on removable media
 CVE-2019-25781|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Python-Markdown 3.0 through 3.11.2 Denial of Service via Link Bracket Parsing
@@ -198,6 +198,7 @@ CVE-2026-105731|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/R
 CVE-2026-105732|Important|7.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|SysInternals Elevation of Privilege Vulnerability
 CVE-2026-105733|Critical|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Hyper-V Remote Code Execution Vulnerability
 CVE-2026-105773|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Canimaan Software ClamXAV local privilege escalation
+CVE-2026-105924|Moderate|not stated|none published|not stated|Unknown|Unknown|NULL pointer dereference vulnerability in QCborValue to JSON conversion impacts Qt
 CVE-2026-105946|Moderate|not stated|none published|not stated|Unknown|Unknown|Out-of-bounds read vulnerability in NTLM authentication handling impacts Qt
 CVE-2026-106069|Important|7.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|A flaw in Node.js TLS hostname verification can cause a server certificate to be validated against a different IP address than the one the client connected to, when the host is a non-canonical IPv4 literal with a leading zero, such as `0127.0.0.1`.  `tls.checkServerIdentity()` normalizes the host following the WHATWG URL rules, which read a leading-zero octet as octal (`0127.0.0.1` becomes `87.0.0.1`), while the connection is made through the operating system resolver, which on some platforms such as macOS reads it as decimal (`127.0.0.1`). A server at the connected address can then be authenticated with a certificate issued for another IP address.  This vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.
 CVE-2026-106071|Low|not stated|none published|not stated|Unknown|Unknown|A flaw in Node.js Permission Model filesystem enforcement can grant access to paths that do not match a wildcard `--allow-fs-read` or `--allow-fs-write` rule.  When the requested path is shorter than the prefix of a wildcard grant, the radix tree lookup stops comparing early and treats the path as a match. For example, `--allow-fs-read=/etc/passwd.*` also allows reading `/etc/passwd`. This requires the wildcard grant to sit directly under the root of the permission tree, for example when it is the only grant for that scope. This is a different root cause from CVE-2026-58043.  This vulnerability affects Node.js **26.x**.
@@ -349,4 +350,3 @@ CVE-2026-106324|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not st
 CVE-2026-106325|Low|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106325: Incorrect reference resolution
 CVE-2026-106326|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106326: Confused deputy in UI
 CVE-2026-106327|Important|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-106327: Incorrect authorization
-CVE-2026-106328|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106328: Incorrect authorization
