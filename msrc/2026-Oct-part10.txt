@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-06T02:51:42Z | part 10 of 10 | 338 of 3488 CVEs | CVE-2026-98736 to CVE-2026-99999
+# Microsoft MSRC 2026-Oct | fetched 2026-11-06T12:31:13Z | part 10 of 10 | 339 of 3489 CVEs | CVE-2026-98736 to CVE-2026-99999
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-98736|Important|7.1|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|Bluetooth: hci_conn: Lock parent access during enhanced SCO setup
 CVE-2026-98737|Important|7.1|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:H|not stated|Unknown|Unknown|Bluetooth: hci_sync: Fix inquiry cache use-after-free
@@ -318,6 +318,7 @@ CVE-2026-99169|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not
 CVE-2026-99171|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ntfs3: free the sbi after a grace period
 CVE-2026-99172|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|ipc: drop the mqueue mount with kern_unmount() on setup failure
 CVE-2026-99174|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|ext4: free the sbi after a grace period
+CVE-2026-99175|not stated|not stated|none published|not stated|Unknown|Unknown|fsnotify: prevent mark additions during connector teardown
 CVE-2026-99176|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|KVM: nVMX: Reset MMU back to the root MMU if loading L2 state fails for !VM-Entry
 CVE-2026-99178|Moderate|6.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|x86/kvm: Don't consume async #PF flags on a kernel #PF in NMI context
 CVE-2026-99179|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|watch_queue: Fix note pool publication race in watch_queue_set_size()
