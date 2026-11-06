@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-05T12:47:05Z | part 8 of 10 | 350 of 3488 CVEs | CVE-2026-96851 to CVE-2026-98341
+# Microsoft MSRC 2026-Oct | fetched 2026-11-06T02:51:42Z | part 8 of 10 | 350 of 3488 CVEs | CVE-2026-96851 to CVE-2026-98341
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-96851|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Management Instrumentation Information Disclosure Vulnerability
 CVE-2026-96852|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows TCP/IP Elevation of Privilege Vulnerability
