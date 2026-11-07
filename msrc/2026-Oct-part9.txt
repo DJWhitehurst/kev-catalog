@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-06T12:31:13Z | part 9 of 10 | 350 of 3489 CVEs | CVE-2026-98342 to CVE-2026-98735
+# Microsoft MSRC 2026-Oct | fetched 2026-11-07T02:24:39Z | part 9 of 10 | 350 of 3489 CVEs | CVE-2026-98342 to CVE-2026-98735
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-98342|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|dmaengine: wait for RCU readers before releasing dma_device
 CVE-2026-98343|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|dmaengine: fix use-after-free in dma_chan_put() and dma_release_channel()

@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-06T12:31:13Z | part 4 of 10 | 350 of 3489 CVEs | CVE-2026-118327 to CVE-2026-70135
+# Microsoft MSRC 2026-Oct | fetched 2026-11-07T02:24:39Z | part 4 of 10 | 350 of 3489 CVEs | CVE-2026-118327 to CVE-2026-70135
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-118327|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118327 Memory corruption in Media
 CVE-2026-118328|Important|not stated|none published|not stated|Unknown|Unknown|Chromium: CVE-2026-118328 Improper input validation in WebRTC
