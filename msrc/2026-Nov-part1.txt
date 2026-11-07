@@ -1,6 +1,10 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-07T02:24:39Z | part 1 of 1 | 68 of 68 CVEs | CVE-2026-109469 to CVE-2026-99270
+# Microsoft MSRC 2026-Nov | fetched 2026-11-07T11:21:43Z | part 1 of 1 | 93 of 93 CVEs | CVE-2026-100407 to CVE-2026-99270
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-100407|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|Git for Windows: git-credential-wincred OAuth Store Heap Overflow
+CVE-2026-100408|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|Git for Windows: git-credential-wincred Erase Path Heap Overflow
 CVE-2026-109469|Critical|10.0|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Entra Device Registration Elevation of Privilege Vulnerability
+CVE-2026-112910|Moderate|5.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L|not stated|Unknown|Unknown|filelock: WindowsFileLock ignores mode: a 0o600 lock file and the ReadWriteLock database inherit the directory ACL
+CVE-2026-114456|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Missing origin validation for the externalbrowser authenticator callback in multiple Snowflake client drivers
 CVE-2026-115298|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Incorrect Authorization in Elasticsearch Leading to Information Disclosure
 CVE-2026-115710|Moderate|4.2|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Use of Cache Containing Sensitive Information in Elasticsearch Leading to Information Disclosure
 CVE-2026-115715|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Allocation of Resources Without Limits or Throttling in Elasticsearch Leading to Denial of Service
@@ -21,7 +25,25 @@ CVE-2026-119270|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not s
 CVE-2026-119271|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-119271: Use after free
 CVE-2026-119272|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-119272: Out of bounds read
 CVE-2026-119741|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|rsync < 3.5.2 Denial of Service via hash_search() Checksum Collisions
+CVE-2026-119776|Moderate|not stated|none published|not stated|Unknown|Unknown|frr: ospf6d fails to enforce all OSPFv3 packets use IPv6 link-local addresses
+CVE-2026-120453|Moderate|3.3|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|The Sleuth Kit through 4.15.0 Heap Out-of-Bounds Read via HFS+ decmpfs Header
+CVE-2026-120454|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|The Sleuth Kit through 4.15.0 NULL Pointer Dereference via decmpfs LZVN Decompression
 CVE-2026-120457|Moderate|5.3|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|libaec through 1.1.7 Out-of-Bounds Read via m_se_decode() Second Extension Decoder
+CVE-2026-120632|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow CPU exhaustion via a backtracking regex on the XForms multipart/related Content-Type
+CVE-2026-120633|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl trust the client X-Forwarded-Host header in url, self_url, virtual_host and virtual_port
+CVE-2026-120635|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow form fields to be smuggled past proxies and WAFs via multipart parsing that differs from the RFCs
+CVE-2026-120636|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow open redirects and script injection via URLs built from REQUEST_URI in url and start_form
+CVE-2026-120638|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow open redirects via HTML entity decoding of the URL after application validation in redirect
+CVE-2026-120639|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow HTTP header injection via entity decoding after the newline check in header and unchecked values in multipart_start and do_push
+CVE-2026-120640|Important|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow the POSTDATA, PUTDATA, PATCHDATA and XForms:Model parameters to be set from the query string or form fields
+CVE-2026-120641|Important|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl return upload filenames with any client-supplied path, including ../ and Windows paths
+CVE-2026-120642|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl return request-derived values untainted under taint mode
+CVE-2026-120644|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N/E:U|not stated|Unknown|Unknown|CGI::Cookie versions before 5.00 for Perl allow cookie attribute injection via unvalidated path, domain and expires values
+CVE-2026-120645|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow denial of service via submitted values used as a regex for optgroup selection in scrolling_list
+CVE-2026-120647|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow Content-Disposition parameter injection via unescaped double quotes in the header attachment filename
+CVE-2026-120648|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow HTML injection via text containing --> in comment
+CVE-2026-120650|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow memory, CPU and disk exhaustion via missing or unenforced request size, parameter and upload limits
+CVE-2026-120651|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow an infinite loop on a short request body when $DISABLE_UPLOADS is set
 CVE-2026-120689|Low|not stated|none published|not stated|Unknown|Unknown|Uncontrolled Recursion in HDF5 H5B__iterate_helper() via Crafted File
 CVE-2026-120754|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Uninitialized Heap Memory Disclosure via Truncated Chunk in HDF5 Scale-Offset Filter
 CVE-2026-120755|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Integer Underflow Leads to Out-of-Bounds Read via Truncated Chunk in HDF5 Szip Filter
@@ -30,6 +52,7 @@ CVE-2026-120757|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H|not st
 CVE-2026-120758|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|NULL Pointer Dereference in H5HL_unprotect via Corrupted File
 CVE-2026-120830|Moderate|7.4|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N/E:U|not stated|Unknown|Unknown|Libslirp: libslirp: out-of-bounds heap read in icmp_forward_error() leading to information disclosure
 CVE-2026-120831|Moderate|6.5|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Libslirp: libslirp: queue pointer corruption in if_output() leading to denial of service
+CVE-2026-121520|Moderate|not stated|none published|not stated|Unknown|Unknown|Malicious client could set xattr value outside of BuildKit state directory
 CVE-2026-122518|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Edge (Chromium-based) Information Disclosure Vulnerability
 CVE-2026-76024|Critical|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-76024: Memory corruption
 CVE-2026-76025|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-76025: Use after free
@@ -39,6 +62,8 @@ CVE-2026-76028|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not st
 CVE-2026-76029|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-76029: Memory corruption
 CVE-2026-76030|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-76030: Memory corruption
 CVE-2026-76031|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-76031: Use after free
+CVE-2026-82413|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ntopng: authenticated (non-admin) OS command injection via the vulnerability-scan `scan_ports` parameter (`nmap` argument reaches `popen`)
+CVE-2026-97371|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|ntopng: Stack buffer overflow (write) in nDPI custom category detection allows remote code execution via crafted network packets
 CVE-2026-99218|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|coredump: hold RCU while releasing parked threads
 CVE-2026-99219|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ftrace: Initialize modname and offset in print_rec()
 CVE-2026-99220|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|asymmetric_keys: reject trust keys without IDs

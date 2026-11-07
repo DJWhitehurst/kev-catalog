@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-07T02:24:39Z | part 2 of 10 | 350 of 3489 CVEs | CVE-2026-106328 to CVE-2026-113060
+# Microsoft MSRC 2026-Oct | fetched 2026-11-07T11:21:43Z | part 2 of 10 | 350 of 3491 CVEs | CVE-2026-106328 to CVE-2026-113060
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-106328|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-106328: Incorrect authorization
 CVE-2026-106329|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-106329: Incorrect authorization

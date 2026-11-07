@@ -1,5 +1,7 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-07T02:24:39Z | part 9 of 10 | 350 of 3489 CVEs | CVE-2026-98342 to CVE-2026-98735
+# Microsoft MSRC 2026-Oct | fetched 2026-11-07T11:21:43Z | part 9 of 10 | 350 of 3491 CVEs | CVE-2026-98340 to CVE-2026-98733
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-98340|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|wifi: cfg80211: only group hidden BSSes with beacon entries
+CVE-2026-98341|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|wifi: cfg80211: don't free driver-owned scan requests
 CVE-2026-98342|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|dmaengine: wait for RCU readers before releasing dma_device
 CVE-2026-98343|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|dmaengine: fix use-after-free in dma_chan_put() and dma_release_channel()
 CVE-2026-98344|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|dmaengine: Fix device kref underflow in dma_chan_put()
@@ -348,5 +350,3 @@ CVE-2026-98730|not stated|not stated|none published|not stated|Unknown|Unknown|B
 CVE-2026-98731|not stated|not stated|none published|not stated|Unknown|Unknown|Bluetooth: btintel_pcie: fix plen overflow in btintel_pcie_recv_frame()
 CVE-2026-98732|Low|2.4|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Bluetooth: btintel: fix buffer over-read in btintel_hw_error()
 CVE-2026-98733|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Bluetooth: hci_core: Serialize fragmented ISO packet queueing
-CVE-2026-98734|Important|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Bluetooth: hci_core: Serialize SCO and ISO scheduling with teardown
-CVE-2026-98735|Important|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Bluetooth: hci_core: Serialize ACL scheduling with channel deletion
