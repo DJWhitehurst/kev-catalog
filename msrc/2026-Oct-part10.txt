@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-08T01:53:40Z | part 10 of 10 | 341 of 3491 CVEs | CVE-2026-98734 to CVE-2026-99999
+# Microsoft MSRC 2026-Oct | fetched 2026-11-08T11:33:01Z | part 10 of 10 | 341 of 3491 CVEs | CVE-2026-98734 to CVE-2026-99999
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-98734|Important|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Bluetooth: hci_core: Serialize SCO and ISO scheduling with teardown
 CVE-2026-98735|Important|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Bluetooth: hci_core: Serialize ACL scheduling with channel deletion

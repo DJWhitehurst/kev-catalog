@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Oct | fetched 2026-11-08T01:53:40Z | part 9 of 10 | 350 of 3491 CVEs | CVE-2026-98340 to CVE-2026-98733
+# Microsoft MSRC 2026-Oct | fetched 2026-11-08T11:33:01Z | part 9 of 10 | 350 of 3491 CVEs | CVE-2026-98340 to CVE-2026-98733
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-98340|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|wifi: cfg80211: only group hidden BSSes with beacon entries
 CVE-2026-98341|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|wifi: cfg80211: don't free driver-owned scan requests
