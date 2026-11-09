@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-09T02:03:42Z | part 1 of 1 | 93 of 93 CVEs | CVE-2026-100407 to CVE-2026-99270
+# Microsoft MSRC 2026-Nov | fetched 2026-11-09T13:24:46Z | part 1 of 1 | 93 of 93 CVEs | CVE-2026-100407 to CVE-2026-99270
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-100407|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|Git for Windows: git-credential-wincred OAuth Store Heap Overflow
 CVE-2026-100408|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|Git for Windows: git-credential-wincred Erase Path Heap Overflow
