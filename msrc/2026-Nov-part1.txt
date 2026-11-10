@@ -1,5 +1,8 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-10T04:21:52Z | part 1 of 1 | 93 of 93 CVEs | CVE-2026-100407 to CVE-2026-99270
+# Microsoft MSRC 2026-Nov | fetched 2026-11-10T13:01:45Z | part 1 of 1 | 108 of 108 CVEs | CVE-2026-100080 to CVE-2026-99284
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-100080|Moderate|5.6|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:N/I:N/A:H|not stated|Unknown|Unknown|xen-netback: Fix UAF when reading statistics data
+CVE-2026-100081|Moderate|6.0|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:H|not stated|Unknown|Unknown|xen-netback: defer xenvif_mcast_addr_list_free()
+CVE-2026-100082|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|xen-blkback: Avoid UAF when reading I/O statistics
 CVE-2026-100407|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|Git for Windows: git-credential-wincred OAuth Store Heap Overflow
 CVE-2026-100408|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|Git for Windows: git-credential-wincred Erase Path Heap Overflow
 CVE-2026-109469|Critical|10.0|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Entra Device Registration Elevation of Privilege Vulnerability
@@ -54,6 +57,9 @@ CVE-2026-120830|Moderate|7.4|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N/E:U|no
 CVE-2026-120831|Moderate|6.5|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Libslirp: libslirp: queue pointer corruption in if_output() leading to denial of service
 CVE-2026-121520|Moderate|not stated|none published|not stated|Unknown|Unknown|Malicious client could set xattr value outside of BuildKit state directory
 CVE-2026-122518|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Edge (Chromium-based) Information Disclosure Vulnerability
+CVE-2026-123158|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|sshd in OpenSSH before 10.6p2 on Linux, when musl libc is used without PAM, lacks a workaround for a password authentication bypass (related to misinterpretation of whether a string is intended to be a password hash). For some configurations of accounts, any password between 256 and 1024 characters succeeds. An example of a platform using musl libc without PAM is Alpine Linux.
+CVE-2026-124317|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|libexpat through 2.10.0 Out-of-Bounds Read via unknown_toUtf8 and unknown_toUtf16
+CVE-2026-124586|Moderate|7.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:P/RL:X/RC:C|not stated|Unknown|Unknown|Tencent RapidJSON diyfp.h GetCachedPowerByIndex out-of-bounds
 CVE-2026-76024|Critical|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-76024: Memory corruption
 CVE-2026-76025|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-76025: Use after free
 CVE-2026-76026|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-76026: Memory corruption
@@ -93,3 +99,12 @@ CVE-2026-99262|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not sta
 CVE-2026-99263|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|io_uring/poll: avoid retry wakeup loss when dropping ownership
 CVE-2026-99268|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|io_uring: wake ring pollers for local task_work
 CVE-2026-99270|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|tcp: Fix potential UAF in reqsk_timer_handler().
+CVE-2026-99271|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ALSA: line6: Clear prev_fbuf on capture buffer release
+CVE-2026-99272|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|smb: client: validate the data area in SMB2_read()
+CVE-2026-99273|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ksmbd: reserve space for the UTF-16 terminator in stream info
+CVE-2026-99274|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|smb: client: fix fiemap wild read on empty truncated response
+CVE-2026-99275|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|smb: client: reject short SESSION_SETUP responses
+CVE-2026-99281|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|tun: Require CAP_NET_ADMIN to attach to an ownerless device
+CVE-2026-99282|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net/sched: sch_teql: fix use-after-free on lower qdisc drop
+CVE-2026-99283|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|netfilter: conntrack: tcp: use UNACK timeout for non-closing RST packets
+CVE-2026-99284|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|net: skbuff: propagate shared-frag marker in skb_zerocopy()
