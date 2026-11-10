@@ -1,6 +1,6 @@
-# CISA KEV | catalogVersion 2026.11.06 | dateReleased 2026-11-06T19:44:45.1797Z | 1769 entries in full catalog
+# CISA KEV | catalogVersion 2026.11.09 | dateReleased 2026-11-09T19:54:37.4945Z | 1773 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
-# this file: CVE-2026 | 197 entries
+# this file: CVE-2026 | 201 entries
 CVE-2026-0257|2026-05-29|2026-06-01|Palo Alto Networks|PAN-OS
 CVE-2026-0300|2026-05-06|2026-05-09|Palo Alto Networks|PAN-OS
 CVE-2026-0322|2026-10-14|2026-10-17|Palo Alto Networks|PAN-OS
@@ -8,6 +8,7 @@ CVE-2026-0770|2026-07-21|2026-07-24|Langflow|Langflow
 CVE-2026-102489|2026-10-02|2026-10-05|Zammad GmbH|Zammad
 CVE-2026-102490|2026-10-02|2026-10-05|Zammad GmbH|Zammad
 CVE-2026-102764|2026-10-16|2026-10-19|BeyondTrust|Remote Support
+CVE-2026-102895|2026-11-09|2026-11-12|GPUStack|GPUStack
 CVE-2026-104286|2026-10-01|2026-10-04|Fortinet|FortiMail
 CVE-2026-104935|2026-10-13|2026-10-16|Ivanti|Connect Secure
 CVE-2026-105133|2026-10-14|2026-10-17|Ahsay|AhsayCBS
@@ -22,8 +23,11 @@ CVE-2026-111357|2026-10-30|2026-11-02|Ivanti|Connect Secure
 CVE-2026-111497|2026-10-27|2026-11-10|Google|Brotli
 CVE-2026-114625|2026-10-23|2026-10-26|Arista|VeloCloud Orchestrator
 CVE-2026-11645|2026-06-09|2026-06-23|Google|Chromium V8
+CVE-2026-116779|2026-11-09|2026-11-12|SignalWire|FreeSwitch
 CVE-2026-118527|2026-10-30|2026-11-13|Ivanti|Connect Secure
 CVE-2026-119977|2026-11-03|2026-11-06|WordPress|WordPress Core
+CVE-2026-123158|2026-11-09|2026-11-12|OpenBSD|OpenSSH
+CVE-2026-123218|2026-11-09|2026-11-12|IBM|Aspera Faspex
 CVE-2026-12569|2026-06-25|2026-06-28|PTC|Windchill and FlexPLM
 CVE-2026-1281|2026-01-29|2026-02-01|Ivanti|Endpoint Manager Mobile (EPMM)
 CVE-2026-1340|2026-04-08|2026-04-11|Ivanti|Endpoint Manager Mobile (EPMM)
