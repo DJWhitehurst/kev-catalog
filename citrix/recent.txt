@@ -1,4 +1,4 @@
-# Citrix security bulletins | fetched 2026-11-11T02:11:06Z | 11 bulletins held, 11 carrying a date | 25 CTX numbers seen, read 25 via API and 0 by rendering, 0 unreadable
+# Citrix security bulletins | fetched 2026-11-11T12:06:39Z | 11 bulletins held, 11 carrying a date | 25 CTX numbers seen, read 25 via API and 0 by rendering, 0 unreadable
 # ctxId|updated|severity|cvss|vector|cves|exploitation|title|url
 CTX697316|2026-11-10|High|0.0|none published|CVE-2026-102705 CVE-2026-102706 CVE-2026-102707 CVE-2026-102708 CVE-2026-119779 CVE-2026-119780 CVE-2024-21963 CVE-2024-36350 CVE-2024-36357 CVE-2026-0004|not stated|XenServer Security Update for Multiple Issues|https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697316&articleURL=XenServer_Security_Update_for_Multiple_Issues
 CTX697300|2026-10-30|not stated|0.0|none published|CVE-2026-111497|not stated|Citrix Security Advisory for CVE-2026-111497 Impact on Unicon eLux Scout|https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697300&articleURL=Citrix_Security_Advisory_for_CVE_2026_111497_Impact_on_Unicon_eLux_Scout
