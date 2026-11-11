@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-11T02:17:39Z | part 1 of 4 | 350 of 1342 CVEs | CVE-2026-100080 to CVE-2026-113855
+# Microsoft MSRC 2026-Nov | fetched 2026-11-11T12:13:13Z | part 1 of 4 | 350 of 1362 CVEs | CVE-2026-100080 to CVE-2026-113848
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-100080|Moderate|5.6|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:N/I:N/A:H|not stated|Unknown|Unknown|xen-netback: Fix UAF when reading statistics data
 CVE-2026-100081|Moderate|6.0|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:H|not stated|Unknown|Unknown|xen-netback: defer xenvif_mcast_addr_list_free()
@@ -307,6 +307,7 @@ CVE-2026-112987|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-112988|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Desktop Window Manager Elevation of Privilege Vulnerability
 CVE-2026-112989|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Servicing Stack Updates Elevation of Privilege Vulnerability
 CVE-2026-112990|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Video Driver Elevation of Privilege Vulnerability
+CVE-2026-113431|Important|not stated|none published|not stated|Unknown|Unknown|Unbounded decoded HTTP/2 header-list size in cowlib cow_http2_machine enables HPACK amplification memory exhaustion
 CVE-2026-113748|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Software Protection Platform (SPP) Elevation of Privilege Vulnerability
 CVE-2026-113749|Critical|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Windows Codecs Library Remote Code Execution Vulnerability
 CVE-2026-113750|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Device Inventory Elevation of Privilege Vulnerability
@@ -349,4 +350,3 @@ CVE-2026-113843|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-113844|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows NTFS Tampering Vulnerability
 CVE-2026-113847|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
 CVE-2026-113848|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows NTFS Remote Code Execution Vulnerability
-CVE-2026-113855|Important|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows DNS Remote Code Execution Vulnerability

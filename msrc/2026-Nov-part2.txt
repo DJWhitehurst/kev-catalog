@@ -1,5 +1,6 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-11T02:17:39Z | part 2 of 4 | 350 of 1342 CVEs | CVE-2026-113856 to CVE-2026-119958
+# Microsoft MSRC 2026-Nov | fetched 2026-11-11T12:13:13Z | part 2 of 4 | 350 of 1362 CVEs | CVE-2026-113855 to CVE-2026-119955
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-113855|Important|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows DNS Remote Code Execution Vulnerability
 CVE-2026-113856|Critical|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Hyper-V Elevation of Privilege Vulnerability
 CVE-2026-113859|Critical|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows TCP/IP Remote Code Execution Vulnerability
 CVE-2026-113860|Critical|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Hyper-V Elevation of Privilege Vulnerability
@@ -34,6 +35,7 @@ CVE-2026-114456|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not st
 CVE-2026-115298|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Incorrect Authorization in Elasticsearch Leading to Information Disclosure
 CVE-2026-115710|Moderate|4.2|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Use of Cache Containing Sensitive Information in Elasticsearch Leading to Information Disclosure
 CVE-2026-115715|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Allocation of Resources Without Limits or Throttling in Elasticsearch Leading to Denial of Service
+CVE-2026-116592|Important|7.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|undici vulnerable to cache poisoning and cross-user disclosure via intermediate redirect hops
 CVE-2026-116697|Important|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Reliable Multicast Transport Driver (RMCAST) Denial of Service Vulnerability
 CVE-2026-116698|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft WDAC OLE DB provider for SQL Remote Code Execution Vulnerability
 CVE-2026-116699|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft WDAC OLE DB provider for SQL Remote Code Execution Vulnerability
@@ -348,5 +350,3 @@ CVE-2026-119952|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-119953|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows DNS Elevation of Privilege Vulnerability
 CVE-2026-119954|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Windows Search Component Elevation of Privilege Vulnerability
 CVE-2026-119955|Important|6.0|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows Hyper-V Denial of Service Vulnerability
-CVE-2026-119957|Critical|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Remote Desktop Services Elevation of Privilege Vulnerability
-CVE-2026-119958|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows LDAP - Lightweight Directory Access Protocol Remote Code Execution Vulnerability
