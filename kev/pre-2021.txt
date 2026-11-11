@@ -1,4 +1,4 @@
-# CISA KEV | catalogVersion 2026.11.09 | dateReleased 2026-11-09T19:54:37.4945Z | 1773 entries in full catalog
+# CISA KEV | catalogVersion 2026.11.10 | dateReleased 2026-11-10T19:03:29.8375Z | 1779 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
 # this file: CVE-pre-2021 | 704 entries
 CVE-2002-0367|2022-03-03|2022-03-24|Microsoft|Windows

@@ -1,6 +1,6 @@
-# CISA KEV | catalogVersion 2026.11.09 | dateReleased 2026-11-09T19:54:37.4945Z | 1773 entries in full catalog
+# CISA KEV | catalogVersion 2026.11.10 | dateReleased 2026-11-10T19:03:29.8375Z | 1779 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
-# this file: CVE-2026 | 201 entries
+# this file: CVE-2026 | 207 entries
 CVE-2026-0257|2026-05-29|2026-06-01|Palo Alto Networks|PAN-OS
 CVE-2026-0300|2026-05-06|2026-05-09|Palo Alto Networks|PAN-OS
 CVE-2026-0322|2026-10-14|2026-10-17|Palo Alto Networks|PAN-OS
@@ -21,13 +21,18 @@ CVE-2026-110447|2026-10-23|2026-10-26|Collabora|Collabora Online – Built-in CO
 CVE-2026-110936|2026-10-20|2026-11-03|Siemens|Software Center
 CVE-2026-111357|2026-10-30|2026-11-02|Ivanti|Connect Secure
 CVE-2026-111497|2026-10-27|2026-11-10|Google|Brotli
+CVE-2026-111560|2026-11-10|2026-11-13|Barracuda Networks|Multiple Products
+CVE-2026-111793|2026-11-10|2026-11-24|Openwave Messaging Limited|Webtop Media Transcoder
 CVE-2026-114625|2026-10-23|2026-10-26|Arista|VeloCloud Orchestrator
 CVE-2026-11645|2026-06-09|2026-06-23|Google|Chromium V8
+CVE-2026-116606|2026-11-10|2026-11-13|Barracuda Networks|Barracuda Email Security Gateway (ESG)
 CVE-2026-116779|2026-11-09|2026-11-12|SignalWire|FreeSwitch
 CVE-2026-118527|2026-10-30|2026-11-13|Ivanti|Connect Secure
 CVE-2026-119977|2026-11-03|2026-11-06|WordPress|WordPress Core
 CVE-2026-123158|2026-11-09|2026-11-12|OpenBSD|OpenSSH
 CVE-2026-123218|2026-11-09|2026-11-12|IBM|Aspera Faspex
+CVE-2026-124194|2026-11-10|2026-11-24|Microsoft|Office
+CVE-2026-125350|2026-11-10|2026-11-24|Google|Chromium
 CVE-2026-12569|2026-06-25|2026-06-28|PTC|Windchill and FlexPLM
 CVE-2026-1281|2026-01-29|2026-02-01|Ivanti|Endpoint Manager Mobile (EPMM)
 CVE-2026-1340|2026-04-08|2026-04-11|Ivanti|Endpoint Manager Mobile (EPMM)
@@ -54,6 +59,7 @@ CVE-2026-20245|2026-06-09|2026-06-23|Cisco|Catalyst SD-WAN Manager
 CVE-2026-20253|2026-06-18|2026-06-21|Splunk|Enterprise
 CVE-2026-20262|2026-06-15|2026-06-29|Cisco|Catalyst SD-WAN Manager
 CVE-2026-20316|2026-07-29|2026-08-01|Cisco|Secure Firewall Management Center (FMC)
+CVE-2026-20320|2026-11-10|2026-11-24|Cisco|BroadWorks
 CVE-2026-20349|2026-08-11|2026-08-14|Cisco|Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) 
 CVE-2026-20700|2026-02-12|2026-03-05|Apple|Multiple Products
 CVE-2026-20805|2026-01-13|2026-02-03|Microsoft|Windows
