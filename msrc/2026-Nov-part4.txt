@@ -1,5 +1,60 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-11T12:13:13Z | part 4 of 4 | 312 of 1362 CVEs | CVE-2026-70182 to CVE-2026-99284
+# Microsoft MSRC 2026-Nov | fetched 2026-11-12T03:25:38Z | part 4 of 5 | 350 of 1417 CVEs | CVE-2026-123570 to CVE-2026-99254
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-123570|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Hickory DNS from 0.18 before 0.26.2 Memory Amplification DoS via RR Counts
+CVE-2026-123576|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Hickory DNS 0.24.0 through 0.26.1 Memory Exhaustion via DNS-over-QUIC Requests
+CVE-2026-123577|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Hickory DNS 0.24.0 before 0.26.2 DoH Unbounded Request Body Denial of Service
+CVE-2026-123596|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Hickory DNS through 0.26.0-alpha.1 DNSSEC Validation Bypass via Ancestor-Delegation NSEC
+CVE-2026-123605|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Hickory DNS through 0.25.0-alpha.3 DNSSEC Validation Bypass via RRSIG Signer's Name
+CVE-2026-123608|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Hickory DNS hickory-proto 0.3.1 before 0.26.1 CPU Exhaustion via BinEncoder Name Compression
+CVE-2026-123611|Moderate|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|rustls before 0.23.46 Key Exchange Downgrade via Unauthenticated ServerHello
+CVE-2026-123876|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Podman: containers-common: containers-common: default seccomp af_vsock/netlink_audit deny rules bypassable via 32-bit truncation
+CVE-2026-124040|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|CivetWeb through 1.16 HTTP/2 Use-After-Free via Stale Pseudo-Header State
+CVE-2026-124170|Critical|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-124174|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-124176|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-124178|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Excel Information Disclosure Vulnerability
+CVE-2026-124179|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Excel Information Disclosure Vulnerability
+CVE-2026-124183|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Excel Information Disclosure Vulnerability
+CVE-2026-124185|Critical|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
+CVE-2026-124187|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-124194|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:H/RL:O/RC:C|Spoofing|Yes|No|Microsoft Outlook Spoofing Vulnerability
+CVE-2026-124210|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office SharePoint Information Disclosure Vulnerability
+CVE-2026-124224|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|PowerShell Elevation of Privilege Vulnerability
+CVE-2026-124225|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows PowerShell Remote Code Execution Vulnerability
+CVE-2026-124226|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Microsoft PowerShell Security Feature Bypass Vulnerability
+CVE-2026-124227|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Outlook Remote Code Execution Vulnerability
+CVE-2026-124228|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Outlook Remote Code Execution Vulnerability
+CVE-2026-124229|Important|6.6|CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-124233|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Word Information Disclosure Vulnerability
+CVE-2026-124249|Moderate|not stated|none published|not stated|Unknown|Unknown|`http.cookiejar` applies expired `Set-Cookie` to cookie store before policy validation
+CVE-2026-124317|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|libexpat through 2.10.0 Out-of-Bounds Read via unknown_toUtf8 and unknown_toUtf16
+CVE-2026-124586|Moderate|7.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:P/RL:X/RC:C|not stated|Unknown|Unknown|Tencent RapidJSON diyfp.h GetCachedPowerByIndex out-of-bounds
+CVE-2026-125134|Critical|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Function Discovery Resource Publication Remote Code Execution Vulnerability
+CVE-2026-125135|Important|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|HID Parser Library Elevation of Privilege Vulnerability
+CVE-2026-125136|Critical|8.8|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Network Connected Devices Auto-Setup Service Remote Code Execution Vulnerability
+CVE-2026-125137|Critical|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Graphics Kernel Elevation of Privilege Vulnerability
+CVE-2026-126526|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office OneNote Remote Code Execution Vulnerability
+CVE-2026-19552|Low|not stated|none published|not stated|Unknown|Unknown|ssl.get_server_certificate(addr, ca_certs=...) verifies the chain but never the identity
+CVE-2026-54914|Important|not stated|none published|not stated|Unknown|Unknown|WebAssembly Micro Runtime: Heap Buffer Overflow in WAMR WASI poll_oneoff Output Buffer
+CVE-2026-62903|Important|not stated|none published|Information Disclosure|No|No|Microsoft.Data.SqlClient Information Disclosure Vulnerability
+CVE-2026-66801|Important|not stated|none published|Remote Code Execution|No|No|Microsoft Xbox Remote Code Execution Vulnerability
+CVE-2026-66813|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft SQL Server Elevation of Privilege Vulnerability
+CVE-2026-67372|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft SQL Server Remote Code Execution Vulnerability
+CVE-2026-67374|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft SQL Server Remote Code Execution Vulnerability
+CVE-2026-67375|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft SQL Server Elevation of Privilege Vulnerability
+CVE-2026-67382|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft SQL Server Information Disclosure Vulnerability
+CVE-2026-67387|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft SQL Server Elevation of Privilege Vulnerability
+CVE-2026-67391|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft SQL Server Remote Code Execution Vulnerability
+CVE-2026-67632|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft SQL Server Remote Code Execution Vulnerability
+CVE-2026-67637|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft SQL Server Remote Code Execution Vulnerability
+CVE-2026-67646|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft SQL Server Remote Code Execution Vulnerability
+CVE-2026-68783|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft SQL Server Information Disclosure Vulnerability
+CVE-2026-69327|Important|7.4|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Remote Desktop Services Remote Code Execution Vulnerability
+CVE-2026-69565|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Remote Desktop Services Remote Code Execution Vulnerability
+CVE-2026-69901|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Microsoft Teams for Android Spoofing Vulnerability
+CVE-2026-70003|Important|8.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|JDBC Driver for SQL Server Security Feature Bypass Vulnerability
+CVE-2026-70094|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Visual Studio Code Remote Code Execution Vulnerability
+CVE-2026-70120|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Bluetooth Driver Elevation of Privilege Vulnerability
 CVE-2026-70182|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Bind Filter Driver Elevation of Privilege Vulnerability
 CVE-2026-70231|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Local Security Authority Subsystem Service (LSASS) Elevation of Privilege Vulnerability
 CVE-2026-70240|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows Kerberos Denial of Service Vulnerability
@@ -295,20 +350,3 @@ CVE-2026-99247|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not sta
 CVE-2026-99249|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|pid_namespace: make zap_pid_ns_processes() freezable
 CVE-2026-99251|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Drivers: hv: Avoid infinite retry loop in init_vp_index()
 CVE-2026-99254|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io_uring: don't flood a cancelling task with task_work
-CVE-2026-99255|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io_uring/io-wq: don't hide a link from cancellations
-CVE-2026-99256|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|dm cache: fix issue with background work locking
-CVE-2026-99260|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|ntfs: fix resident conversion in ntfs_new_attr_flags
-CVE-2026-99261|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/amdgpu: correct reservation fence slots for userq per-vm BOs eviction
-CVE-2026-99262|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io_uring/timeout: don't lose a cancel as io-wq arms a timeout
-CVE-2026-99263|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|io_uring/poll: avoid retry wakeup loss when dropping ownership
-CVE-2026-99268|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|io_uring: wake ring pollers for local task_work
-CVE-2026-99270|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|tcp: Fix potential UAF in reqsk_timer_handler().
-CVE-2026-99271|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ALSA: line6: Clear prev_fbuf on capture buffer release
-CVE-2026-99272|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|smb: client: validate the data area in SMB2_read()
-CVE-2026-99273|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ksmbd: reserve space for the UTF-16 terminator in stream info
-CVE-2026-99274|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|smb: client: fix fiemap wild read on empty truncated response
-CVE-2026-99275|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|smb: client: reject short SESSION_SETUP responses
-CVE-2026-99281|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|tun: Require CAP_NET_ADMIN to attach to an ownerless device
-CVE-2026-99282|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net/sched: sch_teql: fix use-after-free on lower qdisc drop
-CVE-2026-99283|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|netfilter: conntrack: tcp: use UNACK timeout for non-closing RST packets
-CVE-2026-99284|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|net: skbuff: propagate shared-frag marker in skb_zerocopy()

@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-11T12:13:13Z | part 2 of 4 | 350 of 1362 CVEs | CVE-2026-113855 to CVE-2026-119955
+# Microsoft MSRC 2026-Nov | fetched 2026-11-12T03:25:38Z | part 2 of 5 | 350 of 1417 CVEs | CVE-2026-113855 to CVE-2026-119955
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-113855|Important|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows DNS Remote Code Execution Vulnerability
 CVE-2026-113856|Critical|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Hyper-V Elevation of Privilege Vulnerability
@@ -228,7 +228,7 @@ CVE-2026-119394|Important|6.6|CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-119395|Important|4.0|CVSS:3.1/AV:P/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Storport.sys Driver Information Disclosure Vulnerability
 CVE-2026-119396|Important|6.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:L/E:U/RL:O/RC:C|Tampering|No|No|Windows Remote Access API Tampering Vulnerability
 CVE-2026-119397|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Transaction Manager Elevation of Privilege Vulnerability
-CVE-2026-119398|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
+CVE-2026-119398|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
 CVE-2026-119399|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
 CVE-2026-119401|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Broadcast DVR User Service Elevation of Privilege Vulnerability
 CVE-2026-119402|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Broadcast DVR User Service Elevation of Privilege Vulnerability

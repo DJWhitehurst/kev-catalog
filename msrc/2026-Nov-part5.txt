@@ -1,0 +1,19 @@
+# Microsoft MSRC 2026-Nov | fetched 2026-11-12T03:25:38Z | part 5 of 5 | 17 of 1417 CVEs | CVE-2026-99255 to CVE-2026-99284
+# cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-99255|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io_uring/io-wq: don't hide a link from cancellations
+CVE-2026-99256|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|dm cache: fix issue with background work locking
+CVE-2026-99260|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|ntfs: fix resident conversion in ntfs_new_attr_flags
+CVE-2026-99261|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/amdgpu: correct reservation fence slots for userq per-vm BOs eviction
+CVE-2026-99262|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io_uring/timeout: don't lose a cancel as io-wq arms a timeout
+CVE-2026-99263|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|io_uring/poll: avoid retry wakeup loss when dropping ownership
+CVE-2026-99268|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|io_uring: wake ring pollers for local task_work
+CVE-2026-99270|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|tcp: Fix potential UAF in reqsk_timer_handler().
+CVE-2026-99271|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ALSA: line6: Clear prev_fbuf on capture buffer release
+CVE-2026-99272|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|smb: client: validate the data area in SMB2_read()
+CVE-2026-99273|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ksmbd: reserve space for the UTF-16 terminator in stream info
+CVE-2026-99274|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|smb: client: fix fiemap wild read on empty truncated response
+CVE-2026-99275|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|smb: client: reject short SESSION_SETUP responses
+CVE-2026-99281|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|tun: Require CAP_NET_ADMIN to attach to an ownerless device
+CVE-2026-99282|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net/sched: sch_teql: fix use-after-free on lower qdisc drop
+CVE-2026-99283|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|netfilter: conntrack: tcp: use UNACK timeout for non-closing RST packets
+CVE-2026-99284|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|net: skbuff: propagate shared-frag marker in skb_zerocopy()
