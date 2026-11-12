@@ -1,5 +1,24 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-12T03:25:38Z | part 5 of 5 | 17 of 1417 CVEs | CVE-2026-99255 to CVE-2026-99284
+# Microsoft MSRC 2026-Nov | fetched 2026-11-12T13:17:51Z | part 5 of 5 | 39 of 1439 CVEs | CVE-2026-99220 to CVE-2026-99288
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-99220|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|asymmetric_keys: reject trust keys without IDs
+CVE-2026-99221|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|keys/trusted_keys: return immediately after TPM unseal failure
+CVE-2026-99222|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|keys: Protect the read method check against type removal
+CVE-2026-99223|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|keys: make keyring indexes independent of kernel addresses
+CVE-2026-99224|Moderate|5.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|keys: Protect the type name while describing a key
+CVE-2026-99225|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|keys: Check the authorization payload in process keyring searches
+CVE-2026-99226|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|keys: Avoid the owner account dereference in named keyring lookup
+CVE-2026-99229|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io_uring/wait: don't spin on a stuck overflow list
+CVE-2026-99233|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|tracing/histograms: Verify event_call identity when updating synth_event refcount
+CVE-2026-99234|Low|3.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|tracing: Unregister field variable histograms when the command fails
+CVE-2026-99235|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|tracing: Save the event file instead of the compatible histogram
+CVE-2026-99236|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|tracing: Reject incomplete event filter expressions
+CVE-2026-99243|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io-wq: order the exit bit against worker creation task work
+CVE-2026-99245|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|KEYS: Fix key_reject_and_link() race with keyring restriction
+CVE-2026-99246|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|tipc: protect node reset trace dump with node lock
+CVE-2026-99247|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|tracing: Do not initialize tracefs work if tracing is disabled
+CVE-2026-99249|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|pid_namespace: make zap_pid_ns_processes() freezable
+CVE-2026-99251|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Drivers: hv: Avoid infinite retry loop in init_vp_index()
+CVE-2026-99254|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io_uring: don't flood a cancelling task with task_work
 CVE-2026-99255|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io_uring/io-wq: don't hide a link from cancellations
 CVE-2026-99256|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|dm cache: fix issue with background work locking
 CVE-2026-99260|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|ntfs: fix resident conversion in ntfs_new_attr_flags
@@ -17,3 +36,6 @@ CVE-2026-99281|Important|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N|not st
 CVE-2026-99282|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net/sched: sch_teql: fix use-after-free on lower qdisc drop
 CVE-2026-99283|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|netfilter: conntrack: tcp: use UNACK timeout for non-closing RST packets
 CVE-2026-99284|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|net: skbuff: propagate shared-frag marker in skb_zerocopy()
+CVE-2026-99286|Moderate|5.6|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:N/I:N/A:H|not stated|Unknown|Unknown|xen-netback: Fix XenBus connection failure cleanup
+CVE-2026-99287|Moderate|6.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H|not stated|Unknown|Unknown|xen-netback: Zero out sring pointers on unmap
+CVE-2026-99288|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|inet: reject unhashed sockets during established lookups

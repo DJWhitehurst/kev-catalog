@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-12T03:25:38Z | part 1 of 5 | 350 of 1417 CVEs | CVE-2026-100080 to CVE-2026-113848
+# Microsoft MSRC 2026-Nov | fetched 2026-11-12T13:17:51Z | part 1 of 5 | 350 of 1439 CVEs | CVE-2026-100080 to CVE-2026-113847
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-100080|Moderate|5.6|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:N/I:N/A:H|not stated|Unknown|Unknown|xen-netback: Fix UAF when reading statistics data
 CVE-2026-100081|Moderate|6.0|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:H|not stated|Unknown|Unknown|xen-netback: defer xenvif_mcast_addr_list_free()
@@ -24,6 +24,7 @@ CVE-2026-105024|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-105025|Important|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Advanced Rasterization Platform Elevation of Privilege Vulnerability
 CVE-2026-105026|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Advanced Rasterization Platform Elevation of Privilege Vulnerability
 CVE-2026-105028|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Win32k Elevation of Privilege Vulnerability
+CVE-2026-105437|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Heap-based Buffer Overflow in Git
 CVE-2026-105490|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Advanced Rasterization Platform Elevation of Privilege Vulnerability
 CVE-2026-105491|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Advanced Rasterization Platform Elevation of Privilege Vulnerability
 CVE-2026-105492|Important|5.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Microsoft Remote Registry Service Denial of Service Vulnerability
@@ -349,4 +350,3 @@ CVE-2026-113842|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-113843|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Remote Access Connection Manager Elevation of Privilege Vulnerability
 CVE-2026-113844|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows NTFS Tampering Vulnerability
 CVE-2026-113847|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
-CVE-2026-113848|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows NTFS Remote Code Execution Vulnerability

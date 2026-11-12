@@ -1,13 +1,31 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-12T03:25:38Z | part 4 of 5 | 350 of 1417 CVEs | CVE-2026-123570 to CVE-2026-99254
+# Microsoft MSRC 2026-Nov | fetched 2026-11-12T13:17:51Z | part 4 of 5 | 350 of 1439 CVEs | CVE-2026-123384 to CVE-2026-99219
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-123384|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Outlook Remote Code Execution Vulnerability
+CVE-2026-123385|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-123387|Important|8.0|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Active Directory Domain Services Elevation of Privilege Vulnerability
+CVE-2026-123388|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Program Compatibility Assistant Service Elevation of Privilege Vulnerability
+CVE-2026-123389|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Quality Windows Audio/Video Experience (QWAVE) service Elevation of Privilege Vulnerability
+CVE-2026-123390|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office SharePoint Remote Code Execution Vulnerability
+CVE-2026-123391|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Office SharePoint Elevation of Privilege Vulnerability
+CVE-2026-123394|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
+CVE-2026-123395|Important|5.9|CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Excel Information Disclosure Vulnerability
+CVE-2026-123532|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|gix-fs before 0.24.1 NTLM Credential Disclosure via Windows Symlink UNC Probe
+CVE-2026-123533|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Gitoxide before 0.42.0 Denial of Service via Crafted Commit-Graph File
 CVE-2026-123570|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Hickory DNS from 0.18 before 0.26.2 Memory Amplification DoS via RR Counts
 CVE-2026-123576|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Hickory DNS 0.24.0 through 0.26.1 Memory Exhaustion via DNS-over-QUIC Requests
 CVE-2026-123577|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Hickory DNS 0.24.0 before 0.26.2 DoH Unbounded Request Body Denial of Service
+CVE-2026-123581|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|Hickory DNS through 0.26.0-alpha.1 DNSSEC Validation Bypass via Unrelated RRset
+CVE-2026-123593|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|Hickory DNS 0.26.0-beta.1 before 0.26.2 DNSSEC Validation Bypass via TrustAnchors
+CVE-2026-123594|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|Hickory DNS through 0.26.0-alpha.1 DNSSEC NSEC Validation Bypass for Empty Non-Terminals
 CVE-2026-123596|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Hickory DNS through 0.26.0-alpha.1 DNSSEC Validation Bypass via Ancestor-Delegation NSEC
+CVE-2026-123599|Moderate|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|Hickory DNS before 0.26.0-beta.1 DNSSEC Validation Bypass via Non-IN Class Records
 CVE-2026-123605|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Hickory DNS through 0.25.0-alpha.3 DNSSEC Validation Bypass via RRSIG Signer's Name
 CVE-2026-123608|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Hickory DNS hickory-proto 0.3.1 before 0.26.1 CPU Exhaustion via BinEncoder Name Compression
+CVE-2026-123609|Moderate|4.0|CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Rustls before 0.23.46 and 0.24.0-dev.1 before 0.24.0-dev.2 Secret Exposure via Debug
+CVE-2026-123610|Moderate|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|rustls before 0.23.46 Denial of Service via Brotli Certificate Decompression
 CVE-2026-123611|Moderate|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|rustls before 0.23.46 Key Exchange Downgrade via Unauthenticated ServerHello
-CVE-2026-123876|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Podman: containers-common: containers-common: default seccomp af_vsock/netlink_audit deny rules bypassable via 32-bit truncation
+CVE-2026-123613|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Rustls 0.23.13 before 0.23.45 TLS 1.3 Handshake Encryption Level Bypass
+CVE-2026-123876|Low|4.4|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Podman: containers-common: containers-common: default seccomp af_vsock/netlink_audit deny rules bypassable via 32-bit truncation
 CVE-2026-124040|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|CivetWeb through 1.16 HTTP/2 Use-After-Free via Stale Pseudo-Header State
 CVE-2026-124170|Critical|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-124174|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
@@ -67,6 +85,7 @@ CVE-2026-76028|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not st
 CVE-2026-76029|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-76029: Memory corruption
 CVE-2026-76030|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-76030: Memory corruption
 CVE-2026-76031|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-76031: Use after free
+CVE-2026-77299|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Regexp2: Unbounded memory amplification via large `{m}` quantifier on a zero-width subexpression
 CVE-2026-80094|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Remote Desktop Gateway Service Elevation of Privilege Vulnerability
 CVE-2026-80095|Important|9.0|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Office SharePoint Elevation of Privilege Vulnerability
 CVE-2026-81384|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows DNS Server Remote Code Execution Vulnerability
@@ -331,22 +350,3 @@ CVE-2026-97015|Important|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-97371|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|ntopng: Stack buffer overflow (write) in nDPI custom category detection allows remote code execution via crafted network packets
 CVE-2026-99218|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|coredump: hold RCU while releasing parked threads
 CVE-2026-99219|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ftrace: Initialize modname and offset in print_rec()
-CVE-2026-99220|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|asymmetric_keys: reject trust keys without IDs
-CVE-2026-99221|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|keys/trusted_keys: return immediately after TPM unseal failure
-CVE-2026-99222|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|keys: Protect the read method check against type removal
-CVE-2026-99223|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|keys: make keyring indexes independent of kernel addresses
-CVE-2026-99224|Moderate|5.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|keys: Protect the type name while describing a key
-CVE-2026-99225|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|keys: Check the authorization payload in process keyring searches
-CVE-2026-99226|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|keys: Avoid the owner account dereference in named keyring lookup
-CVE-2026-99229|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io_uring/wait: don't spin on a stuck overflow list
-CVE-2026-99233|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|tracing/histograms: Verify event_call identity when updating synth_event refcount
-CVE-2026-99234|Low|3.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|tracing: Unregister field variable histograms when the command fails
-CVE-2026-99235|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|tracing: Save the event file instead of the compatible histogram
-CVE-2026-99236|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|tracing: Reject incomplete event filter expressions
-CVE-2026-99243|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io-wq: order the exit bit against worker creation task work
-CVE-2026-99245|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|KEYS: Fix key_reject_and_link() race with keyring restriction
-CVE-2026-99246|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|tipc: protect node reset trace dump with node lock
-CVE-2026-99247|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|tracing: Do not initialize tracefs work if tracing is disabled
-CVE-2026-99249|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|pid_namespace: make zap_pid_ns_processes() freezable
-CVE-2026-99251|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Drivers: hv: Avoid infinite retry loop in init_vp_index()
-CVE-2026-99254|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io_uring: don't flood a cancelling task with task_work
