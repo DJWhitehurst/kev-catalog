@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-12T13:17:51Z | part 5 of 5 | 39 of 1439 CVEs | CVE-2026-99220 to CVE-2026-99288
+# Microsoft MSRC 2026-Nov | fetched 2026-11-13T02:57:55Z | part 5 of 5 | 39 of 1439 CVEs | CVE-2026-99220 to CVE-2026-99288
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-99220|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|asymmetric_keys: reject trust keys without IDs
 CVE-2026-99221|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|keys/trusted_keys: return immediately after TPM unseal failure

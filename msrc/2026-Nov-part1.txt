@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-12T13:17:51Z | part 1 of 5 | 350 of 1439 CVEs | CVE-2026-100080 to CVE-2026-113847
+# Microsoft MSRC 2026-Nov | fetched 2026-11-13T02:57:55Z | part 1 of 5 | 350 of 1439 CVEs | CVE-2026-100080 to CVE-2026-113847
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-100080|Moderate|5.6|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:N/I:N/A:H|not stated|Unknown|Unknown|xen-netback: Fix UAF when reading statistics data
 CVE-2026-100081|Moderate|6.0|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:H|not stated|Unknown|Unknown|xen-netback: defer xenvif_mcast_addr_list_free()

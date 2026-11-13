@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-12T13:17:51Z | part 2 of 5 | 350 of 1439 CVEs | CVE-2026-113848 to CVE-2026-119951
+# Microsoft MSRC 2026-Nov | fetched 2026-11-13T02:57:55Z | part 2 of 5 | 350 of 1439 CVEs | CVE-2026-113848 to CVE-2026-119951
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-113848|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows NTFS Remote Code Execution Vulnerability
 CVE-2026-113855|Important|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows DNS Remote Code Execution Vulnerability
