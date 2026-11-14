@@ -1,4 +1,4 @@
-# CISA KEV | catalogVersion 2026.11.10 | dateReleased 2026-11-10T19:03:29.8375Z | 1779 entries in full catalog
+# CISA KEV | catalogVersion 2026.11.13 | dateReleased 2026-11-13T20:24:18.3008Z | 1781 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
 # this file: CVE-2024 | 165 entries
 CVE-2024-0012|2024-11-18|2024-12-09|Palo Alto Networks|PAN-OS
@@ -10,7 +10,7 @@ CVE-2024-11182|2025-05-19|2025-06-09|MDaemon|Email Server
 CVE-2024-11667|2024-12-03|2024-12-24|Zyxel|Multiple Firewalls
 CVE-2024-11680|2024-12-03|2024-12-24|ProjectSend|ProjectSend
 CVE-2024-1212|2024-11-18|2024-12-09|Progress|Kemp LoadMaster
-CVE-2024-12356|2024-12-19|2024-12-27|BeyondTrust|Privileged Remote Access (PRA) and Remote Support (RS) 
+CVE-2024-12356|2024-12-19|2024-12-27|BeyondTrust|Privileged Remote Access (PRA) and Remote Support (RS)
 CVE-2024-12686|2025-01-13|2025-02-03|BeyondTrust|Privileged Remote Access (PRA) and Remote Support (RS)
 CVE-2024-12987|2025-05-15|2025-06-05|DrayTek|Vigor Routers
 CVE-2024-13159|2025-03-10|2025-03-31|Ivanti|Endpoint Manager (EPM)
@@ -58,7 +58,7 @@ CVE-2024-29824|2024-10-02|2024-10-23|Ivanti|Endpoint Manager (EPM)
 CVE-2024-29988|2024-04-30|2024-05-21|Microsoft|SmartScreen Prompt
 CVE-2024-30040|2024-05-14|2024-06-04|Microsoft|Windows
 CVE-2024-30051|2024-05-14|2024-06-04|Microsoft|DWM Core Library
-CVE-2024-30088|2024-10-15|2024-11-05|Microsoft|Windows 
+CVE-2024-30088|2024-10-15|2024-11-05|Microsoft|Windows
 CVE-2024-32113|2024-08-07|2024-08-28|Apache|OFBiz
 CVE-2024-3272|2024-04-11|2024-05-02|D-Link|Multiple NAS Devices
 CVE-2024-3273|2024-04-11|2024-05-02|D-Link|Multiple NAS Devices
@@ -73,7 +73,7 @@ CVE-2024-37079|2026-01-23|2026-02-13|Broadcom|VMware vCenter Server
 CVE-2024-37085|2024-07-30|2024-08-20|VMware|ESXi
 CVE-2024-37383|2024-10-24|2024-11-14|Roundcube|Webmail
 CVE-2024-38014|2024-09-10|2024-10-01|Microsoft|Windows
-CVE-2024-38080|2024-07-09|2024-07-30|Microsoft|Windows 
+CVE-2024-38080|2024-07-09|2024-07-30|Microsoft|Windows
 CVE-2024-38094|2024-10-22|2024-11-12|Microsoft|SharePoint
 CVE-2024-38106|2024-08-13|2024-09-03|Microsoft|Windows
 CVE-2024-38107|2024-08-13|2024-09-03|Microsoft|Windows
@@ -98,7 +98,7 @@ CVE-2024-40891|2025-02-11|2025-03-04|Zyxel|DSL CPE Devices
 CVE-2024-41710|2025-02-12|2025-03-05|Mitel|SIP Phones
 CVE-2024-41713|2025-01-07|2025-01-28|Mitel|MiCollab
 CVE-2024-42009|2025-06-09|2025-06-30|Roundcube|Webmail
-CVE-2024-43047|2024-10-08|2024-10-29|Qualcomm|Multiple Chipsets 
+CVE-2024-43047|2024-10-08|2024-10-29|Qualcomm|Multiple Chipsets
 CVE-2024-43093|2024-11-07|2024-11-28|Android|Framework
 CVE-2024-43451|2024-11-12|2024-12-03|Microsoft|Windows
 CVE-2024-43461|2024-09-16|2024-10-07|Microsoft|Windows
@@ -122,7 +122,7 @@ CVE-2024-49035|2025-02-25|2025-03-18|Microsoft|Partner Center
 CVE-2024-49039|2024-11-12|2024-12-03|Microsoft|Windows
 CVE-2024-49138|2024-12-10|2024-12-31|Microsoft|Windows
 CVE-2024-4947|2024-05-20|2024-06-10|Google|Chromium V8
-CVE-2024-4978|2024-05-29|2024-06-19|Justice AV Solutions|Viewer 
+CVE-2024-4978|2024-05-29|2024-06-19|Justice AV Solutions|Viewer
 CVE-2024-50302|2025-03-04|2025-03-25|Linux|Kernel
 CVE-2024-50603|2025-01-16|2025-02-06|Aviatrix|Controllers
 CVE-2024-50623|2024-12-13|2025-01-03|Cleo|Multiple Products
