@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-13T12:39:36Z | part 2 of 5 | 350 of 1476 CVEs | CVE-2026-113823 to CVE-2026-119939
+# Microsoft MSRC 2026-Nov | fetched 2026-11-14T02:43:45Z | part 2 of 5 | 350 of 1547 CVEs | CVE-2026-113823 to CVE-2026-119939
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-113823|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Azure CycleCloud Information Disclosure Vulnerability
 CVE-2026-113825|Critical|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows SMB Server Network Transport Driver (srvnet.sys) Remote Code Execution Vulnerability
