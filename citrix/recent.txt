@@ -1,4 +1,4 @@
-# Citrix security bulletins | fetched 2026-11-14T02:39:40Z | 16 bulletins held, 16 carrying a date | 25 CTX numbers seen, read 25 via API and 0 by rendering, 0 unreadable
+# Citrix security bulletins | fetched 2026-11-14T11:43:31Z | 16 bulletins held, 16 carrying a date | 25 CTX numbers seen, read 25 via API and 0 by rendering, 0 unreadable
 # ctxId|updated|severity|cvss|vector|cves|exploitation|title|url
 CTX697320|2026-11-12|Critical|9.4|CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H|CVE-2026-120869|not stated|Citrix NetScaler Console Security Bulletin for CVE-2026-120869|https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697320
 CTX697319|2026-11-12|Critical|9.3|CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:L/SI:L/SA:L|CVE-2026-122990|not stated|Citrix App Layering Security Bulletin for CVE-2026-122990|https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697319&articleURL=Citrix_App_Layering_Security_Bulletin_for_CVE_2026_122990
