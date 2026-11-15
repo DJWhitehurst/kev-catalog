@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-14T11:47:14Z | part 3 of 5 | 350 of 1644 CVEs | CVE-2026-119887 to CVE-2026-121256
+# Microsoft MSRC 2026-Nov | fetched 2026-11-15T02:10:47Z | part 3 of 5 | 350 of 1644 CVEs | CVE-2026-119887 to CVE-2026-121256
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-119887|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Installer Information Disclosure Vulnerability
 CVE-2026-119888|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Audio Service Elevation of Privilege Vulnerability
