@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-15T12:18:33Z | part 4 of 5 | 350 of 1644 CVEs | CVE-2026-121257 to CVE-2026-95882
+# Microsoft MSRC 2026-Nov | fetched 2026-11-16T02:24:50Z | part 4 of 5 | 350 of 1644 CVEs | CVE-2026-121257 to CVE-2026-95882
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-121257|Moderate|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121257: Use after free
 CVE-2026-121520|Moderate|not stated|none published|not stated|Unknown|Unknown|Malicious client could set xattr value outside of BuildKit state directory
