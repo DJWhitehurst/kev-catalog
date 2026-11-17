@@ -1,5 +1,6 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-17T04:49:04Z | part 1 of 5 | 350 of 1646 CVEs | CVE-2026-100080 to CVE-2026-113773
+# Microsoft MSRC 2026-Nov | fetched 2026-11-17T13:53:28Z | part 1 of 6 | 350 of 1766 CVEs | CVE-2025-71450 to CVE-2026-113762
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2025-71450|Moderate|3.3|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|inih before r63 Stack Buffer Under-Read in ini_parse_stream Discard Loop
 CVE-2026-100080|Moderate|5.6|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:N/I:N/A:H|not stated|Unknown|Unknown|xen-netback: Fix UAF when reading statistics data
 CVE-2026-100081|Moderate|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|xen-netback: defer xenvif_mcast_addr_list_free()
 CVE-2026-100082|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|xen-blkback: Avoid UAF when reading I/O statistics
@@ -14,6 +15,7 @@ CVE-2026-102224|Important|8.4|CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H/E:U/R
 CVE-2026-102230|Important|7.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Visual Studio Code Information Disclosure Vulnerability
 CVE-2026-102236|Important|8.6|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Visual Studio Code Security Feature Bypass Vulnerability
 CVE-2026-102868|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Shell Information Disclosure Vulnerability
+CVE-2026-103022|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Urwid: handle_short_request() crashes on non-ASCII POST body (UnicodeEncodeError DoS)
 CVE-2026-103571|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows CNG Key Isolation Service Elevation of Privilege Vulnerability
 CVE-2026-105017|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Volume Shadow Copy Elevation of Privilege Vulnerability
 CVE-2026-105018|Important|6.6|CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Partition Management Driver Elevation of Privilege Vulnerability
@@ -102,6 +104,7 @@ CVE-2026-105588|Important|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-105589|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Wireless Networking Elevation of Privilege Vulnerability
 CVE-2026-105590|Important|5.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Windows Active Directory Certificate Services Security Feature Bypass
 CVE-2026-105734|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Azure Local Elevation of Privilege Vulnerability
+CVE-2026-106023|not stated|not stated|none published|not stated|Unknown|Unknown|Apache HTTP Server: mod_md NULL pointer dereference leads to child process crash
 CVE-2026-108401|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Remote Desktop Services Remote Code Execution Vulnerability
 CVE-2026-108402|Important|5.3|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows Layer-2 Bridge Network Driver Denial of Service Vulnerability
 CVE-2026-108403|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
@@ -127,6 +130,13 @@ CVE-2026-108424|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/R
 CVE-2026-108425|Important|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows DNS Information Disclosure Vulnerability
 CVE-2026-108469|Important|6.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Microsoft Authentication Library for JavaScript Spoofing Vulnerability
 CVE-2026-108470|Important|not stated|none published|Information Disclosure|No|No|Microsoft Authentication Library (MSAL) for Node.js Information Disclosure Vulnerability
+CVE-2026-108472|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Xfsprogs: xfsprogs: local privilege escalation via command injection in xfs_admin
+CVE-2026-109091|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|X.Org Server EDID DS_RANGES Out-Of-Bounds Write
+CVE-2026-109092|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|X.Org Server XvShmPutImage Shared-Memory Bounds Overflow
+CVE-2026-109093|Important|not stated|none published|not stated|Unknown|Unknown|X.Org Server XTestFakeInput Valuator Stack Out-Of-Bounds Write
+CVE-2026-109094|Important|not stated|none published|not stated|Unknown|Unknown|X.Org Server XRes QueryResourceBytes Swap Path Size Overflow
+CVE-2026-109095|Moderate|not stated|none published|not stated|Unknown|Unknown|X.Org Server glamor Xv Image Size Integer Overflow
+CVE-2026-109096|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|X.Org Server XvPutImage Negative Image Size Length Bypass
 CVE-2026-109454|Important|9.0|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Spoofing|No|No|Microsoft Office SharePoint Spoofing Vulnerability
 CVE-2026-109455|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office SharePoint Information Disclosure Vulnerability
 CVE-2026-109456|Important|4.6|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Microsoft Office SharePoint Spoofing Vulnerability
@@ -162,6 +172,7 @@ CVE-2026-109502|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-109503|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
 CVE-2026-109504|Important|7.3|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Microsoft Office SharePoint Spoofing Vulnerability
 CVE-2026-109505|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
+CVE-2026-109518|Important|not stated|none published|not stated|Unknown|Unknown|APT RCE via hard link reuse
 CVE-2026-109903|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|X.Org Server XvQueryImageAttributes Negative Size Reply
 CVE-2026-109904|Moderate|not stated|none published|not stated|Unknown|Unknown|X.Org Server XRes QueryClientIds Request Size Overflow
 CVE-2026-110043|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Outlook Remote Code Execution Vulnerability
@@ -339,14 +350,3 @@ CVE-2026-113759|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-113760|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows XWizard Framework Elevation of Privilege Vulnerability
 CVE-2026-113761|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Container Isolation FS Filter Driver (unionfs.sys) Elevation of Privilege Vulnerability
 CVE-2026-113762|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Broadcast DVR User Service Elevation of Privilege Vulnerability
-CVE-2026-113763|Important|6.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows DPAPI (Data Protection Application Programming Interface) Elevation of Privilege Vulnerability
-CVE-2026-113764|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Projected File System Information Disclosure Vulnerability
-CVE-2026-113765|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows File Server Resource Management Service Elevation of Privilege Vulnerability
-CVE-2026-113766|Important|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows Language Experience Service Tampering Vulnerability
-CVE-2026-113767|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows COM+ Event System Service Elevation of Privilege Vulnerability
-CVE-2026-113768|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Performance Counters Remote Code Execution Vulnerability
-CVE-2026-113769|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows COM+ Event System Service Elevation of Privilege Vulnerability
-CVE-2026-113770|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Print Spooler Components Elevation of Privilege Vulnerability
-CVE-2026-113771|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Container Isolation FS Filter Driver (unionfs.sys) Elevation of Privilege Vulnerability
-CVE-2026-113772|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Redirected Drive Buffering Information Disclosure Vulnerability
-CVE-2026-113773|Important|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Windows DHCP Server Spoofing Vulnerability

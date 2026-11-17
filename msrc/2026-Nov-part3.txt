@@ -1,5 +1,19 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-17T04:49:04Z | part 3 of 5 | 350 of 1646 CVEs | CVE-2026-119887 to CVE-2026-121256
+# Microsoft MSRC 2026-Nov | fetched 2026-11-17T13:53:28Z | part 3 of 6 | 350 of 1766 CVEs | CVE-2026-119870 to CVE-2026-121221
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-119870|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows SMB Client Elevation of Privilege Vulnerability
+CVE-2026-119871|Important|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows IP Translation Configuration Service Elevation of Privilege Vulnerability
+CVE-2026-119872|Important|6.4|CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Driver Elevation of Privilege Vulnerability
+CVE-2026-119873|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows NetBIOS Elevation of Privilege Vulnerability
+CVE-2026-119874|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Device Association Service Elevation of Privilege Vulnerability
+CVE-2026-119875|Important|4.0|CVSS:3.1/AV:P/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Storport Miniport Driver Information Disclosure Vulnerability
+CVE-2026-119876|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Scanner Driver Elevation of Privilege Vulnerability
+CVE-2026-119880|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft XPS Document Converter Remote Code Execution Vulnerability
+CVE-2026-119881|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft XPS Document Converter Elevation of Privilege Vulnerability
+CVE-2026-119882|Important|5.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Remote Desktop Services Information Disclosure Vulnerability
+CVE-2026-119883|Important|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Data Deduplication Security Feature Bypass Vulnerability
+CVE-2026-119884|Important|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
+CVE-2026-119885|Important|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Storport Miniport Driver Elevation of Privilege Vulnerability
+CVE-2026-119886|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Telephony Service Elevation of Privilege Vulnerability
 CVE-2026-119887|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Installer Information Disclosure Vulnerability
 CVE-2026-119888|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Audio Service Elevation of Privilege Vulnerability
 CVE-2026-119889|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|ActiveSyncProvider Information Disclosure Vulnerability
@@ -97,6 +111,10 @@ CVE-2026-120003|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-120005|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft PowerPoint Remote Code Execution Vulnerability
 CVE-2026-120006|Important|not stated|none published|Elevation of Privilege|No|No|Aspire Elevation of Privilege Vulnerability
 CVE-2026-120033|Moderate|not stated|none published|not stated|Unknown|Unknown|frr: bgpd Send Hold Timer expiry bypasses the FSM, leaving a phantom Established session or crashing bgpd with Graceful Restart
+CVE-2026-120059|Moderate|6.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|psqlODBC uses a server-supplied column name as a format string
+CVE-2026-120060|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|psqlODBC does not validate server-supplied counts and lengths
+CVE-2026-120063|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|psqlODBC stack buffer overflow when quoting long schema and table names
+CVE-2026-120067|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|psqlODBC stack buffer overflow copying ctid and oid values for updatable cursors
 CVE-2026-120139|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|PostgreSQL tuple-size integer wraparound executes arbitrary code
 CVE-2026-120141|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|PostgreSQL materialized set-returning function type confusion executes arbitrary code
 CVE-2026-120142|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|PostgreSQL dropped-column type confusion executes arbitrary code
@@ -115,25 +133,34 @@ CVE-2026-120154|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N|not st
 CVE-2026-120222|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|undici vulnerable to Denial of Service via unhandled exception in cache-interceptor response replay
 CVE-2026-120415|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U|not stated|Unknown|Unknown|undici vulnerable to cross-origin credential disclosure via array-of-tuples headers bypassing redirect stripping
 CVE-2026-120423|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|undici vulnerable to Subresource Integrity bypass via whitespace in integrity metadata
+CVE-2026-120452|Moderate|5.4|CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|libgphoto2 through 2.5.34 Heap Out-of-Bounds Read/Write via jl2005c Thumbnail Conversion
 CVE-2026-120453|Moderate|3.3|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|The Sleuth Kit through 4.15.0 Heap Out-of-Bounds Read via HFS+ decmpfs Header
 CVE-2026-120454|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|The Sleuth Kit through 4.15.0 NULL Pointer Dereference via decmpfs LZVN Decompression
 CVE-2026-120457|Moderate|5.3|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|libaec through 1.1.7 Out-of-Bounds Read via m_se_decode() Second Extension Decoder
 CVE-2026-120474|Moderate|6.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:N|not stated|Unknown|Unknown|undici vulnerable to cross-user cache disclosure via same-origin redirect
+CVE-2026-120572|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Incorrect boundary conditions in the Layout: Block and Inline component
+CVE-2026-120631|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|CGI::Cookie versions from 4.67 before 5.00 for Perl allow denial of service via the client cookie expires value used as a regex in parse
 CVE-2026-120632|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow CPU exhaustion via a backtracking regex on the XForms multipart/related Content-Type
 CVE-2026-120633|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl trust the client X-Forwarded-Host header in url, self_url, virtual_host and virtual_port
-CVE-2026-120635|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow form fields to be smuggled past proxies and WAFs via multipart parsing that differs from the RFCs
+CVE-2026-120634|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|CGI::Carp versions before 5.00 for Perl leak warnings across requests in persistent environments via the warningsToBrowser buffer
+CVE-2026-120635|Important|8.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow form fields to be smuggled past proxies and WAFs via multipart parsing that differs from the RFCs
 CVE-2026-120636|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow open redirects and script injection via URLs built from REQUEST_URI in url and start_form
+CVE-2026-120637|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl take request parameters from the process command line arguments for an unrecognised REQUEST_METHOD
 CVE-2026-120638|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow open redirects via HTML entity decoding of the URL after application validation in redirect
-CVE-2026-120639|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow HTTP header injection via entity decoding after the newline check in header and unchecked values in multipart_start and do_push
-CVE-2026-120640|Important|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow the POSTDATA, PUTDATA, PATCHDATA and XForms:Model parameters to be set from the query string or form fields
+CVE-2026-120639|Important|7.2|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow HTTP header injection via entity decoding after the newline check in header and unchecked values in multipart_start and do_push
+CVE-2026-120640|Moderate|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow the POSTDATA, PUTDATA, PATCHDATA and XForms:Model parameters to be set from the query string or form fields
 CVE-2026-120641|Important|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl return upload filenames with any client-supplied path, including ../ and Windows paths
-CVE-2026-120642|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl return request-derived values untainted under taint mode
-CVE-2026-120644|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N/E:U|not stated|Unknown|Unknown|CGI::Cookie versions before 5.00 for Perl allow cookie attribute injection via unvalidated path, domain and expires values
-CVE-2026-120645|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow denial of service via submitted values used as a regex for optgroup selection in scrolling_list
-CVE-2026-120647|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow Content-Disposition parameter injection via unescaped double quotes in the header attachment filename
+CVE-2026-120642|Critical|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl return request-derived values untainted under taint mode
+CVE-2026-120643|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|CGI versions from 4.62 before 5.00 for Perl allow cross-site scripting via a raw apostrophe in URLs returned by url and self_url
+CVE-2026-120644|Critical|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|CGI::Cookie versions before 5.00 for Perl allow cookie attribute injection via unvalidated path, domain and expires values
+CVE-2026-120645|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow denial of service via submitted values used as a regex for optgroup selection in scrolling_list
+CVE-2026-120646|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|CGI versions from 4.71 before 5.00 for Perl allow denial of service via a plain string dereferenced as a symbolic reference in uploadInfo
+CVE-2026-120647|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow Content-Disposition parameter injection via unescaped double quotes in the header attachment filename
 CVE-2026-120648|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow HTML injection via text containing --> in comment
 CVE-2026-120650|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow memory, CPU and disk exhaustion via missing or unenforced request size, parameter and upload limits
-CVE-2026-120651|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow an infinite loop on a short request body when $DISABLE_UPLOADS is set
+CVE-2026-120651|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow an infinite loop on a short request body when $DISABLE_UPLOADS is set
+CVE-2026-120678|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|MongoDB C Driver leaks the decompressed reply buffer when an OP_COMPRESSED reply fails to parse (denial of service)
+CVE-2026-120684|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|MongoDB C Driver GridFS gap lets a shared writer recover a protected client's password
 CVE-2026-120689|Low|not stated|none published|not stated|Unknown|Unknown|Uncontrolled Recursion in HDF5 H5B__iterate_helper() via Crafted File
 CVE-2026-120749|Moderate|6.2|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Dbus: dbus-daemon: dbus-daemon aborts (reply_serial != 0) when a broadcast from the driver cannot be delivered to a monitored bus
 CVE-2026-120754|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Uninitialized Heap Memory Disclosure via Truncated Chunk in HDF5 Scale-Offset Filter
@@ -157,6 +184,8 @@ CVE-2026-120796|Important|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L/E:U/R
 CVE-2026-120830|Moderate|7.4|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N/E:U|not stated|Unknown|Unknown|Libslirp: libslirp: out-of-bounds heap read in icmp_forward_error() leading to information disclosure
 CVE-2026-120831|Moderate|6.5|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Libslirp: libslirp: queue pointer corruption in if_output() leading to denial of service
 CVE-2026-120930|Important|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-120930: Incorrect authorization
+CVE-2026-120955|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|MongoDB C Driver Modern GridFS mongoc_gridfs_bucket_download_to_stream() Aborts Application on Malformed GridFS Metadata
+CVE-2026-120956|Important|7.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|remote abort and memory disclosure from a malformed cursor.ns
 CVE-2026-121029|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121029: Incorrect authorization
 CVE-2026-121030|Moderate|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121030: Incorrect authorization
 CVE-2026-121031|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121031: Missing authorization
@@ -321,32 +350,3 @@ CVE-2026-121218|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not st
 CVE-2026-121219|Moderate|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121219: Integer overflow
 CVE-2026-121220|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121220: Incorrect authorization
 CVE-2026-121221|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121221: Type confusion
-CVE-2026-121222|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121222: Incorrect authorization
-CVE-2026-121223|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121223: Observable discrepancy
-CVE-2026-121224|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121224: Security issue
-CVE-2026-121226|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121226: Type confusion
-CVE-2026-121227|Important|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121227: Uninitialized resource
-CVE-2026-121228|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121228: Type confusion
-CVE-2026-121230|Low|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121230: Race condition
-CVE-2026-121231|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121231: Incorrect authorization
-CVE-2026-121232|Low|5.1|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-121232: Incorrect authorization
-CVE-2026-121233|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121233: Type confusion
-CVE-2026-121235|Low|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-121235: Information leak
-CVE-2026-121236|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121236: Improper input validation
-CVE-2026-121237|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121237: Improper state validation
-CVE-2026-121238|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121238: Use after free
-CVE-2026-121239|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-121239: Information leak
-CVE-2026-121240|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121240: Improper input validation
-CVE-2026-121242|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121242: Improper input validation
-CVE-2026-121243|Low|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-121243: Information leak
-CVE-2026-121244|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-121244: UI misrepresentation
-CVE-2026-121245|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-121245: Race condition
-CVE-2026-121248|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121248: Incorrect authorization
-CVE-2026-121249|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121249: Buffer overflow
-CVE-2026-121250|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121250: Use after free
-CVE-2026-121251|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121251: Missing authorization
-CVE-2026-121252|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121252: Incorrect authorization
-CVE-2026-121253|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121253: Missing authorization
-CVE-2026-121254|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-121254: Information leak
-CVE-2026-121255|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-121255: Incorrect authorization
-CVE-2026-121256|Moderate|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121256: Use of released resource

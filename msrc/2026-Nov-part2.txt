@@ -1,5 +1,16 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-17T04:49:04Z | part 2 of 5 | 350 of 1646 CVEs | CVE-2026-113814 to CVE-2026-119886
+# Microsoft MSRC 2026-Nov | fetched 2026-11-17T13:53:28Z | part 2 of 6 | 350 of 1766 CVEs | CVE-2026-113763 to CVE-2026-119869
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-113763|Important|6.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows DPAPI (Data Protection Application Programming Interface) Elevation of Privilege Vulnerability
+CVE-2026-113764|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Projected File System Information Disclosure Vulnerability
+CVE-2026-113765|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows File Server Resource Management Service Elevation of Privilege Vulnerability
+CVE-2026-113766|Important|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows Language Experience Service Tampering Vulnerability
+CVE-2026-113767|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows COM+ Event System Service Elevation of Privilege Vulnerability
+CVE-2026-113768|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Performance Counters Remote Code Execution Vulnerability
+CVE-2026-113769|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows COM+ Event System Service Elevation of Privilege Vulnerability
+CVE-2026-113770|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Print Spooler Components Elevation of Privilege Vulnerability
+CVE-2026-113771|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Container Isolation FS Filter Driver (unionfs.sys) Elevation of Privilege Vulnerability
+CVE-2026-113772|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Redirected Drive Buffering Information Disclosure Vulnerability
+CVE-2026-113773|Important|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Windows DHCP Server Spoofing Vulnerability
 CVE-2026-113814|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Storage Spaces Controller Remote Code Execution Vulnerability
 CVE-2026-113815|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Microsoft PowerShell Security Feature Bypass Vulnerability
 CVE-2026-113816|Important|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Link-Layer Discovery Protocol (LLDP) Elevation of Privilege Vulnerability
@@ -47,6 +58,7 @@ CVE-2026-114167|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-114169|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Raw Image Extension Remote Code Execution Vulnerability
 CVE-2026-114170|Important|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
 CVE-2026-114171|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Visual Studio Code Security Feature Bypass Vulnerability
+CVE-2026-114366|Low|not stated|none published|not stated|Unknown|Unknown|Information disclosure vulnerability in authentication handling of QWebSocket impacts Qt Framework
 CVE-2026-114456|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Missing origin validation for the externalbrowser authenticator callback in multiple Snowflake client drivers
 CVE-2026-114469|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Out-of-bounds Read in Git
 CVE-2026-115298|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Incorrect Authorization in Elasticsearch Leading to Information Disclosure
@@ -55,6 +67,7 @@ CVE-2026-115539|Important|not stated|none published|not stated|Unknown|Unknown|C
 CVE-2026-115559|Moderate|not stated|none published|not stated|Unknown|Unknown|imaplib STARTTLS serves plaintext bytes buffered before the handshake as if they came over TLS
 CVE-2026-115710|Moderate|4.2|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Use of Cache Containing Sensitive Information in Elasticsearch Leading to Information Disclosure
 CVE-2026-115715|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Allocation of Resources Without Limits or Throttling in Elasticsearch Leading to Denial of Service
+CVE-2026-115731|Critical|not stated|none published|not stated|Unknown|Unknown|Report Deserialization Code Execution
 CVE-2026-115791|Moderate|not stated|none published|not stated|Unknown|Unknown|Prevent shadowing stdlib in gzip/tarfile/zipfile CLI during extraction
 CVE-2026-115819|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|One-byte buffer overflow in wide scanf %s and %[ conversions
 CVE-2026-116303|Low|3.1|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|PostgreSQL foreign key and JSON conversions bypass EXECUTE privilege on cast functions
@@ -290,6 +303,7 @@ CVE-2026-119402|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-119403|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Broadcast DVR User Service Elevation of Privilege Vulnerability
 CVE-2026-119404|Important|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Windows Client for NFS Security Feature Bypass Vulnerability
 CVE-2026-119405|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Backup Engine Elevation of Privilege Vulnerability
+CVE-2026-119618|not stated|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Apache HTTP Server: mod_http2: heap corruption and RCE in assign_headers
 CVE-2026-119741|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|rsync < 3.5.2 Denial of Service via hash_search() Checksum Collisions
 CVE-2026-119776|Moderate|not stated|none published|not stated|Unknown|Unknown|frr: ospf6d fails to enforce all OSPFv3 packets use IPv6 link-local addresses
 CVE-2026-119816|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Microsoft Account Sign-in Assistant Elevation of Privilege Vulnerability
@@ -336,17 +350,3 @@ CVE-2026-119866|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-119867|Important|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Windows Installer Security Feature Bypass Vulnerability
 CVE-2026-119868|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
 CVE-2026-119869|Important|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Failover Cluster Elevation of Privilege Vulnerability
-CVE-2026-119870|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows SMB Client Elevation of Privilege Vulnerability
-CVE-2026-119871|Important|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows IP Translation Configuration Service Elevation of Privilege Vulnerability
-CVE-2026-119872|Important|6.4|CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Driver Elevation of Privilege Vulnerability
-CVE-2026-119873|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows NetBIOS Elevation of Privilege Vulnerability
-CVE-2026-119874|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Device Association Service Elevation of Privilege Vulnerability
-CVE-2026-119875|Important|4.0|CVSS:3.1/AV:P/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Storport Miniport Driver Information Disclosure Vulnerability
-CVE-2026-119876|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Scanner Driver Elevation of Privilege Vulnerability
-CVE-2026-119880|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft XPS Document Converter Remote Code Execution Vulnerability
-CVE-2026-119881|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft XPS Document Converter Elevation of Privilege Vulnerability
-CVE-2026-119882|Important|5.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Remote Desktop Services Information Disclosure Vulnerability
-CVE-2026-119883|Important|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Data Deduplication Security Feature Bypass Vulnerability
-CVE-2026-119884|Important|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
-CVE-2026-119885|Important|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Storport Miniport Driver Elevation of Privilege Vulnerability
-CVE-2026-119886|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Telephony Service Elevation of Privilege Vulnerability

@@ -1,4 +1,4 @@
-# Microsoft MSRC flagged CVEs | fetched 2026-11-17T04:49:04Z | months 2026-Nov | 1646 CVEs read, 76 flagged
+# Microsoft MSRC flagged CVEs | fetched 2026-11-17T13:53:28Z | months 2026-Nov | 1766 CVEs read, 87 flagged
 # flagged = Critical severity, OR Exploited:Yes, OR Publicly Disclosed:Yes | 1 exploited | 0 publicly disclosed
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-109459|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Message Queuing Queue Manager Remote Code Execution Vulnerability
@@ -24,6 +24,7 @@ CVE-2026-113864|Critical|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-113865|Critical|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Hyper-V Elevation of Privilege Vulnerability
 CVE-2026-114160|Critical|not stated|none published|Elevation of Privilege|No|No|Azure Managed Grafana Elevation of Privilege Vulnerability
 CVE-2026-114169|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Raw Image Extension Remote Code Execution Vulnerability
+CVE-2026-115731|Critical|not stated|none published|not stated|Unknown|Unknown|Report Deserialization Code Execution
 CVE-2026-116710|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Message Queuing Remote Code Execution Vulnerability
 CVE-2026-116928|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Search Remote Code Execution Vulnerability
 CVE-2026-118145|Critical|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Function Discovery SSDP Provider Remote Code Execution Vulnerability
@@ -57,6 +58,10 @@ CVE-2026-119969|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-119990|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Azure OpenAI Elevation of Privilege Vulnerability
 CVE-2026-120003|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Remote Code Execution Vulnerability
 CVE-2026-120005|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft PowerPoint Remote Code Execution Vulnerability
+CVE-2026-120637|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl take request parameters from the process command line arguments for an unrecognised REQUEST_METHOD
+CVE-2026-120642|Critical|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl return request-derived values untainted under taint mode
+CVE-2026-120644|Critical|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|CGI::Cookie versions before 5.00 for Perl allow cookie attribute injection via unvalidated path, domain and expires values
+CVE-2026-120647|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|CGI versions before 5.00 for Perl allow Content-Disposition parameter injection via unescaped double quotes in the header attachment filename
 CVE-2026-120786|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-120788|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-120789|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
@@ -64,6 +69,10 @@ CVE-2026-121035|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not st
 CVE-2026-121126|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121126: Use after free
 CVE-2026-121156|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121156: Buffer overflow
 CVE-2026-121203|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121203: Use after free
+CVE-2026-121392|Critical|7.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|FreeRDP before 3.32.2 Certificate Identity Validation Bypass via tls_verify_certificate
+CVE-2026-121952|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|FreeRDP before 3.32.2 Proxy Out-of-Bounds Write via Bitmap Cache v2 Capability
+CVE-2026-121953|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|FreeRDP before 3.32.2 Use-After-Free via rdpgfx Dynamic Virtual Channel Close
+CVE-2026-122006|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|The activestorage gem before 8.1.4.1 for Ruby on Rails, when ImageMagick attachment processing occurs, can allow server read and write operations (e.g., reading secret_key_base) because the ImageMagick analyzer runs when a file is attached, and there is not an ImageMagick security policy to block unintended functionality.
 CVE-2026-122194|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Defender Remote Code Execution Vulnerability
 CVE-2026-124040|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|CivetWeb through 1.16 HTTP/2 Use-After-Free via Stale Pseudo-Header State
 CVE-2026-124170|Critical|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
@@ -72,8 +81,10 @@ CVE-2026-124194|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:H/RL
 CVE-2026-125134|Critical|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Function Discovery Resource Publication Remote Code Execution Vulnerability
 CVE-2026-125136|Critical|8.8|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Network Connected Devices Auto-Setup Service Remote Code Execution Vulnerability
 CVE-2026-125137|Critical|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Graphics Kernel Elevation of Privilege Vulnerability
+CVE-2026-126082|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Rejected reason: This CVE is a duplicate of another CVE.
 CVE-2026-126879|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126879: Use after free
 CVE-2026-126885|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126885: Use after free
 CVE-2026-126895|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126895: Use after free
 CVE-2026-126911|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126911: Use after free
+CVE-2026-127109|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|CVE-2026-127109
 CVE-2026-76024|Critical|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-76024: Memory corruption
