@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-16T13:10:37Z | part 1 of 5 | 350 of 1644 CVEs | CVE-2026-100080 to CVE-2026-113773
+# Microsoft MSRC 2026-Nov | fetched 2026-11-17T04:49:04Z | part 1 of 5 | 350 of 1646 CVEs | CVE-2026-100080 to CVE-2026-113773
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-100080|Moderate|5.6|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:N/I:N/A:H|not stated|Unknown|Unknown|xen-netback: Fix UAF when reading statistics data
 CVE-2026-100081|Moderate|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|xen-netback: defer xenvif_mcast_addr_list_free()
@@ -67,7 +67,7 @@ CVE-2026-105540|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-105541|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Audio Service Elevation of Privilege Vulnerability
 CVE-2026-105542|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows NTFS Remote Code Execution Vulnerability
 CVE-2026-105543|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
-CVE-2026-105544|Important|7.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|.NET Elevation of Privilege Vulnerability
+CVE-2026-105544|Important|7.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|.NET VSTest Elevation of Privilege Vulnerability
 CVE-2026-105545|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
 CVE-2026-105546|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Management Instrumentation Elevation of Privilege Vulnerability
 CVE-2026-105547|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Setup and Deployment Elevation of Privilege Vulnerability
