@@ -1,5 +1,9 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-18T03:54:15Z | part 3 of 6 | 350 of 1766 CVEs | CVE-2026-119870 to CVE-2026-121221
+# Microsoft MSRC 2026-Nov | fetched 2026-11-18T13:29:22Z | part 3 of 6 | 350 of 1791 CVEs | CVE-2026-119866 to CVE-2026-121217
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-119866|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Device Association Service Elevation of Privilege Vulnerability
+CVE-2026-119867|Important|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Windows Installer Security Feature Bypass Vulnerability
+CVE-2026-119868|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
+CVE-2026-119869|Important|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Failover Cluster Elevation of Privilege Vulnerability
 CVE-2026-119870|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows SMB Client Elevation of Privilege Vulnerability
 CVE-2026-119871|Important|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows IP Translation Configuration Service Elevation of Privilege Vulnerability
 CVE-2026-119872|Important|6.4|CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Driver Elevation of Privilege Vulnerability
@@ -346,7 +350,3 @@ CVE-2026-121214|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not s
 CVE-2026-121215|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-121215: UI misrepresentation
 CVE-2026-121216|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-121216: UI misrepresentation
 CVE-2026-121217|Low|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121217: Use after free
-CVE-2026-121218|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121218: Type confusion
-CVE-2026-121219|Moderate|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121219: Integer overflow
-CVE-2026-121220|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121220: Incorrect authorization
-CVE-2026-121221|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121221: Type confusion

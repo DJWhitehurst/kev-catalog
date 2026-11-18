@@ -1,12 +1,37 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-18T03:54:15Z | part 6 of 6 | 16 of 1766 CVEs | CVE-2026-99266 to CVE-2026-99288
+# Microsoft MSRC 2026-Nov | fetched 2026-11-18T13:29:22Z | part 6 of 6 | 41 of 1791 CVEs | CVE-2026-99222 to CVE-2026-99288
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-99222|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|keys: Protect the read method check against type removal
+CVE-2026-99223|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|keys: make keyring indexes independent of kernel addresses
+CVE-2026-99224|Moderate|5.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|keys: Protect the type name while describing a key
+CVE-2026-99225|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|keys: Check the authorization payload in process keyring searches
+CVE-2026-99226|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|keys: Avoid the owner account dereference in named keyring lookup
+CVE-2026-99229|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io_uring/wait: don't spin on a stuck overflow list
+CVE-2026-99233|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|tracing/histograms: Verify event_call identity when updating synth_event refcount
+CVE-2026-99234|Low|3.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|tracing: Unregister field variable histograms when the command fails
+CVE-2026-99235|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|tracing: Save the event file instead of the compatible histogram
+CVE-2026-99236|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|tracing: Reject incomplete event filter expressions
+CVE-2026-99243|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io-wq: order the exit bit against worker creation task work
+CVE-2026-99245|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|KEYS: Fix key_reject_and_link() race with keyring restriction
+CVE-2026-99246|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|tipc: protect node reset trace dump with node lock
+CVE-2026-99247|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|tracing: Do not initialize tracefs work if tracing is disabled
+CVE-2026-99249|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|pid_namespace: make zap_pid_ns_processes() freezable
+CVE-2026-99251|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Drivers: hv: Avoid infinite retry loop in init_vp_index()
+CVE-2026-99254|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io_uring: don't flood a cancelling task with task_work
+CVE-2026-99255|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io_uring/io-wq: don't hide a link from cancellations
+CVE-2026-99256|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|dm cache: fix issue with background work locking
+CVE-2026-99260|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|ntfs: fix resident conversion in ntfs_new_attr_flags
+CVE-2026-99261|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/amdgpu: correct reservation fence slots for userq per-vm BOs eviction
+CVE-2026-99262|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io_uring/timeout: don't lose a cancel as io-wq arms a timeout
+CVE-2026-99263|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|io_uring/poll: avoid retry wakeup loss when dropping ownership
+CVE-2026-99264|Important|not stated|none published|not stated|Unknown|Unknown|Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
+CVE-2026-99265|not stated|not stated|none published|not stated|Unknown|Unknown|Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
 CVE-2026-99266|not stated|not stated|none published|not stated|Unknown|Unknown|Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
 CVE-2026-99267|not stated|not stated|none published|not stated|Unknown|Unknown|Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
 CVE-2026-99268|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|io_uring: wake ring pollers for local task_work
 CVE-2026-99270|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|tcp: Fix potential UAF in reqsk_timer_handler().
-CVE-2026-99271|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ALSA: line6: Clear prev_fbuf on capture buffer release
+CVE-2026-99271|not stated|not stated|none published|not stated|Unknown|Unknown|ALSA: line6: Clear prev_fbuf on capture buffer release
 CVE-2026-99272|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|smb: client: validate the data area in SMB2_read()
-CVE-2026-99273|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ksmbd: reserve space for the UTF-16 terminator in stream info
+CVE-2026-99273|not stated|not stated|none published|not stated|Unknown|Unknown|ksmbd: reserve space for the UTF-16 terminator in stream info
 CVE-2026-99274|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|smb: client: fix fiemap wild read on empty truncated response
 CVE-2026-99275|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|smb: client: reject short SESSION_SETUP responses
 CVE-2026-99281|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|tun: Require CAP_NET_ADMIN to attach to an ownerless device

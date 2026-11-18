@@ -1,5 +1,9 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-18T03:54:15Z | part 4 of 6 | 350 of 1766 CVEs | CVE-2026-121222 to CVE-2026-34489
+# Microsoft MSRC 2026-Nov | fetched 2026-11-18T13:29:22Z | part 4 of 6 | 350 of 1791 CVEs | CVE-2026-121218 to CVE-2026-126914
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-121218|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121218: Type confusion
+CVE-2026-121219|Moderate|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121219: Integer overflow
+CVE-2026-121220|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121220: Incorrect authorization
+CVE-2026-121221|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121221: Type confusion
 CVE-2026-121222|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121222: Incorrect authorization
 CVE-2026-121223|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121223: Observable discrepancy
 CVE-2026-121224|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121224: Security issue
@@ -204,9 +208,15 @@ CVE-2026-124249|Moderate|not stated|none published|not stated|Unknown|Unknown|`h
 CVE-2026-124317|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|libexpat through 2.10.0 Out-of-Bounds Read via unknown_toUtf8 and unknown_toUtf16
 CVE-2026-124586|Moderate|7.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:P/RL:X/RC:C|not stated|Unknown|Unknown|Tencent RapidJSON diyfp.h GetCachedPowerByIndex out-of-bounds
 CVE-2026-124737|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Busybox: heap buffer overflow in the tftp client on fallback to the default block size
+CVE-2026-124738|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Busybox: httpd password rule bypass for pre-compressed .gz files via accept-encoding: gzip
 CVE-2026-124739|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Busybox: httpd stack buffer overflow via an "i:" rule in a subdirectory httpd.conf
+CVE-2026-124740|Moderate|4.3|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Busybox: use-after-free of requested_ipv6 in udhcpc6
 CVE-2026-124741|Important|7.6|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|Busybox: stack buffer overflow in udhcpc6 send_d6_renew() and send_d6_release()
+CVE-2026-124742|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Busybox: divide-by-zero in the volume_id fat prober via a zero sectors_per_cluster value
+CVE-2026-124743|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Busybox: divide-by-zero and heap over-read in the volume_id hfs+ prober
+CVE-2026-124744|Moderate|6.3|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Busybox: cpio hardlink target not sanitized under feature_path_traversal_protection
 CVE-2026-124745|Moderate|6.3|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Busybox: tar deferred hardlink target resolved through a deferred symlink escapes the extraction directory
+CVE-2026-124746|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Busybox: out-of-bounds read in volume_id_get_buffer() via an offset+length wraparound
 CVE-2026-124747|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Busybox: heap buffer overflow in wget ftp resume when the resume offset exceeds the reported file size
 CVE-2026-124987|Moderate|6.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L|not stated|Unknown|Unknown|mikefarah yq encoder_properties.go Encode escape output
 CVE-2026-125041|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Gst-plugins-good: gst-plugins-good: qtdemux out-of-bounds heap read from invalid uncompressed video layout
@@ -261,10 +271,20 @@ CVE-2026-126203|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not st
 CVE-2026-126205|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Loofah: Regular expression denial of service in the SVG local-reference check
 CVE-2026-126207|Moderate|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Loofah: CSS url() sanitization bypass via escaped parentheses
 CVE-2026-126208|Moderate|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Loofah: SVG `<textPath>` and `<mpath>` bypass local-reference restriction
+CVE-2026-126297|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|NLTK before 3.10.4 CPU Denial of Service via ConllCorpusReader srl_instances
+CVE-2026-126298|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|NLTK before 3.10.4 Quadratic CPU Denial of Service via Tree.chomsky_normal_form
+CVE-2026-126299|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|NLTK before 3.10.4 Quadratic-Time Denial of Service via CCG Lexicon fromstring
+CVE-2026-126300|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|NLTK from 3.2.5 before 3.10.4 CPU Exhaustion via TreebankWordTokenizer.span_tokenize
+CVE-2026-126301|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|NLTK from 3.6 before 3.10.4 Quadratic CPU Exhaustion via LegalitySyllableTokenizer.tokenize
+CVE-2026-126303|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|NLTK before 3.10.4 Denial of Service via SteppingRecursiveDescentParser.parse()
+CVE-2026-126304|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|NLTK 3.10.0 before 3.10.4 Symlink Escape in YCOECorpusReader
 CVE-2026-126347|Low|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|Tornado: Open redirect via triple-slash redirect paths
 CVE-2026-126348|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|Addressable display_uri can show misleading hosts with invalid Punycode A-labels
+CVE-2026-126350|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Addressable: Regular Expression Denial of Service in Addressable templates with certain exploded expressions
 CVE-2026-126351|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Addressable: Denial of service in URI path normalization
+CVE-2026-126352|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Addressable: Regular Expression Denial of Service in Addressable templates with multiple variables
 CVE-2026-126353|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Addressable: Regular Expression Denial of Service in Addressable templates with several exploded variables
+CVE-2026-126354|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Addressable URI normalization resolves some dotted path segments to the wrong path
 CVE-2026-126366|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|msgpack-java JRuby decoder allocates from declared header counts with no cap: 5-byte message forces multi-GiB OOM
 CVE-2026-126526|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office OneNote Remote Code Execution Vulnerability
 CVE-2026-126792|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|Heap overflow via oversized RSA signature in GCP KMS signing callback
@@ -330,23 +350,3 @@ CVE-2026-126911|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not st
 CVE-2026-126912|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126912: Buffer overflow
 CVE-2026-126913|Important|3.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-126913: Out of bounds read
 CVE-2026-126914|Important|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-126914: Uninitialized resource
-CVE-2026-126916|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126916: Integer overflow
-CVE-2026-126917|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126917: Memory corruption
-CVE-2026-126918|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126918: Use after free
-CVE-2026-126919|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126919: Use after free
-CVE-2026-126920|Important|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-126920: Information leak
-CVE-2026-126921|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126921: Use after free
-CVE-2026-126922|Important|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-126922: Out of bounds read
-CVE-2026-127109|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|CVE-2026-127109
-CVE-2026-128241|Moderate|4.4|CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|libexpat xmlwf through 2.10.0 Symlink Following via -d Output Directory
-CVE-2026-14661|Important|8.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|PostgreSQL dblink and subscriptions can append to arbitrary files
-CVE-2026-16052|Low|not stated|none published|not stated|Unknown|Unknown|Cookie Attribute Injection via Unescaped Semicolons in http.cookies.Morsel
-CVE-2026-16237|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|PostgreSQL INSERT ... ON CONFLICT can read or modify rows despite auto-updatable view WHERE condition
-CVE-2026-16240|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|PostgreSQL pg_basebackup can use backup manifest content as a format string
-CVE-2026-18447|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|PostgreSQL output parameter type confusion executes arbitrary code
-CVE-2026-18448|Moderate|not stated|none published|not stated|Unknown|Unknown|Leak SMM RAM from the kernel (Simply TSA after an SMI)
-CVE-2026-19552|Low|not stated|none published|not stated|Unknown|Unknown|ssl.get_server_certificate(addr, ca_certs=...) verifies the chain but never the identity
-CVE-2026-28730|Moderate|not stated|none published|not stated|Unknown|Unknown|Null pointer dereference for some Hyperscan before version v5.4.2.1 within Ring 3: User Applications may allow a denial of service. Unprivileged software adversary with an unauthenticated user combined with a low complexity attack may enable denial of service. This result may potentially occur via local access when attack requirements are not present without special internal knowledge and requires no user interaction. The potential vulnerability may impact the confidentiality (none), integrity (none) and availability (high) of the vulnerable system, resulting in subsequent system confidentiality (none), integrity (none) and availability (none) impacts.
-CVE-2026-33094|Moderate|not stated|none published|not stated|Unknown|Unknown|Out-of-bounds write for some Hyperscan before version v5.4.2.1 within Ring 3: User Applications may allow a denial of service. Unprivileged software adversary with an unauthenticated user combined with a low complexity attack may enable denial of service. This result may potentially occur via local access when attack requirements are present without special internal knowledge and requires no user interaction. The potential vulnerability may impact the confidentiality (none), integrity (low) and availability (high) of the vulnerable system, resulting in subsequent system confidentiality (none), integrity (none) and availability (none) impacts.
-CVE-2026-34017|Moderate|not stated|none published|not stated|Unknown|Unknown|Heap-based buffer overflow for some Hyperscan before version v5.4.2.1 within Ring 3: User Applications may allow a denial of service. Unprivileged software adversary with an unauthenticated user combined with a low complexity attack may enable denial of service. This result may potentially occur via local access when attack requirements are present without special internal knowledge and requires passive user interaction. The potential vulnerability may impact the confidentiality (none), integrity (low) and availability (high) of the vulnerable system, resulting in subsequent system confidentiality (none), integrity (none) and availability (none) impacts.
-CVE-2026-34489|Moderate|not stated|none published|not stated|Unknown|Unknown|Untrusted pointer dereference for some Hyperscan before version v5.4.2.1 within Ring 3: User Applications may allow a denial of service. Unprivileged software adversary with an unauthenticated user combined with a low complexity attack may enable denial of service. This result may potentially occur via local access when attack requirements are present without special internal knowledge and requires no user interaction. The potential vulnerability may impact the confidentiality (none), integrity (low) and availability (high) of the vulnerable system, resulting in subsequent system confidentiality (none), integrity (none) and availability (none) impacts.
