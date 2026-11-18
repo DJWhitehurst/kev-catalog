@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-17T13:53:28Z | part 1 of 6 | 350 of 1766 CVEs | CVE-2025-71450 to CVE-2026-113762
+# Microsoft MSRC 2026-Nov | fetched 2026-11-18T03:54:15Z | part 1 of 6 | 350 of 1766 CVEs | CVE-2025-71450 to CVE-2026-113762
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2025-71450|Moderate|3.3|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|inih before r63 Stack Buffer Under-Read in ini_parse_stream Discard Loop
 CVE-2026-100080|Moderate|5.6|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:N/I:N/A:H|not stated|Unknown|Unknown|xen-netback: Fix UAF when reading statistics data

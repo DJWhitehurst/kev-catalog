@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-17T13:53:28Z | part 2 of 6 | 350 of 1766 CVEs | CVE-2026-113763 to CVE-2026-119869
+# Microsoft MSRC 2026-Nov | fetched 2026-11-18T03:54:15Z | part 2 of 6 | 350 of 1766 CVEs | CVE-2026-113763 to CVE-2026-119869
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-113763|Important|6.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows DPAPI (Data Protection Application Programming Interface) Elevation of Privilege Vulnerability
 CVE-2026-113764|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Projected File System Information Disclosure Vulnerability

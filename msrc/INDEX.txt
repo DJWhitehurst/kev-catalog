@@ -1,4 +1,4 @@
-# Microsoft MSRC index | fetched 2026-11-17T13:53:28Z | 1766 CVEs across 6 part files
+# Microsoft MSRC index | fetched 2026-11-18T03:54:15Z | 1766 CVEs across 6 part files
 # msrc/recent.txt holds the flagged subset. Part files below hold every CVE, sorted, for lookup.
 msrc/2026-Nov-part1.txt | 350 CVEs | CVE-2025-71450 to CVE-2026-113762
 msrc/2026-Nov-part2.txt | 350 CVEs | CVE-2026-113763 to CVE-2026-119869

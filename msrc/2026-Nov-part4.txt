@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-17T13:53:28Z | part 4 of 6 | 350 of 1766 CVEs | CVE-2026-121222 to CVE-2026-34489
+# Microsoft MSRC 2026-Nov | fetched 2026-11-18T03:54:15Z | part 4 of 6 | 350 of 1766 CVEs | CVE-2026-121222 to CVE-2026-34489
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-121222|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121222: Incorrect authorization
 CVE-2026-121223|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121223: Observable discrepancy
