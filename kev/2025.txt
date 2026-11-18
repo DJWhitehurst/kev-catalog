@@ -1,4 +1,4 @@
-# CISA KEV | catalogVersion 2026.11.13 | dateReleased 2026-11-13T20:24:18.3008Z | 1781 entries in full catalog
+# CISA KEV | catalogVersion 2026.11.17 | dateReleased 2026-11-17T17:53:15.5664Z | 1782 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
 # this file: CVE-2025 | 189 entries
 CVE-2025-0108|2025-02-18|2025-03-11|Palo Alto Networks|PAN-OS
@@ -177,7 +177,7 @@ CVE-2025-6543|2025-06-30|2025-07-21|Citrix|NetScaler ADC and Gateway
 CVE-2025-6554|2025-07-02|2025-07-23|Google|Chromium V8
 CVE-2025-6558|2025-07-22|2025-08-12|Google|Chromium
 CVE-2025-66376|2026-03-18|2026-04-01|Synacor|Zimbra Collaboration Suite (ZCS)
-CVE-2025-66644|2025-12-08|2025-12-29|Array Networks |ArrayOS AG
+CVE-2025-66644|2025-12-08|2025-12-29|Array Networks|ArrayOS AG
 CVE-2025-67038|2026-06-23|2026-06-26|Lantronix|EDS5000
 CVE-2025-68461|2026-02-20|2026-03-13|Roundcube|Webmail
 CVE-2025-68613|2026-03-11|2026-03-25|n8n|n8n

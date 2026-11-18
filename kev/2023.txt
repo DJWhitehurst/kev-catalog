@@ -1,4 +1,4 @@
-# CISA KEV | catalogVersion 2026.11.13 | dateReleased 2026-11-13T20:24:18.3008Z | 1781 entries in full catalog
+# CISA KEV | catalogVersion 2026.11.17 | dateReleased 2026-11-17T17:53:15.5664Z | 1782 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
 # this file: CVE-2023 | 166 entries
 CVE-2023-0266|2023-03-30|2023-04-20|Linux|Kernel
@@ -56,7 +56,7 @@ CVE-2023-28229|2023-10-04|2023-10-25|Microsoft|Windows CNG Key Isolation Service
 CVE-2023-28252|2023-04-11|2023-05-02|Microsoft|Windows
 CVE-2023-28432|2023-04-21|2023-05-12|MinIO|MinIO
 CVE-2023-28434|2023-09-19|2023-10-10|MinIO|MinIO
-CVE-2023-28461|2024-11-25|2024-12-16|Array Networks |AG/vxAG ArrayOS
+CVE-2023-28461|2024-11-25|2024-12-16|Array Networks|AG/vxAG ArrayOS
 CVE-2023-2868|2023-05-26|2023-06-16|Barracuda Networks|Email Security Gateway (ESG) Appliance
 CVE-2023-28771|2023-05-31|2023-06-21|Zyxel|Multiple Firewalls
 CVE-2023-29298|2023-07-20|2023-08-10|Adobe|ColdFusion
