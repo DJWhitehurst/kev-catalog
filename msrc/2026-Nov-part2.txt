@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-18T13:29:22Z | part 2 of 6 | 350 of 1791 CVEs | CVE-2026-113760 to CVE-2026-119865
+# Microsoft MSRC 2026-Nov | fetched 2026-11-19T03:52:41Z | part 2 of 6 | 350 of 1791 CVEs | CVE-2026-113760 to CVE-2026-119865
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-113760|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows XWizard Framework Elevation of Privilege Vulnerability
 CVE-2026-113761|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Container Isolation FS Filter Driver (unionfs.sys) Elevation of Privilege Vulnerability
@@ -176,7 +176,7 @@ CVE-2026-118143|Important|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-118144|Important|6.6|CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Smart Card Elevation of Privilege Vulnerability
 CVE-2026-118145|Critical|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Function Discovery SSDP Provider Remote Code Execution Vulnerability
 CVE-2026-118146|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Active Directory Domain Services Remote Code Execution Vulnerability
-CVE-2026-118148|Critical|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Active Directory Domain Services Elevation of Privilege Vulnerability
+CVE-2026-118148|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Active Directory Domain Services Elevation of Privilege Vulnerability
 CVE-2026-118149|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Exchange Server Remote Code Execution Vulnerability
 CVE-2026-118150|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Exchange Server Elevation of Privilege Vulnerability
 CVE-2026-118151|Important|7.2|CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Exchange Server Elevation of Privilege Vulnerability

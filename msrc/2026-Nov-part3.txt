@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-18T13:29:22Z | part 3 of 6 | 350 of 1791 CVEs | CVE-2026-119866 to CVE-2026-121217
+# Microsoft MSRC 2026-Nov | fetched 2026-11-19T03:52:41Z | part 3 of 6 | 350 of 1791 CVEs | CVE-2026-119866 to CVE-2026-121217
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-119866|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Device Association Service Elevation of Privilege Vulnerability
 CVE-2026-119867|Important|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Windows Installer Security Feature Bypass Vulnerability

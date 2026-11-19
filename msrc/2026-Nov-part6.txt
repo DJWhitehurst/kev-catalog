@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-18T13:29:22Z | part 6 of 6 | 41 of 1791 CVEs | CVE-2026-99222 to CVE-2026-99288
+# Microsoft MSRC 2026-Nov | fetched 2026-11-19T03:52:41Z | part 6 of 6 | 41 of 1791 CVEs | CVE-2026-99222 to CVE-2026-99288
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-99222|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|keys: Protect the read method check against type removal
 CVE-2026-99223|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|keys: make keyring indexes independent of kernel addresses

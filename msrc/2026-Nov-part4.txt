@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-18T13:29:22Z | part 4 of 6 | 350 of 1791 CVEs | CVE-2026-121218 to CVE-2026-126914
+# Microsoft MSRC 2026-Nov | fetched 2026-11-19T03:52:41Z | part 4 of 6 | 350 of 1791 CVEs | CVE-2026-121218 to CVE-2026-126914
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-121218|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121218: Type confusion
 CVE-2026-121219|Moderate|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121219: Integer overflow
