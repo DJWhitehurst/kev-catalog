@@ -1,5 +1,12 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-19T03:52:41Z | part 4 of 6 | 350 of 1791 CVEs | CVE-2026-121218 to CVE-2026-126914
+# Microsoft MSRC 2026-Nov | fetched 2026-11-19T13:57:06Z | part 4 of 6 | 350 of 1865 CVEs | CVE-2026-121211 to CVE-2026-126881
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-121211|Important|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121211: Use after free
+CVE-2026-121212|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121212: Incorrect authorization
+CVE-2026-121213|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-121213: Uninitialized resource
+CVE-2026-121214|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121214: Use after free
+CVE-2026-121215|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-121215: UI misrepresentation
+CVE-2026-121216|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-121216: UI misrepresentation
+CVE-2026-121217|Low|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121217: Use after free
 CVE-2026-121218|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121218: Type confusion
 CVE-2026-121219|Moderate|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121219: Integer overflow
 CVE-2026-121220|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121220: Incorrect authorization
@@ -80,6 +87,7 @@ CVE-2026-121677|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/R
 CVE-2026-121678|Important|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Remote Desktop Client Information Disclosure Vulnerability
 CVE-2026-121680|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Windows NTLM Spoofing Vulnerability
 CVE-2026-121681|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Trace Data Helper Elevation of Privilege Vulnerability
+CVE-2026-121758|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ISO-2022-CN-EXT decoder may read past input
 CVE-2026-121885|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Podman: untrusted image labels allow auto-update to restart arbitrary systemd units
 CVE-2026-121950|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|FreeRDP before 3.32.2 Heap Overflow via RDPGFX CREATE_SURFACE Integer Wrap
 CVE-2026-121951|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|FreeRDP 3.0.0 before 3.32.2 Denial of Service via Slow-Path Input Event
@@ -207,6 +215,7 @@ CVE-2026-124233|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/R
 CVE-2026-124249|Moderate|not stated|none published|not stated|Unknown|Unknown|`http.cookiejar` applies expired `Set-Cookie` to cookie store before policy validation
 CVE-2026-124317|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|libexpat through 2.10.0 Out-of-Bounds Read via unknown_toUtf8 and unknown_toUtf16
 CVE-2026-124586|Moderate|7.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:P/RL:X/RC:C|not stated|Unknown|Unknown|Tencent RapidJSON diyfp.h GetCachedPowerByIndex out-of-bounds
+CVE-2026-124709|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Unbounded Memory Retention in QUIC Server for Rejected Streams
 CVE-2026-124737|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Busybox: heap buffer overflow in the tftp client on fallback to the default block size
 CVE-2026-124738|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Busybox: httpd password rule bypass for pre-compressed .gz files via accept-encoding: gzip
 CVE-2026-124739|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Busybox: httpd stack buffer overflow via an "i:" rule in a subdirectory httpd.conf
@@ -218,6 +227,25 @@ CVE-2026-124744|Moderate|6.3|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N|not st
 CVE-2026-124745|Moderate|6.3|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Busybox: tar deferred hardlink target resolved through a deferred symlink escapes the extraction directory
 CVE-2026-124746|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Busybox: out-of-bounds read in volume_id_get_buffer() via an offset+length wraparound
 CVE-2026-124747|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Busybox: heap buffer overflow in wget ftp resume when the resume offset exceeds the reported file size
+CVE-2026-124852|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Incorrect boundary conditions in the Graphics: CanvasWebGL component
+CVE-2026-124867|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Use-after-free in the DOM: Editor component
+CVE-2026-124871|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Use-after-free in the DOM: HTML Parser component
+CVE-2026-124878|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Use-after-free in the Layout: Positioned component
+CVE-2026-124900|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Sandbox escape due to use-after-free in the DOM: Service Workers component
+CVE-2026-124904|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Use-after-free in the SVG component
+CVE-2026-124908|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Use-after-free in the CSS Parsing and Computation component
+CVE-2026-124911|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Clickjacking issue in the Autofill component in Firefox for Android
+CVE-2026-124920|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Uninitialized memory in the Graphics: WebGPU component
+CVE-2026-124921|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Sandbox escape in the Graphics: WebGPU component
+CVE-2026-124923|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Sandbox escape in the Agent component
+CVE-2026-124925|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Information disclosure in the Layout component
+CVE-2026-124936|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Spoofing issue in the Address Bar component
+CVE-2026-124943|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Use-after-free in the Layout component
+CVE-2026-124945|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Invalid pointer in the Layout: Text and Fonts component
+CVE-2026-124946|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Invalid pointer in the JavaScript Engine: JIT component
+CVE-2026-124947|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Incorrect boundary conditions in the Graphics component
+CVE-2026-124949|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Other issue in the SVG component
+CVE-2026-124950|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Same-origin policy bypass in the CSS Parsing and Computation component
 CVE-2026-124987|Moderate|6.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L|not stated|Unknown|Unknown|mikefarah yq encoder_properties.go Encode escape output
 CVE-2026-125041|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Gst-plugins-good: gst-plugins-good: qtdemux out-of-bounds heap read from invalid uncompressed video layout
 CVE-2026-125072|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|FFmpeg through 9.0.2 NULL Pointer Dereference in MPEG Audio Decoder
@@ -322,31 +350,3 @@ CVE-2026-126878|Important|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not s
 CVE-2026-126879|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126879: Use after free
 CVE-2026-126880|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126880: Type confusion
 CVE-2026-126881|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126881: Improper initialization
-CVE-2026-126883|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126883: Use after free
-CVE-2026-126884|Important|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-126884: Out of bounds read
-CVE-2026-126885|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126885: Use after free
-CVE-2026-126886|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126886: Use after free
-CVE-2026-126887|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126887: Use after free
-CVE-2026-126888|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126888: Buffer overflow
-CVE-2026-126889|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126889: Off-by-one error
-CVE-2026-126891|Important|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-126891: Use after free
-CVE-2026-126892|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126892: Use after free
-CVE-2026-126893|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126893: Out of bounds write
-CVE-2026-126894|Important|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-126894: Out of bounds read
-CVE-2026-126895|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126895: Use after free
-CVE-2026-126896|Important|8.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-126896: Missing authorization
-CVE-2026-126897|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126897: Type confusion
-CVE-2026-126898|Important|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-126898: Uninitialized resource
-CVE-2026-126900|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126900: Use after free
-CVE-2026-126901|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126901: Use after free
-CVE-2026-126902|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126902: Incorrect reference resolution
-CVE-2026-126903|Important|8.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-126903: Improper state validation
-CVE-2026-126905|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126905: Incomplete cleanup
-CVE-2026-126906|Important|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-126906: Race condition
-CVE-2026-126907|Important|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-126907: Uninitialized resource
-CVE-2026-126908|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126908: Type confusion
-CVE-2026-126910|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126910: Type confusion
-CVE-2026-126911|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126911: Use after free
-CVE-2026-126912|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126912: Buffer overflow
-CVE-2026-126913|Important|3.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-126913: Out of bounds read
-CVE-2026-126914|Important|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-126914: Uninitialized resource

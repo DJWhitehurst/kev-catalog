@@ -1,5 +1,11 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-19T03:52:41Z | part 3 of 6 | 350 of 1791 CVEs | CVE-2026-119866 to CVE-2026-121217
+# Microsoft MSRC 2026-Nov | fetched 2026-11-19T13:57:06Z | part 3 of 6 | 350 of 1865 CVEs | CVE-2026-119858 to CVE-2026-121210
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-119858|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Remote Desktop Client Remote Code Execution Vulnerability
+CVE-2026-119859|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Internet Connection Sharing (ICS) Elevation of Privilege Vulnerability
+CVE-2026-119860|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Internet Connection Sharing (ICS) Elevation of Privilege Vulnerability
+CVE-2026-119861|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Internet Connection Sharing (ICS) Elevation of Privilege Vulnerability
+CVE-2026-119862|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Input System Elevation of Privilege Vulnerability
+CVE-2026-119865|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
 CVE-2026-119866|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Device Association Service Elevation of Privilege Vulnerability
 CVE-2026-119867|Important|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Windows Installer Security Feature Bypass Vulnerability
 CVE-2026-119868|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
@@ -134,6 +140,7 @@ CVE-2026-120151|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not s
 CVE-2026-120152|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|PostgreSQL pg_show_all_settings() use-after-free discloses memory
 CVE-2026-120153|Important|7.2|CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|PostgreSQL extension-script substitutions allow SQL injection through object names
 CVE-2026-120154|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|PostgreSQL INSERT ... ON CONFLICT can read rows despite row security policies
+CVE-2026-120221|Important|not stated|none published|not stated|Unknown|Unknown|frr: bgpd double free of peer-group Site-of-Origin when dynamic neighbors disconnect
 CVE-2026-120222|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|undici vulnerable to Denial of Service via unhandled exception in cache-interceptor response replay
 CVE-2026-120415|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U|not stated|Unknown|Unknown|undici vulnerable to cross-origin credential disclosure via array-of-tuples headers bypassing redirect stripping
 CVE-2026-120423|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|undici vulnerable to Subresource Integrity bypass via whitespace in integrity metadata
@@ -343,10 +350,3 @@ CVE-2026-121207|Important|not stated|none published|not stated|Unknown|Unknown|C
 CVE-2026-121208|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121208: Out of bounds read
 CVE-2026-121209|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121209: UI misrepresentation
 CVE-2026-121210|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121210: Type confusion
-CVE-2026-121211|Important|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121211: Use after free
-CVE-2026-121212|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121212: Incorrect authorization
-CVE-2026-121213|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-121213: Uninitialized resource
-CVE-2026-121214|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121214: Use after free
-CVE-2026-121215|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-121215: UI misrepresentation
-CVE-2026-121216|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-121216: UI misrepresentation
-CVE-2026-121217|Low|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121217: Use after free
