@@ -1,4 +1,4 @@
-# CISA KEV | catalogVersion 2026.11.17 | dateReleased 2026-11-17T17:53:15.5664Z | 1782 entries in full catalog
+# CISA KEV | catalogVersion 2026.11.18 | dateReleased 2026-11-18T19:17:41.0354Z | 1786 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
 # this file: CVE-2021 | 216 entries
 CVE-2021-0920|2022-05-23|2022-06-13|Android|Kernel

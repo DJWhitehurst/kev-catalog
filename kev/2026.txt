@@ -1,6 +1,6 @@
-# CISA KEV | catalogVersion 2026.11.17 | dateReleased 2026-11-17T17:53:15.5664Z | 1782 entries in full catalog
+# CISA KEV | catalogVersion 2026.11.18 | dateReleased 2026-11-18T19:17:41.0354Z | 1786 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
-# this file: CVE-2026 | 210 entries
+# this file: CVE-2026 | 213 entries
 CVE-2026-0257|2026-05-29|2026-06-01|Palo Alto Networks|PAN-OS
 CVE-2026-0300|2026-05-06|2026-05-09|Palo Alto Networks|PAN-OS
 CVE-2026-0322|2026-10-14|2026-10-17|Palo Alto Networks|PAN-OS
@@ -110,6 +110,7 @@ CVE-2026-3909|2026-03-13|2026-03-27|Google|Skia
 CVE-2026-3910|2026-03-13|2026-03-27|Google|Chromium V8
 CVE-2026-39808|2026-07-16|2026-07-19|Fortinet|FortiSandbox
 CVE-2026-39987|2026-04-23|2026-05-07|Marimo|Marimo
+CVE-2026-40217|2026-11-18|2026-12-02|BerriAI|LiteLLM
 CVE-2026-41091|2026-05-20|2026-06-03|Microsoft|Defender
 CVE-2026-41709|2026-10-28|2026-11-11|Broadcom|VMware ESX
 CVE-2026-41940|2026-04-30|2026-05-03|WebPros|cPanel & WHM and WP2 (WordPress Squared)
@@ -199,6 +200,8 @@ CVE-2026-87902|2026-09-25|2026-09-28|WordPress|Core
 CVE-2026-88771|2026-09-27|2026-09-30|Citrix|NetScaler
 CVE-2026-88772|2026-09-27|2026-09-30|Citrix|NetScaler
 CVE-2026-88779|2026-10-04|2026-10-07|Citrix|NetScaler
+CVE-2026-90436|2026-11-18|2026-11-21|Apache|Axis
+CVE-2026-90817|2026-11-18|2026-11-21|Vanderbilt University|Research Electronic Data Capture (REDCap)
 CVE-2026-9082|2026-05-22|2026-05-27|Drupal|Core
 CVE-2026-9198|2026-08-04|2026-08-07|IBM|Langflow
 CVE-2026-93616|2026-09-22|2026-09-25|Check Point|Multiple Products
