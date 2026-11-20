@@ -1,5 +1,12 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-20T03:44:54Z | part 2 of 6 | 350 of 1880 CVEs | CVE-2026-113753 to CVE-2026-119849
+# Microsoft MSRC 2026-Nov | fetched 2026-11-20T13:38:29Z | part 2 of 6 | 350 of 1918 CVEs | CVE-2026-113431 to CVE-2026-119837
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-113431|Important|not stated|none published|not stated|Unknown|Unknown|Unbounded decoded HTTP/2 header-list size in cowlib cow_http2_machine enables HPACK amplification memory exhaustion
+CVE-2026-113593|Low|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Potential exposure of private data via empty and missing Vary headers
+CVE-2026-113748|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Software Protection Platform (SPP) Elevation of Privilege Vulnerability
+CVE-2026-113749|Critical|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Windows Codecs Library Remote Code Execution Vulnerability
+CVE-2026-113750|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Device Inventory Elevation of Privilege Vulnerability
+CVE-2026-113751|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Fast FAT Driver Elevation of Privilege Vulnerability
+CVE-2026-113752|Critical|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Print Spooler Components Remote Code Execution Vulnerability
 CVE-2026-113753|Critical|8.2|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Hyper-V Elevation of Privilege Vulnerability
 CVE-2026-113754|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows FileCrypt Driver Information Disclosure Vulnerability
 CVE-2026-113755|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Filter Manager Elevation of Privilege Vulnerability
@@ -73,6 +80,7 @@ CVE-2026-114366|Low|not stated|none published|not stated|Unknown|Unknown|Informa
 CVE-2026-114456|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Missing origin validation for the externalbrowser authenticator callback in multiple Snowflake client drivers
 CVE-2026-114466|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N/E:U|not stated|Unknown|Unknown|Insufficient Granularity of Access Control in Git
 CVE-2026-114469|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Out-of-bounds Read in Git
+CVE-2026-114582|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Server-side request forgery via SpatialReference string input
 CVE-2026-115298|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Incorrect Authorization in Elasticsearch Leading to Information Disclosure
 CVE-2026-115538|Important|not stated|none published|not stated|Unknown|Unknown|Docker Engine overlay-network encryption rules are not restored after a firewalld reload
 CVE-2026-115539|Important|not stated|none published|not stated|Unknown|Unknown|Cluster-API proxy overwrites forwarded client identity with its own
@@ -281,6 +289,7 @@ CVE-2026-118747|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/R
 CVE-2026-118748|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|ASP.NET Core Denial of Service Vulnerability
 CVE-2026-118749|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|ASP.NET Core Denial of Service Vulnerability
 CVE-2026-118750|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|ASP.NET Core Denial of Service Vulnerability
+CVE-2026-118899|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|NGINX TLSv1.3 vulnerability
 CVE-2026-119078|Critical|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Apache Commons Codec: Blake3 doFinalize is stateless; the documented KDF example derives identical keys
 CVE-2026-119079|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Krb5: mit krb5 kdc unauthenticated cpu dos via quadratic asn.1 sequence of decoding
 CVE-2026-119192|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Forge: RSA PKCS#1 v1.5 signature forgery via non-canonical DigestInfo encoding
@@ -341,12 +350,3 @@ CVE-2026-119834|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-119835|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Smart Card Elevation of Privilege Vulnerability
 CVE-2026-119836|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Management Services Information Disclosure Vulnerability
 CVE-2026-119837|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Universal Disk Format File System Driver (UDFS) Elevation of Privilege Vulnerability
-CVE-2026-119838|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Installer Information Disclosure Vulnerability
-CVE-2026-119839|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Remote Desktop Client Elevation of Privilege Vulnerability
-CVE-2026-119840|Important|6.3|CVSS:3.1/AV:P/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Universal Disk Format File System Driver (UDFS) Elevation of Privilege Vulnerability
-CVE-2026-119841|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Graphics Kernel Information Disclosure Vulnerability
-CVE-2026-119844|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Device Association Service Elevation of Privilege Vulnerability
-CVE-2026-119846|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Subsystem for Linux Elevation of Privilege Vulnerability
-CVE-2026-119847|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kerberos Elevation of Privilege Vulnerability
-CVE-2026-119848|Important|5.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows Message Queuing Denial of Service Vulnerability
-CVE-2026-119849|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Virtual Hard Disk (VHD) Miniport Driver Remote Code Execution Vulnerability
