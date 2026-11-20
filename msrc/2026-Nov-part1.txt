@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-19T13:57:06Z | part 1 of 6 | 350 of 1865 CVEs | CVE-2024-58407 to CVE-2026-113755
+# Microsoft MSRC 2026-Nov | fetched 2026-11-20T03:44:54Z | part 1 of 6 | 350 of 1880 CVEs | CVE-2024-58407 to CVE-2026-113752
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2024-58407|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|Microsoft jxrlib through 1.1 Global Buffer Over-read via DecodeSignificantRun
 CVE-2024-58408|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|Microsoft jxrlib through 1.1 Global Buffer Over-Read via initLookupTables
@@ -159,9 +159,12 @@ CVE-2026-109473|Important|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/R
 CVE-2026-109475|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|.NET Denial of Service Vulnerability
 CVE-2026-109476|Important|6.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|ASP.NET Core Information Disclosure Vulnerability
 CVE-2026-109478|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|ASP.NET Core Denial of Service Vulnerability
+CVE-2026-109480|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Profile Data Roaming Service (PDRS) Elevation of Privilege Vulnerability
 CVE-2026-109481|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|ASP.NET Core Elevation of Privilege Vulnerability
+CVE-2026-109484|Critical|10.0|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Azure App Service for Linux Elevation of Privilege Vulnerability
 CVE-2026-109485|Important|6.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft 365 Agents SDK Information Disclosure Vulnerability
 CVE-2026-109487|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft PowerPoint Remote Code Execution Vulnerability
+CVE-2026-109490|Critical|9.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Authentication Methods Portal Extension Elevation of Privilege Vulnerability
 CVE-2026-109491|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
 CVE-2026-109492|Important|not stated|none published|Elevation of Privilege|No|No|Microsoft MCP Gateway Elevation of Privilege Vulnerability
 CVE-2026-109493|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Access Remote Code Execution Vulnerability
@@ -347,6 +350,3 @@ CVE-2026-113749|Critical|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-113750|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Device Inventory Elevation of Privilege Vulnerability
 CVE-2026-113751|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Fast FAT Driver Elevation of Privilege Vulnerability
 CVE-2026-113752|Critical|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Print Spooler Components Remote Code Execution Vulnerability
-CVE-2026-113753|Critical|8.2|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Hyper-V Elevation of Privilege Vulnerability
-CVE-2026-113754|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows FileCrypt Driver Information Disclosure Vulnerability
-CVE-2026-113755|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Filter Manager Elevation of Privilege Vulnerability

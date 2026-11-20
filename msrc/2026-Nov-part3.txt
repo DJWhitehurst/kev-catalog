@@ -1,5 +1,11 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-19T13:57:06Z | part 3 of 6 | 350 of 1865 CVEs | CVE-2026-119858 to CVE-2026-121210
+# Microsoft MSRC 2026-Nov | fetched 2026-11-20T03:44:54Z | part 3 of 6 | 350 of 1880 CVEs | CVE-2026-119851 to CVE-2026-121203
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-119851|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Storage Spaces Controller Elevation of Privilege Vulnerability
+CVE-2026-119852|Important|6.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
+CVE-2026-119853|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Remote Access API Elevation of Privilege Vulnerability
+CVE-2026-119855|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows COM+ Event System Service Information Disclosure Vulnerability
+CVE-2026-119856|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Win32k Information Disclosure Vulnerability
+CVE-2026-119857|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Kernel Information Disclosure Vulnerability
 CVE-2026-119858|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Remote Desktop Client Remote Code Execution Vulnerability
 CVE-2026-119859|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Internet Connection Sharing (ICS) Elevation of Privilege Vulnerability
 CVE-2026-119860|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Internet Connection Sharing (ICS) Elevation of Privilege Vulnerability
@@ -179,6 +185,7 @@ CVE-2026-120755|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not st
 CVE-2026-120756|Low|6.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|Heap Buffer Over-read via Malformed Message Size in HDF5's H5O__chunk_deserialize
 CVE-2026-120757|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|Heap Buffer Over-read via Non-Terminated Link Data in H5L__extern_traverse
 CVE-2026-120758|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|NULL Pointer Dereference in H5HL_unprotect via Corrupted File
+CVE-2026-120777|Critical|7.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:L/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Azure Managed Service Identity Elevation of Privilege Vulnerability
 CVE-2026-120778|Important|7.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Aspire Elevation of Privilege Vulnerability
 CVE-2026-120779|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Visual Studio Code Remote Code Execution Vulnerability
 CVE-2026-120780|Important|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Visual Studio Code Remote Code Execution Vulnerability
@@ -343,10 +350,3 @@ CVE-2026-121200|Moderate|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not st
 CVE-2026-121201|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121201: Use after free
 CVE-2026-121202|Moderate|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121202: Use after free
 CVE-2026-121203|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121203: Use after free
-CVE-2026-121204|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121204: Incomplete cleanup
-CVE-2026-121205|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121205: Incorrect authorization
-CVE-2026-121206|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-121206: UI misrepresentation
-CVE-2026-121207|Important|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121207: Uninitialized resource
-CVE-2026-121208|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121208: Out of bounds read
-CVE-2026-121209|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121209: UI misrepresentation
-CVE-2026-121210|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121210: Type confusion

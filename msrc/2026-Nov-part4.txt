@@ -1,5 +1,12 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-19T13:57:06Z | part 4 of 6 | 350 of 1865 CVEs | CVE-2026-121211 to CVE-2026-126881
+# Microsoft MSRC 2026-Nov | fetched 2026-11-20T03:44:54Z | part 4 of 6 | 350 of 1880 CVEs | CVE-2026-121204 to CVE-2026-126873
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-121204|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121204: Incomplete cleanup
+CVE-2026-121205|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121205: Incorrect authorization
+CVE-2026-121206|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-121206: UI misrepresentation
+CVE-2026-121207|Important|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121207: Uninitialized resource
+CVE-2026-121208|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121208: Out of bounds read
+CVE-2026-121209|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121209: UI misrepresentation
+CVE-2026-121210|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121210: Type confusion
 CVE-2026-121211|Important|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121211: Use after free
 CVE-2026-121212|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121212: Incorrect authorization
 CVE-2026-121213|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-121213: Uninitialized resource
@@ -343,10 +350,3 @@ CVE-2026-126870|Important|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not s
 CVE-2026-126871|Important|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-126871: Out of bounds read
 CVE-2026-126872|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126872: Incorrect authorization
 CVE-2026-126873|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126873: Use after free
-CVE-2026-126874|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126874: Type confusion
-CVE-2026-126875|Important|8.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-126875: Missing authorization
-CVE-2026-126876|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126876: Integer overflow
-CVE-2026-126878|Important|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-126878: Information leak
-CVE-2026-126879|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126879: Use after free
-CVE-2026-126880|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126880: Type confusion
-CVE-2026-126881|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126881: Improper initialization
