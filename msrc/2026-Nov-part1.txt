@@ -1,7 +1,9 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-21T03:32:51Z | part 1 of 6 | 350 of 1918 CVEs | CVE-2024-58407 to CVE-2026-113425
+# Microsoft MSRC 2026-Nov | fetched 2026-11-21T13:03:43Z | part 1 of 7 | 350 of 2264 CVEs | CVE-2024-38445 to CVE-2026-112987
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2024-38445|not stated|not stated|none published|not stated|Unknown|Unknown|
 CVE-2024-58407|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|Microsoft jxrlib through 1.1 Global Buffer Over-read via DecodeSignificantRun
 CVE-2024-58408|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|Microsoft jxrlib through 1.1 Global Buffer Over-Read via initLookupTables
+CVE-2025-65586|not stated|not stated|none published|not stated|Unknown|Unknown|
 CVE-2025-71450|Moderate|3.3|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|inih before r63 Stack Buffer Under-Read in ini_parse_stream Discard Loop
 CVE-2026-100080|Moderate|5.6|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:N/I:N/A:H|not stated|Unknown|Unknown|xen-netback: Fix UAF when reading statistics data
 CVE-2026-100081|Important|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|xen-netback: defer xenvif_mcast_addr_list_free()
@@ -20,6 +22,7 @@ CVE-2026-102868|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/R
 CVE-2026-103022|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Urwid: handle_short_request() crashes on non-ASCII POST body (UnicodeEncodeError DoS)
 CVE-2026-103571|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows CNG Key Isolation Service Elevation of Privilege Vulnerability
 CVE-2026-103645|Low|not stated|none published|not stated|Unknown|Unknown|Integer overflow vulnerability in QTextCodec fromUnicode() and toUnicode() impacts Qt
+CVE-2026-104357|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Libtirpc: libtirpc: sunrpc udp datagram-boundary violation (stale buffer bytes decoded as current request)
 CVE-2026-105017|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Volume Shadow Copy Elevation of Privilege Vulnerability
 CVE-2026-105018|Important|6.6|CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Partition Management Driver Elevation of Privilege Vulnerability
 CVE-2026-105020|Important|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Advanced Rasterization Platform Elevation of Privilege Vulnerability
@@ -107,9 +110,10 @@ CVE-2026-105588|Important|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-105589|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Wireless Networking Elevation of Privilege Vulnerability
 CVE-2026-105590|Important|5.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Windows Active Directory Certificate Services Security Feature Bypass
 CVE-2026-105734|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Azure Local Elevation of Privilege Vulnerability
+CVE-2026-105929|Important|8.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|Ansible-core: ansible-galaxy role install path traversal via unvalidated role name allows file writes and directory deletion outside the roles directory
 CVE-2026-106023|not stated|not stated|none published|not stated|Unknown|Unknown|Apache HTTP Server: mod_md NULL pointer dereference leads to child process crash
 CVE-2026-107493|Important|7.7|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|Use-After-Free in PEM_X509_INFO_read_bio_ex() when appending to a caller-supplied stack fails
-CVE-2026-107496|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Infinite Loop in CMS_encrypt() With an EC Group Order of 1
+CVE-2026-107496|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Infinite Loop in CMS_encrypt() With an EC Group Order of 1
 CVE-2026-108147|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Potential memory exhaustion in MultiPartParser via base64-encoded file upload
 CVE-2026-108401|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Remote Desktop Services Remote Code Execution Vulnerability
 CVE-2026-108402|Important|5.3|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows Layer-2 Bridge Network Driver Denial of Service Vulnerability
@@ -186,6 +190,7 @@ CVE-2026-109903|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not s
 CVE-2026-109904|Moderate|not stated|none published|not stated|Unknown|Unknown|X.Org Server XRes QueryClientIds Request Size Overflow
 CVE-2026-109908|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|X.Org libfontenc File Parsing Validation Failure
 CVE-2026-109909|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|libXfont2 PCF Font Parsing Negative Skip Out-Of-Bounds Read
+CVE-2026-109920|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|libXfont2 FreeType backend uninitialised strike_index out-of-bounds read
 CVE-2026-110043|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Outlook Remote Code Execution Vulnerability
 CVE-2026-110044|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office SharePoint Remote Code Execution Vulnerability
 CVE-2026-110045|Important|7.3|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Spoofing|No|No|Microsoft Office SharePoint Spoofing Vulnerability
@@ -345,8 +350,3 @@ CVE-2026-112984|Important|6.6|CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-112985|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows JScript Remote Code Execution Vulnerability
 CVE-2026-112986|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows DWM Core Library Elevation of Privilege Vulnerability
 CVE-2026-112987|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Modern Device Management (MDM) Elevation of Privilege Vulnerability
-CVE-2026-112988|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Desktop Window Manager Elevation of Privilege Vulnerability
-CVE-2026-112989|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Servicing Stack Updates Elevation of Privilege Vulnerability
-CVE-2026-112990|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Video Driver Elevation of Privilege Vulnerability
-CVE-2026-113408|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') in Git
-CVE-2026-113425|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|NGINX ngx_mail_proxy_module vulnerability
