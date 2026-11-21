@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-20T13:38:29Z | part 6 of 6 | 168 of 1918 CVEs | CVE-2026-96092 to CVE-2026-99320
+# Microsoft MSRC 2026-Nov | fetched 2026-11-21T03:32:51Z | part 6 of 6 | 168 of 1918 CVEs | CVE-2026-96092 to CVE-2026-99320
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-96092|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows  Domain Name Service Remote Code Execution Vulnerability
 CVE-2026-96093|Important|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Internet (wininet.dll) Information Disclosure Vulnerability

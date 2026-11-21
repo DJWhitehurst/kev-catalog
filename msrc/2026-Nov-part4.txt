@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-20T13:38:29Z | part 4 of 6 | 350 of 1918 CVEs | CVE-2026-121193 to CVE-2026-126851
+# Microsoft MSRC 2026-Nov | fetched 2026-11-21T03:32:51Z | part 4 of 6 | 350 of 1918 CVEs | CVE-2026-121193 to CVE-2026-126851
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-121193|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121193: Incorrect authorization
 CVE-2026-121194|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-121194: Missing authorization

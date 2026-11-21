@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-20T13:38:29Z | part 2 of 6 | 350 of 1918 CVEs | CVE-2026-113431 to CVE-2026-119837
+# Microsoft MSRC 2026-Nov | fetched 2026-11-21T03:32:51Z | part 2 of 6 | 350 of 1918 CVEs | CVE-2026-113431 to CVE-2026-119837
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-113431|Important|not stated|none published|not stated|Unknown|Unknown|Unbounded decoded HTTP/2 header-list size in cowlib cow_http2_machine enables HPACK amplification memory exhaustion
 CVE-2026-113593|Low|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Potential exposure of private data via empty and missing Vary headers

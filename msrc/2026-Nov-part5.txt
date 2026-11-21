@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-20T13:38:29Z | part 5 of 6 | 350 of 1918 CVEs | CVE-2026-126852 to CVE-2026-96088
+# Microsoft MSRC 2026-Nov | fetched 2026-11-21T03:32:51Z | part 5 of 6 | 350 of 1918 CVEs | CVE-2026-126852 to CVE-2026-96088
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-126852|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126852: Use after free
 CVE-2026-126853|Important|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-126853: Uninitialized resource
