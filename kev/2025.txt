@@ -1,6 +1,6 @@
-# CISA KEV | catalogVersion 2026.11.18 | dateReleased 2026-11-18T19:17:41.0354Z | 1786 entries in full catalog
+# CISA KEV | catalogVersion 2026.11.20 | dateReleased 2026-11-20T17:48:39.1516Z | 1790 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
-# this file: CVE-2025 | 189 entries
+# this file: CVE-2025 | 190 entries
 CVE-2025-0108|2025-02-18|2025-03-11|Palo Alto Networks|PAN-OS
 CVE-2025-0111|2025-02-20|2025-03-13|Palo Alto Networks|PAN-OS
 CVE-2025-0282|2025-01-08|2025-01-15|Ivanti|Connect Secure, Policy Secure, and ZTA Gateways
@@ -111,6 +111,7 @@ CVE-2025-40551|2026-02-03|2026-02-06|SolarWinds|Web Help Desk
 CVE-2025-40602|2025-12-17|2025-12-24|SonicWall|SMA1000 appliance
 CVE-2025-41244|2025-10-30|2025-11-20|Broadcom|VMware Aria Operations and VMware Tools
 CVE-2025-42599|2025-04-28|2025-05-19|Qualitia|Active! Mail
+CVE-2025-42884|2026-11-20|2026-11-23|SAP|NetWeaver
 CVE-2025-42999|2025-05-15|2025-06-05|SAP|NetWeaver
 CVE-2025-43200|2025-06-16|2025-07-07|Apple|Multiple Products
 CVE-2025-43300|2025-08-21|2025-09-11|Apple|iOS, iPadOS, and macOS

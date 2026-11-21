@@ -1,6 +1,6 @@
-# CISA KEV | catalogVersion 2026.11.18 | dateReleased 2026-11-18T19:17:41.0354Z | 1786 entries in full catalog
+# CISA KEV | catalogVersion 2026.11.20 | dateReleased 2026-11-20T17:48:39.1516Z | 1790 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
-# this file: CVE-2026 | 213 entries
+# this file: CVE-2026 | 216 entries
 CVE-2026-0257|2026-05-29|2026-06-01|Palo Alto Networks|PAN-OS
 CVE-2026-0300|2026-05-06|2026-05-09|Palo Alto Networks|PAN-OS
 CVE-2026-0322|2026-10-14|2026-10-17|Palo Alto Networks|PAN-OS
@@ -34,10 +34,12 @@ CVE-2026-119977|2026-11-03|2026-11-06|WordPress|WordPress Core
 CVE-2026-123039|2026-11-13|2026-11-16|Check Point|Multiple Products
 CVE-2026-123158|2026-11-09|2026-11-12|OpenBSD|OpenSSH
 CVE-2026-123218|2026-11-09|2026-11-12|IBM|Aspera Faspex
+CVE-2026-123890|2026-11-20|2026-11-23|Broadcom|VMware vCenter
 CVE-2026-124194|2026-11-10|2026-11-24|Microsoft|Office
 CVE-2026-125350|2026-11-10|2026-11-24|Google|Chromium
 CVE-2026-12569|2026-06-25|2026-06-28|PTC|Windchill and FlexPLM
 CVE-2026-1281|2026-01-29|2026-02-01|Ivanti|Endpoint Manager Mobile (EPMM)
+CVE-2026-129448|2026-11-20|2026-11-23|Apache|Roller
 CVE-2026-1340|2026-04-08|2026-04-11|Ivanti|Endpoint Manager Mobile (EPMM)
 CVE-2026-15409|2026-07-14|2026-07-17|SonicWall|SMA1000 Appliances
 CVE-2026-15410|2026-07-14|2026-07-17|SonicWall|SMA1000 Appliances
@@ -175,6 +177,7 @@ CVE-2026-75650|2026-09-08|2026-09-11|Adobe|Commerce and Magento
 CVE-2026-76418|2026-10-29|2026-11-01|Cisco|Secure Firewall ASA Software and Cisco Secure FTD Software
 CVE-2026-76460|2026-09-16|2026-09-19|Cisco|Identity Services Engine
 CVE-2026-76461|2026-09-14|2026-09-17|Cisco|Secure Email Gateway
+CVE-2026-76466|2026-11-20|2026-11-23|Cisco|Expressway Series
 CVE-2026-76504|2026-09-30|2026-10-03|Cisco|Catalyst SD-WAN Manager
 CVE-2026-76519|2026-10-14|2026-10-17|Cisco|Secure Email Gateway
 CVE-2026-8037|2026-08-07|2026-08-10|Progress|LoadMaster

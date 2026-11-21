@@ -1,4 +1,4 @@
-# CISA KEV | catalogVersion 2026.11.18 | dateReleased 2026-11-18T19:17:41.0354Z | 1786 entries in full catalog
+# CISA KEV | catalogVersion 2026.11.20 | dateReleased 2026-11-20T17:48:39.1516Z | 1790 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
 # this file: CVE-2023 | 166 entries
 CVE-2023-0266|2023-03-30|2023-04-20|Linux|Kernel
