@@ -1,4 +1,4 @@
-# Microsoft MSRC flagged CVEs | fetched 2026-11-22T02:41:00Z | months 2026-Nov | 2264 CVEs read, 126 flagged
+# Microsoft MSRC flagged CVEs | fetched 2026-11-22T12:53:30Z | months 2026-Nov | 2377 CVEs read, 131 flagged
 # flagged = Critical severity, OR Exploited:Yes, OR Publicly Disclosed:Yes | 1 exploited | 0 publicly disclosed
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-109459|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Message Queuing Queue Manager Remote Code Execution Vulnerability
@@ -108,6 +108,11 @@ CVE-2026-129481|Critical|not stated|none published|not stated|Unknown|Unknown|Us
 CVE-2026-129483|Critical|9.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Cyrus SASL through 2.1.28 SRP Authentication Bypass via plugins/srp.c
 CVE-2026-129496|Critical|not stated|none published|not stated|Unknown|Unknown|Timezone cache use-after-free can lead to remote code execution
 CVE-2026-129892|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|IO::Socket::SSL::PublicSuffix versions through 2.099 for Perl allow code injection via a fetched list line that closes the built-in data heredoc when update_self_from_url rewrites the module's source
+CVE-2026-130975|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-130975: Use after free
+CVE-2026-131008|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-131008: Use after free
+CVE-2026-131031|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-131031: Out of bounds write
+CVE-2026-131054|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-131054: Out of bounds write
+CVE-2026-131060|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-131060: Buffer overflow
 CVE-2026-50691|Critical|9.9|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft 365 Copilot Elevation of Privilege Vulnerability
 CVE-2026-62841|Critical|10.0|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Azure Event Grid Elevation of Privilege Vulnerability
 CVE-2026-65817|Critical|8.3|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Azure Managed Instance for Apache Cassandra Remote Code Execution Vulnerability

@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-22T02:41:00Z | part 3 of 7 | 350 of 2264 CVEs | CVE-2026-119831 to CVE-2026-121182
+# Microsoft MSRC 2026-Nov | fetched 2026-11-22T12:53:30Z | part 3 of 7 | 350 of 2377 CVEs | CVE-2026-119831 to CVE-2026-121181
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-119831|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
 CVE-2026-119832|Important|5.9|CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Windows BitLocker Security Feature Bypass Vulnerability
@@ -209,6 +209,7 @@ CVE-2026-120782|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-120783|Important|6.4|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:L/A:L/E:P/RL:O/RC:C|Elevation of Privilege|No|No|Azure DevOps Server Elevation of Privilege Vulnerability
 CVE-2026-120785|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-120786|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
+CVE-2026-120787|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office PowerPoint Remote Code Execution Vulnerability
 CVE-2026-120788|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-120789|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-120790|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
@@ -349,4 +350,3 @@ CVE-2026-121178|Important|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not s
 CVE-2026-121179|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121179: Use after free
 CVE-2026-121180|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121180: Buffer overflow
 CVE-2026-121181|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121181: Use after free
-CVE-2026-121182|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121182: Use after free

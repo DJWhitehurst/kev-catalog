@@ -1,5 +1,6 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-22T02:41:00Z | part 4 of 7 | 350 of 2264 CVEs | CVE-2026-121183 to CVE-2026-126792
+# Microsoft MSRC 2026-Nov | fetched 2026-11-22T12:53:30Z | part 4 of 7 | 350 of 2377 CVEs | CVE-2026-121182 to CVE-2026-126526
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-121182|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121182: Use after free
 CVE-2026-121183|Moderate|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121183: Incorrect authorization
 CVE-2026-121184|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121184: Out of bounds read
 CVE-2026-121185|Important|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121185: Use after free
@@ -302,6 +303,7 @@ CVE-2026-125335|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N|not stated|
 CVE-2026-125336|Important|7.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Forge: X.509 nameConstraints not enforced by verifyCertificateChain()
 CVE-2026-125342|Moderate|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-125342: Uninitialized resource
 CVE-2026-125344|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-125344: Type confusion
+CVE-2026-125347|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-125347: Incorrect authorization
 CVE-2026-125348|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-125348: Out of bounds write
 CVE-2026-125350|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:H|not stated|Unknown|Unknown|Use after free in XML in Google Chrome prior to 157.0.8103.50 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)
 CVE-2026-125709|Moderate|4.2|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|Libstdc++: overflow leaves streambuf in inconsistent state on i/o error.
@@ -348,5 +350,3 @@ CVE-2026-126353|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not st
 CVE-2026-126354|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Addressable URI normalization resolves some dotted path segments to the wrong path
 CVE-2026-126366|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|msgpack-java JRuby decoder allocates from declared header counts with no cap: 5-byte message forces multi-GiB OOM
 CVE-2026-126526|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office OneNote Remote Code Execution Vulnerability
-CVE-2026-126714|Critical|not stated|none published|not stated|Unknown|Unknown|Partially overwritten session files can lead to remote code execution
-CVE-2026-126792|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|Heap overflow via oversized RSA signature in GCP KMS signing callback
