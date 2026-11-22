@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-21T13:03:43Z | part 7 of 7 | 164 of 2264 CVEs | CVE-2026-99547 to CVE-2026-99804
+# Microsoft MSRC 2026-Nov | fetched 2026-11-22T02:41:00Z | part 7 of 7 | 164 of 2264 CVEs | CVE-2026-99547 to CVE-2026-99804
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-99547|Low|4.2|CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|thunderbolt: Do not RPM complete unrelated subtrees on unplug
 CVE-2026-99548|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|smb: client: fix early procfs exposure race

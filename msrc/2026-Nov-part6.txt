@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-21T13:03:43Z | part 6 of 7 | 350 of 2264 CVEs | CVE-2026-96031 to CVE-2026-99546
+# Microsoft MSRC 2026-Nov | fetched 2026-11-22T02:41:00Z | part 6 of 7 | 350 of 2264 CVEs | CVE-2026-96031 to CVE-2026-99546
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-96031|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kernel Elevation of Privilege Vulnerability
 CVE-2026-96035|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability

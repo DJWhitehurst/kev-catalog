@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-21T13:03:43Z | part 5 of 7 | 350 of 2264 CVEs | CVE-2026-126831 to CVE-2026-96029
+# Microsoft MSRC 2026-Nov | fetched 2026-11-22T02:41:00Z | part 5 of 7 | 350 of 2264 CVEs | CVE-2026-126831 to CVE-2026-96029
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-126831|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Cpio: cpio: stack-based buffer overflow in write_out_tar_header() with long usernames/groupnames
 CVE-2026-126840|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-126840: Out of bounds write
