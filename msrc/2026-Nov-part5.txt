@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-23T03:13:30Z | part 5 of 7 | 350 of 2377 CVEs | CVE-2026-126714 to CVE-2026-88237
+# Microsoft MSRC 2026-Nov | fetched 2026-11-23T15:25:17Z | part 5 of 7 | 350 of 2377 CVEs | CVE-2026-126714 to CVE-2026-88237
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-126714|Critical|not stated|none published|not stated|Unknown|Unknown|Partially overwritten session files can lead to remote code execution
 CVE-2026-126792|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|Heap overflow via oversized RSA signature in GCP KMS signing callback

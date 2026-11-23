@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-23T03:13:30Z | part 7 of 7 | 277 of 2377 CVEs | CVE-2026-99366 to CVE-2026-99804
+# Microsoft MSRC 2026-Nov | fetched 2026-11-23T15:25:17Z | part 7 of 7 | 277 of 2377 CVEs | CVE-2026-99366 to CVE-2026-99804
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-99366|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|nfsd: don't modify a session slot when replaying its cached reply
 CVE-2026-99367|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|NFSD: Don't complete a cld upcall the daemon has not read

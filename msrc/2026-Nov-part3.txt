@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-23T03:13:30Z | part 3 of 7 | 350 of 2377 CVEs | CVE-2026-119831 to CVE-2026-121181
+# Microsoft MSRC 2026-Nov | fetched 2026-11-23T15:25:17Z | part 3 of 7 | 350 of 2377 CVEs | CVE-2026-119831 to CVE-2026-121181
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-119831|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
 CVE-2026-119832|Important|5.9|CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Windows BitLocker Security Feature Bypass Vulnerability

@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-23T03:13:30Z | part 6 of 7 | 350 of 2377 CVEs | CVE-2026-88238 to CVE-2026-99365
+# Microsoft MSRC 2026-Nov | fetched 2026-11-23T15:25:17Z | part 6 of 7 | 350 of 2377 CVEs | CVE-2026-88238 to CVE-2026-99365
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-88238|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Camera Frame Server Monitor Elevation of Privilege Vulnerability
 CVE-2026-88239|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Biometric Service Elevation of Privilege Vulnerability
