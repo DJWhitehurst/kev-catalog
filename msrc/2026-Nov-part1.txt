@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-23T15:25:17Z | part 1 of 7 | 350 of 2377 CVEs | CVE-2024-38445 to CVE-2026-112987
+# Microsoft MSRC 2026-Nov | fetched 2026-11-24T06:29:49Z | part 1 of 7 | 350 of 2377 CVEs | CVE-2024-38445 to CVE-2026-112987
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2024-38445|not stated|not stated|none published|not stated|Unknown|Unknown|
 CVE-2024-58407|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|Microsoft jxrlib through 1.1 Global Buffer Over-read via DecodeSignificantRun
