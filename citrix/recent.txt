@@ -1,4 +1,4 @@
-# Citrix security bulletins | fetched 2026-11-24T06:19:30Z | 17 bulletins held, 17 carrying a date | 25 CTX numbers seen, read 25 via API and 0 by rendering, 0 unreadable
+# Citrix security bulletins | fetched 2026-11-24T15:12:53Z | 17 bulletins held, 17 carrying a date | 25 CTX numbers seen, read 25 via API and 0 by rendering, 0 unreadable
 # ctxId|updated|severity|cvss|vector|cves|exploitation|title|url
 CTX697367|2026-11-18|not stated|0.0|none published|CVE-2026-114938|not stated|Citrix Security Advisory for CVE-2026-114938 - Oracle OpenJDK (Java4Shell)|https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697367&articleURL=Citrix_Security_Advisory_for_CVE_2026_114938_Oracle_OpenJDK_Java4Shell
 CTX697354|2026-11-19|High|0.0|none published|CVE-2026-99286 CVE-2026-99287 CVE-2026-100080 CVE-2026-100081 CVE-2026-100082 CVE-2026-99288 CVE-2024-21963|not stated|XenServer Security Update for Multiple Issues|https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697354&articleURL=XenServer_Security_Update_for_Multiple_Issues
