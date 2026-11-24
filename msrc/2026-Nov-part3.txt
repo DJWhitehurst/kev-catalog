@@ -1,5 +1,8 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-24T06:29:49Z | part 3 of 7 | 350 of 2377 CVEs | CVE-2026-119831 to CVE-2026-121181
+# Microsoft MSRC 2026-Nov | fetched 2026-11-24T15:19:49Z | part 3 of 7 | 350 of 2449 CVEs | CVE-2026-119827 to CVE-2026-121178
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-119827|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Win32k Elevation of Privilege Vulnerability
+CVE-2026-119829|Important|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Audio Class driver (usbaudio.sys) Elevation of Privilege Vulnerability
+CVE-2026-119830|Important|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Storport Miniport Driver Elevation of Privilege Vulnerability
 CVE-2026-119831|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Installer Elevation of Privilege Vulnerability
 CVE-2026-119832|Important|5.9|CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C|Security Feature Bypass|No|No|Windows BitLocker Security Feature Bypass Vulnerability
 CVE-2026-119833|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Message Queuing Elevation of Privilege Vulnerability
@@ -347,6 +350,3 @@ CVE-2026-121174|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not s
 CVE-2026-121175|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121175: Improper resource exposure
 CVE-2026-121176|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-121176: Uninitialized resource
 CVE-2026-121178|Important|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121178: Use after free
-CVE-2026-121179|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121179: Use after free
-CVE-2026-121180|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121180: Buffer overflow
-CVE-2026-121181|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121181: Use after free

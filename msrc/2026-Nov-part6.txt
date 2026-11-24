@@ -1,5 +1,19 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-24T06:29:49Z | part 6 of 7 | 350 of 2377 CVEs | CVE-2026-88238 to CVE-2026-99365
+# Microsoft MSRC 2026-Nov | fetched 2026-11-24T15:19:49Z | part 6 of 7 | 350 of 2449 CVEs | CVE-2026-88221 to CVE-2026-99345
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-88221|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Broadcast DVR User Service Elevation of Privilege Vulnerability
+CVE-2026-88222|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft WDAC OLE DB provider for SQL Remote Code Execution Vulnerability
+CVE-2026-88224|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows AppX Deployment Service Elevation of Privilege Vulnerability
+CVE-2026-88227|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Local Security Authority Subsystem Service (LSASS) Elevation of Privilege Vulnerability
+CVE-2026-88228|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Local Security Authority Subsystem Service (LSASS) Elevation of Privilege Vulnerability
+CVE-2026-88229|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Media Player Remote Code Execution Vulnerability
+CVE-2026-88230|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows LUA File Virtualization Filter Driver Elevation of Privilege Vulnerability
+CVE-2026-88231|Important|5.7|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows iSCSI Information Disclosure Vulnerability
+CVE-2026-88232|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Camera Frame Server Monitor Elevation of Privilege Vulnerability
+CVE-2026-88233|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Task Scheduler Elevation of Privilege Vulnerability
+CVE-2026-88234|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows iSCSI Remote Code Execution Vulnerability
+CVE-2026-88235|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Servicing Stack Updates Elevation of Privilege Vulnerability
+CVE-2026-88236|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Microsoft QUIC Denial of Service Vulnerability
+CVE-2026-88237|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Subsystem for Linux Elevation of Privilege Vulnerability
 CVE-2026-88238|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Camera Frame Server Monitor Elevation of Privilege Vulnerability
 CVE-2026-88239|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Biometric Service Elevation of Privilege Vulnerability
 CVE-2026-88240|Important|8.0|CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows DHCP Client Elevation of Privilege Vulnerability
@@ -298,28 +312,29 @@ CVE-2026-99293|not stated|not stated|none published|not stated|Unknown|Unknown|f
 CVE-2026-99294|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|netfilter: nft_fwd_netdev: use recursion counter in neigh egress path
 CVE-2026-99295|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|smb: client: stop processing a read response after a receive error
 CVE-2026-99296|Moderate|7.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|libceph: bound mon_command ack decode to front len
-CVE-2026-99297|Moderate|4.2|CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|media: em28xx: fix double free in em28xx_alloc_urbs
+CVE-2026-99297|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|media: em28xx: fix double free in em28xx_alloc_urbs
 CVE-2026-99298|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|net: ipv4: add zero check for snd_cwnd_clamp
 CVE-2026-99299|not stated|not stated|none published|not stated|Unknown|Unknown|media: em28xx: reject audio endpoint with zero packet size
 CVE-2026-99300|not stated|not stated|none published|not stated|Unknown|Unknown|media: go7007: only set audio_enabled if go7007_snd_init() succeeded
-CVE-2026-99302|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|nvmet-rdma: reject short connection requests
+CVE-2026-99301|not stated|not stated|none published|not stated|Unknown|Unknown|virtio_net: atomically disable rx mode work
+CVE-2026-99302|not stated|not stated|none published|not stated|Unknown|Unknown|nvmet-rdma: reject short connection requests
 CVE-2026-99303|Moderate|4.2|CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|speakup: Fix NULL pointer dereference on VT switch + selection
-CVE-2026-99304|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ceph: fix integer overflow in the snap trace bounds check
+CVE-2026-99304|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ceph: fix integer overflow in the snap trace bounds check
 CVE-2026-99305|Moderate|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|fbdev: udlfb: don't rebuild the mode list while the framebuffer is in use
-CVE-2026-99306|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ceph: reject mdsmaps that claim more than CEPH_MAX_MDS ranks
+CVE-2026-99306|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ceph: reject mdsmaps that claim more than CEPH_MAX_MDS ranks
 CVE-2026-99307|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ceph: require the dentry lease record to cover struct ceph_mds_reply_lease
 CVE-2026-99308|Moderate|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|usb: xhci: Fix bounce buffer overflow
 CVE-2026-99309|not stated|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ksmbd: fix overflow in dacloffset bounds check in build_sec_desc()
 CVE-2026-99310|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|nfsd: hold cl_lock in client_has_openowners()
 CVE-2026-99311|not stated|not stated|none published|not stated|Unknown|Unknown|udf: fix return value for non-recorded-allocated extents in udf_map_block()
-CVE-2026-99312|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: x86: Unconditionally reset MMU context when emulating INIT
+CVE-2026-99312|Moderate|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|KVM: x86: Unconditionally reset MMU context when emulating INIT
 CVE-2026-99314|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ALSA: us122l: Add missing NULL check in usb_stream_hwdep_mmap()
 CVE-2026-99315|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ALSA: us122l: Fix NULL dereference at hwdep open and release
-CVE-2026-99316|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ALSA: usx2y: Initialize idle URBs before submitting streams
+CVE-2026-99316|Moderate|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ALSA: usx2y: Initialize idle URBs before submitting streams
 CVE-2026-99317|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ALSA: hwdep: Serialize DSP load requests
 CVE-2026-99318|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ALSA: bcd2000: Fix use-after-free of MIDI URBs on file close
 CVE-2026-99319|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ALSA: usx2y: Refuse a retried DSP load after a failure
-CVE-2026-99320|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ipv6: raw: fix use-after-free in rawv6_send_hdrinc()
+CVE-2026-99320|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ipv6: raw: fix use-after-free in rawv6_send_hdrinc()
 CVE-2026-99323|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ksmbd: fix invalid pointer dereference when get_inode_acl() fails
 CVE-2026-99324|Moderate|7.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H/E:U|not stated|Unknown|Unknown|ksmbd: fix out-of-bounds read when padding the final compound response
 CVE-2026-99327|Moderate|4.6|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|HID: roccat: kovaplus: reject short button reports
@@ -327,26 +342,11 @@ CVE-2026-99328|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not
 CVE-2026-99331|Moderate|4.6|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|HID: cp2112: validate response report lengths
 CVE-2026-99333|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L/E:U|not stated|Unknown|Unknown|HID: amd_sfh: Use report type from request node
 CVE-2026-99334|Moderate|5.6|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: PPC: Book3S HV: Add preempt_disable() around virtual-mode HPTE bit-lock users
+CVE-2026-99335|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: guest_memfd: Establish memslot<=>guest_memfd bindings *after* memslot is ready
+CVE-2026-99336|not stated|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|KVM: guest_memfd: take the invalidate lock when unbinding a dying file
 CVE-2026-99339|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:U|not stated|Unknown|Unknown|KVM: x86: Zero reserved synic flags when delivering message to avoid stack leak
 CVE-2026-99341|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: x86: Request event processing for exception VM-Exits
 CVE-2026-99342|Moderate|6.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: x86/xen: Enforce 4-byte alignment of vcpu_info registration
 CVE-2026-99343|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: x86/mmu: Bug the VM if KVM attempts to walk more levels than the MMU has
 CVE-2026-99344|Moderate|6.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: nSVM: Ignore EFER.LMA if EFER.LME=0 when preparing L2 state
-CVE-2026-99345|Moderate|6.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: nSVM: Reject KVM_SET_NESTED_STATE if L1 has EFER.LMA=1 && EFER.LME=0
-CVE-2026-99346|Important|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|KVM: SVM: Trigger new ASID allocation in both VMCBs on pCPU switch
-CVE-2026-99347|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H/E:U|not stated|Unknown|Unknown|ALSA: x86: hdmi: fix chmap array missing terminator entry
-CVE-2026-99348|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L/E:U|not stated|Unknown|Unknown|afs: Fix afs to abort the rxrpc call on send error
-CVE-2026-99349|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L/E:U|not stated|Unknown|Unknown|rxrpc: Fix lack of short-send handling in rxrpc_kernel_send_data()
-CVE-2026-99350|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|rxrpc: Fix update of call->tx_pending without holding lock
-CVE-2026-99351|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L/E:U|not stated|Unknown|Unknown|sunrpc: treat empty auth.unix.gid replies as negative entries
-CVE-2026-99352|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|SUNRPC: trace an accepted transport before publishing it
-CVE-2026-99353|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|SUNRPC: Reject a socket that already has an svc_sock attached
-CVE-2026-99354|Low|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|sunrpc: pin gss module across auth_domain RCU free
-CVE-2026-99355|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|SUNRPC: fix oversized GSS proxy token copy
-CVE-2026-99357|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|SUNRPC: Copy the deferred RPC Call from the head buffer
-CVE-2026-99358|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:U|not stated|Unknown|Unknown|nfsd: zero NFSv4 COMPOUND tag padding
-CVE-2026-99360|Low|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|NFSD: Set nn->cld_net before registering the cld pipe
-CVE-2026-99361|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|nfsd: propagate SETXATTR value decode errors
-CVE-2026-99362|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|nfsd: preflight SEQUENCE replies before accepting a slot
-CVE-2026-99363|Moderate|6.8|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N/E:U|not stated|Unknown|Unknown|NFSD: Map flex file layout IDs through the request's user namespace
-CVE-2026-99365|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L/E:U|not stated|Unknown|Unknown|nfsd: Fix id-to-name cache entry leak in idtoname_parse()
+CVE-2026-99345|Moderate|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|KVM: nSVM: Reject KVM_SET_NESTED_STATE if L1 has EFER.LMA=1 && EFER.LME=0
