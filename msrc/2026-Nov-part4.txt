@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-25T05:03:40Z | part 4 of 7 | 350 of 2450 CVEs | CVE-2026-121178 to CVE-2026-126352
+# Microsoft MSRC 2026-Nov | fetched 2026-11-25T15:01:09Z | part 4 of 8 | 350 of 2466 CVEs | CVE-2026-121178 to CVE-2026-126348
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-121178|Important|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121178: Use after free
 CVE-2026-121179|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121179: Use after free
@@ -94,6 +94,7 @@ CVE-2026-121407|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not st
 CVE-2026-121408|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|FreeRDP before 3.32.2 Use-After-Free via USB Redirection Control Channel
 CVE-2026-121409|Important|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|FreeRDP before 3.32.2 Denial of Service via Oversized X.224 Routing Token
 CVE-2026-121410|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|FreeRDP before 3.32.2 Denial of Service via RDPGFX ALPHA WIRETOSURFACE_2
+CVE-2026-121411|Low|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|FreeRDP before 3.32.2 X11 Client Abort via RDPGFX Scaled Output Geometry
 CVE-2026-121412|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|FreeRDP 3.0.0 before 3.32.2 Proxy Memory Exhaustion via DVC Reassembly
 CVE-2026-121438|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Mistune before 3.3.3 Denial of Service via Balanced Bracket Link Parsing
 CVE-2026-121520|Moderate|not stated|none published|not stated|Unknown|Unknown|Malicious client could set xattr value outside of BuildKit state directory
@@ -227,6 +228,7 @@ CVE-2026-123633|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not st
 CVE-2026-123634|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|NGINX resolver vulnerability
 CVE-2026-123640|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|NGINX ngx_stream_ssl_preread_module vulnerability
 CVE-2026-123876|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Podman: containers-common: containers-common: default seccomp af_vsock/netlink_audit deny rules bypassable via 32-bit truncation
+CVE-2026-124024|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|IBM1390/IBM1399 encoders may read past input
 CVE-2026-124040|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|CivetWeb through 1.16 HTTP/2 Use-After-Free via Stale Pseudo-Header State
 CVE-2026-124170|Critical|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-124174|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
@@ -274,8 +276,10 @@ CVE-2026-124920|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not s
 CVE-2026-124921|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Sandbox escape in the Graphics: WebGPU component
 CVE-2026-124923|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Sandbox escape in the Agent component
 CVE-2026-124925|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Information disclosure in the Layout component
+CVE-2026-124928|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Mitigation bypass in the SVG component
 CVE-2026-124936|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Spoofing issue in the Address Bar component
 CVE-2026-124943|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Use-after-free in the Layout component
+CVE-2026-124944|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Information disclosure in the Marionette component
 CVE-2026-124945|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Invalid pointer in the Layout: Text and Fonts component
 CVE-2026-124946|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Invalid pointer in the JavaScript Engine: JIT component
 CVE-2026-124947|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Incorrect boundary conditions in the Graphics component
@@ -346,7 +350,3 @@ CVE-2026-126303|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not s
 CVE-2026-126304|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|NLTK 3.10.0 before 3.10.4 Symlink Escape in YCOECorpusReader
 CVE-2026-126347|Low|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|Tornado: Open redirect via triple-slash redirect paths
 CVE-2026-126348|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|Addressable display_uri can show misleading hosts with invalid Punycode A-labels
-CVE-2026-126349|not stated|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|Addressable display_uri can show misleading hosts containing bidi and invisible characters
-CVE-2026-126350|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Addressable: Regular Expression Denial of Service in Addressable templates with certain exploded expressions
-CVE-2026-126351|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Addressable: Denial of service in URI path normalization
-CVE-2026-126352|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Addressable: Regular Expression Denial of Service in Addressable templates with multiple variables

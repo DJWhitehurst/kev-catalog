@@ -1,5 +1,21 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-25T05:03:40Z | part 6 of 7 | 350 of 2450 CVEs | CVE-2026-88220 to CVE-2026-99344
+# Microsoft MSRC 2026-Nov | fetched 2026-11-25T15:01:09Z | part 6 of 8 | 350 of 2466 CVEs | CVE-2026-85844 to CVE-2026-99318
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-85844|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kerberos Elevation of Privilege Vulnerability
+CVE-2026-85862|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Error Reporting Elevation of Privilege Vulnerability
+CVE-2026-85907|Important|4.4|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Simple Search and Discovery Protocol (SSDP) Service Elevation of Privilege Vulnerability
+CVE-2026-85923|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Azure DevOps Server Elevation of Privilege Vulnerability
+CVE-2026-85929|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Brokering File System Elevation of Privilege Vulnerability
+CVE-2026-85942|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Camera Frame Server Monitor Elevation of Privilege Vulnerability
+CVE-2026-88111|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|SQL Server Remote Code Execution Vulnerability
+CVE-2026-88176|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Office SharePoint Elevation of Privilege Vulnerability
+CVE-2026-88187|Important|8.0|CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Bluetooth A2DP driver Elevation of Privilege Vulnerability
+CVE-2026-88211|Important|5.7|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Graphic Fonts Information Disclosure Vulnerability
+CVE-2026-88212|Important|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Network Address Translation (NAT) Remote Code Execution Vulnerability
+CVE-2026-88213|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Bluetooth Service Elevation of Privilege Vulnerability
+CVE-2026-88215|Important|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Filtering Platform (WFP) Elevation of Privilege Vulnerability
+CVE-2026-88216|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows DHCP Server Remote Code Execution Vulnerability
+CVE-2026-88217|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Graphics Kernel Information Disclosure Vulnerability
+CVE-2026-88218|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows DNS Remote Code Execution Vulnerability
 CVE-2026-88220|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Performance Counters Information Disclosure Vulnerability
 CVE-2026-88221|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Broadcast DVR User Service Elevation of Privilege Vulnerability
 CVE-2026-88222|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft WDAC OLE DB provider for SQL Remote Code Execution Vulnerability
@@ -334,19 +350,3 @@ CVE-2026-99315|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not
 CVE-2026-99316|Moderate|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ALSA: usx2y: Initialize idle URBs before submitting streams
 CVE-2026-99317|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ALSA: hwdep: Serialize DSP load requests
 CVE-2026-99318|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ALSA: bcd2000: Fix use-after-free of MIDI URBs on file close
-CVE-2026-99319|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ALSA: usx2y: Refuse a retried DSP load after a failure
-CVE-2026-99320|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ipv6: raw: fix use-after-free in rawv6_send_hdrinc()
-CVE-2026-99323|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ksmbd: fix invalid pointer dereference when get_inode_acl() fails
-CVE-2026-99324|Moderate|7.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H/E:U|not stated|Unknown|Unknown|ksmbd: fix out-of-bounds read when padding the final compound response
-CVE-2026-99327|Moderate|4.6|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|HID: roccat: kovaplus: reject short button reports
-CVE-2026-99328|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|HID: picoLCD: check for fb_deferred_io_init() error
-CVE-2026-99331|Moderate|4.6|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|HID: cp2112: validate response report lengths
-CVE-2026-99333|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L/E:U|not stated|Unknown|Unknown|HID: amd_sfh: Use report type from request node
-CVE-2026-99334|Moderate|5.6|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: PPC: Book3S HV: Add preempt_disable() around virtual-mode HPTE bit-lock users
-CVE-2026-99335|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: guest_memfd: Establish memslot<=>guest_memfd bindings *after* memslot is ready
-CVE-2026-99336|not stated|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|KVM: guest_memfd: take the invalidate lock when unbinding a dying file
-CVE-2026-99339|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:U|not stated|Unknown|Unknown|KVM: x86: Zero reserved synic flags when delivering message to avoid stack leak
-CVE-2026-99341|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: x86: Request event processing for exception VM-Exits
-CVE-2026-99342|Moderate|6.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: x86/xen: Enforce 4-byte alignment of vcpu_info registration
-CVE-2026-99343|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: x86/mmu: Bug the VM if KVM attempts to walk more levels than the MMU has
-CVE-2026-99344|Moderate|6.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: nSVM: Ignore EFER.LMA if EFER.LME=0 when preparing L2 state

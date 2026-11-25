@@ -1,5 +1,9 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-25T05:03:40Z | part 5 of 7 | 350 of 2450 CVEs | CVE-2026-126353 to CVE-2026-88218
+# Microsoft MSRC 2026-Nov | fetched 2026-11-25T15:01:09Z | part 5 of 8 | 350 of 2466 CVEs | CVE-2026-126349 to CVE-2026-85839
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-126349|not stated|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|Addressable display_uri can show misleading hosts containing bidi and invisible characters
+CVE-2026-126350|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Addressable: Regular Expression Denial of Service in Addressable templates with certain exploded expressions
+CVE-2026-126351|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Addressable: Denial of service in URI path normalization
+CVE-2026-126352|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Addressable: Regular Expression Denial of Service in Addressable templates with multiple variables
 CVE-2026-126353|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Addressable: Regular Expression Denial of Service in Addressable templates with several exploded variables
 CVE-2026-126354|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Addressable URI normalization resolves some dotted path segments to the wrong path
 CVE-2026-126366|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|msgpack-java JRuby decoder allocates from declared header counts with no cap: 5-byte message forces multi-GiB OOM
@@ -114,6 +118,7 @@ CVE-2026-129496|Critical|not stated|none published|not stated|Unknown|Unknown|Ti
 CVE-2026-129506|Moderate|not stated|none published|not stated|Unknown|Unknown|SOAP use-after-free when processing DTD entity references
 CVE-2026-129538|Moderate|not stated|none published|not stated|Unknown|Unknown|PHP-CGI out-of-bounds read and write during PATH_INFO correction
 CVE-2026-129829|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Rsyslog: rsyslog's imuxsock special parser can write beyond a received message's raw buffer when replacing the message timestamp
+CVE-2026-129830|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Rsyslog: out-of-bounds read in tag parsing on imuxsock
 CVE-2026-129857|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Microsoft jxrlib through 1.1 Heap Buffer Overflow via ReadBinaryData Integer Overflow
 CVE-2026-129858|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Microsoft jxrlib through 1.1 Stack Buffer Over-read in ReadWMIHeader
 CVE-2026-129859|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Microsoft jxrlib through 1.1 NULL Pointer Dereference in ImageStrDecDecode
@@ -233,10 +238,18 @@ CVE-2026-131842|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N|not st
 CVE-2026-132049|Moderate|4.3|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Lldpd: lldpd: out-of-bounds read in liblldpctl on a short lldp-med location
 CVE-2026-132825|Important|7.4|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Ruby before 3.3.14, 3.4.13, and 4.0.10 has a heap-based buffer overflow during case conversion. One byte can be written outside a buffer for, for example, ISO-8859-1 or Windows-1252.
 CVE-2026-133487|Low|6.3|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L/E:P/RL:O/RC:C|not stated|Unknown|Unknown|nodejs undici BalancedPool balanced-pool.js Object.assign prototype pollution
+CVE-2026-133730|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Dnsmasq: dhcpv6 relay remote crash via stale pointer in relay_upstream6()
+CVE-2026-133879|Important|7.7|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N/E:U|not stated|Unknown|Unknown|Kubevirt: containerized-data-importer: kubevirt/cdi: cross-namespace pvc clone authorization bypass via user-controlled checkstaticvolume datavolume annotation
+CVE-2026-133919|Moderate|4.9|CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Memory Exhaustion in Elasticsearch Mapping Updates
 CVE-2026-133949|Critical|not stated|none published|not stated|Unknown|Unknown|pip bundles compromised eMudhra certificates via certifi
+CVE-2026-133981|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Elasticsearch Unreachable Exit Condition ('Infinite Loop') Vulnerability
 CVE-2026-134703|Moderate|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|libexpat through 2.10.0 Isolated High Surrogate via UTF-16 Conversion
 CVE-2026-134761|Moderate|5.8|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|libical before 4.0.7 Double Free via icalparser_clean
+CVE-2026-134763|Low|4.0|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|FreeRDP before 3.33.1 Use-After-Free via WinPR LinkedList Enumerator
+CVE-2026-134813|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Faye websocket-driver 0.5.0 before 0.8.0 Decompression Bomb via permessage-deflate
 CVE-2026-134832|Moderate|3.3|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Vim 9.2.0405 before 9.2.1352 tagsecure Bypass via Escaped URL in Tags File
+CVE-2026-135295|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|FontForge through 20251009 Heap Out-of-Bounds Write via PCF Encodings Table
+CVE-2026-135433|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|FLTK through 1.4.5 Heap Buffer Overflow via Fl_BMP_Image Row Pointer
 CVE-2026-14661|Important|8.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|PostgreSQL dblink and subscriptions can append to arbitrary files
 CVE-2026-15353|Moderate|not stated|none published|not stated|Unknown|Unknown|SOAP information disclosure through malformed array dimensions
 CVE-2026-16052|Low|not stated|none published|not stated|Unknown|Unknown|Cookie Attribute Injection via Unescaped Semicolons in http.cookies.Morsel
@@ -259,6 +272,8 @@ CVE-2026-50691|Critical|9.9|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:
 CVE-2026-54913|Moderate|not stated|none published|not stated|Unknown|Unknown|WebAssembly Micro Runtime: Missing `ref.null` heap-type validation in `load_init_expr` leaks host stack memory to the WebAssembly guest
 CVE-2026-54914|Important|not stated|none published|not stated|Unknown|Unknown|WebAssembly Micro Runtime: Heap Buffer Overflow in WAMR WASI poll_oneoff Output Buffer
 CVE-2026-56438|Moderate|not stated|none published|not stated|Unknown|Unknown|Uncontrolled search path for the libva software for all versions within Ring 3: User Applications may allow an escalation of privilege. Unprivileged software adversary with an authenticated user combined with a high complexity attack may enable escalation of privilege. This result may potentially occur via local access when attack requirements are present without special internal knowledge and requires active user interaction. The potential vulnerability may impact the confidentiality (high), integrity (high) and availability (high) of the vulnerable system, resulting in subsequent system confidentiality (none), integrity (none) and availability (none) impacts.
+CVE-2026-58406|Moderate|6.5|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|avahi-daemon crashes on receiving resource records where names contain bytes >= 128 (on NetBSD)
+CVE-2026-59987|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|Avahi: Reachable assertion in dbus_prepare_record_browser_object
 CVE-2026-62841|Critical|10.0|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Azure Event Grid Elevation of Privilege Vulnerability
 CVE-2026-62903|Important|not stated|none published|Information Disclosure|No|No|Microsoft.Data.SqlClient Information Disclosure Vulnerability
 CVE-2026-63540|Moderate|not stated|none published|not stated|Unknown|Unknown|Heap-based buffer overflow for some Hyperscan before version v5.4.2.1 within Ring 3: User Applications may allow a denial of service. Unprivileged software adversary with an unauthenticated user combined with a low complexity attack may enable denial of service. This result may potentially occur via local access when attack requirements are not present without special internal knowledge and requires passive user interaction. The potential vulnerability may impact the confidentiality (none), integrity (low) and availability (high) of the vulnerable system, resulting in subsequent system confidentiality (none), integrity (none) and availability (none) impacts.
@@ -320,6 +335,7 @@ CVE-2026-80095|Important|9.0|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H/E:U/RL
 CVE-2026-80256|not stated|not stated|none published|not stated|Unknown|Unknown|
 CVE-2026-81384|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows DNS Server Remote Code Execution Vulnerability
 CVE-2026-81962|Critical|8.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Azure Machine Learning Information Disclosure Vulnerability
+CVE-2026-82303|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Buffer Over-read in Elasticsearch LZ4 Transport Decompression
 CVE-2026-82413|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ntopng: authenticated (non-admin) OS command injection via the vulnerability-scan `scan_ports` parameter (`nmap` argument reaches `popen`)
 CVE-2026-83563|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Winlogon Elevation of Privilege Vulnerability
 CVE-2026-83684|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows iSCSI Target Service Information Disclosure Vulnerability
@@ -334,19 +350,3 @@ CVE-2026-85280|not stated|not stated|none published|not stated|Unknown|Unknown|
 CVE-2026-85801|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Local Security Authority Subsystem Service (LSASS) Elevation of Privilege Vulnerability
 CVE-2026-85838|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft WDAC OLE DB provider for SQL Remote Code Execution Vulnerability
 CVE-2026-85839|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft WDAC OLE DB provider for SQL Remote Code Execution Vulnerability
-CVE-2026-85844|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kerberos Elevation of Privilege Vulnerability
-CVE-2026-85862|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Error Reporting Elevation of Privilege Vulnerability
-CVE-2026-85907|Important|4.4|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Simple Search and Discovery Protocol (SSDP) Service Elevation of Privilege Vulnerability
-CVE-2026-85923|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Azure DevOps Server Elevation of Privilege Vulnerability
-CVE-2026-85929|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Brokering File System Elevation of Privilege Vulnerability
-CVE-2026-85942|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Camera Frame Server Monitor Elevation of Privilege Vulnerability
-CVE-2026-88111|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|SQL Server Remote Code Execution Vulnerability
-CVE-2026-88176|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Office SharePoint Elevation of Privilege Vulnerability
-CVE-2026-88187|Important|8.0|CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Bluetooth A2DP driver Elevation of Privilege Vulnerability
-CVE-2026-88211|Important|5.7|CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Graphic Fonts Information Disclosure Vulnerability
-CVE-2026-88212|Important|7.5|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Network Address Translation (NAT) Remote Code Execution Vulnerability
-CVE-2026-88213|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Bluetooth Service Elevation of Privilege Vulnerability
-CVE-2026-88215|Important|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Filtering Platform (WFP) Elevation of Privilege Vulnerability
-CVE-2026-88216|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows DHCP Server Remote Code Execution Vulnerability
-CVE-2026-88217|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Graphics Kernel Information Disclosure Vulnerability
-CVE-2026-88218|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows DNS Remote Code Execution Vulnerability

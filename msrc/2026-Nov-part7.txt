@@ -1,5 +1,21 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-25T05:03:40Z | part 7 of 7 | 350 of 2450 CVEs | CVE-2026-99345 to CVE-2026-99804
+# Microsoft MSRC 2026-Nov | fetched 2026-11-25T15:01:09Z | part 7 of 8 | 350 of 2466 CVEs | CVE-2026-99319 to CVE-2026-99782
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-99319|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ALSA: usx2y: Refuse a retried DSP load after a failure
+CVE-2026-99320|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ipv6: raw: fix use-after-free in rawv6_send_hdrinc()
+CVE-2026-99323|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ksmbd: fix invalid pointer dereference when get_inode_acl() fails
+CVE-2026-99324|Moderate|7.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H/E:U|not stated|Unknown|Unknown|ksmbd: fix out-of-bounds read when padding the final compound response
+CVE-2026-99327|Moderate|4.6|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|HID: roccat: kovaplus: reject short button reports
+CVE-2026-99328|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|HID: picoLCD: check for fb_deferred_io_init() error
+CVE-2026-99331|Moderate|4.6|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|HID: cp2112: validate response report lengths
+CVE-2026-99333|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L/E:U|not stated|Unknown|Unknown|HID: amd_sfh: Use report type from request node
+CVE-2026-99334|Moderate|5.6|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: PPC: Book3S HV: Add preempt_disable() around virtual-mode HPTE bit-lock users
+CVE-2026-99335|not stated|not stated|none published|not stated|Unknown|Unknown|KVM: guest_memfd: Establish memslot<=>guest_memfd bindings *after* memslot is ready
+CVE-2026-99336|not stated|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|KVM: guest_memfd: take the invalidate lock when unbinding a dying file
+CVE-2026-99339|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:U|not stated|Unknown|Unknown|KVM: x86: Zero reserved synic flags when delivering message to avoid stack leak
+CVE-2026-99341|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: x86: Request event processing for exception VM-Exits
+CVE-2026-99342|Moderate|6.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: x86/xen: Enforce 4-byte alignment of vcpu_info registration
+CVE-2026-99343|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: x86/mmu: Bug the VM if KVM attempts to walk more levels than the MMU has
+CVE-2026-99344|Moderate|6.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: nSVM: Ignore EFER.LMA if EFER.LME=0 when preparing L2 state
 CVE-2026-99345|Moderate|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|KVM: nSVM: Reject KVM_SET_NESTED_STATE if L1 has EFER.LMA=1 && EFER.LME=0
 CVE-2026-99346|Important|7.8|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|KVM: SVM: Trigger new ASID allocation in both VMCBs on pCPU switch
 CVE-2026-99347|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H/E:U|not stated|Unknown|Unknown|ALSA: x86: hdmi: fix chmap array missing terminator entry
@@ -334,19 +350,3 @@ CVE-2026-99779|not stated|not stated|none published|not stated|Unknown|Unknown|n
 CVE-2026-99780|not stated|not stated|none published|not stated|Unknown|Unknown|net/9p/usbg: always reset completion when disconnecting
 CVE-2026-99781|not stated|not stated|none published|not stated|Unknown|Unknown|net/9p/usbg: set client to Disconnected on usb9pfs_disable
 CVE-2026-99782|not stated|not stated|none published|not stated|Unknown|Unknown|net/9p/usbg: also disable endpoints on p9_usbg_close
-CVE-2026-99783|not stated|not stated|none published|not stated|Unknown|Unknown|net/9p/usbg: Fix use-after-free in disable_usb9pfs()
-CVE-2026-99784|Low|4.0|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L/E:U|not stated|Unknown|Unknown|9p/xen: fix refcount leak in p9_xen_response() on wrong tag
-CVE-2026-99785|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|9p/trans_virtio: reject mount tags longer than NAME_MAX at probe
-CVE-2026-99786|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N/E:U|not stated|Unknown|Unknown|xfrm: retry inexact policy lookup after node reinsertion
-CVE-2026-99788|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ACPI: CPPC: Validate FFH register fields before hardware access
-CVE-2026-99790|not stated|not stated|none published|not stated|Unknown|Unknown|NFSD: stop registering with rpcbind after a failure in listener_set
-CVE-2026-99791|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|xfs: improve dirent bounds checking in scrub and repair
-CVE-2026-99792|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|smb/server: prevent file publication after tree disconnect
-CVE-2026-99793|Moderate|8.1|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Bluetooth: L2CAP: Only accept connection responses to outstanding requests
-CVE-2026-99794|Important|8.3|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L|not stated|Unknown|Unknown|Bluetooth: L2CAP: Reject signalling responses in invalid states
-CVE-2026-99795|not stated|not stated|none published|not stated|Unknown|Unknown|cxl/features: Ensure that count is set before access to ent[] __counted_by()
-CVE-2026-99796|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|io_uring/poll: cancel all matching requests in one pass
-CVE-2026-99797|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|io_uring/cancel: drop sqd->lock while SQPOLL waits
-CVE-2026-99798|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|io_uring: defer foreign io-wq enqueues to task_work
-CVE-2026-99799|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|io_uring/sqpoll: don't wait for the thread to exit
-CVE-2026-99804|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|io_uring/io-wq: save worker type before dropping its reference

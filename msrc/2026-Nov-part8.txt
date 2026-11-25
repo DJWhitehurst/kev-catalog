@@ -1,0 +1,18 @@
+# Microsoft MSRC 2026-Nov | fetched 2026-11-25T15:01:09Z | part 8 of 8 | 16 of 2466 CVEs | CVE-2026-99783 to CVE-2026-99804
+# cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-99783|not stated|not stated|none published|not stated|Unknown|Unknown|net/9p/usbg: Fix use-after-free in disable_usb9pfs()
+CVE-2026-99784|Low|4.0|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L/E:U|not stated|Unknown|Unknown|9p/xen: fix refcount leak in p9_xen_response() on wrong tag
+CVE-2026-99785|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|9p/trans_virtio: reject mount tags longer than NAME_MAX at probe
+CVE-2026-99786|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N/E:U|not stated|Unknown|Unknown|xfrm: retry inexact policy lookup after node reinsertion
+CVE-2026-99788|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ACPI: CPPC: Validate FFH register fields before hardware access
+CVE-2026-99790|not stated|not stated|none published|not stated|Unknown|Unknown|NFSD: stop registering with rpcbind after a failure in listener_set
+CVE-2026-99791|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|xfs: improve dirent bounds checking in scrub and repair
+CVE-2026-99792|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|smb/server: prevent file publication after tree disconnect
+CVE-2026-99793|Moderate|8.1|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N|not stated|Unknown|Unknown|Bluetooth: L2CAP: Only accept connection responses to outstanding requests
+CVE-2026-99794|Important|8.3|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L|not stated|Unknown|Unknown|Bluetooth: L2CAP: Reject signalling responses in invalid states
+CVE-2026-99795|not stated|not stated|none published|not stated|Unknown|Unknown|cxl/features: Ensure that count is set before access to ent[] __counted_by()
+CVE-2026-99796|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|io_uring/poll: cancel all matching requests in one pass
+CVE-2026-99797|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|io_uring/cancel: drop sqd->lock while SQPOLL waits
+CVE-2026-99798|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|io_uring: defer foreign io-wq enqueues to task_work
+CVE-2026-99799|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|io_uring/sqpoll: don't wait for the thread to exit
+CVE-2026-99804|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|io_uring/io-wq: save worker type before dropping its reference
