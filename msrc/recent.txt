@@ -1,4 +1,4 @@
-# Microsoft MSRC flagged CVEs | fetched 2026-11-24T15:19:49Z | months 2026-Nov | 2449 CVEs read, 134 flagged
+# Microsoft MSRC flagged CVEs | fetched 2026-11-25T05:03:40Z | months 2026-Nov | 2450 CVEs read, 135 flagged
 # flagged = Critical severity, OR Exploited:Yes, OR Publicly Disclosed:Yes | 1 exploited | 0 publicly disclosed
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-109459|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Message Queuing Queue Manager Remote Code Execution Vulnerability
@@ -13,6 +13,7 @@ CVE-2026-110068|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-111285|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Word Remote Code Execution Vulnerability
 CVE-2026-111289|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Remote Code Execution Vulnerability
 CVE-2026-111309|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Outlook Remote Code Execution Vulnerability
+CVE-2026-112732|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Visio Remote Code Execution Vulnerability
 CVE-2026-112967|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Xbox Live Networking Service Remote Code Execution Vulnerability
 CVE-2026-113425|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|NGINX ngx_mail_proxy_module vulnerability
 CVE-2026-113749|Critical|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Windows Codecs Library Remote Code Execution Vulnerability

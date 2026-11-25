@@ -1,5 +1,6 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-24T15:19:49Z | part 5 of 7 | 350 of 2449 CVEs | CVE-2026-126354 to CVE-2026-88220
+# Microsoft MSRC 2026-Nov | fetched 2026-11-25T05:03:40Z | part 5 of 7 | 350 of 2450 CVEs | CVE-2026-126353 to CVE-2026-88218
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-126353|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Addressable: Regular Expression Denial of Service in Addressable templates with several exploded variables
 CVE-2026-126354|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Addressable URI normalization resolves some dotted path segments to the wrong path
 CVE-2026-126366|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|msgpack-java JRuby decoder allocates from declared header counts with no cap: 5-byte message forces multi-GiB OOM
 CVE-2026-126526|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office OneNote Remote Code Execution Vulnerability
@@ -349,4 +350,3 @@ CVE-2026-88215|Important|6.4|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-88216|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows DHCP Server Remote Code Execution Vulnerability
 CVE-2026-88217|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Graphics Kernel Information Disclosure Vulnerability
 CVE-2026-88218|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows DNS Remote Code Execution Vulnerability
-CVE-2026-88220|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Performance Counters Information Disclosure Vulnerability

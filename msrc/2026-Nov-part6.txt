@@ -1,5 +1,6 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-24T15:19:49Z | part 6 of 7 | 350 of 2449 CVEs | CVE-2026-88221 to CVE-2026-99345
+# Microsoft MSRC 2026-Nov | fetched 2026-11-25T05:03:40Z | part 6 of 7 | 350 of 2450 CVEs | CVE-2026-88220 to CVE-2026-99344
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-88220|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows Performance Counters Information Disclosure Vulnerability
 CVE-2026-88221|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Broadcast DVR User Service Elevation of Privilege Vulnerability
 CVE-2026-88222|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft WDAC OLE DB provider for SQL Remote Code Execution Vulnerability
 CVE-2026-88224|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows AppX Deployment Service Elevation of Privilege Vulnerability
@@ -349,4 +350,3 @@ CVE-2026-99341|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not
 CVE-2026-99342|Moderate|6.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: x86/xen: Enforce 4-byte alignment of vcpu_info registration
 CVE-2026-99343|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: x86/mmu: Bug the VM if KVM attempts to walk more levels than the MMU has
 CVE-2026-99344|Moderate|6.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: nSVM: Ignore EFER.LMA if EFER.LME=0 when preparing L2 state
-CVE-2026-99345|Moderate|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|KVM: nSVM: Reject KVM_SET_NESTED_STATE if L1 has EFER.LMA=1 && EFER.LME=0
