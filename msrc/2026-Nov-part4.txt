@@ -1,5 +1,12 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-26T04:31:23Z | part 4 of 8 | 350 of 2466 CVEs | CVE-2026-121178 to CVE-2026-126348
+# Microsoft MSRC 2026-Nov | fetched 2026-11-26T14:30:53Z | part 4 of 8 | 350 of 2479 CVEs | CVE-2026-121169 to CVE-2026-126208
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-121169|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121169: Missing authorization
+CVE-2026-121170|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121170: Improper resource control
+CVE-2026-121171|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121171: Confused deputy
+CVE-2026-121172|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-121172: Incorrect authorization
+CVE-2026-121174|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121174: Missing authorization
+CVE-2026-121175|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121175: Improper resource exposure
+CVE-2026-121176|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-121176: Uninitialized resource
 CVE-2026-121178|Important|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121178: Use after free
 CVE-2026-121179|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121179: Use after free
 CVE-2026-121180|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121180: Buffer overflow
@@ -250,6 +257,7 @@ CVE-2026-124228|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-124229|Important|6.6|CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office Excel Remote Code Execution Vulnerability
 CVE-2026-124233|Important|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Microsoft Office Word Information Disclosure Vulnerability
 CVE-2026-124249|Moderate|not stated|none published|not stated|Unknown|Unknown|`http.cookiejar` applies expired `Set-Cookie` to cookie store before policy validation
+CVE-2026-124286|Important|not stated|none published|not stated|Unknown|Unknown|TLS 1.2 Client Completes Handshake Without a Server Certificate
 CVE-2026-124317|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|libexpat through 2.10.0 Out-of-Bounds Read via unknown_toUtf8 and unknown_toUtf16
 CVE-2026-124586|Moderate|7.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:P/RL:X/RC:C|not stated|Unknown|Unknown|Tencent RapidJSON diyfp.h GetCachedPowerByIndex out-of-bounds
 CVE-2026-124709|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Unbounded Memory Retention in QUIC Server for Rejected Streams
@@ -314,6 +322,7 @@ CVE-2026-125344|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not s
 CVE-2026-125347|not stated|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-125347: Incorrect authorization
 CVE-2026-125348|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-125348: Out of bounds write
 CVE-2026-125350|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:H|not stated|Unknown|Unknown|Use after free in XML in Google Chrome prior to 157.0.8103.50 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)
+CVE-2026-125658|Moderate|not stated|none published|not stated|Unknown|Unknown|Use after free in erts file name normalization on macOS
 CVE-2026-125709|Moderate|4.2|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:L|not stated|Unknown|Unknown|Libstdc++: overflow leaves streambuf in inconsistent state on i/o error.
 CVE-2026-126062|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Nokogiri : Possible SSRF on JRuby when resolving external DTDs or entities with `NONET` set
 CVE-2026-126063|Low|not stated|none published|not stated|Unknown|Unknown|Nokogiri: Mutation XSS through `noscript` content in Nokogiri's HTML5 serializer
@@ -341,12 +350,3 @@ CVE-2026-126203|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not st
 CVE-2026-126205|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Loofah: Regular expression denial of service in the SVG local-reference check
 CVE-2026-126207|Moderate|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Loofah: CSS url() sanitization bypass via escaped parentheses
 CVE-2026-126208|Moderate|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Loofah: SVG `<textPath>` and `<mpath>` bypass local-reference restriction
-CVE-2026-126297|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|NLTK before 3.10.4 CPU Denial of Service via ConllCorpusReader srl_instances
-CVE-2026-126298|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|NLTK before 3.10.4 Quadratic CPU Denial of Service via Tree.chomsky_normal_form
-CVE-2026-126299|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|NLTK before 3.10.4 Quadratic-Time Denial of Service via CCG Lexicon fromstring
-CVE-2026-126300|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|NLTK from 3.2.5 before 3.10.4 CPU Exhaustion via TreebankWordTokenizer.span_tokenize
-CVE-2026-126301|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|NLTK from 3.6 before 3.10.4 Quadratic CPU Exhaustion via LegalitySyllableTokenizer.tokenize
-CVE-2026-126303|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|NLTK before 3.10.4 Denial of Service via SteppingRecursiveDescentParser.parse()
-CVE-2026-126304|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|NLTK 3.10.0 before 3.10.4 Symlink Escape in YCOECorpusReader
-CVE-2026-126347|Low|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|Tornado: Open redirect via triple-slash redirect paths
-CVE-2026-126348|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|Addressable display_uri can show misleading hosts with invalid Punycode A-labels

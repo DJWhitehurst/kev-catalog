@@ -1,5 +1,14 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-26T04:31:23Z | part 5 of 8 | 350 of 2466 CVEs | CVE-2026-126349 to CVE-2026-85839
+# Microsoft MSRC 2026-Nov | fetched 2026-11-26T14:30:53Z | part 5 of 8 | 350 of 2479 CVEs | CVE-2026-126297 to CVE-2026-82413
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-126297|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|NLTK before 3.10.4 CPU Denial of Service via ConllCorpusReader srl_instances
+CVE-2026-126298|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|NLTK before 3.10.4 Quadratic CPU Denial of Service via Tree.chomsky_normal_form
+CVE-2026-126299|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|NLTK before 3.10.4 Quadratic-Time Denial of Service via CCG Lexicon fromstring
+CVE-2026-126300|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|NLTK from 3.2.5 before 3.10.4 CPU Exhaustion via TreebankWordTokenizer.span_tokenize
+CVE-2026-126301|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|NLTK from 3.6 before 3.10.4 Quadratic CPU Exhaustion via LegalitySyllableTokenizer.tokenize
+CVE-2026-126303|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|NLTK before 3.10.4 Denial of Service via SteppingRecursiveDescentParser.parse()
+CVE-2026-126304|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|NLTK 3.10.0 before 3.10.4 Symlink Escape in YCOECorpusReader
+CVE-2026-126347|Low|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|Tornado: Open redirect via triple-slash redirect paths
+CVE-2026-126348|Moderate|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|Addressable display_uri can show misleading hosts with invalid Punycode A-labels
 CVE-2026-126349|not stated|3.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|Addressable display_uri can show misleading hosts containing bidi and invisible characters
 CVE-2026-126350|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Addressable: Regular Expression Denial of Service in Addressable templates with certain exploded expressions
 CVE-2026-126351|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Addressable: Denial of service in URI path normalization
@@ -119,6 +128,7 @@ CVE-2026-129506|Moderate|not stated|none published|not stated|Unknown|Unknown|SO
 CVE-2026-129538|Moderate|not stated|none published|not stated|Unknown|Unknown|PHP-CGI out-of-bounds read and write during PATH_INFO correction
 CVE-2026-129829|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Rsyslog: rsyslog's imuxsock special parser can write beyond a received message's raw buffer when replacing the message timestamp
 CVE-2026-129830|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Rsyslog: out-of-bounds read in tag parsing on imuxsock
+CVE-2026-129837|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Rsyslog: rsyslog: out-of-bounds read in weekday formatting
 CVE-2026-129857|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Microsoft jxrlib through 1.1 Heap Buffer Overflow via ReadBinaryData Integer Overflow
 CVE-2026-129858|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Microsoft jxrlib through 1.1 Stack Buffer Over-read in ReadWMIHeader
 CVE-2026-129859|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Microsoft jxrlib through 1.1 NULL Pointer Dereference in ImageStrDecDecode
@@ -130,6 +140,7 @@ CVE-2026-129935|Moderate|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N|not st
 CVE-2026-130065|Moderate|5.3|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:L|not stated|Unknown|Unknown|msgpack-c through 7.0.2 Heap Buffer Overflow via msgpack_vrefbuffer_migrate
 CVE-2026-130335|Low|2.9|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|Info-ZIP Zip 3.0 (and 3.1 beta through 3.1c) allows OS command injection by an attacker who controls the command line. The victim must use the -T option followed by a filename containing shell metacharacters, on a platform (such as Linux) where a suitable shell is run. This occurs because the system C library function is used. NOTE: there is no known common scenario in which an untrusted filename reaches a zip -T call.
 CVE-2026-130644|Important|8.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|Ansible-core: ansible-core: ansible-galaxy collection install path traversal via unvalidated artifact-derived collection name allows file writes and directory deletion outside the collections path
+CVE-2026-130822|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Valkey: Use-after-free when client eviction frees the client whose command is still executing
 CVE-2026-130904|Low|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-130904: Incorrect authorization
 CVE-2026-130905|Moderate|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-130905: UI misrepresentation
 CVE-2026-130909|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-130909: Use after free
@@ -250,6 +261,8 @@ CVE-2026-134813|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not s
 CVE-2026-134832|Moderate|3.3|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Vim 9.2.0405 before 9.2.1352 tagsecure Bypass via Escaped URL in Tags File
 CVE-2026-135295|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|FontForge through 20251009 Heap Out-of-Bounds Write via PCF Encodings Table
 CVE-2026-135433|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|FLTK through 1.4.5 Heap Buffer Overflow via Fl_BMP_Image Row Pointer
+CVE-2026-136199|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|libical before 4.0.7 Denial of Service via icalparser_clean() Nesting Level
+CVE-2026-136411|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|BusyBox through 1.38.0 tftpd Absolute Path Traversal via networking/tftp.c
 CVE-2026-14661|Important|8.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|PostgreSQL dblink and subscriptions can append to arbitrary files
 CVE-2026-15353|Moderate|not stated|none published|not stated|Unknown|Unknown|SOAP information disclosure through malformed array dimensions
 CVE-2026-16052|Low|not stated|none published|not stated|Unknown|Unknown|Cookie Attribute Injection via Unescaped Semicolons in http.cookies.Morsel
@@ -337,16 +350,3 @@ CVE-2026-81384|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-81962|Critical|8.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Azure Machine Learning Information Disclosure Vulnerability
 CVE-2026-82303|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Buffer Over-read in Elasticsearch LZ4 Transport Decompression
 CVE-2026-82413|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ntopng: authenticated (non-admin) OS command injection via the vulnerability-scan `scan_ports` parameter (`nmap` argument reaches `popen`)
-CVE-2026-83563|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Winlogon Elevation of Privilege Vulnerability
-CVE-2026-83684|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Windows iSCSI Target Service Information Disclosure Vulnerability
-CVE-2026-83894|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|RPC Runtime Elevation of Privilege Vulnerability
-CVE-2026-83953|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|GitHub Copilot for Jetbrains Information Disclosure Vulnerability
-CVE-2026-84004|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|AMD Zen Information Disclosure Vulnerability
-CVE-2026-84005|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|AMD Zen Information Disclosure Vulnerability
-CVE-2026-84010|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft SQL Server Elevation of Privilege Vulnerability
-CVE-2026-84503|Moderate|6.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|Ansible-core: ansible-core: ansible.builtin.git invokes git without a `--` separator, allowing argument injection via a `-`-leading repository url (e.g. --upload-pack) -> rce
-CVE-2026-84786|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|A DANE-enabled TLS client may crash by dereferencing a NULL pointer when processing an unusual combination of certificate and TLSA records.
-CVE-2026-85280|not stated|not stated|none published|not stated|Unknown|Unknown|
-CVE-2026-85801|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Local Security Authority Subsystem Service (LSASS) Elevation of Privilege Vulnerability
-CVE-2026-85838|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft WDAC OLE DB provider for SQL Remote Code Execution Vulnerability
-CVE-2026-85839|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft WDAC OLE DB provider for SQL Remote Code Execution Vulnerability

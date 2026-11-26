@@ -1,4 +1,4 @@
-# Microsoft MSRC flagged CVEs | fetched 2026-11-26T04:31:23Z | months 2026-Nov | 2466 CVEs read, 135 flagged
+# Microsoft MSRC flagged CVEs | fetched 2026-11-26T14:30:53Z | months 2026-Nov | 2479 CVEs read, 136 flagged
 # flagged = Critical severity, OR Exploited:Yes, OR Publicly Disclosed:Yes | 1 exploited | 0 publicly disclosed
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-109459|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Message Queuing Queue Manager Remote Code Execution Vulnerability
@@ -115,6 +115,7 @@ CVE-2026-131031|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not st
 CVE-2026-131054|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-131054: Out of bounds write
 CVE-2026-131060|Critical|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-131060: Buffer overflow
 CVE-2026-133949|Critical|not stated|none published|not stated|Unknown|Unknown|pip bundles compromised eMudhra certificates via certifi
+CVE-2026-136411|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|BusyBox through 1.38.0 tftpd Absolute Path Traversal via networking/tftp.c
 CVE-2026-50691|Critical|9.9|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft 365 Copilot Elevation of Privilege Vulnerability
 CVE-2026-62841|Critical|10.0|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Azure Event Grid Elevation of Privilege Vulnerability
 CVE-2026-65817|Critical|8.3|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Azure Managed Instance for Apache Cassandra Remote Code Execution Vulnerability

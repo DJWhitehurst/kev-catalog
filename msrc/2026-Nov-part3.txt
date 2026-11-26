@@ -1,5 +1,11 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-26T04:31:23Z | part 3 of 8 | 350 of 2466 CVEs | CVE-2026-119826 to CVE-2026-121176
+# Microsoft MSRC 2026-Nov | fetched 2026-11-26T14:30:53Z | part 3 of 8 | 350 of 2479 CVEs | CVE-2026-119818 to CVE-2026-121168
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-119818|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Text Services Framework Elevation of Privilege Vulnerability
+CVE-2026-119821|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Network Connection Broker Elevation of Privilege Vulnerability
+CVE-2026-119822|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Overlay Filter Elevation of Privilege Vulnerability
+CVE-2026-119823|Important|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows Storport Miniport Driver Remote Code Execution Vulnerability
+CVE-2026-119824|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Tampering|No|No|Remote Desktop Client Tampering Vulnerability
+CVE-2026-119825|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C|Information Disclosure|No|No|Win32k Information Disclosure Vulnerability
 CVE-2026-119826|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Hyper-V Elevation of Privilege Vulnerability
 CVE-2026-119827|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Win32k Elevation of Privilege Vulnerability
 CVE-2026-119829|Important|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Audio Class driver (usbaudio.sys) Elevation of Privilege Vulnerability
@@ -225,6 +231,7 @@ CVE-2026-120831|Moderate|6.5|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|no
 CVE-2026-120930|Important|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-120930: Incorrect authorization
 CVE-2026-120955|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|MongoDB C Driver Modern GridFS mongoc_gridfs_bucket_download_to_stream() Aborts Application on Malformed GridFS Metadata
 CVE-2026-120956|Important|7.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|remote abort and memory disclosure from a malformed cursor.ns
+CVE-2026-120961|Moderate|not stated|none published|not stated|Unknown|Unknown|binary_to_term Heap Overrun via FLOAT_EXT Without Terminating Zero Byte May Abort the VM
 CVE-2026-120967|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|NGINX ngx_stream_ssl_module vulnerability
 CVE-2026-121029|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121029: Incorrect authorization
 CVE-2026-121030|Moderate|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121030: Incorrect authorization
@@ -343,10 +350,3 @@ CVE-2026-121165|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|
 CVE-2026-121166|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121166: Type confusion
 CVE-2026-121167|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121167: Incorrect authorization
 CVE-2026-121168|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121168: Improper resource exposure
-CVE-2026-121169|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121169: Missing authorization
-CVE-2026-121170|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121170: Improper resource control
-CVE-2026-121171|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121171: Confused deputy
-CVE-2026-121172|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-121172: Incorrect authorization
-CVE-2026-121174|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121174: Missing authorization
-CVE-2026-121175|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121175: Improper resource exposure
-CVE-2026-121176|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-121176: Uninitialized resource

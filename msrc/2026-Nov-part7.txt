@@ -1,5 +1,18 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-26T04:31:23Z | part 7 of 8 | 350 of 2466 CVEs | CVE-2026-99319 to CVE-2026-99782
+# Microsoft MSRC 2026-Nov | fetched 2026-11-26T14:30:53Z | part 7 of 8 | 350 of 2479 CVEs | CVE-2026-99305 to CVE-2026-99768
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-99305|Moderate|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|fbdev: udlfb: don't rebuild the mode list while the framebuffer is in use
+CVE-2026-99306|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ceph: reject mdsmaps that claim more than CEPH_MAX_MDS ranks
+CVE-2026-99307|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|ceph: require the dentry lease record to cover struct ceph_mds_reply_lease
+CVE-2026-99308|Moderate|6.8|CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|usb: xhci: Fix bounce buffer overflow
+CVE-2026-99309|not stated|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ksmbd: fix overflow in dacloffset bounds check in build_sec_desc()
+CVE-2026-99310|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|nfsd: hold cl_lock in client_has_openowners()
+CVE-2026-99311|not stated|not stated|none published|not stated|Unknown|Unknown|udf: fix return value for non-recorded-allocated extents in udf_map_block()
+CVE-2026-99312|Moderate|8.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H|not stated|Unknown|Unknown|KVM: x86: Unconditionally reset MMU context when emulating INIT
+CVE-2026-99314|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ALSA: us122l: Add missing NULL check in usb_stream_hwdep_mmap()
+CVE-2026-99315|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ALSA: us122l: Fix NULL dereference at hwdep open and release
+CVE-2026-99316|Moderate|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ALSA: usx2y: Initialize idle URBs before submitting streams
+CVE-2026-99317|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ALSA: hwdep: Serialize DSP load requests
+CVE-2026-99318|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ALSA: bcd2000: Fix use-after-free of MIDI URBs on file close
 CVE-2026-99319|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ALSA: usx2y: Refuse a retried DSP load after a failure
 CVE-2026-99320|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ipv6: raw: fix use-after-free in rawv6_send_hdrinc()
 CVE-2026-99323|Moderate|5.3|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|ksmbd: fix invalid pointer dereference when get_inode_acl() fails
@@ -337,16 +350,3 @@ CVE-2026-99765|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not
 CVE-2026-99766|not stated|not stated|none published|not stated|Unknown|Unknown|scsi: aic79xx: Fix NULL pointer dereference in device reset
 CVE-2026-99767|not stated|not stated|none published|not stated|Unknown|Unknown|xfrm4: use a full socket for local errors
 CVE-2026-99768|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|wifi: mac80211: reinstate IEEE80211_TX_CTL_AMPDU flag in ieee80211_tx_prep_agg()
-CVE-2026-99769|not stated|not stated|none published|not stated|Unknown|Unknown|drm/vc4: Drop the BO reservations outside of job_lock
-CVE-2026-99770|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/vc4: Publish the output fence outside of job_lock
-CVE-2026-99771|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|wifi: mac80211: reload TDLS header pointer after skb_linearize()
-CVE-2026-99773|Moderate|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|drm/drm_crtc: ensure dma_fence_ops remain valid during device unbind
-CVE-2026-99774|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|xfrm: espintcp: reorder operations within espintcp_init_sk
-CVE-2026-99775|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|xfrm: interface: validate the IP header on xmit
-CVE-2026-99776|not stated|not stated|none published|not stated|Unknown|Unknown|net/9p/usbg: clear stale client pointer on close
-CVE-2026-99777|not stated|not stated|none published|not stated|Unknown|Unknown|net/9p/usbg: remove bogus context initialization in alloc_requests
-CVE-2026-99778|not stated|not stated|none published|not stated|Unknown|Unknown|net/9p/usbg: fix out_req buffer leak in disable_usb9pfs
-CVE-2026-99779|not stated|not stated|none published|not stated|Unknown|Unknown|net/9p/usbg: call disable_usb9pfs() from usb9pfs_disable()
-CVE-2026-99780|not stated|not stated|none published|not stated|Unknown|Unknown|net/9p/usbg: always reset completion when disconnecting
-CVE-2026-99781|not stated|not stated|none published|not stated|Unknown|Unknown|net/9p/usbg: set client to Disconnected on usb9pfs_disable
-CVE-2026-99782|not stated|not stated|none published|not stated|Unknown|Unknown|net/9p/usbg: also disable endpoints on p9_usbg_close
