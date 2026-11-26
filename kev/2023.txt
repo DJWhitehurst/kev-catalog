@@ -1,6 +1,6 @@
-# CISA KEV | catalogVersion 2026.11.24 | dateReleased 2026-11-24T17:47:46.199Z | 1795 entries in full catalog
+# CISA KEV | catalogVersion 2026.11.25 | dateReleased 2026-11-25T19:48:12.4344Z | 1805 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
-# this file: CVE-2023 | 166 entries
+# this file: CVE-2023 | 168 entries
 CVE-2023-0266|2023-03-30|2023-04-20|Linux|Kernel
 CVE-2023-0386|2025-06-17|2025-07-08|Linux|Kernel
 CVE-2023-0669|2023-02-10|2023-03-03|Fortra|GoAnywhere MFT
@@ -39,6 +39,8 @@ CVE-2023-24955|2024-03-26|2024-04-16|Microsoft|SharePoint Server
 CVE-2023-25280|2024-09-30|2024-10-21|D-Link|DIR-820 Router
 CVE-2023-2533|2025-07-28|2025-08-18|PaperCut|NG/MF
 CVE-2023-25717|2023-05-12|2023-06-02|Ruckus Wireless|Multiple Products
+CVE-2023-25914|2026-11-25|2026-11-28|Danfoss|AK-SM 800A Series
+CVE-2023-25915|2026-11-25|2026-11-28|Danfoss|AK-SM 800A Series
 CVE-2023-26083|2023-04-07|2023-04-28|Arm|Mali Graphics Processing Unit (GPU)
 CVE-2023-26359|2023-08-21|2023-09-11|Adobe|ColdFusion
 CVE-2023-26360|2023-03-15|2023-04-05|Adobe|ColdFusion

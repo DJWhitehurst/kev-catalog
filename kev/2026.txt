@@ -1,6 +1,6 @@
-# CISA KEV | catalogVersion 2026.11.24 | dateReleased 2026-11-24T17:47:46.199Z | 1795 entries in full catalog
+# CISA KEV | catalogVersion 2026.11.25 | dateReleased 2026-11-25T19:48:12.4344Z | 1805 entries in full catalog
 # cveID|dateAdded|dueDate|vendorProject|product
-# this file: CVE-2026 | 221 entries
+# this file: CVE-2026 | 228 entries
 CVE-2026-0257|2026-05-29|2026-06-01|Palo Alto Networks|PAN-OS
 CVE-2026-0300|2026-05-06|2026-05-09|Palo Alto Networks|PAN-OS
 CVE-2026-0322|2026-10-14|2026-10-17|Palo Alto Networks|PAN-OS
@@ -9,6 +9,7 @@ CVE-2026-102489|2026-10-02|2026-10-05|Zammad GmbH|Zammad
 CVE-2026-102490|2026-10-02|2026-10-05|Zammad GmbH|Zammad
 CVE-2026-102764|2026-10-16|2026-10-19|BeyondTrust|Remote Support
 CVE-2026-102895|2026-11-09|2026-11-12|GPUStack|GPUStack
+CVE-2026-103406|2026-11-25|2026-11-28|Hewlett Packard Enterprise (HPE)|Juniper Session Smart Conductor and Session Smart Router
 CVE-2026-104286|2026-10-01|2026-10-04|Fortinet|FortiMail
 CVE-2026-104935|2026-10-13|2026-10-16|Ivanti|Connect Secure
 CVE-2026-105133|2026-10-14|2026-10-17|Ahsay|AhsayCBS
@@ -43,6 +44,12 @@ CVE-2026-129448|2026-11-20|2026-11-23|Apache|Roller
 CVE-2026-131914|2026-11-24|2026-11-27|Idunno|AntiCsrf
 CVE-2026-132165|2026-11-24|2026-11-27|Drupal|Core
 CVE-2026-132224|2026-11-24|2026-11-27|Optimizely|Web Experimentation
+CVE-2026-133275|2026-11-25|2026-11-28|Mitel|MiCollab
+CVE-2026-133303|2026-11-25|2026-11-28|Mitel|MiCollab
+CVE-2026-133311|2026-11-25|2026-12-09|Mitel|MiCollab
+CVE-2026-133323|2026-11-25|2026-11-28|Mitel|MiCollab
+CVE-2026-133324|2026-11-25|2026-11-28|Mitel|MiCollab
+CVE-2026-133469|2026-11-25|2026-11-28|Vates|Xen Orchestra
 CVE-2026-133968|2026-11-23|2026-11-26|Project MONAI|MONAI Label
 CVE-2026-1340|2026-04-08|2026-04-11|Ivanti|Endpoint Manager Mobile (EPMM)
 CVE-2026-134624|2026-11-23|2026-11-26|N-able|MailAssure
