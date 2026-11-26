@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-25T15:01:09Z | part 2 of 8 | 350 of 2466 CVEs | CVE-2026-112984 to CVE-2026-119825
+# Microsoft MSRC 2026-Nov | fetched 2026-11-26T04:31:23Z | part 2 of 8 | 350 of 2466 CVEs | CVE-2026-112984 to CVE-2026-119825
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-112984|Important|6.6|CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Video Driver Elevation of Privilege Vulnerability
 CVE-2026-112985|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows JScript Remote Code Execution Vulnerability

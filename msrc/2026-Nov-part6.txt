@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-25T15:01:09Z | part 6 of 8 | 350 of 2466 CVEs | CVE-2026-85844 to CVE-2026-99318
+# Microsoft MSRC 2026-Nov | fetched 2026-11-26T04:31:23Z | part 6 of 8 | 350 of 2466 CVEs | CVE-2026-85844 to CVE-2026-99318
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-85844|Important|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Kerberos Elevation of Privilege Vulnerability
 CVE-2026-85862|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Error Reporting Elevation of Privilege Vulnerability
