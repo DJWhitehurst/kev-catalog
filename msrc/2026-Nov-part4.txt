@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-26T14:30:53Z | part 4 of 8 | 350 of 2479 CVEs | CVE-2026-121169 to CVE-2026-126208
+# Microsoft MSRC 2026-Nov | fetched 2026-11-27T04:35:57Z | part 4 of 8 | 350 of 2479 CVEs | CVE-2026-121169 to CVE-2026-126208
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-121169|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121169: Missing authorization
 CVE-2026-121170|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121170: Improper resource control

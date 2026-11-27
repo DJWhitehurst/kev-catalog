@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-26T14:30:53Z | part 3 of 8 | 350 of 2479 CVEs | CVE-2026-119818 to CVE-2026-121168
+# Microsoft MSRC 2026-Nov | fetched 2026-11-27T04:35:57Z | part 3 of 8 | 350 of 2479 CVEs | CVE-2026-119818 to CVE-2026-121168
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-119818|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Text Services Framework Elevation of Privilege Vulnerability
 CVE-2026-119821|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Network Connection Broker Elevation of Privilege Vulnerability

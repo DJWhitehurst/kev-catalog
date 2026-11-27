@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-26T14:30:53Z | part 7 of 8 | 350 of 2479 CVEs | CVE-2026-99305 to CVE-2026-99768
+# Microsoft MSRC 2026-Nov | fetched 2026-11-27T04:35:57Z | part 7 of 8 | 350 of 2479 CVEs | CVE-2026-99305 to CVE-2026-99768
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-99305|Moderate|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|fbdev: udlfb: don't rebuild the mode list while the framebuffer is in use
 CVE-2026-99306|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|ceph: reject mdsmaps that claim more than CEPH_MAX_MDS ranks

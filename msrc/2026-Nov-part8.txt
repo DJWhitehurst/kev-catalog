@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-26T14:30:53Z | part 8 of 8 | 29 of 2479 CVEs | CVE-2026-99769 to CVE-2026-99804
+# Microsoft MSRC 2026-Nov | fetched 2026-11-27T04:35:57Z | part 8 of 8 | 29 of 2479 CVEs | CVE-2026-99769 to CVE-2026-99804
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-99769|not stated|not stated|none published|not stated|Unknown|Unknown|drm/vc4: Drop the BO reservations outside of job_lock
 CVE-2026-99770|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/vc4: Publish the output fence outside of job_lock

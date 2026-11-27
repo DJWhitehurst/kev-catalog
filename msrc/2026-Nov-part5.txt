@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-26T14:30:53Z | part 5 of 8 | 350 of 2479 CVEs | CVE-2026-126297 to CVE-2026-82413
+# Microsoft MSRC 2026-Nov | fetched 2026-11-27T04:35:57Z | part 5 of 8 | 350 of 2479 CVEs | CVE-2026-126297 to CVE-2026-82413
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-126297|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|NLTK before 3.10.4 CPU Denial of Service via ConllCorpusReader srl_instances
 CVE-2026-126298|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|NLTK before 3.10.4 Quadratic CPU Denial of Service via Tree.chomsky_normal_form
