@@ -1,5 +1,38 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-27T04:35:57Z | part 8 of 8 | 29 of 2479 CVEs | CVE-2026-99769 to CVE-2026-99804
+# Microsoft MSRC 2026-Nov | fetched 2026-11-27T14:25:16Z | part 8 of 8 | 65 of 2515 CVEs | CVE-2026-99729 to CVE-2026-99811
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-99729|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|mm/rmap: handle device-exclusive entries in folio_referenced_one()
+CVE-2026-99730|Moderate|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|mm/filemap: finish fault cleanup before dropping the fault lock
+CVE-2026-99731|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|mm/filemap: don't lose a folio lock wakeup to a signal
+CVE-2026-99732|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|mm/filemap: read mapping->a_ops->free_folio under i_lock
+CVE-2026-99734|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|mm/shmem: make shmem_file() check the file's inode
+CVE-2026-99735|Moderate|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|mm/mglru: don't use stack pointers when walking PUD and PMD tables
+CVE-2026-99736|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|mm/shmem: fix accounting of swapin-error markers
+CVE-2026-99740|not stated|not stated|none published|not stated|Unknown|Unknown|mm/shmem: stop retrying folios that cannot be split
+CVE-2026-99741|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L/E:U|not stated|Unknown|Unknown|tmpfs: keep the quota soft limits of an unused id
+CVE-2026-99742|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|mm/mempolicy: charge shared policy nodes
+CVE-2026-99743|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|ksmbd: grant a POSIX ACL group entry only to the group's members
+CVE-2026-99744|Moderate|7.1|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|net: atl1c: drop oversized RX frames instead of panicking
+CVE-2026-99745|not stated|not stated|none published|not stated|Unknown|Unknown|x86/bugs: Select the BHI mitigation based on the attack vector properly
+CVE-2026-99749|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H/E:U|not stated|Unknown|Unknown|ksmbd: enforce the read-only share flag when creating a stream
+CVE-2026-99750|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:L/E:U|not stated|Unknown|Unknown|ksmbd: require DELETE access for delete-on-close opens
+CVE-2026-99751|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|bpf: Fix skb_pull() BUG in __bpf_redirect_neigh()
+CVE-2026-99752|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/loongson: Handle buffer mapping failures when clearing a BO
+CVE-2026-99753|Moderate|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|drm/loongson: Fix double free on BO initialization failure
+CVE-2026-99754|Moderate|7.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|scsi: target: Verify the iSCSI ISID is null-terminated
+CVE-2026-99755|not stated|not stated|none published|not stated|Unknown|Unknown|ptp: fix use-after-free in extts_fifo_show() reading tsevqs unlocked
+CVE-2026-99756|Moderate|6.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|btrfs: prevent deleting the wrong subvolume by ID
+CVE-2026-99757|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|btrfs: sysfs: restore NOFS context on early return in btrfs_sysfs_add_block_group_type()
+CVE-2026-99758|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|sctp: account for chunk padding in sctp_init_cause()
+CVE-2026-99759|Moderate|7.1|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U|not stated|Unknown|Unknown|batman-adv: tt: don't drop local events queued during TVLV update
+CVE-2026-99760|Moderate|7.6|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|batman-adv: tt: ignore ROAM flag of received ADD changes
+CVE-2026-99761|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|batman-adv: stop originator purge worker before freeing TT
+CVE-2026-99762|not stated|not stated|none published|not stated|Unknown|Unknown|batman-adv: mcast: validate tracker padding before forwarding
+CVE-2026-99763|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|9p: don't decrement a server-owned zero nlink
+CVE-2026-99764|Moderate|6.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|9p/xen: validate the response size from the backend
+CVE-2026-99765|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|scsi: target: Fix demo-mode dynamic ACL dev-entry UAF vs LUN teardown
+CVE-2026-99766|not stated|not stated|none published|not stated|Unknown|Unknown|scsi: aic79xx: Fix NULL pointer dereference in device reset
+CVE-2026-99767|not stated|not stated|none published|not stated|Unknown|Unknown|xfrm4: use a full socket for local errors
+CVE-2026-99768|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|wifi: mac80211: reinstate IEEE80211_TX_CTL_AMPDU flag in ieee80211_tx_prep_agg()
 CVE-2026-99769|not stated|not stated|none published|not stated|Unknown|Unknown|drm/vc4: Drop the BO reservations outside of job_lock
 CVE-2026-99770|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|drm/vc4: Publish the output fence outside of job_lock
 CVE-2026-99771|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|wifi: mac80211: reload TDLS header pointer after skb_linearize()
@@ -29,3 +62,6 @@ CVE-2026-99797|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not
 CVE-2026-99798|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|io_uring: defer foreign io-wq enqueues to task_work
 CVE-2026-99799|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|io_uring/sqpoll: don't wait for the thread to exit
 CVE-2026-99804|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|io_uring/io-wq: save worker type before dropping its reference
+CVE-2026-99809|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|vfio/platform: prevent read-only region mappings from becoming writable
+CVE-2026-99810|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|vfio/fsl-mc: prevent read-only region mappings from becoming writable
+CVE-2026-99811|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|vfio/cdx: prevent read-only region mappings from becoming writable

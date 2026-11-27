@@ -1,5 +1,7 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-27T04:35:57Z | part 3 of 8 | 350 of 2479 CVEs | CVE-2026-119818 to CVE-2026-121168
+# Microsoft MSRC 2026-Nov | fetched 2026-11-27T14:25:16Z | part 3 of 8 | 350 of 2515 CVEs | CVE-2026-119816 to CVE-2026-121166
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-119816|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Microsoft Account Sign-in Assistant Elevation of Privilege Vulnerability
+CVE-2026-119817|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Shell Elevation of Privilege Vulnerability
 CVE-2026-119818|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Text Services Framework Elevation of Privilege Vulnerability
 CVE-2026-119821|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Network Connection Broker Elevation of Privilege Vulnerability
 CVE-2026-119822|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Overlay Filter Elevation of Privilege Vulnerability
@@ -348,5 +350,3 @@ CVE-2026-121163|Moderate|8.3|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H|not st
 CVE-2026-121164|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121164: Incorrect authorization
 CVE-2026-121165|Low|5.4|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|Chromium CVE-2026-121165: UI misrepresentation
 CVE-2026-121166|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121166: Type confusion
-CVE-2026-121167|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121167: Incorrect authorization
-CVE-2026-121168|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121168: Improper resource exposure

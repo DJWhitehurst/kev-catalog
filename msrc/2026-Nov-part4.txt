@@ -1,5 +1,7 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-27T04:35:57Z | part 4 of 8 | 350 of 2479 CVEs | CVE-2026-121169 to CVE-2026-126208
+# Microsoft MSRC 2026-Nov | fetched 2026-11-27T14:25:16Z | part 4 of 8 | 350 of 2515 CVEs | CVE-2026-121167 to CVE-2026-126203
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-121167|Moderate|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121167: Incorrect authorization
+CVE-2026-121168|Low|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121168: Improper resource exposure
 CVE-2026-121169|Low|not stated|none published|not stated|Unknown|Unknown|Chromium CVE-2026-121169: Missing authorization
 CVE-2026-121170|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121170: Improper resource control
 CVE-2026-121171|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-121171: Confused deputy
@@ -234,6 +236,7 @@ CVE-2026-123613|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N|not st
 CVE-2026-123633|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|NGINX ngx_http_v2_module vulnerability
 CVE-2026-123634|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|NGINX resolver vulnerability
 CVE-2026-123640|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|NGINX ngx_stream_ssl_preread_module vulnerability
+CVE-2026-123817|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|AIOHTTP WebSocket frame reassembly permits excessive memory consumption from tiny reads
 CVE-2026-123876|Moderate|4.4|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Podman: containers-common: containers-common: default seccomp af_vsock/netlink_audit deny rules bypassable via 32-bit truncation
 CVE-2026-124024|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|IBM1390/IBM1399 encoders may read past input
 CVE-2026-124040|Critical|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|CivetWeb through 1.16 HTTP/2 Use-After-Free via Stale Pseudo-Header State
@@ -347,6 +350,3 @@ CVE-2026-126189|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not st
 CVE-2026-126192|Moderate|not stated|none published|not stated|Unknown|Unknown|Soup Sieve: General sibling combinator inside :has() matches untrusted HTML in quadratic time
 CVE-2026-126193|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Soup Sieve: Uncontrolled recursion in Soup Sieve CSS parser lets nested pseudo-class selectors exhaust the Python call stack
 CVE-2026-126203|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|Loofah: Mutation XSS in the HTML5 scrubbers through unescaped attribute values
-CVE-2026-126205|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Loofah: Regular expression denial of service in the SVG local-reference check
-CVE-2026-126207|Moderate|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Loofah: CSS url() sanitization bypass via escaped parentheses
-CVE-2026-126208|Moderate|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Loofah: SVG `<textPath>` and `<mpath>` bypass local-reference restriction

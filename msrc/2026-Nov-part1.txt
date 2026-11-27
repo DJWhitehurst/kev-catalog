@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-27T04:35:57Z | part 1 of 8 | 350 of 2479 CVEs | CVE-2024-38445 to CVE-2026-112982
+# Microsoft MSRC 2026-Nov | fetched 2026-11-27T14:25:16Z | part 1 of 8 | 350 of 2515 CVEs | CVE-2024-38445 to CVE-2026-112981
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2024-38445|not stated|not stated|none published|not stated|Unknown|Unknown|
 CVE-2024-58407|Moderate|6.1|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|Microsoft jxrlib through 1.1 Global Buffer Over-read via DecodeSignificantRun
@@ -117,6 +117,7 @@ CVE-2026-106023|not stated|not stated|none published|not stated|Unknown|Unknown|
 CVE-2026-107493|Important|7.7|CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H|not stated|Unknown|Unknown|Use-After-Free in PEM_X509_INFO_read_bio_ex() when appending to a caller-supplied stack fails
 CVE-2026-107494|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|The QUIC stack queues a RETIRE_CONNECTION_ID frame also for retransmitted NEW_CONNECTION_ID frames. This allows a remote malicious QUIC stack to queue an unlimited number of RETIRE_CONNECTION_ID frames.
 CVE-2026-107496|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Infinite Loop in CMS_encrypt() With an EC Group Order of 1
+CVE-2026-107784|Moderate|not stated|none published|not stated|Unknown|Unknown|tarfile extraction filters accept drive-relative paths on Windows
 CVE-2026-108147|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Potential memory exhaustion in MultiPartParser via base64-encoded file upload
 CVE-2026-108401|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Remote Desktop Services Remote Code Execution Vulnerability
 CVE-2026-108402|Important|5.3|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows Layer-2 Bridge Network Driver Denial of Service Vulnerability
@@ -349,4 +350,3 @@ CVE-2026-112978|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/R
 CVE-2026-112979|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Windows State Repository Service Tampering Vulnerability
 CVE-2026-112980|Important|6.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Print Spooler Components Elevation of Privilege Vulnerability
 CVE-2026-112981|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Print Spooler Components Elevation of Privilege Vulnerability
-CVE-2026-112982|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Microsoft Account Tampering Vulnerability

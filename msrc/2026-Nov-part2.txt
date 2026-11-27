@@ -1,5 +1,6 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-27T04:35:57Z | part 2 of 8 | 350 of 2479 CVEs | CVE-2026-112984 to CVE-2026-119817
+# Microsoft MSRC 2026-Nov | fetched 2026-11-27T14:25:16Z | part 2 of 8 | 350 of 2515 CVEs | CVE-2026-112982 to CVE-2026-119776
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-112982|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Microsoft Account Tampering Vulnerability
 CVE-2026-112984|Important|6.6|CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Video Driver Elevation of Privilege Vulnerability
 CVE-2026-112985|Important|7.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows JScript Remote Code Execution Vulnerability
 CVE-2026-112986|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows DWM Core Library Elevation of Privilege Vulnerability
@@ -104,6 +105,7 @@ CVE-2026-115819|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L|not st
 CVE-2026-115846|Low|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|IKEv2: IKE_INTERMEDIATE exchange bypass error
 CVE-2026-116225|Important|not stated|none published|not stated|Unknown|Unknown|Quadratic CPU Denial of Service in SNMP BER Object Identifier Sub-Identifier Decoding
 CVE-2026-116293|Important|not stated|none published|not stated|Unknown|Unknown|binary_to_term Heap Overrun via NEWER_REFERENCE_EXT with Zero ID Words Aborts the VM
+CVE-2026-116295|Low|not stated|none published|not stated|Unknown|Unknown|CRLF injection in httpc request headers
 CVE-2026-116303|Low|3.1|CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|PostgreSQL foreign key and JSON conversions bypass EXECUTE privilege on cast functions
 CVE-2026-116304|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|PostgreSQL parallel RECORD typmod use-after-free executes arbitrary code
 CVE-2026-116306|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|PostgreSQL composite-type change during field assignment executes arbitrary code
@@ -348,5 +350,3 @@ CVE-2026-119443|Moderate|not stated|none published|not stated|Unknown|Unknown|XM
 CVE-2026-119618|not stated|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Apache HTTP Server: mod_http2: heap corruption and RCE in assign_headers
 CVE-2026-119741|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|rsync < 3.5.2 Denial of Service via hash_search() Checksum Collisions
 CVE-2026-119776|Moderate|not stated|none published|not stated|Unknown|Unknown|frr: ospf6d fails to enforce all OSPFv3 packets use IPv6 link-local addresses
-CVE-2026-119816|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Microsoft Account Sign-in Assistant Elevation of Privilege Vulnerability
-CVE-2026-119817|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Shell Elevation of Privilege Vulnerability
