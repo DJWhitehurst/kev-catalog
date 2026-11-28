@@ -1,5 +1,17 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-28T04:18:53Z | part 7 of 8 | 350 of 2515 CVEs | CVE-2026-99264 to CVE-2026-99725
+# Microsoft MSRC 2026-Nov | fetched 2026-11-28T13:40:35Z | part 7 of 8 | 350 of 2527 CVEs | CVE-2026-99247 to CVE-2026-99707
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-99247|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|tracing: Do not initialize tracefs work if tracing is disabled
+CVE-2026-99249|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|pid_namespace: make zap_pid_ns_processes() freezable
+CVE-2026-99250|not stated|not stated|none published|not stated|Unknown|Unknown|printk: Postpone kthread startup
+CVE-2026-99251|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Drivers: hv: Avoid infinite retry loop in init_vp_index()
+CVE-2026-99254|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io_uring: don't flood a cancelling task with task_work
+CVE-2026-99255|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io_uring/io-wq: don't hide a link from cancellations
+CVE-2026-99256|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|dm cache: fix issue with background work locking
+CVE-2026-99258|not stated|not stated|none published|not stated|Unknown|Unknown|x86/hyperv: Avoid using per-cpu output page in hv_apicid_to_vp_index()
+CVE-2026-99260|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|ntfs: fix resident conversion in ntfs_new_attr_flags
+CVE-2026-99261|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/amdgpu: correct reservation fence slots for userq per-vm BOs eviction
+CVE-2026-99262|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io_uring/timeout: don't lose a cancel as io-wq arms a timeout
+CVE-2026-99263|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|io_uring/poll: avoid retry wakeup loss when dropping ownership
 CVE-2026-99264|Important|not stated|none published|not stated|Unknown|Unknown|Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
 CVE-2026-99265|not stated|not stated|none published|not stated|Unknown|Unknown|Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
 CVE-2026-99266|not stated|not stated|none published|not stated|Unknown|Unknown|Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
@@ -338,15 +350,3 @@ CVE-2026-99703|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not
 CVE-2026-99704|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|mm/page-writeback: avoid 32-bit overflow in dirty threshold shares
 CVE-2026-99705|not stated|not stated|none published|not stated|Unknown|Unknown|mm: memory: fix truncation removing mapped folios
 CVE-2026-99707|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|mm/khugepaged: flush deferred unmaps before dropping a failed folio
-CVE-2026-99708|not stated|not stated|none published|not stated|Unknown|Unknown|ipv6: reject wrapped temporary address preferred lifetimes
-CVE-2026-99710|Moderate|6.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: x86/mmu: Cap number of parent PTEs per SP at 1000 (the arbitrary rmap limit)
-CVE-2026-99711|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: nVMX: Process each host MSR entry at most once when unwinding failed VM-Entry
-CVE-2026-99712|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: x86: Conditionally resched when restarting REP string emulation
-CVE-2026-99713|Moderate|6.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: x86/mmu: Conditionally resched when retrying gPTE walk on A/D update failure
-CVE-2026-99717|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|hwmon: (pmbus/q54sj108a2) Add missing NULL pointer check
-CVE-2026-99718|Low|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|hwmon: (peci/dimmtemp) Fix devres leak and UAF on concurrent unbind
-CVE-2026-99719|Moderate|5.6|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:H/E:U|not stated|Unknown|Unknown|hwmon: (lm87) Fix drvdata type confusion in vrm_show() and vrm_store()
-CVE-2026-99721|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|hwmon: (aquacomputer_d5next) reject short status reports
-CVE-2026-99722|Moderate|6.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|vringh: bound top-level re-entry into indirect tables
-CVE-2026-99723|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L/E:U|not stated|Unknown|Unknown|vhost-vdpa: fix pinned page leak in vhost_vdpa_pa_map() error path
-CVE-2026-99725|Moderate|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|cipso: fix optlen corruption in cipso_v4_delopt()

@@ -1,5 +1,17 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-28T04:18:53Z | part 6 of 8 | 350 of 2515 CVEs | CVE-2026-76411 to CVE-2026-99263
+# Microsoft MSRC 2026-Nov | fetched 2026-11-28T13:40:35Z | part 6 of 8 | 350 of 2527 CVEs | CVE-2026-70231 to CVE-2026-99246
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-70231|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Local Security Authority Subsystem Service (LSASS) Elevation of Privilege Vulnerability
+CVE-2026-70240|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows Kerberos Denial of Service Vulnerability
+CVE-2026-70305|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Spoofing|No|No|Azure Portal Spoofing Vulnerability
+CVE-2026-72998|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows DHCP Server Remote Code Execution Vulnerability
+CVE-2026-76024|Critical|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-76024: Memory corruption
+CVE-2026-76025|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-76025: Use after free
+CVE-2026-76026|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-76026: Memory corruption
+CVE-2026-76027|Important|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-76027: Memory corruption
+CVE-2026-76028|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-76028: Use after free
+CVE-2026-76029|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-76029: Memory corruption
+CVE-2026-76030|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-76030: Memory corruption
+CVE-2026-76031|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-76031: Use after free
 CVE-2026-76411|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|A vulnerability in the phishcheck functionality of ClamAV could allow an unauthenticated, remote attacker to cause a DoS condition on an affected device.   This vulnerability is due to improper allocation of memory during processing of URLs. An attacker could exploit this vulnerability by sending a URL to be processed by the software. A successful exploit could allow the attacker to cause the ClamAV scanning process to terminate, resulting in a DoS condition on the affected software.
 CVE-2026-76414|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|A vulnerability in Microsoft Compiled HTML Help (CHM) file scanning of ClamAV could allow an unauthenticated, remote attacker to cause a DoS condition on an affected device.   This vulnerability is due to a logic error when scanning the CHM file and following the internal file pointers. An attacker could exploit this vulnerability by sending a crafted CHM file for scanning. A successful exploit could allow the attacker to cause the ClamAV decode process to terminate due to an infinite loop, resulting in a DoS condition on the affected software.
 CVE-2026-76415|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|A vulnerability in the Yoda'a Crytper (yC) Portable Executable (PE) unpacker of ClamAV could allow an unauthenticated, remote attacker to cause a DoS condition on an affected device. .   This vulnerability is due to lack of proper error checking for negative values when processing the PE file to be unpacked. An attacker could exploit this vulnerability by sending a PE file to be unpacked. A successful exploit could allow the attacker to cause the ClamAV scanning process to terminate, resulting in a DoS condition on the affected software.
@@ -338,15 +350,3 @@ CVE-2026-99243|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not sta
 CVE-2026-99244|not stated|not stated|none published|not stated|Unknown|Unknown|pid_namespace: prevent TIF_NOTIFY_SIGNAL from interrupting the reaper
 CVE-2026-99245|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|KEYS: Fix key_reject_and_link() race with keyring restriction
 CVE-2026-99246|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|tipc: protect node reset trace dump with node lock
-CVE-2026-99247|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|tracing: Do not initialize tracefs work if tracing is disabled
-CVE-2026-99249|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|pid_namespace: make zap_pid_ns_processes() freezable
-CVE-2026-99250|not stated|not stated|none published|not stated|Unknown|Unknown|printk: Postpone kthread startup
-CVE-2026-99251|Moderate|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Drivers: hv: Avoid infinite retry loop in init_vp_index()
-CVE-2026-99254|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io_uring: don't flood a cancelling task with task_work
-CVE-2026-99255|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io_uring/io-wq: don't hide a link from cancellations
-CVE-2026-99256|Low|2.3|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|dm cache: fix issue with background work locking
-CVE-2026-99258|not stated|not stated|none published|not stated|Unknown|Unknown|x86/hyperv: Avoid using per-cpu output page in hv_apicid_to_vp_index()
-CVE-2026-99260|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|ntfs: fix resident conversion in ntfs_new_attr_flags
-CVE-2026-99261|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|drm/amdgpu: correct reservation fence slots for userq per-vm BOs eviction
-CVE-2026-99262|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|io_uring/timeout: don't lose a cancel as io-wq arms a timeout
-CVE-2026-99263|Low|2.5|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|io_uring/poll: avoid retry wakeup loss when dropping ownership

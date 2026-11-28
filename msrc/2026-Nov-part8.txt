@@ -1,5 +1,17 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-28T04:18:53Z | part 8 of 8 | 65 of 2515 CVEs | CVE-2026-99729 to CVE-2026-99811
+# Microsoft MSRC 2026-Nov | fetched 2026-11-28T13:40:35Z | part 8 of 8 | 77 of 2527 CVEs | CVE-2026-99708 to CVE-2026-99811
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-99708|not stated|not stated|none published|not stated|Unknown|Unknown|ipv6: reject wrapped temporary address preferred lifetimes
+CVE-2026-99710|Moderate|6.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: x86/mmu: Cap number of parent PTEs per SP at 1000 (the arbitrary rmap limit)
+CVE-2026-99711|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: nVMX: Process each host MSR entry at most once when unwinding failed VM-Entry
+CVE-2026-99712|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: x86: Conditionally resched when restarting REP string emulation
+CVE-2026-99713|Moderate|6.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|KVM: x86/mmu: Conditionally resched when retrying gPTE walk on A/D update failure
+CVE-2026-99717|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|hwmon: (pmbus/q54sj108a2) Add missing NULL pointer check
+CVE-2026-99718|Low|4.1|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|hwmon: (peci/dimmtemp) Fix devres leak and UAF on concurrent unbind
+CVE-2026-99719|Moderate|5.6|CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:H/E:U|not stated|Unknown|Unknown|hwmon: (lm87) Fix drvdata type confusion in vrm_show() and vrm_store()
+CVE-2026-99721|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|hwmon: (aquacomputer_d5next) reject short status reports
+CVE-2026-99722|Moderate|6.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|vringh: bound top-level re-entry into indirect tables
+CVE-2026-99723|Low|3.3|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L/E:U|not stated|Unknown|Unknown|vhost-vdpa: fix pinned page leak in vhost_vdpa_pa_map() error path
+CVE-2026-99725|Moderate|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|cipso: fix optlen corruption in cipso_v4_delopt()
 CVE-2026-99729|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|mm/rmap: handle device-exclusive entries in folio_referenced_one()
 CVE-2026-99730|Moderate|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|mm/filemap: finish fault cleanup before dropping the fault lock
 CVE-2026-99731|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U|not stated|Unknown|Unknown|mm/filemap: don't lose a folio lock wakeup to a signal

@@ -1,5 +1,8 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-28T04:18:53Z | part 5 of 8 | 350 of 2515 CVEs | CVE-2026-126205 to CVE-2026-76031
+# Microsoft MSRC 2026-Nov | fetched 2026-11-28T13:40:35Z | part 5 of 8 | 350 of 2527 CVEs | CVE-2026-126192 to CVE-2026-70193
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
+CVE-2026-126192|Moderate|not stated|none published|not stated|Unknown|Unknown|Soup Sieve: General sibling combinator inside :has() matches untrusted HTML in quadratic time
+CVE-2026-126193|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Soup Sieve: Uncontrolled recursion in Soup Sieve CSS parser lets nested pseudo-class selectors exhaust the Python call stack
+CVE-2026-126203|Moderate|6.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N|not stated|Unknown|Unknown|Loofah: Mutation XSS in the HTML5 scrubbers through unescaped attribute values
 CVE-2026-126205|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Loofah: Regular expression denial of service in the SVG local-reference check
 CVE-2026-126207|Moderate|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Loofah: CSS url() sanitization bypass via escaped parentheses
 CVE-2026-126208|Moderate|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Loofah: SVG `<textPath>` and `<mpath>` bypass local-reference restriction
@@ -20,6 +23,7 @@ CVE-2026-126353|Moderate|5.9|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H|not st
 CVE-2026-126354|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N|not stated|Unknown|Unknown|Addressable URI normalization resolves some dotted path segments to the wrong path
 CVE-2026-126366|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|msgpack-java JRuby decoder allocates from declared header counts with no cap: 5-byte message forces multi-GiB OOM
 CVE-2026-126526|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office OneNote Remote Code Execution Vulnerability
+CVE-2026-126657|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Qemu-kvm: host heap memory disclosure via incomplete structured nbd read replies
 CVE-2026-126714|Critical|not stated|none published|not stated|Unknown|Unknown|Partially overwritten session files can lead to remote code execution
 CVE-2026-126792|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|Heap overflow via oversized RSA signature in GCP KMS signing callback
 CVE-2026-126831|Moderate|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Cpio: cpio: stack-based buffer overflow in write_out_tar_header() with long usernames/groupnames
@@ -145,6 +149,7 @@ CVE-2026-129891|Moderate|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U|no
 CVE-2026-129892|Critical|9.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|IO::Socket::SSL::PublicSuffix versions through 2.099 for Perl allow code injection via a fetched list line that closes the built-in data heredoc when update_self_from_url rewrites the module's source
 CVE-2026-129934|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Credential exposure via unmasked option values in Go driver connection string parse errors
 CVE-2026-129935|Moderate|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|Authentication identity confusion via NUL-byte injection in SASL PLAIN credentials
+CVE-2026-129975|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Gpgme: gpgme: double free in read_status() via crafted signature
 CVE-2026-130065|Moderate|5.3|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:L|not stated|Unknown|Unknown|msgpack-c through 7.0.2 Heap Buffer Overflow via msgpack_vrefbuffer_migrate
 CVE-2026-130335|Low|2.9|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|Info-ZIP Zip 3.0 (and 3.1 beta through 3.1c) allows OS command injection by an attacker who controls the command line. The victim must use the -T option followed by a filename containing shell metacharacters, on a platform (such as Linux) where a suitable shell is run. This occurs because the system C library function is used. NOTE: there is no known common scenario in which an untrusted filename reaches a zip -T call.
 CVE-2026-130644|Important|8.1|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|Ansible-core: ansible-core: ansible-galaxy collection install path traversal via unvalidated artifact-derived collection name allows file writes and directory deletion outside the collections path
@@ -255,6 +260,7 @@ CVE-2026-131103|Important|3.4|CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:N|not s
 CVE-2026-131106|Moderate|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-131106: Buffer overflow
 CVE-2026-131842|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N|not stated|Unknown|Unknown|Poppler pdfdetach 24.03.0 through 26.11.0 Path Traversal via Embedded File Names
 CVE-2026-132049|Moderate|4.3|CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Lldpd: lldpd: out-of-bounds read in liblldpctl on a short lldp-med location
+CVE-2026-132779|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|NGINX ngx_http_write_filter_module module vulnerability
 CVE-2026-132825|Important|7.4|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Ruby before 3.3.14, 3.4.13, and 4.0.10 has a heap-based buffer overflow during case conversion. One byte can be written outside a buffer for, for example, ISO-8859-1 or Windows-1252.
 CVE-2026-133487|Low|6.3|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L/E:P/RL:O/RC:C|not stated|Unknown|Unknown|nodejs undici BalancedPool balanced-pool.js Object.assign prototype pollution
 CVE-2026-133730|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Dnsmasq: dhcpv6 relay remote crash via stale pointer in relay_upstream6()
@@ -262,11 +268,14 @@ CVE-2026-133879|Important|7.7|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N/E:U|n
 CVE-2026-133919|Moderate|4.9|CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Memory Exhaustion in Elasticsearch Mapping Updates
 CVE-2026-133949|Critical|not stated|none published|not stated|Unknown|Unknown|pip bundles compromised eMudhra certificates via certifi
 CVE-2026-133981|Moderate|6.5|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Elasticsearch Unreachable Exit Condition ('Infinite Loop') Vulnerability
+CVE-2026-134056|Important|6.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H|not stated|Unknown|Unknown|Out-of-bounds write in padded block cipher decryption in AWS-LC
 CVE-2026-134703|Moderate|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N|not stated|Unknown|Unknown|libexpat through 2.10.0 Isolated High Surrogate via UTF-16 Conversion
 CVE-2026-134761|Moderate|5.8|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|libical before 4.0.7 Double Free via icalparser_clean
 CVE-2026-134763|Low|4.0|CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|FreeRDP before 3.33.1 Use-After-Free via WinPR LinkedList Enumerator
 CVE-2026-134813|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|Faye websocket-driver 0.5.0 before 0.8.0 Decompression Bomb via permessage-deflate
 CVE-2026-134832|Moderate|3.3|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Vim 9.2.0405 before 9.2.1352 tagsecure Bypass via Escaped URL in Tags File
+CVE-2026-135168|Moderate|4.8|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L|not stated|Unknown|Unknown|msgpack-c cpp-3.0.0 through cpp-9.0.0 Out-of-Bounds Read via Boost.X3 Parser
+CVE-2026-135169|Important|6.5|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|msgpack-c cpp-3.0.0 through cpp-9.0.0 Use-After-Free via Boost.X3 Parser
 CVE-2026-135295|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|FontForge through 20251009 Heap Out-of-Bounds Write via PCF Encodings Table
 CVE-2026-135433|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|FLTK through 1.4.5 Heap Buffer Overflow via Fl_BMP_Image Row Pointer
 CVE-2026-135690|Moderate|3.7|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|CivetWeb through 1.16 Heap Out-of-Bounds Read via HPACK Huffman Decoder
@@ -281,7 +290,10 @@ CVE-2026-137068|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H|not st
 CVE-2026-137072|Moderate|5.3|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:H|not stated|Unknown|Unknown|GNOME libxml2 2.9.10 through 2.15.4 Use-After-Free in xmlValidatePopElement
 CVE-2026-137073|Moderate|5.8|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:H|not stated|Unknown|Unknown|GNOME libxml2 through 2.15.4 Double Free in xmlReaderNewWalker()
 CVE-2026-137082|Moderate|4.7|CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H|not stated|Unknown|Unknown|GNOME libxml2 through 2.15.4 NULL Pointer Dereference in xmlParseStartTag2()
+CVE-2026-137307|Moderate|5.0|CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L|not stated|Unknown|Unknown|wpa_supplicant 2.7 through 2.12 EAP-FAST Authentication Bypass via wolfSSL Zero Master Secret
 CVE-2026-137327|Moderate|3.3|CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|GNU mtools through 4.0.50 Divide-by-Zero via Sectors-per-Cluster in calc_num_clus()
+CVE-2026-137415|Important|7.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:X/RL:O/RC:C|not stated|Unknown|Unknown|Tencent RapidJSON writer.h WriteString integer overflow
+CVE-2026-137570|Moderate|6.3|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|Open Policy Agent before 1.20.0 Symlink File Overwrite via Predictable OCI Store Path
 CVE-2026-14661|Important|8.1|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H|not stated|Unknown|Unknown|PostgreSQL dblink and subscriptions can append to arbitrary files
 CVE-2026-15353|Moderate|not stated|none published|not stated|Unknown|Unknown|SOAP information disclosure through malformed array dimensions
 CVE-2026-16052|Low|not stated|none published|not stated|Unknown|Unknown|Cookie Attribute Injection via Unescaped Semicolons in http.cookies.Morsel
@@ -338,15 +350,3 @@ CVE-2026-70094|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL
 CVE-2026-70120|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Microsoft Bluetooth Driver Elevation of Privilege Vulnerability
 CVE-2026-70182|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Bind Filter Driver Elevation of Privilege Vulnerability
 CVE-2026-70193|Critical|9.9|CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Microsoft Office SharePoint Remote Code Execution Vulnerability
-CVE-2026-70231|Important|7.0|CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Local Security Authority Subsystem Service (LSASS) Elevation of Privilege Vulnerability
-CVE-2026-70240|Important|7.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C|Denial of Service|No|No|Windows Kerberos Denial of Service Vulnerability
-CVE-2026-70305|Critical|9.6|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C|Spoofing|No|No|Azure Portal Spoofing Vulnerability
-CVE-2026-72998|Important|8.1|CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Remote Code Execution|No|No|Windows DHCP Server Remote Code Execution Vulnerability
-CVE-2026-76024|Critical|6.5|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-76024: Memory corruption
-CVE-2026-76025|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-76025: Use after free
-CVE-2026-76026|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-76026: Memory corruption
-CVE-2026-76027|Important|4.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N|not stated|Unknown|Unknown|Chromium CVE-2026-76027: Memory corruption
-CVE-2026-76028|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-76028: Use after free
-CVE-2026-76029|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-76029: Memory corruption
-CVE-2026-76030|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-76030: Memory corruption
-CVE-2026-76031|Important|8.8|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|Chromium CVE-2026-76031: Use after free
