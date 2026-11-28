@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-27T14:25:16Z | part 7 of 8 | 350 of 2515 CVEs | CVE-2026-99264 to CVE-2026-99725
+# Microsoft MSRC 2026-Nov | fetched 2026-11-28T04:18:53Z | part 7 of 8 | 350 of 2515 CVEs | CVE-2026-99264 to CVE-2026-99725
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-99264|Important|not stated|none published|not stated|Unknown|Unknown|Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
 CVE-2026-99265|not stated|not stated|none published|not stated|Unknown|Unknown|Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.

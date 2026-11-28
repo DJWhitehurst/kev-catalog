@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-27T14:25:16Z | part 5 of 8 | 350 of 2515 CVEs | CVE-2026-126205 to CVE-2026-76031
+# Microsoft MSRC 2026-Nov | fetched 2026-11-28T04:18:53Z | part 5 of 8 | 350 of 2515 CVEs | CVE-2026-126205 to CVE-2026-76031
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-126205|Moderate|5.3|CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L|not stated|Unknown|Unknown|Loofah: Regular expression denial of service in the SVG local-reference check
 CVE-2026-126207|Moderate|4.7|CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N|not stated|Unknown|Unknown|Loofah: CSS url() sanitization bypass via escaped parentheses

@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-27T14:25:16Z | part 2 of 8 | 350 of 2515 CVEs | CVE-2026-112982 to CVE-2026-119776
+# Microsoft MSRC 2026-Nov | fetched 2026-11-28T04:18:53Z | part 2 of 8 | 350 of 2515 CVEs | CVE-2026-112982 to CVE-2026-119776
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-112982|Important|5.5|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C|Tampering|No|No|Microsoft Account Tampering Vulnerability
 CVE-2026-112984|Important|6.6|CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows USB Video Driver Elevation of Privilege Vulnerability

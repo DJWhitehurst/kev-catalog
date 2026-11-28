@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-27T14:25:16Z | part 8 of 8 | 65 of 2515 CVEs | CVE-2026-99729 to CVE-2026-99811
+# Microsoft MSRC 2026-Nov | fetched 2026-11-28T04:18:53Z | part 8 of 8 | 65 of 2515 CVEs | CVE-2026-99729 to CVE-2026-99811
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-99729|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U|not stated|Unknown|Unknown|mm/rmap: handle device-exclusive entries in folio_referenced_one()
 CVE-2026-99730|Moderate|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H|not stated|Unknown|Unknown|mm/filemap: finish fault cleanup before dropping the fault lock

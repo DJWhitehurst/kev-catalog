@@ -1,4 +1,4 @@
-# Microsoft MSRC 2026-Nov | fetched 2026-11-27T14:25:16Z | part 3 of 8 | 350 of 2515 CVEs | CVE-2026-119816 to CVE-2026-121166
+# Microsoft MSRC 2026-Nov | fetched 2026-11-28T04:18:53Z | part 3 of 8 | 350 of 2515 CVEs | CVE-2026-119816 to CVE-2026-121166
 # cve|severity|cvss|vector|impact|exploited|publiclyDisclosed|title
 CVE-2026-119816|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Microsoft Account Sign-in Assistant Elevation of Privilege Vulnerability
 CVE-2026-119817|Important|7.8|CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C|Elevation of Privilege|No|No|Windows Shell Elevation of Privilege Vulnerability
